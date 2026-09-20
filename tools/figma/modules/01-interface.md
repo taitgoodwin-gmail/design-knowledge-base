@@ -18,3 +18,7 @@ Sources: [S03: Explore design files](https://help.figma.com/hc/en-us/articles/15
 ## Practice and acceptance
 
 Run E01 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Accessible editor operation
+
+[S59 review and limits](../evidence/2026-09-20-make-handoff-review.md) covers official editor navigation/accessibility guidance. This is documentation review, separate from the E01 navigation result and website accessibility testing.

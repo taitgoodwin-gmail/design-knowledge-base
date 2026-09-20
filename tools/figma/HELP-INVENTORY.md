@@ -1,6 +1,6 @@
 # Public Figma Help inventory
 
-Checked 20 September 2026: **887 unique articles across 14 categories**, with all returned pagination exhausted. This includes the earlier 183 Design articles, not 887 additional Design articles. Bodies were retrieved into an ignored local cache; GitHub retains metadata, headings and hashes. The 51 selected source records track review separately. No mass upgrade to reviewed or practiced occurred.
+Checked 20 September 2026: **887 unique articles across 14 categories**, with all returned pagination exhausted. This includes the earlier 183 Design articles, not 887 additional Design articles. Bodies were retrieved into an ignored local cache; GitHub retains metadata, headings and hashes. The 59 selected source records track review separately. No mass upgrade to reviewed or practiced occurred.
 
 | Category | Retrieved articles | Browse titles |
 |---|---:|---|

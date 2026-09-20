@@ -475,5 +475,85 @@
     "scope": "Connected Weave changes push automatically to Figma; Figma edits require Update to pull. Text/image layer mapping requires edit access.",
     "method": "Current official documentation via web; product execution remains separately pending",
     "evidence": "evidence/lab/product-access-and-readiness.md"
+  },
+  {
+    "id": "S52",
+    "title": "Make overview",
+    "url": "https://help.figma.com/hc/en-us/articles/31304412302231-Explore-Figma-Make",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Inputs, preview/editor rollout and permissions; no generation test.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S53",
+    "title": "Make kits",
+    "url": "https://help.figma.com/hc/en-us/articles/39241689698839-Get-started-with-Make-kits",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Package/style/guideline context and publishing prerequisites; no kit created.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S54",
+    "title": "Make local-codebase beta",
+    "url": "https://help.figma.com/hc/en-us/articles/40775535020695-Make-in-your-local-codebase",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Closed-beta access and repository workflow; separate from standard export.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S55",
+    "title": "Make GitHub export",
+    "url": "https://help.figma.com/hc/en-us/articles/35463818346647-Push-from-Figma-Make-to-GitHub",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Repository ownership, push direction and overwrite behavior; documentation-only.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S56",
+    "title": "Make preview layers",
+    "url": "https://help.figma.com/hc/en-us/articles/35060759685015-Copy-a-Figma-Make-preview-as-design-layers",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Snapshot conversion and linkage limits; not exercised.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S57",
+    "title": "Inspecting by access context",
+    "url": "https://help.figma.com/hc/en-us/articles/22012921621015-Guide-to-inspecting",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Design/Dev inspection, exports and permissions; selected sections reviewed.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S58",
+    "title": "Dev Mode status coverage",
+    "url": "https://help.figma.com/hc/en-us/articles/26781702258583-Dev-Mode-statuses-and-notifications",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Handoff status availability and change-detection exceptions; not exercised.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S59",
+    "title": "Accessible Figma operation",
+    "url": "https://help.figma.com/hc/en-us/articles/35063862380311-Accessibility-at-Figma",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Settings, region navigation, selection and annotation limits; no assistive-technology test.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+    "evidence": "evidence/2026-09-20-make-handoff-review.md"
   }
 ]

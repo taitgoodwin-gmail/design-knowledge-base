@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.3.1 — 2026-09-20
+
+- Reconciled the product map and machine-readable E11/E13–E17 records with existing exercise evidence; added validation against the readable exercise suite to catch future status drift.
+- Added an explicit 63-URL scope table. Three exact supplied pages have review records; 60 supplied landing/resource URLs remain distinct from the related product research.
+- Reviewed eight official sources covering Make, kits, separate GitHub routes, preview copies, inspection, status detection and editor accessibility. The selected register now has 59 sources; the catalog has 627 exact URLs.
+- Added retrieval paths for these findings and preserved all exercise/access limitations. No new Make workflow, account connection, term acceptance or publication was performed.
+
 ## 2.3.0 — 2026-09-20
 
 - Verified E11 selected-frame AI rewriting, preserved native layer/style checks, and recorded actual beta credit usage.

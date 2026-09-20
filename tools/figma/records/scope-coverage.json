@@ -1,0 +1,834 @@
+{
+  "checked_at": "2026-09-20",
+  "meaning": "Exact supplied-page review and related product guidance are separate. supplied-only means no direct-page review record, not a claim that all related work is missing.",
+  "supplied_urls": 63,
+  "exact_review_status_counts": {
+    "supplied-only": 60,
+    "sections-reviewed": 1,
+    "index-reviewed": 2
+  },
+  "rows": [
+    {
+      "id": "U001",
+      "category": "Product",
+      "title": "Figma Design",
+      "url": "https://www.figma.com/design/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S03",
+        "S04",
+        "S06"
+      ],
+      "related_guidance": "modules/01-interface.md",
+      "scope_note": "Design fixtures E01–E08/E11/E18; bounded contexts."
+    },
+    {
+      "id": "U002",
+      "category": "Product",
+      "title": "Figma Make",
+      "url": "https://www.figma.com/make/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S52",
+        "S53",
+        "S54",
+        "S55",
+        "S56"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Make source review only; Design-agent E11 is separate."
+    },
+    {
+      "id": "U003",
+      "category": "Product",
+      "title": "Figma Weave",
+      "url": "https://weave.figma.com/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S47",
+        "S48",
+        "S49",
+        "S50",
+        "S51"
+      ],
+      "related_guidance": "modules/12-weave.md",
+      "scope_note": "E14 pending account link; no workflow run."
+    },
+    {
+      "id": "U004",
+      "category": "Product",
+      "title": "Dev Mode",
+      "url": "https://www.figma.com/dev-mode/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S27",
+        "S28",
+        "S57",
+        "S58"
+      ],
+      "related_guidance": "modules/10-dev-handoff.md",
+      "scope_note": "E12 context-to-code fixture; full Dev Mode and Code Connect unverified."
+    },
+    {
+      "id": "U005",
+      "category": "Product",
+      "title": "Figma Motion",
+      "url": "https://www.figma.com/motion/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S20",
+        "S43"
+      ],
+      "related_guidance": "modules/07-motion.md",
+      "scope_note": "E09 bounded keyframe/export evidence."
+    },
+    {
+      "id": "U006",
+      "category": "Product",
+      "title": "FigJam",
+      "url": "https://www.figma.com/figjam/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "E17 board/source recovery fixture."
+    },
+    {
+      "id": "U007",
+      "category": "Product",
+      "title": "Figma Slides",
+      "url": "https://www.figma.com/slides/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S33",
+        "S34",
+        "S45"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "E15 poll/notes fixture with limitations."
+    },
+    {
+      "id": "U008",
+      "category": "Product",
+      "title": "Figma Draw",
+      "url": "https://www.figma.com/draw/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S21",
+        "S43"
+      ],
+      "related_guidance": "modules/08-draw.md",
+      "scope_note": "E10 vector/export fixture; reimport limitation."
+    },
+    {
+      "id": "U009",
+      "category": "Product",
+      "title": "Figma Sites",
+      "url": "https://www.figma.com/sites/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S22",
+        "S46"
+      ],
+      "related_guidance": "modules/11-sites.md",
+      "scope_note": "E13 pending beta terms; documentation only."
+    },
+    {
+      "id": "U010",
+      "category": "Product",
+      "title": "Figma Buzz",
+      "url": "https://www.figma.com/buzz/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S31",
+        "S32"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "E16 pending beta terms; documentation only."
+    },
+    {
+      "id": "U011",
+      "category": "Product",
+      "title": "Design and explore",
+      "url": "https://www.figma.com/design-explore/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "PRODUCT-MAP.md",
+      "scope_note": "Product routing, not review of this landing page."
+    },
+    {
+      "id": "U012",
+      "category": "Product",
+      "title": "Build and ship products",
+      "url": "https://www.figma.com/build-ship/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S26",
+        "S27",
+        "S54"
+      ],
+      "related_guidance": "modules/10-dev-handoff.md",
+      "scope_note": "Implementation routes have separate access and evidence."
+    },
+    {
+      "id": "U013",
+      "category": "Product",
+      "title": "AI workflows",
+      "url": "https://www.figma.com/ai/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S23",
+        "S24",
+        "S50",
+        "S52"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "AI products and costs remain separately scoped."
+    },
+    {
+      "id": "U014",
+      "category": "Product",
+      "title": "Release notes",
+      "url": "https://www.figma.com/release-notes/",
+      "status": "sections-reviewed",
+      "exact_page_source_id": "S36",
+      "related_source_ids": [
+        "S36"
+      ],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Selected releases only; not the full history."
+    },
+    {
+      "id": "U015",
+      "category": "Product",
+      "title": "Downloads",
+      "url": "https://www.figma.com/downloads/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Installer reference only; no installation required for this baseline."
+    },
+    {
+      "id": "U016",
+      "category": "Plans",
+      "title": "Pricing",
+      "url": "https://www.figma.com/pricing/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S24"
+      ],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "No plan purchased; inspect current pricing before a decision."
+    },
+    {
+      "id": "U017",
+      "category": "Plans",
+      "title": "Enterprise",
+      "url": "https://www.figma.com/enterprise/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Plan reference only; not an entitlement or purchasing recommendation."
+    },
+    {
+      "id": "U018",
+      "category": "Plans",
+      "title": "Organization",
+      "url": "https://www.figma.com/organization/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Plan reference only; not an entitlement or purchasing recommendation."
+    },
+    {
+      "id": "U019",
+      "category": "Plans",
+      "title": "Professional",
+      "url": "https://www.figma.com/professional/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Plan reference only; not an entitlement or purchasing recommendation."
+    },
+    {
+      "id": "U020",
+      "category": "Use cases",
+      "title": "UI design",
+      "url": "https://www.figma.com/ui-design-tool/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S03",
+        "S06"
+      ],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Related design principles and fixtures, not this marketing page."
+    },
+    {
+      "id": "U021",
+      "category": "Use cases",
+      "title": "UX design",
+      "url": "https://www.figma.com/ux-design-tool/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Related usability guidance; no user study established by this URL."
+    },
+    {
+      "id": "U022",
+      "category": "Use cases",
+      "title": "Wireframing",
+      "url": "https://www.figma.com/wireframe-tool/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S05",
+        "S06"
+      ],
+      "related_guidance": "modules/02-containers.md",
+      "scope_note": "Related layout practice."
+    },
+    {
+      "id": "U023",
+      "category": "Use cases",
+      "title": "Diagramming",
+      "url": "https://www.figma.com/figjam/diagramming-tool/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "Related E17 decision-board fixture."
+    },
+    {
+      "id": "U024",
+      "category": "Use cases",
+      "title": "Prototyping",
+      "url": "https://www.figma.com/prototyping/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S17",
+        "S18",
+        "S19"
+      ],
+      "related_guidance": "modules/06-prototypes.md",
+      "scope_note": "Related E08 prototype evidence."
+    },
+    {
+      "id": "U025",
+      "category": "Use cases",
+      "title": "Brainstorming",
+      "url": "https://www.figma.com/figjam/brainstorming-tool/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "Related E17 fixture; no group brainstorm study."
+    },
+    {
+      "id": "U026",
+      "category": "Use cases",
+      "title": "Presentation Maker",
+      "url": "https://www.figma.com/presentation-maker/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S33",
+        "S34",
+        "S45"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "Related E15 fixture."
+    },
+    {
+      "id": "U027",
+      "category": "Use cases",
+      "title": "Online whiteboard",
+      "url": "https://www.figma.com/figjam/online-whiteboard/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "Related E17 fixture."
+    },
+    {
+      "id": "U028",
+      "category": "Use cases",
+      "title": "Strategic planning",
+      "url": "https://www.figma.com/figjam/strategic-planning/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "Related decision-record method; no business outcome claim."
+    },
+    {
+      "id": "U029",
+      "category": "Use cases",
+      "title": "Mind mapping",
+      "url": "https://www.figma.com/figjam/mind-map/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S39"
+      ],
+      "related_guidance": "modules/13-slides-buzz-figjam.md",
+      "scope_note": "Related decision-board structure."
+    },
+    {
+      "id": "U030",
+      "category": "Use cases",
+      "title": "AI website generator",
+      "url": "https://www.figma.com/solutions/ai-website-generator/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S52"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Related Make documentation; no website generation here."
+    },
+    {
+      "id": "U031",
+      "category": "Use cases",
+      "title": "AI design generator",
+      "url": "https://www.figma.com/solutions/ai-design-generator/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S23"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Related native Design agent; E11 bounded rewrite."
+    },
+    {
+      "id": "U032",
+      "category": "Use cases",
+      "title": "AI app builder",
+      "url": "https://www.figma.com/solutions/ai-app-builder/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S52"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Related Make documentation; no app generation here."
+    },
+    {
+      "id": "U033",
+      "category": "Use cases",
+      "title": "AI UI generator",
+      "url": "https://www.figma.com/solutions/ai-ui-generator/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S23",
+        "S52"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Distinguish Design-agent and Make capabilities."
+    },
+    {
+      "id": "U034",
+      "category": "Use cases",
+      "title": "Weave AI tool",
+      "url": "https://www.figma.com/solutions/figma-ai-tool-weave/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S47",
+        "S48",
+        "S50"
+      ],
+      "related_guidance": "modules/12-weave.md",
+      "scope_note": "Related Weave documentation; account link missing."
+    },
+    {
+      "id": "U035",
+      "category": "Use cases",
+      "title": "AI design agent",
+      "url": "https://www.figma.com/solutions/ai-design-agent/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S23",
+        "S25"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Related native Design agent; E11 bounded rewrite."
+    },
+    {
+      "id": "U036",
+      "category": "Resources",
+      "title": "Blog",
+      "url": "https://www.figma.com/blog/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Publication discovery seed; articles require their own review."
+    },
+    {
+      "id": "U037",
+      "category": "Resources",
+      "title": "Best practices",
+      "url": "https://www.figma.com/best-practices/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S01",
+        "S05",
+        "S15",
+        "S37",
+        "S38"
+      ],
+      "related_guidance": "SOURCES.md",
+      "scope_note": "Selected child guides reviewed, not this whole section."
+    },
+    {
+      "id": "U038",
+      "category": "Resources",
+      "title": "Gradient Library",
+      "url": "https://www.figma.com/gradients/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Palette inspiration resource; color/contrast decisions need separate evidence."
+    },
+    {
+      "id": "U039",
+      "category": "Resources",
+      "title": "Gradient Generator",
+      "url": "https://www.figma.com/gradient-generator/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Generator not exercised; inspect results and contrast when used."
+    },
+    {
+      "id": "U040",
+      "category": "Resources",
+      "title": "GIF maker",
+      "url": "https://www.figma.com/gif-maker/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S20",
+        "S43"
+      ],
+      "related_guidance": "modules/07-motion.md",
+      "scope_note": "Separate motion/export fixture; this GIF tool untested."
+    },
+    {
+      "id": "U041",
+      "category": "Resources",
+      "title": "Color wheel",
+      "url": "https://www.figma.com/color-wheel/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Color teaching resource; not an accessibility standard."
+    },
+    {
+      "id": "U042",
+      "category": "Resources",
+      "title": "Colors",
+      "url": "https://www.figma.com/colors/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Palette resource; not proof of suitable semantic roles."
+    },
+    {
+      "id": "U043",
+      "category": "Resources",
+      "title": "Color picker",
+      "url": "https://www.figma.com/color-picker/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "../../principles/README.md",
+      "scope_note": "Picker not exercised; verify actual output values when used."
+    },
+    {
+      "id": "U044",
+      "category": "Resources",
+      "title": "Font Library",
+      "url": "https://www.figma.com/fonts/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S15",
+        "S16",
+        "S42"
+      ],
+      "related_guidance": "modules/05-typography.md",
+      "scope_note": "Related type guidance; font licensing checked per asset."
+    },
+    {
+      "id": "U045",
+      "category": "Resources",
+      "title": "Templates",
+      "url": "https://www.figma.com/templates/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S53"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Templates catalog not reviewed; Make kits are separate."
+    },
+    {
+      "id": "U046",
+      "category": "Resources",
+      "title": "Developers",
+      "url": "https://www.figma.com/developers/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S26",
+        "S27",
+        "S40",
+        "S43",
+        "S44"
+      ],
+      "related_guidance": "modules/09-ai-automation.md",
+      "scope_note": "Selected developer docs reviewed; not every API."
+    },
+    {
+      "id": "U047",
+      "category": "Resources",
+      "title": "Integrations",
+      "url": "https://www.figma.com/product-integrations/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S26",
+        "S50",
+        "S55"
+      ],
+      "related_guidance": "../../integrations/figma-chatgpt-codex.md",
+      "scope_note": "Specific integration routes reviewed; not all integrations."
+    },
+    {
+      "id": "U048",
+      "category": "Resources",
+      "title": "Affiliate program",
+      "url": "https://www.figma.com/affiliate-program/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Commercial reference retained; no affiliate activity."
+    },
+    {
+      "id": "U049",
+      "category": "Resources",
+      "title": "Resource library",
+      "url": "https://www.figma.com/resource-library/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "SOURCES.md",
+      "scope_note": "Resource discovery seed; no blanket collection review."
+    },
+    {
+      "id": "U050",
+      "category": "Resources",
+      "title": "Reports and insights",
+      "url": "https://www.figma.com/reports/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "SOURCES.md",
+      "scope_note": "Reports discovery seed; findings require report-level verification."
+    },
+    {
+      "id": "U051",
+      "category": "Resources",
+      "title": "Legal and privacy",
+      "url": "https://www.figma.com/legal/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "evidence/lab/product-access-and-readiness.md",
+      "scope_note": "Root legal library not reviewed; pending terms are separately linked."
+    },
+    {
+      "id": "U052",
+      "category": "Resources",
+      "title": "Impressum",
+      "url": "https://www.figma.com/legal/impressum/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Corporate/legal reference retained; no legal interpretation."
+    },
+    {
+      "id": "U053",
+      "category": "Resources",
+      "title": "Support",
+      "url": "https://help.figma.com/hc/en-us",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [
+        "S02"
+      ],
+      "related_guidance": "HELP-INVENTORY.md",
+      "scope_note": "Public Help API inventory: 887 articles, not all reviewed."
+    },
+    {
+      "id": "U054",
+      "category": "Resources",
+      "title": "Status",
+      "url": "https://status.figma.com/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Check live status during an incident; no service-uptime claim here."
+    },
+    {
+      "id": "U055",
+      "category": "Resources",
+      "title": "Modern slavery statement",
+      "url": "https://static.figma.com/uploads/35bc6db4415269cfeace41c8c4637945a85732b2.pdf",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Corporate disclosure retained; PDF not reviewed."
+    },
+    {
+      "id": "U056",
+      "category": "Resources",
+      "title": "Climate disclosure statement",
+      "url": "https://static.figma.com/uploads/d2a204b5cc4d64ff539fcd445d0ddedab7dc00f6",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Corporate disclosure retained; document not reviewed."
+    },
+    {
+      "id": "U057",
+      "category": "Company",
+      "title": "Events",
+      "url": "https://www.figma.com/events/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Corporate/events reference retained; no registration."
+    },
+    {
+      "id": "U058",
+      "category": "Company",
+      "title": "Customers",
+      "url": "https://www.figma.com/customers/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Customer examples are not proof of our project outcomes."
+    },
+    {
+      "id": "U059",
+      "category": "Company",
+      "title": "Careers",
+      "url": "https://www.figma.com/careers/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Corporate careers reference retained; no application."
+    },
+    {
+      "id": "U060",
+      "category": "Company",
+      "title": "Newsroom",
+      "url": "https://www.figma.com/newsroom/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "News discovery reference; no blanket news review."
+    },
+    {
+      "id": "U061",
+      "category": "Company",
+      "title": "Brand assets",
+      "url": "https://www.figma.com/using-the-figma-brand/",
+      "status": "supplied-only",
+      "exact_page_source_id": null,
+      "related_source_ids": [],
+      "related_guidance": "modules/14-maintenance.md",
+      "scope_note": "Brand-asset reference; check applicable use terms before use."
+    },
+    {
+      "id": "U062",
+      "category": "Owner priority sources",
+      "title": "Best Practice Guides",
+      "url": "https://www.figma.com/best-practices/guides/",
+      "status": "index-reviewed",
+      "exact_page_source_id": "S01",
+      "related_source_ids": [
+        "S01",
+        "S05",
+        "S15",
+        "S37",
+        "S38"
+      ],
+      "related_guidance": "SOURCES.md",
+      "scope_note": "Index and selected guides reviewed; legacy guidance is labeled."
+    },
+    {
+      "id": "U063",
+      "category": "Owner priority sources",
+      "title": "Figma Design Help Center",
+      "url": "https://help.figma.com/hc/en-us/categories/360002042553-Figma-Design",
+      "status": "index-reviewed",
+      "exact_page_source_id": "S02",
+      "related_source_ids": [
+        "S02"
+      ],
+      "related_guidance": "HELP-INVENTORY.md",
+      "scope_note": "Index reviewed; 183 Design articles retrieved, selected articles reviewed."
+    }
+  ]
+}

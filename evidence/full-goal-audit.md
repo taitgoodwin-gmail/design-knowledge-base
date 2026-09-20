@@ -26,3 +26,9 @@ No whole-goal completion is claimed by this document. New source links and new e
 Current prerequisite gates: E13 Sites and E16 Buzz require new legal-term acceptance; E14 Weave reports an unlinked account. Questions are pending; evidence and ready-to-run procedures are in [product readiness](../tools/figma/evidence/lab/product-access-and-readiness.md). Independent AI, Slides, FigJam, source discovery and repository work progressed in this continuation.
 
 Publication checkpoint: [v2.3.0 receipt](publication-2.3.0.json) records all three passing checks from a fresh clone at 34e16b6. Fifteen exercises have evidence (one limited navigation pass and fourteen fixture passes); three await the prerequisites above. This status does not claim that all 887 retrieved articles are reviewed or every Figma feature is mastered.
+
+## Coverage and consistency continuation
+
+The next continuation made independent progress: it corrected stale product-map and machine-readable exercise statuses against existing evidence, added a [63-URL coverage table](../tools/figma/SCOPE-COVERAGE.md), and reviewed eight additional official sources. The maintained [Make/handoff notes](../tools/figma/evidence/2026-09-20-make-handoff-review.md) distinguish documented integration routes and their limits. The register now has 59 records and the catalog 627 exact URLs. This is source review and evidence reconciliation, not a new exercise pass.
+
+Sites and Buzz still displayed their Get started terms screens; Weave's read-only tool listing again reported an unlinked Figma account. Neither pending question has an answer. No terms were accepted. This continuation is classified as progress; it does not claim the full goal complete or mark the access-gated exercises passed.

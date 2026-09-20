@@ -10,6 +10,8 @@ Sources: [S27: Code Connect](https://developers.figma.com/docs/code-connect/), [
 
 ## Our implementation practice
 
+S57/S58 add [inspection-access and status limitations](../evidence/2026-09-20-make-handoff-review.md). Preserve token/library versions as well as a frame status; neither a badge nor a generated snippet establishes implementation correctness.
+
 - Hand off content, states, responsive rules, focus behavior and motion endpoints.
 - Verify component mapping against the real implementation.
 - Compare implemented screens at matching sizes and with realistic content.

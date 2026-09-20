@@ -26,6 +26,10 @@ In this session, tools for context, screenshots, variables, native writes, captu
 
 This process is our implementation practice. The [E12 handoff fixture](../tools/figma/evidence/lab/prototype-and-handoff.md) now exercises selected Figma context → HTML/CSS/JavaScript → live browser checks. It does not establish automatic two-way synchronization or a production website release.
 
+## Make is a separate set of routes
+
+Use the [dated Make route comparison](../tools/figma/evidence/2026-09-20-make-handoff-review.md) before choosing standard GitHub export, the local-codebase beta or preview-to-Design copying. Their directions, access conditions and retained behavior differ. These routes have source review, not hands-on evidence in this collection. The knowledge repository is not a Make export destination.
+
 ## Executed routes and current limits
 
 | Route | Actual evidence |

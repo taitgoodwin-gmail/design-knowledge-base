@@ -102,8 +102,10 @@
     "title": "AI and automation fixture",
     "procedure": "Use a small selected sandbox frame and explicit acceptance brief; inspect generated structure and actual credit result.",
     "acceptance": "Correct scope, usable editability, no unsupported claims; record failures and costs.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/ai-automation.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Selected native Design frame rewrite; word limits, structure/style preservation and actual beta credit result. Not a Make test."
   },
   {
     "id": "E12",
@@ -120,40 +122,50 @@
     "title": "Sites breakpoint inheritance",
     "procedure": "In an unpublished draft, edit primary and secondary breakpoint values; test adjacent and intermediate widths.",
     "acceptance": "Cascades and overrides are understood; no unrequested publishing.",
-    "status": "not-run",
-    "evidence": null
+    "status": "pending-terms-confirmation",
+    "evidence": "evidence/lab/product-access-and-readiness.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Draft opened; stopped before accepting Sites beta terms. Procedure unrun."
   },
   {
     "id": "E14",
     "title": "Weave repeatable workflow",
     "procedure": "Build a small workflow with recorded inputs/model/settings and regenerate a branded media variant.",
     "acceptance": "Can reproduce process and account for output variation; assess fidelity and usage.",
-    "status": "not-run",
-    "evidence": null
+    "status": "pending-account-link",
+    "evidence": "evidence/lab/product-access-and-readiness.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Connector reports unlinked Figma account; no Weave run. MCP cannot author the workflow required by this procedure."
   },
   {
     "id": "E15",
     "title": "Slides presentation behavior",
     "procedure": "Create an evidence review with notes and a poll; test editor, presenter and audience views.",
     "acceptance": "Interaction works in intended view; notes are exposed only where intended.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/slides-review.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Native poll and notes in editor/presenter/audience; one synthetic self-vote, with popout limitation. Notes remain accessible to file viewers through presenter view."
   },
   {
     "id": "E16",
     "title": "Buzz bulk fixture",
     "procedure": "Map three data rows into a template, including a long label and missing image.",
     "acceptance": "Expected asset count, field mapping and exception handling; inspect every generated asset.",
-    "status": "not-run",
-    "evidence": null
+    "status": "pending-terms-confirmation",
+    "evidence": "evidence/lab/product-access-and-readiness.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Draft opened; stopped before accepting Buzz beta terms. Procedure unrun."
   },
   {
     "id": "E17",
     "title": "FigJam decision record",
     "procedure": "Create an observation → assumption → decision map with linked sources and a disagreement path.",
     "acceptance": "A reader can distinguish evidence from interpretation and recover the source.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/figjam-decision-board.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Editable source-linked decision board; bounded visual/API/source-control checks, no independent reader study."
   },
   {
     "id": "E18",

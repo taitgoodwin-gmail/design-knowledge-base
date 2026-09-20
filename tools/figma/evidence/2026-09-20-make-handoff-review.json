@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-09-20",
+  "status": "sections-reviewed",
+  "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
+  "source_inventory": "sources/figma-help-article-inventory.json",
+  "articles": [
+    {
+      "source_id": "S52",
+      "article_id": 31304412302231,
+      "url": "https://help.figma.com/hc/en-us/articles/31304412302231-Explore-Figma-Make",
+      "body_sha256": "c28135193c6763a5f73e152e9ff0149d7dbe33abb003999b5b6d53819375d44e",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Inputs, preview/editor rollout and permissions; no generation test."
+    },
+    {
+      "source_id": "S53",
+      "article_id": 39241689698839,
+      "url": "https://help.figma.com/hc/en-us/articles/39241689698839-Get-started-with-Make-kits",
+      "body_sha256": "9dfba446761409142c903cfa0d8bbf6bcc1b911fcad32abe15b309db4a909d1f",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Package/style/guideline context and publishing prerequisites; no kit created."
+    },
+    {
+      "source_id": "S54",
+      "article_id": 40775535020695,
+      "url": "https://help.figma.com/hc/en-us/articles/40775535020695-Make-in-your-local-codebase",
+      "body_sha256": "1e60903a894f619a8d9e98b6b0f6ee0155c5250f9489bcd9f887df2ea39dc77f",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Closed-beta access and repository workflow; separate from standard export."
+    },
+    {
+      "source_id": "S55",
+      "article_id": 35463818346647,
+      "url": "https://help.figma.com/hc/en-us/articles/35463818346647-Push-from-Figma-Make-to-GitHub",
+      "body_sha256": "2e2cab191f99aba0313374a98af2cfbc87c05aafddd7f9724c47797cb052526b",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Repository ownership, push direction and overwrite behavior; documentation-only."
+    },
+    {
+      "source_id": "S56",
+      "article_id": 35060759685015,
+      "url": "https://help.figma.com/hc/en-us/articles/35060759685015-Copy-a-Figma-Make-preview-as-design-layers",
+      "body_sha256": "cd01871bfbee81c0cd156ee883ee78d963d67287a36aff76119e4fa12e5d91bd",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Snapshot conversion and linkage limits; not exercised."
+    },
+    {
+      "source_id": "S57",
+      "article_id": 22012921621015,
+      "url": "https://help.figma.com/hc/en-us/articles/22012921621015-Guide-to-inspecting",
+      "body_sha256": "116587aafe57e20e83226b7260a70f806d1b2fd9eb6e4598f16be852315ac289",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Design/Dev inspection, exports and permissions; selected sections reviewed."
+    },
+    {
+      "source_id": "S58",
+      "article_id": 26781702258583,
+      "url": "https://help.figma.com/hc/en-us/articles/26781702258583-Dev-Mode-statuses-and-notifications",
+      "body_sha256": "ed27f115dc07c9bf31724f02576a4d0635fdc0fb8e4b5cd1a1617f10d739b5d1",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Handoff status availability and change-detection exceptions; not exercised."
+    },
+    {
+      "source_id": "S59",
+      "article_id": 35063862380311,
+      "url": "https://help.figma.com/hc/en-us/articles/35063862380311-Accessibility-at-Figma",
+      "body_sha256": "7c28ee894575901b534385fc782438807b3ea0ac40d948b6e9f0527269a576fb",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Settings, region navigation, selection and annotation limits; no assistive-technology test."
+    }
+  ],
+  "new_exercises_passed": 0,
+  "limitations": [
+    "No Make generation, kit publishing or GitHub integration was executed",
+    "No Dev Mode status changes or accessibility settings changes",
+    "No universal feature mastery or full article review claim"
+  ]
+}

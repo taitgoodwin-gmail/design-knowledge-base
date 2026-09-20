@@ -19,8 +19,10 @@ Documentation checked in selected scope on 20 September 2026. This is a learning
 | [13](modules/13-slides-buzz-figjam.md) | Slides, Buzz and FigJam |
 | [14](modules/14-maintenance.md) | Currency, conflicts and access |
 
-[Product map](PRODUCT-MAP.md) · [51 source records](SOURCES.md) · [138 observed controls](CONTROLS.md) · [18 exercises](exercises/README.md) · [known gaps](known-gaps.md).
+[Product map](PRODUCT-MAP.md) · [59 source records](SOURCES.md) · [138 observed controls](CONTROLS.md) · [18 exercises](exercises/README.md) · [known gaps](known-gaps.md).
 
 The control register records a limited Design/Variables/Motion inspection in one file context. E01 has a limited navigation pass; E02–E12, E15, E17 and E18 have [recorded fixture results](evidence/lab/README.md). Three exercises remain pending: E13, E14 and E16. [Inspection evidence](evidence/2026-09-20-ui-inspection.md). The 63 supplied scope URLs remain starting references. The [183-article public Design inventory](../../sources/figma-design-article-inventory.json) exhausts the observed category API pagination, not every Figma product or every review.
 
 [Full public Help discovery map](HELP-INVENTORY.md): 887 articles across 14 categories, including the 183 Design articles. [Pending product prerequisites](evidence/lab/product-access-and-readiness.md).
+
+[All supplied URLs and evidence status](SCOPE-COVERAGE.md) · [Make, handoff and accessibility source review](evidence/2026-09-20-make-handoff-review.md). E11 exercises the Design agent, not Make generation. Machine-readable exercise statuses and the readable suite are checked for agreement.

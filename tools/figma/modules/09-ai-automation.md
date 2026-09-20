@@ -10,6 +10,8 @@ Sources: [S23: Figma agent](https://help.figma.com/hc/en-us/articles/37998629035
 
 ## Our implementation practice
 
+For Make kits, standard GitHub export, the separate local-codebase beta and preview-layer copying, use the [dated route comparison](../evidence/2026-09-20-make-handoff-review.md), based on S52–S56. These additional routes are documentation-only; E11 does not test them.
+
 - Before generation, specify selected scope, component/library context and acceptance criteria.
 - Inspect generated layer structure, typography, tokens and behavior.
 - Keep credit limits and irreversible/publishing operations explicit.

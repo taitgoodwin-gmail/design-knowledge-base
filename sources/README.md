@@ -1,9 +1,9 @@
 # Sources and coverage
 
-[catalog.json](catalog.json) contains 619 distinct exact URLs with stable hash-derived IDs and one or more provenance records. Each provenance record carries its own status and date; a later import never refreshes an older source check. [coverage.csv](coverage.csv) is a readable coverage view, not an exhaustive crawl certificate.
+[catalog.json](catalog.json) contains 627 distinct exact URLs with stable hash-derived IDs and one or more provenance records. Each provenance record carries its own status and date; a later import never refreshes an older source check. [coverage.csv](coverage.csv) is a readable coverage view, not an exhaustive crawl certificate.
 
 - [Original UI/UX records](imported-uiux-sources.json): 41 records; original IDs and historical check dates retained.
-- [Figma source records](../tools/figma/records/sources.json): 51 selected reviews.
+- [Figma source records](../tools/figma/records/sources.json): 59 selected reviews.
 - [Figma supplied scope](../tools/figma/records/scope.json): 63 URLs; scope seeds rather than completed coverage.
 - [Anthropic register import](anthropic-register-import.json): 149 rows. The source page reports verification on 2026-08-17. Migration did not independently verify those claims.
 - [Notion manifest](notion-import-manifest.json): 25 fetched page snapshots. Missing `truncated`/unknown-block metadata is retained as `not_reported`, not converted to a completeness guarantee.
@@ -14,4 +14,4 @@ Original URLs, local locations and import hashes are in the preservation manifes
 
 - [Public Figma Design article inventory](figma-design-article-inventory.json): 183 article bodies retrieved through two API pages; headings and hashes retained. Detailed review is a separate status. Reproduce discovery with `python3 checks/discover_figma_docs.py`.
 
-- [Full public Figma Help inventory](figma-help-article-inventory.json): 887 unique articles in 14 categories, pagination exhausted; includes the 183 Design articles. [Readable category indexes](../tools/figma/HELP-INVENTORY.md). These discovery URLs are tracked in the inventory separately from the 619-URL curated/history catalog.
+- [Full public Figma Help inventory](figma-help-article-inventory.json): 887 unique articles in 14 categories, pagination exhausted; includes the 183 Design articles. [Readable category indexes](../tools/figma/HELP-INVENTORY.md). These discovery URLs are tracked in the inventory separately from the 627-URL curated/history catalog.

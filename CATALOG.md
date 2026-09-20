@@ -18,6 +18,8 @@
 | MindLeverX design directions and 45-element rationale | [Case study](projects/mindleverx/README.md) |
 | Levarum/Squarespace | [Levarum](projects/levarum/README.md) |
 | Sources and review coverage | [Source records](sources/README.md) |
+| Every supplied Figma URL and its actual review status | [Scope coverage](tools/figma/SCOPE-COVERAGE.md) |
+| Make export, local codebase, snapshots and handoff limits | [Dated workflow review](tools/figma/evidence/2026-09-20-make-handoff-review.md) |
 | Conflicts and unresolved research | [Conflicts](sources/conflicts.md) |
 | Evidence, preservation and checks | [Migration evidence](evidence/migration.md) |
 | Source, decision, test and element templates | [Templates](templates/README.md) |

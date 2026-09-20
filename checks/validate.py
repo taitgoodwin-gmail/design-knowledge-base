@@ -36,11 +36,23 @@ for r in sources:
   require((ROOT/obs['evidence']).is_file(),f"Missing source evidence: {obs['evidence']}")
 figma_sources=json.loads((ROOT/'tools/figma/records/sources.json').read_text())
 figma_ids={r['id'] for r in figma_sources}
+require(len(figma_ids)==len(figma_sources),'Duplicate Figma source IDs')
 for r in json.loads((ROOT/'tools/figma/records/controls.json').read_text()):
  require(set(r['source_ids'])<=figma_ids,f"Unknown Figma source: {r['id']}")
  require((ROOT/'tools/figma'/r['evidence']).is_file(),f"Missing control evidence: {r['id']}")
+exercise_readme=(ROOT/'tools/figma/exercises/README.md').read_text()
 for r in json.loads((ROOT/'tools/figma/records/exercises.json').read_text()):
  if r.get('evidence'):require((ROOT/'tools/figma'/r['evidence']).is_file(),f"Missing exercise evidence: {r['id']}")
+ section=re.search(r'^## '+re.escape(r['id'])+r':.*?(?=^## |\Z)',exercise_readme,re.M|re.S)
+ result=re.search(r'\*\*Result:\*\* ([a-z-]+)',section.group()) if section else None
+ require(bool(result) and result.group(1)==r['status'],f"Exercise status differs between JSON and README: {r['id']}")
+scope_coverage=json.loads((ROOT/'tools/figma/records/scope-coverage.json').read_text())['rows']
+supplied_scope=json.loads((ROOT/'tools/figma/records/scope.json').read_text())
+require(len(scope_coverage)==len(supplied_scope),'Supplied scope coverage count mismatch')
+require({(r['id'],r['url']) for r in scope_coverage}=={(r['id'],r['url']) for r in supplied_scope},'Supplied scope URL/ID mismatch')
+for r in scope_coverage:
+ require(set(r['related_source_ids'])<=figma_ids,f"Unknown related source in supplied scope: {r['id']}")
+ require((ROOT/'tools/figma'/r['related_guidance']).is_file(),f"Missing supplied scope guidance: {r['id']}")
 links=0
 for p in ROOT.rglob('*.md'):
  if IGNORED_PARTS.intersection(p.parts) or 'archive' in p.relative_to(ROOT).parts:continue

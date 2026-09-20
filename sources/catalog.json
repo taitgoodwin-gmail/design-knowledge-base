@@ -10316,6 +10316,126 @@
           "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
         }
       ]
+    },
+    {
+      "id": "REF-40e8d39f9a07",
+      "title": "Make overview",
+      "url": "https://help.figma.com/hc/en-us/articles/31304412302231-Explore-Figma-Make",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S52",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Inputs, preview/editor rollout and permissions; no generation test.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-8e42787c8fa8",
+      "title": "Make kits",
+      "url": "https://help.figma.com/hc/en-us/articles/39241689698839-Get-started-with-Make-kits",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S53",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Package/style/guideline context and publishing prerequisites; no kit created.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-766c13c683a1",
+      "title": "Make local-codebase beta",
+      "url": "https://help.figma.com/hc/en-us/articles/40775535020695-Make-in-your-local-codebase",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S54",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Closed-beta access and repository workflow; separate from standard export.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-dcdf9d1e8a05",
+      "title": "Make GitHub export",
+      "url": "https://help.figma.com/hc/en-us/articles/35463818346647-Push-from-Figma-Make-to-GitHub",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S55",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Repository ownership, push direction and overwrite behavior; documentation-only.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-184a6e32511a",
+      "title": "Make preview layers",
+      "url": "https://help.figma.com/hc/en-us/articles/35060759685015-Copy-a-Figma-Make-preview-as-design-layers",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S56",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Snapshot conversion and linkage limits; not exercised.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-9fee2dd9e624",
+      "title": "Inspecting by access context",
+      "url": "https://help.figma.com/hc/en-us/articles/22012921621015-Guide-to-inspecting",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S57",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Design/Dev inspection, exports and permissions; selected sections reviewed.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-1af123974c9d",
+      "title": "Dev Mode status coverage",
+      "url": "https://help.figma.com/hc/en-us/articles/26781702258583-Dev-Mode-statuses-and-notifications",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S58",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Handoff status availability and change-detection exceptions; not exercised.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-b1858bf0f366",
+      "title": "Accessible Figma operation",
+      "url": "https://help.figma.com/hc/en-us/articles/35063862380311-Accessibility-at-Figma",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S59",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Settings, region navigation, selection and annotation limits; no assistive-technology test.",
+          "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
     }
   ],
   "updated_at": "2026-09-20"

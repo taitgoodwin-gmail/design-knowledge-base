@@ -490,7 +490,10 @@ tools/figma/CONTROLS.md
 tools/figma/HELP-INVENTORY.md
 tools/figma/PRODUCT-MAP.md
 tools/figma/README.md
+tools/figma/SCOPE-COVERAGE.md
 tools/figma/SOURCES.md
+tools/figma/evidence/2026-09-20-make-handoff-review.json
+tools/figma/evidence/2026-09-20-make-handoff-review.md
 tools/figma/evidence/2026-09-20-ui-inspection.md
 tools/figma/evidence/lab/00-create-page.json
 tools/figma/evidence/lab/01-e02-create.json
@@ -722,6 +725,7 @@ tools/figma/modules/13-slides-buzz-figjam.md
 tools/figma/modules/14-maintenance.md
 tools/figma/records/controls.json
 tools/figma/records/exercises.json
+tools/figma/records/scope-coverage.json
 tools/figma/records/scope.json
 tools/figma/records/sources.json
 tools/figma/reference-index/administration.md

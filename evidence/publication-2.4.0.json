@@ -1,0 +1,135 @@
+{
+  "checked_at": "2026-09-20",
+  "content_commit": "1b61d9cfb32afe22ae02e2998d6c9f3c37d73003",
+  "checks": {
+    "validate.py": {
+      "local_archives": 319,
+      "notion_snapshots": 25,
+      "source_urls": 635,
+      "valid_json_files": 201,
+      "maintained_links_checked": 575,
+      "largest_file_bytes": 27229347,
+      "errors": []
+    },
+    "verify_figma_lab.py": {
+      "scope": "saved observations only; no live Figma or browser rerun",
+      "card_cases": 16,
+      "layout_cases": 9,
+      "font_width_cases": 6,
+      "guide_control_cases": 2,
+      "expected_tool_rejection_preserved": true,
+      "motion_track_edit_verified": true,
+      "static_alternative_children": 6,
+      "editable_vector_nodes": 3,
+      "native_video_bytes": 34383,
+      "browser_sample_observations": 4,
+      "component_roots_checked": 9,
+      "slot_state_switches": 3,
+      "boolean_binding_routes": 2,
+      "contrast_pairs": 6,
+      "ai_native_descendants": 6,
+      "ai_prompt_credits_observed": 0,
+      "slides_views_checked": 3,
+      "slides_native_polls": 1,
+      "figjam_source_links": 6,
+      "figjam_connectors": 7,
+      "prototype_frames": 3,
+      "handoff_width_cases": 4,
+      "handoff_keyboard_cases": 2,
+      "original_top_level_nodes_preserved": 9,
+      "passed": true
+    },
+    "retrieval_smoke.py": [
+      {
+        "query": "element rationale",
+        "expected": "templates/element-rationale.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "templates/element-rationale.md",
+          "projects/mindleverx/mindleverx-design-rationale.md",
+          "principles/README.md",
+          "README.md",
+          "TREE.md",
+          "templates/README.md",
+          "CATALOG.md",
+          "projects/mindleverx/README.md"
+        ]
+      },
+      {
+        "query": "code connect",
+        "expected": "integrations/code-connect.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "integrations/code-connect.md",
+          "tools/figma/modules/10-dev-handoff.md",
+          "integrations/figma-chatgpt-codex.md",
+          "tools/figma/SOURCES.md",
+          "reference-library/notion/source-register-3bf792ca.md",
+          "TREE.md",
+          "tools/figma/evidence/2026-09-20-make-handoff-review.md",
+          "CATALOG.md"
+        ]
+      },
+      {
+        "query": "notion research imports",
+        "expected": "reference-library/notion/README.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "reference-library/notion/README.md",
+          "TREE.md",
+          "sources/uiux-catalog.md",
+          "reference-library/notion/canonical-instruction-texts-3ba792ca.md",
+          "reference-library/notion/augmind-agnostic-delivery-methodology-living-draft-3dc792ca-d273cfd9.md",
+          "reference-library/notion/cycle-2026-08-05-dry-run-harness-3b3792ca.md",
+          "reference-library/notion/foundry-team-charter-3b2792ca.md",
+          "reference-library/notion/website-redesign-39a792ca.md"
+        ]
+      },
+      {
+        "query": "reduced motion",
+        "expected": "workflows/ai-and-motion.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "learning/visual-design-study/research/perception-and-motion.md",
+          "tools/figma/evidence/2026-09-20-motion-color-review.md",
+          "tools/figma/modules/07-motion.md",
+          "tools/figma/evidence/lab/motion-and-vector.md",
+          "workflows/ai-and-motion.md",
+          "projects/mindleverx/mindleverx-design-rationale.md",
+          "projects/levarum/squarespace-design-and-build-guide.md",
+          "projects/mindleverx/mindleverx-design-directions.md"
+        ]
+      },
+      {
+        "query": "Figma knowledge practice",
+        "expected": "tools/figma/README.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "tools/figma/README.md",
+          "tools/figma/evidence/lab/README.md",
+          "tools/figma/SOURCES.md",
+          "integrations/figma-chatgpt-codex.md",
+          "tools/figma/HELP-INVENTORY.md",
+          "tools/figma/evidence/2026-09-20-make-handoff-review.md",
+          "tools/figma/modules/12-weave.md",
+          "README.md"
+        ]
+      }
+    ]
+  },
+  "repository": "https://github.com/taitgoodwin-gmail/design-knowledge-base",
+  "private": true,
+  "version_tag": "v2.4.0",
+  "remote_main_matched_content_commit": true,
+  "github_workflow": {
+    "id": 35538913333,
+    "conclusion": "success",
+    "url": "https://github.com/taitgoodwin-gmail/design-knowledge-base/actions/runs/35538913333"
+  },
+  "scope": "This receipt verifies the content checkpoint named above. A later receipt-only commit records the evidence; it does not redefine the tested commit.",
+  "remaining_prerequisites": [
+    "E13 Sites beta terms require user confirmation at action time",
+    "E14 Weave account is unlinked",
+    "E16 Buzz beta terms require user confirmation at action time"
+  ]
+}

@@ -385,6 +385,7 @@ evidence/migration.md
 evidence/publication-2.1.0.json
 evidence/publication-2.3.0.json
 evidence/publication-2.3.1.json
+evidence/publication-2.4.0.json
 evidence/remote-verification.json
 governance/knowledge-policy.md
 governance/maintenance.md

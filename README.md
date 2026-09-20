@@ -36,3 +36,5 @@ git rev-parse HEAD
 ```
 
 Use [CATALOG.md](CATALOG.md) for a reading map and [TREE.md](TREE.md) for the complete file tree. Keep active product code/backlogs in the product repositories. Add new findings using [templates](templates/README.md) and follow [maintenance rules](governance/maintenance.md). Preserve dates and evidence limitations. [Changelog](CHANGELOG.md) · [rights and source use](governance/source-use.md).
+
+Publication evidence: [v2.4.0 fresh-clone and CI receipt](evidence/publication-2.4.0.json). Three product exercises still await the [recorded access prerequisites](tools/figma/evidence/lab/product-access-and-readiness.md).

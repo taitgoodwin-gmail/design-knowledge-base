@@ -14,7 +14,7 @@ Checked 2026-09-20. The user's instruction is to finish the full work autonomous
 | Deep, repeatable Figma capability knowledge, including all supplied product areas | Article/feature/context inventory, source review notes, reproducible exercises with actual evidence and access limits | In progress. Public Help pagination now yields 887 articles across 14 categories; external Weave, videos, all UI contexts and full article review remain separate |
 | Complete the recorded 18-exercise practice plan | Each exact procedure and acceptance condition verified in its relevant product | In progress. Records are updated only when the corresponding evidence exists; no substitutions for unrun products |
 | State whether every detail of every site was scraped | Defined scope, pagination/fetch coverage, review and visual/interactive limits | Exhaustive coverage not proven. Retrieval, review, visual observation and hands-on use remain separate |
-| Push and verify the final collection | Remote commit equality, private visibility, fresh retrieval and CI pass covering final changes | v2.3.1 content checkpoint 24dd412 verified in a fresh clone, private remote and successful CI 35537091731; [publication receipt](publication-2.3.1.json) |
+| Push and verify the final collection | Remote commit equality, private visibility, fresh retrieval and CI pass covering final changes | v2.4.0 content checkpoint 1b61d9c verified in a fresh clone, private remote and successful CI 35538913333; [publication receipt](publication-2.4.0.json) |
 
 ## Current next work
 
@@ -41,3 +41,11 @@ Latest publication: [v2.3.1 receipt](publication-2.3.1.json) records the private
 This continuation found that the older import status was stale and only homepage captures existed. It added the six missing public routes, copied the better homepage baseline into a separate organized page and verified fourteen frames with 1,850 native text nodes and no missing fonts. Live source headings and main/footer geometry were compared at 1440px and 390px; sampled Method renders exposed ticker wrapping and off-canvas skip-link export differences. Expanded interactive states are documented as unrepresented.
 
 Thirteen additional Figma sources were reviewed, bringing the register to 72 and the exact-URL catalog to 635. The new motion/color guide distinguishes platform restrictions, WCAG levels and proposed choices. A standalone three-treatment comparison adds user-triggered citation motion and explicit static/reduced-motion behavior. This is independent progress, not a new native Figma exercise pass or a claim of universal mastery.
+
+## Current delivery and prerequisite boundary
+
+The v2.4.0 content checkpoint `1b61d9c` passed all three checks from a fresh GitHub clone and CI 35538913333. [Publication receipt](publication-2.4.0.json). Local source/archive preservation, migration, retrieval, selected official research, rationale, browser studies and the seven-route Figma baseline are delivered within their recorded scopes.
+
+The three remaining exercises in the finite eighteen-exercise suite cannot be executed through the available product surfaces without the pending user actions: E13 Sites and E16 Buzz show new beta terms, and E14 Weave reports an unlinked account. The same prerequisites have persisted through at least three consecutive goal turns. Independent import, research-record and prototype work has now been published. No terms were accepted and no account was linked without the requested action.
+
+Unreviewed documentation, untested feature contexts and imperfect static import representations remain explicit coverage limitations. This knowledge collection is reusable and maintained; it is not a certification of every Figma capability or a claim that every web interaction has been scraped. Broader ongoing study is not silently relabeled as a passed exercise.

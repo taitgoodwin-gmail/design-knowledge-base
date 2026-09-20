@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "findings": [
+    {
+      "id": "MLX-hero-hierarchy",
+      "title": "Preserve the hero action hierarchy",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Observed large serif headline and stronger filled audit action beside a secondary link.",
+      "evidence_status": "Expert recommendation",
+      "proposal": "Preserve relative emphasis when revising content.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "No visitor outcome or conversion effect measured.",
+      "source_ids": [
+        "SRC-002",
+        "SRC-019"
+      ],
+      "evidence_files": [
+        "evidence/design-benchmark-evidence.md"
+      ],
+      "next_verification": "Compare task comprehension and action recognition after any revision."
+    },
+    {
+      "id": "MLX-collapsed-navigation",
+      "title": "Investigate collapsed desktop navigation",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Navigation collapsed at the recorded 1122 × 922 viewport.",
+      "evidence_status": "Observed interface; untested user impact",
+      "proposal": "Consider compact visible destinations with labeled overflow.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "No prescribed breakpoint; hidden-menu research does not establish a site-specific loss.",
+      "source_ids": [
+        "SRC-017"
+      ],
+      "evidence_files": [
+        "evidence/design-benchmark-evidence.md"
+      ],
+      "next_verification": "Recheck current viewport behavior, then test representative navigation tasks."
+    },
+    {
+      "id": "MLX-metric-context",
+      "title": "Define scorecard percentages",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Per-engine percentages and deltas lacked adjacent operational definitions and comparison context.",
+      "evidence_status": "Observed content; proposed remedy",
+      "proposal": "Add metric name, denominator, period and delta meaning; preserve sample status.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "Do not assign the illustrative 42% a real operational definition retroactively.",
+      "source_ids": [
+        "SRC-020",
+        "SRC-021"
+      ],
+      "evidence_files": [
+        "evidence/design-benchmark-evidence.md"
+      ],
+      "next_verification": "Review metric specification and study unprompted interpretation."
+    },
+    {
+      "id": "MLX-ranking-copy",
+      "title": "Resolve method ranking inconsistency",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Fourth item was described as the biggest lever while the list claimed to be ranked by leverage.",
+      "evidence_status": "Observed copy inconsistency",
+      "proposal": "Correct wording or provide evidence for a defensible ranking.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "No researched ranking established in this work.",
+      "source_ids": [
+        "SRC-021"
+      ],
+      "evidence_files": [
+        "evidence/design-benchmark-evidence.md"
+      ],
+      "next_verification": "Re-read all ordering claims against supporting evidence."
+    },
+    {
+      "id": "MLX-caption-contrast",
+      "title": "Retain scoped contrast evidence",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Sampled caption RGB 99,102,107 yielded 5.76387:1 on white and 5.38362:1 on RGB 247,247,248.",
+      "evidence_status": "Measured sample pairs",
+      "proposal": "Preserve adequate contrast; evaluate important small copy in context.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "Two color pairs only. 12px is not automatically a WCAG failure.",
+      "source_ids": [
+        "SRC-025"
+      ],
+      "evidence_files": [
+        "evidence/design-benchmark-evidence.md"
+      ],
+      "next_verification": "Recalculate after color changes; assess other states and readable scaling separately."
+    },
+    {
+      "id": "MLX-ticker-motion",
+      "title": "Preserve ticker pause and assess other motion",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Pause changed accessible name to Play sample ticker and computed animation state to paused; original state restored.",
+      "evidence_status": "Verified limited interaction",
+      "proposal": "Consider a static sample presentation and check remaining motion.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "Reduced-motion behavior and other animations were not evaluated.",
+      "source_ids": [
+        "SRC-004",
+        "SRC-026"
+      ],
+      "evidence_files": [
+        "evidence/design-benchmark-evidence.md"
+      ],
+      "next_verification": "Check all applicable moving content and user control in the current build."
+    },
+    {
+      "id": "MLX-service-expectations",
+      "title": "Test understanding of current availability",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Homepage combined audit actions and illustrative metrics with preview/planned-service disclosures.",
+      "evidence_status": "Observed content; comprehension hypothesis",
+      "proposal": "Place current availability near the relevant action and keep sample status attached to figures.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "No participant has been shown to misunderstand it. Text says local storage/no email; no submission was made.",
+      "source_ids": [
+        "SRC-007"
+      ],
+      "evidence_files": [
+        "evidence/advanced-uiux-teaching-evidence.md"
+      ],
+      "next_verification": "Use the stored neutral research worksheet; verify actual behavior before a study."
+    },
+    {
+      "id": "MLX-composite-validity",
+      "title": "Specify and validate the readiness model",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "An illustrative readiness composite was presented; the work did not establish its validity.",
+      "evidence_status": "Unvalidated measurement model",
+      "proposal": "Document components, weighting, missing data, aggregation and sensitivity before relying on it.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "OECD policy measurement reasoning is not a GEO standard.",
+      "source_ids": [
+        "SRC-022"
+      ],
+      "evidence_files": [
+        "evidence/advanced-uiux-teaching-evidence.md"
+      ],
+      "next_verification": "Review operational definitions, underlying evidence and sensitivity to modeling choices."
+    },
+    {
+      "id": "MLX-pew-attribution",
+      "title": "Correct the unsupported Pew quotation",
+      "project": "MindLeverX",
+      "observed_at": "2026-09-19",
+      "page": "http://127.0.0.1:4328/#top",
+      "observation": "Homepage attributed Citation, not clicks, is the KPI to Pew; cited article did not support it as a quotation.",
+      "evidence_status": "Source mismatch verified in prior review",
+      "proposal": "Remove the unsupported attribution; separate study results from the company's KPI proposal.",
+      "implementation_status": "Not implemented in this research task",
+      "limitations": "Pew studied specified Google browsing, not all answer engines or business outcomes.",
+      "source_ids": [
+        "SRC-023"
+      ],
+      "evidence_files": [
+        "evidence/research-teaching-completion-audit.md"
+      ],
+      "next_verification": "Check revised wording against the original finding, population and collection dates."
+    }
+  ]
+}

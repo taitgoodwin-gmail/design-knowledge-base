@@ -1,0 +1,871 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "SRC-001",
+      "url": "https://blog.kleros.io/content/files/pub-tools-public-publication-data/pdf/36299.pdf",
+      "kind": "research_publication",
+      "scope_and_limits": "HEART, CHI 2010; author manuscript is linked from the Google publication. Context-specific measures still need validation.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/playbook-verification.md",
+          "line": 12,
+          "cited_url": "https://blog.kleros.io/content/files/pub-tools-public-publication-data/pdf/36299.pdf"
+        }
+      ],
+      "title": "HEART author manuscript — CHI 2010"
+    },
+    {
+      "id": "SRC-002",
+      "url": "https://carbondesignsystem.com/components/button/usage/",
+      "kind": "design_system_guidance",
+      "scope_and_limits": "IBM Carbon guidance; applying it is a project choice, not mandatory adoption of Carbon.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 19,
+          "cited_url": "https://carbondesignsystem.com/components/button/usage/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 20,
+          "cited_url": "https://carbondesignsystem.com/components/button/usage/"
+        }
+      ],
+      "title": "Carbon: Button usage"
+    },
+    {
+      "id": "SRC-003",
+      "url": "https://carbondesignsystem.com/elements/color/overview/",
+      "kind": "design_system_guidance",
+      "scope_and_limits": "IBM Carbon guidance; applying it is a project choice, not mandatory adoption of Carbon.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 125,
+          "cited_url": "https://carbondesignsystem.com/elements/color/overview/"
+        },
+        {
+          "file": "evidence/playbook-verification.md",
+          "line": 13,
+          "cited_url": "https://carbondesignsystem.com/elements/color/overview/"
+        }
+      ],
+      "title": "Carbon: Color and tokens"
+    },
+    {
+      "id": "SRC-004",
+      "url": "https://carbondesignsystem.com/elements/motion/overview/",
+      "kind": "design_system_guidance",
+      "scope_and_limits": "IBM Carbon guidance; applying it is a project choice, not mandatory adoption of Carbon.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 20,
+          "cited_url": "https://carbondesignsystem.com/elements/motion/overview/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 21,
+          "cited_url": "https://carbondesignsystem.com/elements/motion/overview/"
+        }
+      ],
+      "title": "Carbon: Motion"
+    },
+    {
+      "id": "SRC-005",
+      "url": "https://credibility.stanford.edu/guidelines/",
+      "kind": "research_based_guidance",
+      "scope_and_limits": "Historic credibility guidance; no present-day site-specific conversion effect established.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 80,
+          "cited_url": "https://credibility.stanford.edu/guidelines/"
+        },
+        {
+          "file": "evidence/advanced-uiux-teaching-evidence.md",
+          "line": 9,
+          "cited_url": "https://credibility.stanford.edu/guidelines/"
+        }
+      ],
+      "title": "Stanford: Web credibility guidelines"
+    },
+    {
+      "id": "SRC-006",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Google Search AI features; do not generalize to unrelated engines or consumer apps.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 82,
+          "cited_url": "https://developers.google.com/search/docs/appearance/ai-features"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 31,
+          "cited_url": "https://developers.google.com/search/docs/appearance/ai-features"
+        }
+      ],
+      "title": "Google Search: AI features and your website"
+    },
+    {
+      "id": "SRC-007",
+      "url": "https://jnd.org/design-as-communication/",
+      "kind": "design_method_guidance",
+      "scope_and_limits": "Use in context; distinguish the published method from our synthesis and proposals.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 32,
+          "cited_url": "https://jnd.org/design-as-communication/"
+        },
+        {
+          "file": "evidence/advanced-uiux-teaching-evidence.md",
+          "line": 7,
+          "cited_url": "https://jnd.org/design-as-communication/"
+        }
+      ],
+      "title": "Don Norman: Design as Communication"
+    },
+    {
+      "id": "SRC-008",
+      "url": "https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.161.pdf",
+      "kind": "evaluation_handbook",
+      "scope_and_limits": "Public-safety communications context; general evaluation concepts transferred with scope limits.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/mindleverx-research-worksheet.md",
+          "line": 83,
+          "cited_url": "https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.161.pdf"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 115,
+          "cited_url": "https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.161.pdf"
+        },
+        {
+          "file": "evidence/advanced-uiux-teaching-evidence.md",
+          "line": 11,
+          "cited_url": "https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.161.pdf"
+        }
+      ],
+      "title": "NIST Handbook 161: Usability handbook for public safety communications"
+    },
+    {
+      "id": "SRC-009",
+      "url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/",
+      "kind": "research_publication",
+      "scope_and_limits": "HEART, CHI 2010; author manuscript is linked from the Google publication. Context-specific measures still need validation.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 52,
+          "cited_url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 100,
+          "cited_url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/"
+        },
+        {
+          "file": "evidence/playbook-verification.md",
+          "line": 11,
+          "cited_url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/"
+        }
+      ],
+      "title": "Google Research: Measuring the User Experience on a Large Scale"
+    },
+    {
+      "id": "SRC-010",
+      "url": "https://support.google.com/accessibility/android/answer/7101858?hl=en",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Android touch targets in dp; do not treat as a CSS requirement.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 15,
+          "cited_url": "https://support.google.com/accessibility/android/answer/7101858?hl=en"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 27,
+          "cited_url": "https://support.google.com/accessibility/android/answer/7101858?hl=en"
+        }
+      ],
+      "title": "Android: Touch target size"
+    },
+    {
+      "id": "SRC-011",
+      "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/",
+      "kind": "design_method_guidance",
+      "scope_and_limits": "Use in context; distinguish the published method from our synthesis and proposals.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 23,
+          "cited_url": "https://www.designcouncil.org.uk/resources/the-double-diamond/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 22,
+          "cited_url": "https://www.designcouncil.org.uk/resources/the-double-diamond/"
+        }
+      ],
+      "title": "Design Council: The Double Diamond"
+    },
+    {
+      "id": "SRC-012",
+      "url": "https://www.gov.uk/guidance/government-design-principles",
+      "kind": "design_method_guidance",
+      "scope_and_limits": "Use in context; distinguish the published method from our synthesis and proposals.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 14,
+          "cited_url": "https://www.gov.uk/guidance/government-design-principles"
+        }
+      ],
+      "title": "GOV.UK: Government design principles"
+    },
+    {
+      "id": "SRC-013",
+      "url": "https://www.iso.org/standard/63500.html",
+      "kind": "standards_catalog",
+      "scope_and_limits": "Only public catalog scope inspected; full ISO standard was not accessed.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 26,
+          "cited_url": "https://www.iso.org/standard/63500.html"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 8,
+          "cited_url": "https://www.iso.org/standard/63500.html"
+        }
+      ],
+      "title": "ISO 9241-11:2018 — public catalog"
+    },
+    {
+      "id": "SRC-014",
+      "url": "https://www.iso.org/standard/77520.html",
+      "kind": "standards_catalog",
+      "scope_and_limits": "Only public catalog scope inspected; full ISO standard was not accessed.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 26,
+          "cited_url": "https://www.iso.org/standard/77520.html"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 7,
+          "cited_url": "https://www.iso.org/standard/77520.html"
+        }
+      ],
+      "title": "ISO 9241-210:2019 — public catalog"
+    },
+    {
+      "id": "SRC-015",
+      "url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/",
+      "kind": "research_practice",
+      "scope_and_limits": "Experiment-design practices; no experiment was performed on MindLeverX.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 68,
+          "cited_url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/"
+        },
+        {
+          "file": "library/mindleverx-research-worksheet.md",
+          "line": 83,
+          "cited_url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 119,
+          "cited_url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/"
+        },
+        {
+          "file": "evidence/advanced-uiux-teaching-evidence.md",
+          "line": 12,
+          "cited_url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 29,
+          "cited_url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/"
+        }
+      ],
+      "title": "Microsoft: Patterns of Trustworthy Experimentation"
+    },
+    {
+      "id": "SRC-016",
+      "url": "https://www.nngroup.com/articles/definition-user-experience/",
+      "kind": "expert_guidance",
+      "scope_and_limits": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 13,
+          "cited_url": "https://www.nngroup.com/articles/definition-user-experience/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 12,
+          "cited_url": "https://www.nngroup.com/articles/definition-user-experience/"
+        }
+      ],
+      "title": "NN/G: Definition of user experience"
+    },
+    {
+      "id": "SRC-017",
+      "url": "https://www.nngroup.com/articles/hamburger-menus/",
+      "kind": "empirical_research_summary",
+      "scope_and_limits": "Hidden-navigation research supports a risk hypothesis; does not establish a breakpoint or effect size here.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 48,
+          "cited_url": "https://www.nngroup.com/articles/hamburger-menus/"
+        },
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 18,
+          "cited_url": "https://www.nngroup.com/articles/hamburger-menus/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 19,
+          "cited_url": "https://www.nngroup.com/articles/hamburger-menus/"
+        }
+      ],
+      "title": "NN/G: Hamburger menus and hidden navigation"
+    },
+    {
+      "id": "SRC-018",
+      "url": "https://www.nngroup.com/articles/information-scent/",
+      "kind": "expert_guidance",
+      "scope_and_limits": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 50,
+          "cited_url": "https://www.nngroup.com/articles/information-scent/"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 42,
+          "cited_url": "https://www.nngroup.com/articles/information-scent/"
+        },
+        {
+          "file": "evidence/advanced-uiux-teaching-evidence.md",
+          "line": 8,
+          "cited_url": "https://www.nngroup.com/articles/information-scent/"
+        }
+      ],
+      "title": "NN/G: Information scent"
+    },
+    {
+      "id": "SRC-019",
+      "url": "https://www.nngroup.com/articles/principles-visual-design/",
+      "kind": "expert_guidance",
+      "scope_and_limits": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 54,
+          "cited_url": "https://www.nngroup.com/articles/principles-visual-design/"
+        },
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 17,
+          "cited_url": "https://www.nngroup.com/articles/principles-visual-design/"
+        }
+      ],
+      "title": "NN/G: Five principles of visual design"
+    },
+    {
+      "id": "SRC-020",
+      "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+      "kind": "expert_guidance",
+      "scope_and_limits": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 34,
+          "cited_url": "https://www.nngroup.com/articles/progressive-disclosure/"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 143,
+          "cited_url": "https://www.nngroup.com/articles/progressive-disclosure/"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 28,
+          "cited_url": "https://www.nngroup.com/articles/progressive-disclosure/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 13,
+          "cited_url": "https://www.nngroup.com/articles/progressive-disclosure/"
+        }
+      ],
+      "title": "NN/G: Progressive disclosure"
+    },
+    {
+      "id": "SRC-021",
+      "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "kind": "expert_guidance",
+      "scope_and_limits": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 16,
+          "cited_url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 18,
+          "cited_url": "https://www.nngroup.com/articles/ten-usability-heuristics/"
+        }
+      ],
+      "title": "NN/G: Ten usability heuristics"
+    },
+    {
+      "id": "SRC-022",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/08/handbook-on-constructing-composite-indicators-methodology-and-user-guide_g1gh9301/9789264043466-en.pdf",
+      "kind": "measurement_handbook",
+      "scope_and_limits": "Policy composite indicators; general measurement reasoning transferred, not validation of a GEO metric.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 83,
+          "cited_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/08/handbook-on-constructing-composite-indicators-methodology-and-user-guide_g1gh9301/9789264043466-en.pdf"
+        },
+        {
+          "file": "evidence/advanced-uiux-teaching-evidence.md",
+          "line": 10,
+          "cited_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/08/handbook-on-constructing-composite-indicators-methodology-and-user-guide_g1gh9301/9789264043466-en.pdf"
+        }
+      ],
+      "title": "OECD/JRC: Handbook on Constructing Composite Indicators"
+    },
+    {
+      "id": "SRC-023",
+      "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+      "kind": "empirical_study",
+      "scope_and_limits": "Google browsing study with specified population and dates; not a universal KPI prescription.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 76,
+          "cited_url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 30,
+          "cited_url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/"
+        }
+      ],
+      "title": "Pew: Google clicks when an AI summary appears"
+    },
+    {
+      "id": "SRC-024",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "kind": "normative_standard",
+      "scope_and_limits": "Read the applicable criterion, level, exceptions and conformance scope; partial checks do not prove conformance.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 15,
+          "cited_url": "https://www.w3.org/TR/WCAG22/#target-size-minimum"
+        },
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 30,
+          "cited_url": "https://www.w3.org/TR/WCAG22/#conformance-reqs"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 71,
+          "cited_url": "https://www.w3.org/TR/WCAG22/#conformance-reqs"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 24,
+          "cited_url": "https://www.w3.org/TR/WCAG22/#target-size-minimum"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 11,
+          "cited_url": "https://www.w3.org/TR/WCAG22/#conformance-reqs"
+        }
+      ],
+      "title": "W3C: Web Content Accessibility Guidelines 2.2"
+    },
+    {
+      "id": "SRC-025",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "kind": "official_explanation",
+      "scope_and_limits": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 73,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        },
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 21,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 23,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        }
+      ],
+      "title": "W3C: Understanding Contrast (Minimum)"
+    },
+    {
+      "id": "SRC-026",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "kind": "official_explanation",
+      "scope_and_limits": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 75,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html"
+        },
+        {
+          "file": "evidence/design-benchmark-evidence.md",
+          "line": 22,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html"
+        }
+      ],
+      "title": "W3C: Understanding Pause, Stop, Hide"
+    },
+    {
+      "id": "SRC-027",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html",
+      "kind": "official_explanation",
+      "scope_and_limits": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 15,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 26,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html"
+        }
+      ],
+      "title": "W3C: Understanding Target Size (Enhanced)"
+    },
+    {
+      "id": "SRC-028",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "kind": "official_explanation",
+      "scope_and_limits": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 15,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+        },
+        {
+          "file": "evidence/research-teaching-completion-audit.md",
+          "line": 25,
+          "cited_url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html"
+        }
+      ],
+      "title": "W3C: Understanding Target Size (Minimum)"
+    },
+    {
+      "id": "SRC-029",
+      "url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/",
+      "kind": "official_explanation",
+      "scope_and_limits": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 9,
+          "cited_url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/"
+        }
+      ],
+      "title": "W3C: Accessibility, usability and inclusion"
+    },
+    {
+      "id": "SRC-030",
+      "url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+      "kind": "official_explanation",
+      "scope_and_limits": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Existing research records from this thread; no new web retrieval during organization.",
+      "record_locations": [
+        {
+          "file": "library/design-judgment-worked-cases.md",
+          "line": 98,
+          "cited_url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        },
+        {
+          "file": "library/mindleverx-research-worksheet.md",
+          "line": 83,
+          "cited_url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        },
+        {
+          "file": "library/uiux-design-playbook.md",
+          "line": 77,
+          "cited_url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        },
+        {
+          "file": "evidence/uiux-harmonization-evidence.md",
+          "line": 10,
+          "cited_url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        }
+      ],
+      "title": "W3C: Involving users in evaluating web accessibility"
+    },
+    {
+      "id": "SRC-031",
+      "title": "GitHub repositories and privacy",
+      "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 33,
+          "cited_url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories"
+        }
+      ]
+    },
+    {
+      "id": "SRC-032",
+      "title": "GitHub browser file editing",
+      "url": "https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 34,
+          "cited_url": "https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files"
+        }
+      ]
+    },
+    {
+      "id": "SRC-033",
+      "title": "GitHub file history and Markdown preview",
+      "url": "https://docs.github.com/en/repositories/working-with-files/using-files/viewing-and-understanding-files",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 35,
+          "cited_url": "https://docs.github.com/en/repositories/working-with-files/using-files/viewing-and-understanding-files"
+        }
+      ]
+    },
+    {
+      "id": "SRC-034",
+      "title": "GitHub issues for ideas and tasks",
+      "url": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 36,
+          "cited_url": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues"
+        }
+      ]
+    },
+    {
+      "id": "SRC-035",
+      "title": "Notion database properties and views",
+      "url": "https://www.notion.com/help/intro-to-databases",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 37,
+          "cited_url": "https://www.notion.com/help/intro-to-databases"
+        }
+      ]
+    },
+    {
+      "id": "SRC-036",
+      "title": "Notion web clipping",
+      "url": "https://www.notion.com/help/web-clipper",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 38,
+          "cited_url": "https://www.notion.com/help/web-clipper"
+        }
+      ]
+    },
+    {
+      "id": "SRC-037",
+      "title": "Notion exports and their limitations",
+      "url": "https://www.notion.com/help/export-your-content",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 39,
+          "cited_url": "https://www.notion.com/help/export-your-content"
+        }
+      ]
+    },
+    {
+      "id": "SRC-038",
+      "title": "Google Drive file access",
+      "url": "https://support.google.com/a/users/answer/9310458?hl=en",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 40,
+          "cited_url": "https://support.google.com/a/users/answer/9310458?hl=en"
+        }
+      ]
+    },
+    {
+      "id": "SRC-039",
+      "title": "Google Docs editing Markdown files",
+      "url": "https://support.google.com/docs/answer/18289341?hl=en",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection for the cloud-storage recommendation.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 41,
+          "cited_url": "https://support.google.com/docs/answer/18289341?hl=en"
+        }
+      ]
+    },
+    {
+      "id": "SRC-040",
+      "title": "GitHub rendered README navigation and images",
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Documented reading/gallery capabilities; no account-specific interface or migration tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection after the user emphasized visual browsing.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 47,
+          "cited_url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes"
+        }
+      ]
+    },
+    {
+      "id": "SRC-041",
+      "title": "Notion galleries and image previews",
+      "url": "https://www.notion.com/help/galleries",
+      "kind": "platform_guidance",
+      "scope_and_limits": "Documented reading/gallery capabilities; no account-specific interface or migration tested.",
+      "recorded_checked_at": "2026-09-19",
+      "checked_at_basis": "Direct web inspection after the user emphasized visual browsing.",
+      "record_locations": [
+        {
+          "file": "STORAGE-OPTIONS.md",
+          "line": 48,
+          "cited_url": "https://www.notion.com/help/galleries"
+        }
+      ]
+    }
+  ]
+}

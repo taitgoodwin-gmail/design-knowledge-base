@@ -1,0 +1,56 @@
+# MindLeverX
+
+> MindLeverX is a GEO (Generative Engine Optimization) practice for mid-market
+> B2B SaaS. It engineers, monitors and reports a brand's presence across
+> generative search — ChatGPT, Perplexity, Gemini and Claude — so that answer
+> engines cite, quote and recommend that brand inside their answers.
+
+Own the answer.
+
+## What GEO is
+
+Generative Engine Optimization is the practice of engineering a brand's content,
+technical setup and off-site presence so that generative answer engines cite,
+quote and recommend it inside their answers. Where SEO competes for a ranked
+link, GEO competes to be the answer itself.
+
+## The four dimensions of MindLeverX Methodology V1.0
+
+- **Technical access** — whether answer engines can reach, render and parse the pages.
+- **Content quotability** — whether a passage stands alone well enough to be lifted into an answer.
+- **Off-site authority** — whether the wider web treats the brand as the entity that belongs in the answer.
+- **Measured visibility** — whether the brand actually appears, measured against a fixed, versioned prompt panel.
+
+Scores read like a market index: the same panel and the same methodology every
+run, so movement is comparable between runs.
+
+## Ways to work with MindLeverX
+
+- **GEO Readiness Audit** — free. Scores a domain against the published methodology.
+- **Monitoring subscription** — recurring measurement that carries the fix path: recommendations, not a dashboard alone.
+- **Human deep-audit** — an expert-led engagement across all four dimensions, with draft-ready artifacts delivered for approval.
+
+Pricing is not published. Process guarantees only — MindLeverX does not promise
+rankings, citation rates or share of voice.
+
+## Pages
+
+- [Homepage](https://mindleverx.com/index.html): what MindLeverX does, the offer, the readiness score.
+- [What is GEO?](https://mindleverx.com/what-is-geo.html): the definitional pillar — GEO defined, GEO vs SEO, FAQ.
+- [Research](https://mindleverx.com/research-hub.html): benchmarks, methods and engine notes.
+- [Answer Engine Index: Q3 2026](https://mindleverx.com/answer-engine-index-q3-2026.html): the quarterly benchmark.
+
+## Provenance
+
+Every number MindLeverX publishes carries a provenance label — MEASURED (tool),
+MEASURED (live), INFERRED (proxy) or NOT MEASURED. Figures are never compared
+across provenance types. **Every metric currently shown on the site is SAMPLE —
+NOT MEASURED**, illustrating the format until the monitoring API is wired.
+
+Measurements are taken via engine APIs against a fixed prompt panel; API answers
+are a proxy for the live consumer products, which differ in retrieval,
+personalization and interface.
+
+## Contact
+
+https://mindleverx.com/about.html#contact

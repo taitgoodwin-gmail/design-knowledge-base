@@ -1,0 +1,72 @@
+{
+  "checked": "2026-09-20",
+  "scope": "CSS solid pairs and gradient stops, not rendered pixel verification",
+  "results": [
+    {
+      "element": "Signal CTA",
+      "foreground": "#102644",
+      "background": "#dafe77",
+      "ratio": 13.324329270686448
+    },
+    {
+      "element": "Human CTA",
+      "foreground": "#32211e",
+      "background": "#edc9ad",
+      "ratio": 9.883278591036534
+    },
+    {
+      "element": "Proof CTA",
+      "foreground": "#f4f3e9",
+      "background": "#192b27",
+      "ratio": 13.305841754777758
+    },
+    {
+      "element": "Signal body on base",
+      "foreground": "#dae3fc",
+      "background": "#081d52",
+      "ratio": 12.519496635846115
+    },
+    {
+      "element": "Signal body on brightest gradient stop",
+      "foreground": "#dae3fc",
+      "background": "#3554db",
+      "ratio": 4.756672630285197
+    },
+    {
+      "element": "Human body on base",
+      "foreground": "#e2d3c9",
+      "background": "#211c20",
+      "ratio": 11.500940680161738
+    },
+    {
+      "element": "Human body on brightest gradient stop",
+      "foreground": "#e2d3c9",
+      "background": "#aa6753",
+      "ratio": 3.0151270226964293
+    },
+    {
+      "element": "Proof coral subheading",
+      "foreground": "#c4472e",
+      "background": "#f4f3e9",
+      "ratio": 4.394575054691936
+    },
+    {
+      "element": "Proof logo x",
+      "foreground": "#dc5437",
+      "background": "#f4f3e9",
+      "ratio": 3.511368042917184
+    },
+    {
+      "element": "Proof evidence body",
+      "foreground": "#46536a",
+      "background": "#d7e956",
+      "ratio": 5.794630692351716
+    },
+    {
+      "element": "Card disclaimer",
+      "foreground": "#48586b",
+      "background": "#f5f5ef",
+      "ratio": 6.65450274995241
+    }
+  ]
+}

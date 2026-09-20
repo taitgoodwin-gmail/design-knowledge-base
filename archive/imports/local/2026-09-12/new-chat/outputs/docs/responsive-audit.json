@@ -1,0 +1,293 @@
+{
+  "method": "Chrome DOM observations, 12 Sep 2026, local archived dist; no visual conformance claim",
+  "observations": [
+    {
+      "page": "/index.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/index.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/index.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "light",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/index.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/index.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/index.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "dark",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/what-is-geo.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/what-is-geo.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/what-is-geo.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "light",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/what-is-geo.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/what-is-geo.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/what-is-geo.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "dark",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/research-hub.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/research-hub.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/research-hub.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "light",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/research-hub.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/research-hub.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/research-hub.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "dark",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/answer-engine-index-q3-2026.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/answer-engine-index-q3-2026.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/answer-engine-index-q3-2026.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "light",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/answer-engine-index-q3-2026.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/answer-engine-index-q3-2026.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/answer-engine-index-q3-2026.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "dark",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/case-study.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/case-study.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/case-study.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "light",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/case-study.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/case-study.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/case-study.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "dark",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/about.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/about.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "light",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/about.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "light",
+      "nav": "flex",
+      "menu": "none"
+    },
+    {
+      "page": "/about.html",
+      "width": 375,
+      "scrollWidth": 360,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/about.html",
+      "width": 960,
+      "scrollWidth": 945,
+      "theme": "dark",
+      "nav": "none",
+      "menu": "block"
+    },
+    {
+      "page": "/about.html",
+      "width": 1280,
+      "scrollWidth": 1265,
+      "theme": "dark",
+      "nav": "flex",
+      "menu": "none"
+    }
+  ]
+}

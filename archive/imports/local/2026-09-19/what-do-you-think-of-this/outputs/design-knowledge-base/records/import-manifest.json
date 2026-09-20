@@ -1,0 +1,52 @@
+{
+  "knowledge_base_version": "1.0",
+  "created_at": "2026-09-19",
+  "coverage": "All eight saved research/teaching Markdown files found in this workspace, plus owner-policy snapshot; not a full chat or raw browser capture archive.",
+  "imports": [
+    {
+      "original_path": "outputs/design-judgment-worked-cases.md",
+      "stored_path": "library/design-judgment-worked-cases.md",
+      "sha256": "d3ebd054093f2aabebe580c930da3bb6be275414b86563093fe609e5360962b4"
+    },
+    {
+      "original_path": "outputs/mindleverx-research-worksheet.md",
+      "stored_path": "library/mindleverx-research-worksheet.md",
+      "sha256": "89d55d6a02b2fac2b541431872278c5e8229b29798ad00941448067112a2b560"
+    },
+    {
+      "original_path": "outputs/uiux-design-playbook.md",
+      "stored_path": "library/uiux-design-playbook.md",
+      "sha256": "d0475acd99b83e100cdf73b32dbc8dbe0b2dfd91bccd967ea67628316ce4be65"
+    },
+    {
+      "original_path": "work/advanced-uiux-teaching-evidence.md",
+      "stored_path": "evidence/advanced-uiux-teaching-evidence.md",
+      "sha256": "cd42b1dc857cbe7507eff6e191e584e57976772c775e27670a97b70693552c49"
+    },
+    {
+      "original_path": "work/design-benchmark-evidence.md",
+      "stored_path": "evidence/design-benchmark-evidence.md",
+      "sha256": "f0826400036c87a0007dd7565c07c4da4b96a6a079ddf50e6afec8cf53f13fcc"
+    },
+    {
+      "original_path": "work/playbook-verification.md",
+      "stored_path": "evidence/playbook-verification.md",
+      "sha256": "9144f51ab2f6ca60235ddf058f04c45e48497d0a3762fda4571cf12352a6d5f8"
+    },
+    {
+      "original_path": "work/research-teaching-completion-audit.md",
+      "stored_path": "evidence/research-teaching-completion-audit.md",
+      "sha256": "29b56b6a1ab09cd71338937fc8f049831e4139c4fedf28560df198ad0c0be06b"
+    },
+    {
+      "original_path": "work/uiux-harmonization-evidence.md",
+      "stored_path": "evidence/uiux-harmonization-evidence.md",
+      "sha256": "81fa175cfc0c4341a74fbc3359531b53bb27ebae381a353143eeeef23d530a67"
+    },
+    {
+      "original_path": "/Users/tag/.codex/guidance/official-source-build-practice.md",
+      "stored_path": "governance/official-source-build-practice.snapshot.md",
+      "sha256": "f6562da31c192db7b929eb21765ff037e3bb3f55c695af6ebfd44cc3542f8ded"
+    }
+  ]
+}

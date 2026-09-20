@@ -1,0 +1,71 @@
+<div id="material-study-20260907">
+  <div class="viz-controls" aria-label="Material treatment">
+    <button type="button" class="btn" data-material="flat" aria-pressed="true">Flat</button>
+    <button type="button" class="btn" data-material="ink" aria-pressed="false">Layered ink</button>
+    <button type="button" class="btn" data-material="clay" aria-pressed="false">Soft volume</button>
+    <button type="button" class="btn" data-material="haze" aria-pressed="false">Color haze</button>
+    <button type="button" class="btn" data-material="sheen" aria-pressed="false">Iridescent cue</button>
+  </div>
+  <svg class="material-demo" viewBox="0 0 640 300" role="img" aria-labelledby="material-title material-description">
+    <title id="material-title">One composition, five material treatments</title>
+    <desc id="material-description">Two overlapping shapes. Choose a treatment to compare flat color, layered ink, shading, blurred color and a multicolor reflective cue. These are schematic teaching examples.</desc>
+    <defs>
+      <radialGradient id="material-blue-volume" cx="28%" cy="22%" r="80%">
+        <stop offset="0" style="stop-color:color-mix(in srgb,var(--blue) 30%,var(--background))"/>
+        <stop offset=".48" style="stop-color:var(--blue)"/>
+        <stop offset="1" style="stop-color:color-mix(in srgb,var(--blue) 60%,var(--foreground))"/>
+      </radialGradient>
+      <radialGradient id="material-red-volume" cx="28%" cy="22%" r="80%">
+        <stop offset="0" style="stop-color:color-mix(in srgb,var(--red) 30%,var(--background))"/>
+        <stop offset=".48" style="stop-color:var(--red)"/>
+        <stop offset="1" style="stop-color:color-mix(in srgb,var(--red) 60%,var(--foreground))"/>
+      </radialGradient>
+      <linearGradient id="material-sheen" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" style="stop-color:var(--blue)"/>
+        <stop offset=".3" style="stop-color:var(--purple)"/>
+        <stop offset=".48" style="stop-color:var(--background)"/>
+        <stop offset=".6" style="stop-color:var(--green)"/>
+        <stop offset="1" style="stop-color:var(--blue)"/>
+      </linearGradient>
+      <filter id="material-blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="20"/></filter>
+      <filter id="material-ink" x="-5%" y="-5%" width="110%" height="110%">
+        <feTurbulence type="fractalNoise" baseFrequency=".75" numOctaves="2" seed="7" result="grain"/>
+        <feComposite in="grain" in2="SourceAlpha" operator="in" result="clipped"/>
+        <feBlend in="SourceGraphic" in2="clipped" mode="multiply"/>
+      </filter>
+    </defs>
+    <g class="material-shadow" opacity="0" aria-hidden="true" style="fill:var(--foreground)">
+      <ellipse cx="263" cy="245" rx="108" ry="12" opacity=".12"/>
+      <ellipse cx="394" cy="245" rx="94" ry="12" opacity=".12"/>
+    </g>
+    <g class="material-objects" style="isolation:isolate">
+      <rect class="material-a" x="145" y="48" width="220" height="195" rx="48" style="fill:var(--blue)"/>
+      <circle class="material-b" cx="397" cy="149" r="96" style="fill:var(--red)"/>
+    </g>
+  </svg>
+  <div class="text-small" id="material-caption" aria-live="polite">Flat: color and silhouette carry the composition.</div>
+</div>
+<style>
+  #material-study-20260907 .material-demo {display:block;width:100%;height:auto;overflow:visible;}
+  #material-study-20260907[data-mode="ink"] .material-b {mix-blend-mode:multiply;opacity:.8;}
+  #material-study-20260907[data-mode="ink"] .material-a {opacity:.8;}
+  #material-study-20260907[data-mode="ink"] .material-objects {filter:url(#material-ink);}
+  #material-study-20260907[data-mode="clay"] .material-a {fill:url(#material-blue-volume)!important;}
+  #material-study-20260907[data-mode="clay"] .material-b {fill:url(#material-red-volume)!important;}
+  #material-study-20260907[data-mode="clay"] .material-shadow {opacity:1;}
+  #material-study-20260907[data-mode="haze"] .material-objects {filter:url(#material-blur);opacity:.75;}
+  #material-study-20260907[data-mode="sheen"] .material-a,
+  #material-study-20260907[data-mode="sheen"] .material-b {fill:url(#material-sheen)!important;}
+</style>
+<script>
+(() => {
+ const root=document.getElementById('material-study-20260907');
+ const caption=root.querySelector('#material-caption');
+ const descriptions={flat:'Flat: color and silhouette carry the composition.',ink:'Layered ink: overlap and grain suggest a printed surface; this is a digital analogy.',clay:'Soft volume: a consistent light direction and contact shadows suggest depth.',haze:'Color haze: blurred boundaries move attention from objects toward atmosphere.',sheen:'Iridescent cue: a color band suggests sheen; real iridescence changes with viewing angle.'};
+ root.querySelectorAll('[data-material]').forEach(button=>button.addEventListener('click',()=>{
+   root.dataset.mode=button.dataset.material;
+   root.querySelectorAll('[data-material]').forEach(peer=>peer.setAttribute('aria-pressed',String(peer===button)));
+   caption.textContent=descriptions[button.dataset.material];
+ }));
+})();
+</script>

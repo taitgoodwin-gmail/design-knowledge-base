@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "type": "page"
+  },
+  "title": "🧭 Claude Governance",
+  "url": "https://app.notion.com/p/3ba792ca08888127869ce85d9d3ccfc2?pvs=204",
+  "text": "Here is the result of \"fetch\" for the Page with URL https://app.notion.com/p/3ba792ca08888127869ce85d9d3ccfc2 as of 2026-08-17T06:36:09.507Z:\n<page url=\"https://app.notion.com/p/3ba792ca08888127869ce85d9d3ccfc2\" icon=\"🧭\">\n<ancestor-path></ancestor-path>\n<properties>\n{\"title\":\"Claude Governance\"}\n</properties>\n<iconMetadata>{\"type\":\"emoji\",\"emoji\":\"🧭\"}</iconMetadata>\n<content>\n**Purpose**: One home for how Claude is instructed across every surface I use — [claude.ai](http://claude.ai), Claude Code, Cowork, and Claude Design — and the canonical text of every instruction layer.\n**Operating rule**: Every instruction has one home: here. Edit the canonical text on this page's children first, then push copies out to each surface, then verify. Never edit an instruction in a surface directly.\nThis hub is venture-agnostic. It governs Claude setup across all ventures (AugMind, TaxReign, MindLeverX). Venture-specific build truth lives in each venture's private GitHub repo — one home per truth. (MindLever Foundry canceled 2026-08-12.)\n## Contents\n- **Claude instructions & skills — setup reference** — how the instruction layers actually work, verified against current Anthropic documentation.\n- **Canonical instruction texts** — the current authoritative wording of every layer, deployment status, and change log.\n- **Models & prompting guide** — current lineup, when to use which model, per-model prompting notes, context engineering.\n## Standing rule — where things live\nOne home per truth. Before creating any artifact, name where it already lives.\n<table header-row=\"true\">\n<tr>\n<td>Kind of truth</td>\n<td>Home</td>\n<td>Notes</td>\n</tr>\n<tr>\n<td>Build truth — code, product docs, requirements, decisions/ADRs, [CLAUDE.md](http://CLAUDE.md), skills</td>\n<td>Private GitHub repo, one per build</td>\n<td>Agent-readable, versioned, diffable. The repo is the register; spreadsheets are generated views, never sources</td>\n</tr>\n<tr>\n<td>Doctrine & prose — governance, instruction texts, reference docs, style narratives</td>\n<td>Notion (this hub)</td>\n<td>Cross-venture; Claude reads it via the connector</td>\n</tr>\n<tr>\n<td>Operations — trackers, pipelines, dashboards, anything you filter, sort, or automate</td>\n<td>Airtable</td>\n<td>May mirror data from other homes as a view, but is never the source of build truth or doctrine</td>\n</tr>\n</table>\nGray-area test: a build's decision log is build truth (repo `docs/decisions.md`), not Notion. A deal pipeline is operations (Airtable). A rule about how Claude behaves is doctrine (here). If two homes seem right: pick one, record the choice, link from the other — never maintain both.\n<page url=\"https://app.notion.com/p/3ba792ca08888118a79bc42cada86660\">Claude instructions & skills — setup reference</page>\n<page url=\"https://app.notion.com/p/3ba792ca088881d5807de7b47a7d81bb\">Canonical instruction texts</page>\n<page url=\"https://app.notion.com/p/3ba792ca08888152a723ca5a26e2cab4\">Models & prompting guide</page>\n<page url=\"https://app.notion.com/p/3bf792ca088881d2acdff20cb1698b42\">Anthropic source library</page>\n</content>\n</page>",
+  "cover": null,
+  "icon": {
+    "type": "emoji",
+    "emoji": "🧭"
+  },
+  "verification": {
+    "state": "unverified"
+  },
+  "page_last_edited_at": "2026-08-12T15:32:56.972Z"
+}

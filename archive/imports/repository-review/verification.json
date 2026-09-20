@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-20",
+  "inventory_rows": 319,
+  "original_file_hashes_rechecked": 319,
+  "unique_hashes": 269,
+  "json_parse": "passed",
+  "report_local_links": "passed",
+  "errors": [],
+  "not_verified": [
+    "Notion contents",
+    "all chat history",
+    "live Slides",
+    "all source URLs or web content freshness",
+    "GitHub publication",
+    "Figma practical exercises",
+    "all site pages and states"
+  ],
+  "input_artifacts_checked": 6
+}

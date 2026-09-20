@@ -1,0 +1,146 @@
+[
+  {
+    "id": "E01",
+    "title": "Context and navigation",
+    "procedure": "Open File, Variables, then return to File. Switch Design \u2192 Motion \u2192 Design without editing content.",
+    "acceptance": "Panels match the requested modes and the original design selection returns.",
+    "status": "passed-limited",
+    "evidence": "evidence/2026-09-20-ui-inspection.md"
+  },
+  {
+    "id": "E02",
+    "title": "Responsive evidence card",
+    "procedure": "In a sandbox, create a card with question, answer, source button and disclosure. Test short/long text at 320, 390, 768 and 1440 widths.",
+    "acceptance": "No overlap; content and controls remain visible; expansion moves following content.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E03",
+    "title": "Grid versus visual guide",
+    "procedure": "Compare a visual layout guide, horizontal wrap and grid using identical six-card content; resize each.",
+    "acceptance": "Can explain and demonstrate differences in reflow, track sizing and spans.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E04",
+    "title": "Component state and overrides",
+    "procedure": "Create default/open/error variants; customize an instance then update the main component.",
+    "acceptance": "Expected changes propagate; deliberate overrides survive; state labels remain unambiguous.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E05",
+    "title": "Slot customization",
+    "procedure": "Place a variable-length list inside a component slot, add/reorder items and change variants.",
+    "acceptance": "Instance remains linked; content/constraints behave as specified.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E06",
+    "title": "Token and boolean conflict test",
+    "procedure": "Create two appearance modes and aliases; test applying a boolean variable to a boolean property versus a variant property.",
+    "acceptance": "Record exact accepted/rejected operations and resulting layer visibility; resolve X02 with evidence.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E07",
+    "title": "Typography resilience",
+    "procedure": "Compare text resizing and wrapping with a long headline, paragraph, non-Latin text and alternate fonts.",
+    "acceptance": "No necessary content is hidden; dimensions and line-height choices are documented.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E08",
+    "title": "Source disclosure prototype",
+    "procedure": "Prototype closed/open/error states; repeat actions, go back and restart. Deliberately rename one matching layer.",
+    "acceptance": "State is predictable; explain the changed Smart Animate behavior; record reset behavior.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E09",
+    "title": "Motion lab",
+    "procedure": "Animate a decorative source connection, inspect endpoints, change easing and create a static reduced-motion alternative.",
+    "acceptance": "Purpose and final state clear; no obscured reading; runtime/export remains a separate check.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E10",
+    "title": "Editable illustration",
+    "procedure": "Draw an original source motif with vectors, transforms and one effect; export and compare.",
+    "acceptance": "Source stays editable; export does not clip or misrender important details.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E11",
+    "title": "AI and automation fixture",
+    "procedure": "Use a small selected sandbox frame and explicit acceptance brief; inspect generated structure and actual credit result.",
+    "acceptance": "Correct scope, usable editability, no unsupported claims; record failures and costs.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E12",
+    "title": "Handoff fixture",
+    "procedure": "Document a component state, token references, responsive rule and keyboard intent; implement a small equivalent.",
+    "acceptance": "Design-to-code mapping and rendered behavior are checked, not inferred from snippets.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E13",
+    "title": "Sites breakpoint inheritance",
+    "procedure": "In an unpublished draft, edit primary and secondary breakpoint values; test adjacent and intermediate widths.",
+    "acceptance": "Cascades and overrides are understood; no unrequested publishing.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E14",
+    "title": "Weave repeatable workflow",
+    "procedure": "Build a small workflow with recorded inputs/model/settings and regenerate a branded media variant.",
+    "acceptance": "Can reproduce process and account for output variation; assess fidelity and usage.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E15",
+    "title": "Slides presentation behavior",
+    "procedure": "Create an evidence review with notes and a poll; test editor, presenter and audience views.",
+    "acceptance": "Interaction works in intended view; notes are exposed only where intended.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E16",
+    "title": "Buzz bulk fixture",
+    "procedure": "Map three data rows into a template, including a long label and missing image.",
+    "acceptance": "Expected asset count, field mapping and exception handling; inspect every generated asset.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E17",
+    "title": "FigJam decision record",
+    "procedure": "Create an observation \u2192 assumption \u2192 decision map with linked sources and a disagreement path.",
+    "acceptance": "A reader can distinguish evidence from interpretation and recover the source.",
+    "status": "not-run",
+    "evidence": null
+  },
+  {
+    "id": "E18",
+    "title": "Knowledge refresh",
+    "procedure": "Choose a changed capability, re-read official docs, rerun its exercise, update source date and changelog.",
+    "acceptance": "Evidence status and dates accurately reflect the new check; validator passes.",
+    "status": "not-run",
+    "evidence": null
+  }
+]

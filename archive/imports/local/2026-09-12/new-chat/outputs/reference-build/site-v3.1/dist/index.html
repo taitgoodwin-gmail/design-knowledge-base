@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MindLeverX — Own the answer.</title>
+<meta name="description" content="MindLeverX engineers, monitors and reports your brand's presence across generative search (ChatGPT, Perplexity, Gemini) so AI answers cite you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --surface:#ffffff; --surface-2:#f7f7f8; --ink:#1d1f23; --body:#43464b; --muted:#75787d;
+    --line:#e7e8ea; --accent:#932c21; --accent-h:#791b11; --on-accent:#fff;
+    --brass:#7e5c2a; --brass-fill:#b99056; --pos:#236436; --pos-fill:#439458;
+    --font-d:'Spectral',Georgia,serif; --font-b:'IBM Plex Sans',system-ui,sans-serif; --font-m:'IBM Plex Mono',ui-monospace,monospace;
+    --maxw:1120px;
+    --dur-fast:120ms; --dur-base:200ms; --dur-reveal:280ms;
+    --ease-out:cubic-bezier(0.2,0,0,1); --ease-exp:cubic-bezier(0,0,0.3,1);
+  }
+  [data-theme="dark"]{
+    --surface:#141619; --surface-2:#1b1e22; --ink:#f4f5f7; --body:#c3c6cb; --muted:#8f9298;
+    --line:#2a2d31; --accent:#dc5f52; --accent-h:#ed7665; --on-accent:#141619;
+    --brass:#b99056; --brass-fill:#b99056; --pos:#62bb78; --pos-fill:#62bb78;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--surface);color:var(--ink);font-family:var(--font-b);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 40px}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--font-d);font-weight:500;letter-spacing:-0.02em;line-height:1.1;color:var(--ink)}
+  .kicker{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;display:inline-flex;align-items:center;gap:9px}
+  .kicker .dot{width:6px;height:6px;border-radius:50%;background:var(--accent)}
+  .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:500;font-size:15px;padding:13px 26px;border-radius:10px;border:none;cursor:pointer;transition:background var(--dur-fast) ease-out,transform var(--dur-fast) ease-out}
+  .btn:hover{background:var(--accent-h)}
+  .textlink{color:var(--accent);font-weight:500;font-size:15px}
+  .textlink:hover{text-decoration:underline}
+  .muted{color:var(--muted)}
+  .lead{font-size:20px;line-height:1.55;color:var(--body);font-weight:300}
+  section{padding:80px 0}
+  .sec-h{font-size:32px;font-weight:500;max-width:22ch}
+  .sub{font-size:18px;color:var(--body);font-weight:300;max-width:62ch;margin-top:16px}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .navlinks a,.fcols a{transition:color 150ms ease-out}
+
+  /* editorial texture — section numerals, pull quote, exhibit captions */
+  .secnum{font-family:var(--font-m);font-size:11px;letter-spacing:0.08em;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:16px;text-transform:uppercase}
+  .secnum::before{content:"";width:28px;height:1px;background:var(--muted)}
+  .dark .secnum{color:#a9acb2}
+  .dark .secnum::before{background:#a9acb2}
+  .pull{margin-top:44px;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pull blockquote{font-family:var(--font-d);font-size:27px;line-height:1.32;font-weight:400;color:var(--ink);max-width:26ch;letter-spacing:-0.01em}
+  .pull figcaption{font-family:var(--font-m);font-size:11px;color:var(--muted);margin-top:14px;letter-spacing:0.05em}
+
+  /* ticker — full-bleed band, brass live signal, WCAG 2.2.2 pause */
+  .ticker{background:var(--ink);color:#eef0f2;font-family:var(--font-m);font-size:13px;display:flex;align-items:center;height:44px;overflow:hidden;position:relative}
+  [data-theme="dark"] .ticker{background:#0e1013}
+  .ticker .tag{display:flex;align-items:center;gap:9px;padding:0 20px;height:100%;flex-shrink:0;color:var(--brass-fill);letter-spacing:0.1em;font-size:11px;font-weight:500;background:rgba(0,0,0,0.25);z-index:2}
+  .ticker .live{width:8px;height:8px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+  .ticker .mask{flex:1;overflow:hidden}
+  .ticker .track{display:inline-flex;gap:44px;white-space:nowrap;padding-left:44px;animation:scroll 38s linear infinite;will-change:transform}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker .track span{color:#c9cbce}
+  .ticker .track span b{color:#fff;font-weight:500}
+  .ticker .track span em{color:#62bb78;font-style:normal;margin-left:5px}
+  .ticker:hover .track{animation-play-state:paused}
+  .ticker.paused .track{animation-play-state:paused}
+  .ticker.paused .live{animation-play-state:paused}
+  .ticker .tkbtn{flex-shrink:0;height:100%;width:38px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);border:none;border-left:1px solid rgba(255,255,255,0.08);color:#c9cbce;cursor:pointer;z-index:2;font-size:11px;line-height:1}
+  .ticker .tkbtn:hover{color:#fff}
+  .ticker .tkbtn:focus-visible{outline:2px solid var(--brass-fill);outline-offset:-2px}
+  .ticker .smp{padding:0 20px;color:#8a8d92;font-size:10px;letter-spacing:0.1em;background:rgba(0,0,0,0.25);z-index:2}
+  @media(prefers-reduced-motion:reduce){.ticker .track{animation:none}.ticker .live{animation:none}.board .bh .ld{animation:none}}
+
+  /* ticker legend — SC 1.4.13: metric definitions were title-only, unreachable on touch */
+  .tklegend{background:var(--surface-2);border-bottom:1px solid var(--line);font-family:var(--font-m);font-size:11px;color:var(--muted)}
+  .tklegend summary{cursor:pointer;padding:10px 40px;letter-spacing:0.06em;text-transform:uppercase;list-style:none}
+  .tklegend summary::-webkit-details-marker{display:none}
+  .tklegend summary::before{content:"+ ";color:var(--accent)}
+  .tklegend[open] summary::before{content:"− "}
+  .tklegend summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .tklegend dl{display:grid;grid-template-columns:repeat(3,1fr);gap:2px 32px;padding:4px 40px 18px;margin:0}
+  .tklegend dt{color:var(--ink);font-weight:500;margin-top:8px}
+  .tklegend dd{margin:2px 0 0;line-height:1.6}
+
+  /* stat card with no figure — used where we have a mechanism but no citable number */
+  .stat .k{font-family:var(--font-m);font-size:11px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase;line-height:1.5;padding-bottom:6px}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 84%,transparent);backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-family:var(--font-d);font-size:22px;font-weight:600;letter-spacing:-0.01em}
+  .logo b{color:var(--accent)}
+  .navlinks{display:flex;align-items:center;gap:30px;font-size:15px;color:var(--body)}
+  .navlinks a:hover{color:var(--ink)}
+  .toggle{background:none;border:1px solid var(--line);color:var(--body);cursor:pointer;font-size:13px;font-family:var(--font-m);padding:7px 12px;border-radius:20px}
+  .menubtn{display:none;background:none;border:none;color:var(--ink);font-size:22px;cursor:pointer}
+  .mobnav{display:none;border-top:1px solid var(--line);background:var(--surface)}
+  .mobnav a{display:block;padding:13px 0;font-size:16px;color:var(--body);border-bottom:1px solid var(--line)}
+  .mobnav .toggle{margin-top:14px;display:inline-block}
+
+  /* hero */
+  .hero{padding:72px 0}
+  .hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:56px;align-items:center}
+  .hero h1{font-size:58px;font-weight:500;margin-bottom:24px;letter-spacing:-0.03em;line-height:1.02}
+  .hero .lead{max-width:50ch;margin-bottom:32px}
+  .hero-cta{display:flex;gap:24px;align-items:center;margin-bottom:32px}
+  .proof{display:flex;gap:40px;padding-top:24px;border-top:1px solid var(--line)}
+  .proof .p .n{font-family:var(--font-d);font-size:26px;font-weight:500;color:var(--ink)}
+  .proof .p .t{font-size:13px;color:var(--muted);line-height:1.45;margin-top:4px;max-width:26ch}
+  .proof .p .src{font-family:var(--font-m);font-size:10px;color:var(--muted)}
+
+  /* scoreboard */
+  .board{border:1px solid var(--line);border-top:3px solid var(--brass-fill);border-radius:14px;overflow:hidden;background:var(--surface);box-shadow:0 24px 60px -40px rgba(0,0,0,0.28)}
+  .board .bh{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;border-bottom:1px solid var(--line)}
+  .board .bh .l{font-family:var(--font-m);font-size:11px;letter-spacing:0.09em;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .board .bh .l .ld{width:7px;height:7px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  .board .bh .s{font-family:var(--font-m);font-size:10px;color:var(--brass);border:1px solid color-mix(in srgb,var(--brass-fill) 45%,transparent);padding:2px 7px;border-radius:4px}
+  .board .cells{display:grid;grid-template-columns:1fr 1fr}
+  .board .c{padding:20px 22px}
+  .board .c:nth-child(1),.board .c:nth-child(2){border-bottom:1px solid var(--line)}
+  .board .c:nth-child(odd){border-right:1px solid var(--line)}
+  .board .c .cl{font-family:var(--font-m);font-size:10px;letter-spacing:0.09em;color:var(--muted);margin-bottom:8px}
+  .board .c .cv{display:flex;align-items:baseline;gap:8px}
+  .board .c .cv b{font-family:var(--font-d);font-size:34px;font-weight:500;color:var(--ink)}
+  .board .c .cv i{font-family:var(--font-m);font-size:12px;font-style:normal;color:var(--pos);font-weight:500}
+  .board .c .cv i.dn{color:var(--muted)}
+  .board .bf{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;background:var(--surface-2);border-top:1px solid var(--line)}
+  .board .bf .l{font-size:13px;color:var(--muted)}
+  .board .bf .v{font-family:var(--font-d);font-size:20px;font-weight:500;color:var(--accent);display:flex;align-items:baseline;gap:7px}
+  .board .bf .v em{font-family:var(--font-m);font-size:11px;font-style:normal;color:var(--pos);font-weight:500}
+
+  /* stats (The Shift) */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+  .stat{padding-top:20px;border-top:2px solid var(--ink)}
+  .stat .n{font-family:var(--font-d);font-size:48px;font-weight:400;color:var(--ink);line-height:1}
+  .stat .t{font-size:16px;color:var(--ink);margin-top:14px;font-weight:500}
+  .stat .d{font-size:14px;color:var(--muted);margin-top:7px;line-height:1.5}
+  .stat .d s{font-family:var(--font-m);font-size:10px;text-decoration:none;color:var(--brass)}
+
+  /* services */
+  .grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:48px 64px;margin-top:56px}
+  .svc{border-top:1px solid var(--line);padding-top:20px}
+  .svc .lb{font-family:var(--font-m);font-size:10px;letter-spacing:0.08em;color:var(--muted);margin-bottom:14px}
+  .svc .ic{color:var(--accent);margin-bottom:16px}
+  .svc h3{font-size:22px;font-weight:500;margin-bottom:10px}
+  .svc p{font-size:15px;color:var(--body);font-weight:300;max-width:40ch}
+
+  /* method — the one dark section */
+  .dark{background:var(--ink)}
+  [data-theme="dark"] .dark{background:#0e1013}
+  .dark .sec-h{color:#f4f5f7}
+  .moves{margin-top:48px;border-top:1px solid rgba(255,255,255,0.12)}
+  .move{display:grid;grid-template-columns:52px 1fr;gap:28px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,0.12);align-items:baseline}
+  .move .num{font-family:var(--font-d);font-size:26px;color:var(--brass-fill);font-weight:400}
+  .move h3{font-size:21px;font-weight:500;color:#f4f5f7;margin-bottom:5px}
+  .move p{font-size:15px;color:#a9acb2;font-weight:300}
+
+  /* readiness */
+  .score-wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .gauge .big{font-family:var(--font-d);font-size:88px;font-weight:400;color:var(--ink);line-height:0.9}
+  .gauge .big span{font-size:30px;color:var(--muted)}
+  .bars{margin-top:28px;display:flex;flex-direction:column;gap:16px}
+  .bar .row{display:flex;justify-content:space-between;font-size:14px;color:var(--body);margin-bottom:8px}
+  .bar .row .vv{font-family:var(--font-m);color:var(--ink);font-weight:500}
+  .bar .track{height:6px;background:var(--line);border-radius:6px;overflow:hidden}
+  .bar .fill{height:100%;background:var(--accent);border-radius:6px}
+  .prov{font-family:var(--font-m);font-size:11px;letter-spacing:0.04em;color:var(--muted);margin-top:24px}
+
+  /* feed */
+  .feed{margin-top:44px;border-top:1px solid var(--line)}
+  .ev{display:grid;grid-template-columns:56px 108px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
+  .ev .tm{font-family:var(--font-m);font-size:13px;color:var(--muted)}
+  .ev .en{font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--brass)}
+  /* WCAG 2.2 SC 1.4.10 Reflow: a grid 1fr track has min-width:auto, so the long
+     unbreakable URL in a feed row forced 21px of horizontal scroll at 375px.
+     No effect above the breakpoint — the text already fits there. */
+  .ev .tx{font-size:15px;color:var(--body);font-weight:300;min-width:0;overflow-wrap:anywhere}
+  .smpnote{font-family:var(--font-m);font-size:10px;letter-spacing:0.06em;color:var(--muted);margin-top:20px}
+
+  /* offer rungs — static containers, 2px ink top edge (system rule) */
+  .rungs{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+  .rung{border-top:2px solid var(--ink);padding-top:20px;display:flex;flex-direction:column}
+  .rung .lb{font-family:var(--font-m);font-size:10px;letter-spacing:0.08em;color:var(--muted);margin-bottom:14px;text-transform:uppercase}
+  .rung h3{font-size:22px;font-weight:500;margin-bottom:10px}
+  /* SG 02: brass is never on static metadata. These rung labels are static
+     (not a live signal, not a dark-beat numeral, not a stat source slug). */
+  .rung .pr{font-family:var(--font-m);font-size:11px;letter-spacing:0.05em;color:var(--muted);margin-bottom:12px;text-transform:uppercase}
+  .rung p{font-size:15px;color:var(--body);font-weight:300;max-width:38ch}
+  .rung ul{list-style:none;margin-top:14px}
+  .rung li{font-size:14px;color:var(--body);font-weight:300;padding:7px 0;border-top:1px solid var(--line);display:flex;gap:10px}
+  .rung li::before{content:"—";color:var(--muted);flex:none}
+  .rung .act{margin-top:auto;padding-top:22px}
+
+  /* final cta — colophon treatment */
+  .final{text-align:center;padding:96px 0}
+  .final .colo{width:56px;height:1px;background:var(--muted);margin:0 auto 20px}
+  .final .fk{font-family:var(--font-m);font-size:11px;letter-spacing:0.08em;color:var(--muted);margin-bottom:18px;text-transform:uppercase}
+  .final h2{font-size:44px;font-weight:500;max-width:17ch;margin:0 auto 20px}
+  .form{display:flex;gap:12px;justify-content:center;max-width:480px;margin:32px auto 0;flex-wrap:wrap}
+  .form .domrow{flex:0 0 100%;display:flex}
+  .form .domrow[hidden]{display:none}   /* author rule must re-assert the UA [hidden] default */
+  .form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .form button[disabled]{cursor:default}
+  .form input{flex:1;font-family:var(--font-b);font-size:15px;padding:14px 18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);outline:none}
+  .form input:focus{border-color:var(--accent)}
+  .form input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .note{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:16px}
+
+  footer{background:var(--surface-2);padding:56px 0 36px;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+  .fcols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px}
+  .fcols a{color:var(--body);display:block;margin-top:11px}
+  .fcols a:hover{color:var(--ink)}
+  .fhead{color:var(--ink);font-weight:500;font-size:15px}
+  .fbot{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:var(--font-m);font-size:11px}
+  .fnote2{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--font-m);font-size:10px;letter-spacing:0.05em;color:var(--muted);line-height:1.9;max-width:86ch}
+  .fnote2+.fbot{margin-top:18px;padding-top:0;border-top:none}
+
+  /* ── motion system: opt-in, productive + one expressive beat ── */
+  @media(prefers-reduced-motion:no-preference){
+    html{scroll-behavior:smooth}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    @keyframes flash{from{opacity:0}to{opacity:1}}
+    .flash{animation:flash 150ms ease-out}
+    html.anim .rv{opacity:0;transform:translateY(16px);transition:opacity var(--dur-reveal) var(--ease-out),transform var(--dur-reveal) var(--ease-out)}
+    html.anim .rv.in{opacity:1;transform:none}
+    html.anim .rv.d1{transition-delay:80ms}
+    html.anim .rv.d2{transition-delay:160ms}
+    html.anim .rv.d3{transition-delay:240ms}
+    /* expressive beat: the scoreboard boots up */
+    html.anim .board{animation:rise 400ms var(--ease-exp) 150ms both}
+    html.anim .board .c{animation:rise 250ms var(--ease-out) both}
+    html.anim .board .c:nth-child(1){animation-delay:400ms}
+    html.anim .board .c:nth-child(2){animation-delay:460ms}
+    html.anim .board .c:nth-child(3){animation-delay:520ms}
+    html.anim .board .c:nth-child(4){animation-delay:580ms}
+    /* SG 05 stagger: total sequence <= 900ms. 650 + 250 = 900 (was 680, = 930). */
+    html.anim .board .bf{animation:rise 250ms var(--ease-out) 650ms both}
+    /* productive: readiness bars fill on reveal — SG 05, token duration + --ease-out
+       ("all productive entrances"); bespoke 250-450ms is licensed for expressive beats only */
+    html.anim .bar .fill{transform:scaleX(0);transform-origin:left;transition:transform var(--dur-base) var(--ease-out)}
+    html.anim .gauge.in .fill{transform:scaleX(1)}
+    html.anim .gauge.in .bar:nth-child(2) .fill{transition-delay:60ms}
+    html.anim .gauge.in .bar:nth-child(3) .fill{transition-delay:120ms}
+    html.anim .gauge.in .bar:nth-child(4) .fill{transition-delay:180ms}
+    html.anim .btn:hover{transform:translateY(-1px)}
+    html.anim .btn:active{transform:none}
+  }
+
+  @media(max-width:880px){
+    .hero-grid,.score-wrap{grid-template-columns:1fr;gap:40px}
+    .grid4{grid-template-columns:1fr;gap:40px}
+    .stats,.rungs{grid-template-columns:1fr;gap:32px}
+    .hero h1{font-size:44px}
+    .sec-h,.final h2{font-size:28px}
+    .pull blockquote{font-size:22px}
+    .navlinks{display:none}
+    .menubtn{display:block}
+    section{padding:64px 0}
+    .hero{padding:48px 0}
+    .proof{flex-direction:column;gap:20px}
+    .tklegend summary,.tklegend dl{padding-left:24px;padding-right:24px}
+    .tklegend dl{grid-template-columns:1fr}
+    .gauge .big{font-size:72px}
+    .wrap{padding:0 24px}
+  }
+
+  /* HEADER FIT — the desktop nav cannot fit between ~881px and ~1040px:
+     .navlinks is nowrap-row/normal-text, so the row holds and the link TEXT
+     wraps instead, pushing nav height 49px -> 96px and colliding with the
+     wordmark (0px separation measured at 924px). The 880px query below swaps
+     in .mobnav too late. Isolated to the nav only — the 880px query also
+     carries grid and type changes that must NOT move. */
+  .navlinks a{white-space:nowrap}
+  @media(max-width:1040px){
+    .navlinks{display:none}
+    .menubtn{display:block}
+  }
+</style>
+<link rel="canonical" href="https://mindleverx.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MindLeverX">
+<meta property="og:title" content="MindLeverX — Own the answer.">
+<meta property="og:description" content="MindLeverX engineers, monitors and reports your brand's presence across generative search (ChatGPT, Perplexity, Gemini) so AI answers cite you.">
+<meta property="og:url" content="https://mindleverx.com/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MindLeverX",
+  "legalName": "MindLeverX, LLC",
+  "url": "https://mindleverx.com",
+  "foundingDate": "2026",
+  "description": "Generative engine optimization (GEO) for mid-market B2B SaaS — engineering, monitoring and reporting brand visibility across generative and classic search.",
+  "sameAs": []
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "MindLeverX — Own the answer.",
+  "url": "https://mindleverx.com/",
+  "description": "MindLeverX engineers, monitors and reports your brand's presence across generative search (ChatGPT, Perplexity, Gemini) so AI answers cite you.",
+  "isPartOf": { "@type": "WebSite", "name": "MindLeverX", "url": "https://mindleverx.com" },
+  "about": { "@type": "Thing", "name": "Generative Engine Optimization" }
+}
+</script>
+</head>
+<body>
+<!-- TICKER -->
+<div class="ticker" id="ticker">
+  <div class="tag"><span class="live"></span>AI VISIBILITY · SAMPLE FEED</div>
+  <div class="mask"><div class="track" id="tick">
+    <span title="Share of AI answers that cite your pages">Citations <b>34%</b><em>▲2</em></span>
+    <span title="Times your brand is named in an answer, with or without a link">Mentions <b>51%</b><em>▲1</em></span>
+    <span title="Your citation share versus the whole category">Share of voice <b>18%</b><em>▲1</em></span>
+    <span title="AI crawler visits to your site per day">AI crawls <b>214/day</b><em>▲12</em></span>
+    <span title="Visits arriving from AI answer links per week">Referrals <b>57/wk</b><em>▲4</em></span>
+    <span title="Your composite GEO Readiness Score (0–100)">Readiness <b>87/100</b><em>▲3</em></span>
+  </div></div>
+  <button class="tkbtn" id="tkBtn" aria-label="Pause sample ticker" aria-pressed="false" title="Pause ticker">❚❚</button>
+  <div class="smp">SAMPLE</div>
+</div>
+
+<!-- TICKER LEGEND · SC 1.4.13. The ticker's metric definitions were title= only,
+     which does not exist on touch. Same copy, now readable and keyboard-reachable. -->
+<details class="tklegend">
+  <summary>What these six metrics mean</summary>
+  <dl>
+    <dt>Citations</dt><dd>Share of AI answers that cite your pages.</dd>
+    <dt>Mentions</dt><dd>Times your brand is named in an answer, with or without a link.</dd>
+    <dt>Share of voice</dt><dd>Your citation share versus the whole category.</dd>
+    <dt>AI crawls</dt><dd>Visits from AI crawlers to your site per day.</dd>
+    <dt>Referrals</dt><dd>Visits arriving from AI answer links per week.</dd>
+    <dt>Readiness</dt><dd>Composite GEO Readiness Score, 0–100, unweighted mean of four dimensions.</dd>
+  </dl>
+</details>
+
+<!-- HEADER -->
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">MindLever<b>X.</b></a>
+    <nav class="navlinks">
+      <a href="#services">Services</a>
+      <a href="#method">Method</a>
+      <a href="#score">Readiness</a>
+      <a href="#offer">Engage</a>
+      <a href="what-is-geo.html">What is GEO?</a>
+      <a href="research-hub.html">Research</a>
+      <a href="case-study.html">Case study</a>
+      <a href="#cta" class="textlink">Get your free audit</a>
+      <button class="toggle" id="tg">☾ Dark</button>
+    </nav>
+    <button class="menubtn" id="menubtn" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobnav wrap" id="mobnav">
+    <a href="#services">Services</a>
+    <a href="#method">Method</a>
+    <a href="#score">Readiness</a>
+    <a href="#offer">Engage</a>
+    <a href="what-is-geo.html">What is GEO?</a>
+    <a href="research-hub.html">Research</a>
+    <a href="case-study.html">Case study</a>
+    <a href="#cta">Get your free audit</a>
+    <button class="toggle" id="tg2">☾ Dark</button>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <div class="hero"><div class="wrap hero-grid">
+    <div>
+      <div class="kicker"><span class="dot"></span>Generative Engine Optimization</div>
+      <h1>Own the answer.</h1>
+      <p class="lead">When your buyers ask ChatGPT, Perplexity or Gemini, the AI answers on your behalf. MindLeverX engineers, monitors and reports your presence across generative search — so the answer is you, and you can prove it.</p>
+      <div class="hero-cta">
+        <a href="#cta" class="btn">Get your free audit</a>
+        <a href="#score" class="textlink">See our own score →</a>
+      </div>
+      <div class="proof">
+        <div class="p"><span class="n">~8%</span><div class="t">click through after an AI summary — citation, not clicks, is the KPI <span class="src">· PEW, JUL 2025</span></div></div>
+      </div>
+    </div>
+    <div class="board">
+      <div class="bh"><span class="l"><span class="ld"></span>FIG. 01 · ANSWER-ENGINE SCOREBOARD</span><span class="s">SAMPLE</span></div>
+      <div class="cells">
+        <div class="c"><div class="cl">CHATGPT</div><div class="cv"><b>42%</b><i>▲4</i></div></div>
+        <div class="c"><div class="cl">PERPLEXITY</div><div class="cv"><b>38%</b><i>▲2</i></div></div>
+        <div class="c"><div class="cl">CLAUDE</div><div class="cv"><b>33%</b><i>▲6</i></div></div>
+        <div class="c"><div class="cl">GEMINI</div><div class="cv"><b>27%</b><i class="dn">▼1</i></div></div>
+      </div>
+      <div class="bf"><span class="l">Share of voice vs. category</span><span class="v">18%<em>▲3</em></span></div>
+    </div>
+    <div class="smpnote">FIG. 01 · SAMPLE — NOT MEASURED. ILLUSTRATIVE VALUES PENDING MONITORING API.</div>
+  </div></div>
+
+  <!-- THE SHIFT -->
+  <section style="border-top:1px solid var(--line)"><div class="wrap">
+    <div class="secnum">01 · The shift</div>
+    <h2 class="sec-h">Search stopped sending clicks. It started giving answers.</h2>
+    <p class="sub">Generative engines skip the links and answer directly, citing a handful of sources. If you're not one of them, you're invisible at the moment your buyer decides. GEO layers on top of SEO — the same credible content that ranks also gets quoted, when it's engineered for it.</p>
+    <figure class="pull rv">
+      <blockquote>Citation, not clicks, is the KPI.</blockquote>
+      <figcaption>— PEW RESEARCH CENTER, JUL 2025</figcaption>
+    </figure>
+    <div class="stats">
+      <div class="stat rv"><div class="n">40%</div><div class="t">Visibility lift from GEO tactics</div><div class="d">Statistics, citations and quotations lift AI visibility up to ~40%. <s>PRINCETON, KDD 2024</s></div></div>
+      <div class="stat rv d1"><div class="k">Mechanism · no published figure</div><div class="t">Cross-platform compounding</div><div class="d">Being cited on several engines appears to raise the odds of being cited again — models weight agreement across sources. We have no citable study for the size of that effect, so we publish the mechanism and no number. <s>MECHANISM, NOT MEASUREMENT</s></div></div>
+      <div class="stat rv d2"><div class="k">Mechanism · no published figure</div><div class="t">Brand demand beats backlinks</div><div class="d">Brand-search demand looks like a stronger citation predictor than link volume. Same caveat: we can describe the direction, not quantify it, so we state it as a mechanism. <s>MECHANISM, NOT MEASUREMENT</s></div></div>
+    </div>
+  </div></section>
+
+  <!-- SERVICES -->
+  <section id="services" style="background:var(--surface-2)"><div class="wrap">
+    <div class="secnum">02 · Services</div>
+    <h2 class="sec-h">A full loop, run by agentic AI.</h2>
+    <div class="grid4">
+      <div class="svc"><div class="lb">LOOP 01 · SOLVE</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l2.2 5.5L20 9l-4.5 3.5L17 18l-5-3-5 3 1.5-5.5L4 9l5.8-.5z"/></svg></div><h3>Solutioning</h3><p>Answer-first rewrites, schema, and technical fixes that make your pages quotable and crawlable.</p></div>
+      <div class="svc"><div class="lb">LOOP 02 · MONITOR</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"/><line x1="16" y1="16" x2="21" y2="21"/></svg></div><h3>Monitoring</h3><p>Citations, mentions and share-of-voice tracked daily across every major answer engine.</p></div>
+      <div class="svc"><div class="lb">LOOP 03 · REPORT</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><line x1="5" y1="20" x2="5" y2="12"/><line x1="12" y1="20" x2="12" y2="5"/><line x1="19" y1="20" x2="19" y2="9"/></svg></div><h3>Reporting</h3><p>Scorecards that show movement over time and prove the engagement paid for itself.</p></div>
+      <div class="svc"><div class="lb">LOOP 04 · AGENTS</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="8" width="14" height="11" rx="2"/><line x1="12" y1="8" x2="12" y2="4"/><circle cx="12" cy="3" r="1.3" fill="currentColor"/></svg></div><h3>Agentic AI</h3><p>Autonomous agents audit, draft and re-check at a scale and cadence humans can't match.</p></div>
+    </div>
+  </div></section>
+
+  <!-- METHOD (dark) -->
+  <section id="method" class="dark"><div class="wrap">
+    <div class="secnum">03 · Method</div>
+    <h2 class="sec-h">Five moves, ranked by leverage.</h2>
+    <div class="moves">
+      <div class="move"><div class="num">1</div><div><h3>Definitional pillar</h3><p>Own the quotable definition of your category.</p></div></div>
+      <div class="move"><div class="num">2</div><div><h3>Technical access</h3><p>Server-render, schema, robots rules — crawlers must see it.</p></div></div>
+      <div class="move"><div class="num">3</div><div><h3>Answer-first copy</h3><p>Self-contained answers, dated claims, cited sources.</p></div></div>
+      <div class="move"><div class="num">4</div><div><h3>Off-site citations</h3><p>G2, Reddit, Wikipedia, roundups — the biggest lever.</p></div></div>
+      <div class="move"><div class="num">5</div><div><h3>Demonstrate</h3><p>Publish the score. Prove the method on your own site.</p></div></div>
+    </div>
+  </div></section>
+
+  <!-- READINESS -->
+  <section id="score"><div class="wrap score-wrap">
+    <div>
+      <div class="secnum">04 · Readiness</div>
+      <div class="kicker"><span class="dot"></span>Prove, don't claim</div>
+      <h2 class="sec-h" style="font-size:32px">We publish our own GEO Readiness Score.</h2>
+      <p class="sub">A GEO agency whose own site scores badly is the easiest objection a prospect can raise. So we scored ourselves against our published methodology — live, with provenance. Scores read like a market index: a fixed, versioned prompt panel, the same methodology every run, so movement is comparable. You'll get the same scorecard for your domain.</p>
+      <div style="margin-top:28px"><a href="#cta" class="btn">Score my site</a></div>
+    </div>
+    <div class="gauge rv">
+      <div class="big">87<span>/100</span></div>
+      <div class="bars">
+        <div class="bar"><div class="row"><span>Technical access</span><span class="vv">82</span></div><div class="track"><div class="fill" style="width:82%"></div></div></div>
+        <div class="bar"><div class="row"><span>Content quotability</span><span class="vv">91</span></div><div class="track"><div class="fill" style="width:91%"></div></div></div>
+        <div class="bar"><div class="row"><span>Off-site authority</span><span class="vv">78</span></div><div class="track"><div class="fill" style="width:78%"></div></div></div>
+        <div class="bar"><div class="row"><span>Measured visibility</span><span class="vv">88</span></div><div class="track"><div class="fill" style="width:88%"></div></div></div>
+      </div>
+      <div class="prov">METHODOLOGY V1.0 · FIXED VERSIONED PROMPT PANEL · PRINCETON KDD 2024 + INDUSTRY 2025–26 · SAMPLE — NOT MEASURED. ILLUSTRATIVE VALUES PENDING MONITORING API.</div>
+    </div>
+  </div></section>
+
+  <!-- FEED -->
+  <section id="geo" style="background:var(--surface-2)"><div class="wrap">
+    <div class="secnum">05 · The feed</div>
+    <h2 class="sec-h">Watch the citations land.</h2>
+    <p class="sub">Every time an answer engine cites a page we manage, it lands in the feed — timestamped, sourced, attributed. This is what your reporting looks like between scorecards.</p>
+    <div class="feed">
+      <div class="ev rv"><span class="tm">09:42</span><span class="en">PERPLEXITY</span><span class="tx">Cited mindleverx.com/what-is-geo for “best GEO agency for B2B SaaS.”</span></div>
+      <div class="ev rv d1"><span class="tm">09:17</span><span class="en">CHATGPT</span><span class="tx">Quoted our GEO definition verbatim — a definitional-pillar win.</span></div>
+      <div class="ev rv d2"><span class="tm">08:53</span><span class="en">CLAUDE</span><span class="tx">Referenced our Readiness Score methodology in a comparison answer.</span></div>
+      <div class="ev rv d3"><span class="tm">08:31</span><span class="en">GEMINI</span><span class="tx">Listed MindLeverX among “top generative search firms.”</span></div>
+    </div>
+    <div class="smpnote">FIG. 02 · SAMPLE — NOT MEASURED. ILLUSTRATIVE VALUES PENDING MONITORING API.</div>
+  </div></section>
+
+  <!-- WAYS IN (offer rungs — D6/D7 canonical; no pricing while packaging is finalized) -->
+  <section id="offer"><div class="wrap">
+    <div class="secnum">06 · Ways in</div>
+    <h2 class="sec-h">Start free. Stay measured. Go deep when it matters.</h2>
+    <p class="sub">Every engagement begins with the same free scorecard — no sales call, no credit card. From there, the subscription keeps your score moving, and the deep audit puts human judgment on the hardest problems.</p>
+    <p class="sub" style="margin-top:12px"><b style="font-weight:500;color:var(--ink)">On timing, plainly:</b> engines re-crawl and re-rank on their own schedules, so shipped work shows up in the numbers weeks after it lands — typically four to eight, sometimes not at all for a given prompt. We report the lag as lag and never present an engine's own update as movement we caused.</p>
+    <div class="rungs">
+      <div class="rung rv">
+        <div class="lb">00 · The audit</div>
+        <h3>Free GEO audit</h3>
+        <div class="pr">Free · No credit card</div>
+        <p>Your domain scored against the four dimensions of our published methodology: technical access, content quotability, off-site authority and measured visibility.</p>
+        <ul>
+          <li>Scored against Methodology V1.0</li>
+          <li>Where engines cite competitors instead</li>
+          <li>No credit card, no sales call</li>
+        </ul>
+        <div class="act"><a class="btn" href="#cta">Get your free audit</a></div>
+      </div>
+      <div class="rung rv d1">
+        <div class="lb">01 · The subscription</div>
+        <h3>Monitoring + the fix path</h3>
+        <div class="pr">Your score, refreshed</div>
+        <p>Continuous measurement with recommendations attached — ranked fixes, not a dashboard alone. Your readiness score, live, against a fixed prompt panel.</p>
+        <ul>
+          <li>Citations, mentions, share of voice — tracked</li>
+          <li>Prioritized fix recommendations</li>
+          <li>Scheduled reports + threshold alerts</li>
+        </ul>
+        <div class="act"><a class="textlink" href="#cta">Start with the audit →</a></div>
+      </div>
+      <div class="rung rv d2">
+        <div class="lb">02 · The deep audit</div>
+        <h3>Human deep-audit</h3>
+        <div class="pr">Expert-led engagement</div>
+        <p>A hands-on remediation engagement for the levers that need judgment — definitional pillars, off-site authority, the full answer-first rebuild.</p>
+        <ul>
+          <li>Expert review across all four dimensions</li>
+          <li>Draft-ready artifacts, delivered for approval</li>
+          <li>Movement reported honestly, with provenance</li>
+        </ul>
+        <div class="act"><a class="textlink" href="#cta">Start with the audit →</a></div>
+      </div>
+    </div>
+  </div></section>
+
+  <!-- CTA -->
+  <div class="final wrap" id="cta">
+    <div class="colo"></div>
+    <div class="fk">The audit</div>
+    <h2>Find out if AI is recommending you.</h2>
+    <p class="lead" style="max-width:52ch;margin:0 auto">A free GEO audit scores your domain against our published methodology and shows where the answer engines cite your competitors instead.</p>
+        <form class="form" id="auditform" novalidate>
+      <input type="email" id="auditemail" name="email" required placeholder="you@company.com" aria-label="Work email">
+      <button class="btn" type="submit" id="auditbtn">Get my free audit</button>
+      <div class="domrow" id="domrow" hidden>
+        <input type="text" id="auditdomain" name="domain" placeholder="yourcompany.com" aria-label="Company domain">
+      </div>
+      <div class="hp" aria-hidden="true"><input type="text" id="website" name="website" tabindex="-1" autocomplete="off" placeholder="Leave this field empty"></div>
+      <input type="hidden" name="ts" id="auditts" value="0">
+    </form>
+    <div class="note" id="fnote" role="status" aria-live="polite">No credit card. Audit intake isn’t live yet — check back shortly.</div>
+    <noscript><div class="note">The audit form needs JavaScript. Reach us at <a class="textlink" href="about.html#contact">about → contact</a>.</div></noscript>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div class="fcols">
+    <div style="max-width:30ch"><div class="logo" style="font-size:19px">MindLever<b>X.</b></div><p style="margin-top:11px;font-weight:300">Generative engine optimization for mid-market B2B SaaS. Own the answer.</p></div>
+    <div><div class="fhead">Product</div><a href="#services">Services</a><a href="#method">Method</a><a href="#score">Readiness</a><a href="#offer">Engage</a></div>
+    <div><div class="fhead">Learn</div><a href="what-is-geo.html">What is GEO?</a><a href="research-hub.html">Research</a></div>
+    <div><div class="fhead">Company</div><!-- NI-14b: mindleverx.com is owned (FR-10.4 CLOSED) but has no mailbox yet, and D-ENTITY/V-21 bar @augmind.ai from public surfaces. When mail goes live this becomes mailto: — one line. --><a href="about.html#contact">Contact</a></div>
+  </div>
+  <div class="fnote2">MEASUREMENTS ARE TAKEN VIA ENGINE APIS AGAINST A FIXED PROMPT PANEL; API ANSWERS ARE A PROXY FOR THE LIVE CONSUMER PRODUCTS, WHICH DIFFER IN RETRIEVAL, PERSONALIZATION AND INTERFACE. · METHODOLOGY V1.0</div>
+  <div class="fbot"><span>© 2026 MindLeverX</span><span>OWN THE ANSWER.</span></div>
+</div></footer>
+
+<script>
+  // theme toggle (shared)
+  function setTheme(dark){
+    document.documentElement.setAttribute('data-theme',dark?'dark':'light');
+    var label=dark?'☀ Light':'☾ Dark';
+    var a=document.getElementById('tg'),b=document.getElementById('tg2');
+    if(a)a.textContent=label; if(b)b.textContent=label;
+  }
+  document.getElementById('tg').addEventListener('click',function(){
+    setTheme(document.documentElement.getAttribute('data-theme')!=='dark');
+  });
+  var tg2=document.getElementById('tg2');
+  if(tg2)tg2.addEventListener('click',function(){setTheme(document.documentElement.getAttribute('data-theme')!=='dark');});
+
+  // mobile menu
+  var mb=document.getElementById('menubtn'),mn=document.getElementById('mobnav');
+  mb.addEventListener('click',function(){
+    var open=mn.style.display==='block';
+    mn.style.display=open?'none':'block';
+    mb.setAttribute('aria-expanded',open?'false':'true');
+    mb.textContent=open?'☰':'✕';
+  });
+
+  // seamless marquee — clone is decorative, hidden from assistive tech
+  var tk=document.getElementById('tick');
+  if(tk){ tk.insertAdjacentHTML('beforeend','<span aria-hidden="true" style="display:inline-flex;gap:44px">'+tk.innerHTML+'</span>'); }
+
+  // ticker pause control (WCAG 2.2 SC 2.2.2)
+  var tkr=document.getElementById('ticker'),tkBtn=document.getElementById('tkBtn');
+  tkBtn.addEventListener('click',function(){
+    var paused=tkr.classList.toggle('paused');
+    tkBtn.setAttribute('aria-pressed',paused?'true':'false');
+    tkBtn.setAttribute('aria-label',paused?'Play sample ticker':'Pause sample ticker');
+    tkBtn.setAttribute('title',paused?'Play ticker':'Pause ticker');
+    tkBtn.textContent=paused?'▶':'❚❚';
+  });
+
+  // ── audit intake · FR-1.1, FR-1.2, FR-1.5 · NFR-5 (minimal PII), NFR-6 (never
+  //    swallow a failure) · SG 08.3 (focus), 08.4 (accessible names).
+  //    The endpoint is injected by the host, never committed here (FR-10.2).
+  //    When it is absent the form FAILS HONESTLY — it must never print a
+  //    confirmation for something that did not happen.
+  var AUDIT_ENDPOINT = window.MLX_AUDIT_ENDPOINT || null;
+  var FREE_MAIL = ['gmail.com','googlemail.com','outlook.com','hotmail.com','live.com','yahoo.com','icloud.com','me.com','proton.me','protonmail.com','aol.com'];
+  var af = document.getElementById('auditform');
+  if(af){
+    var aEmail=document.getElementById('auditemail'), aDomain=document.getElementById('auditdomain'),
+        aDomRow=document.getElementById('domrow'), aHp=document.getElementById('website'),
+        aTs=document.getElementById('auditts'), aBtn=document.getElementById('auditbtn'),
+        aNote=document.getElementById('fnote'), lastSent=0;
+
+    aTs.value=String(Date.now());
+    // Only promise a turnaround when there is something on the other end.
+    if(AUDIT_ENDPOINT) aNote.textContent='No credit card required.';
+
+    function say(msg){
+      aNote.textContent=msg;
+      aNote.classList.remove('flash'); void aNote.offsetWidth; aNote.classList.add('flash');
+    }
+    // Domain field appears only for free-provider addresses — invisible to the
+    // ~90% on a work address. PROPOSED (build spec 2A), not yet ratified.
+    aEmail.addEventListener('input',function(){
+      var d=(aEmail.value.split('@')[1]||'').trim().toLowerCase();
+      var free=FREE_MAIL.indexOf(d)>-1;
+      aDomRow.hidden=!free; aDomain.required=free;
+      if(!free) aDomain.value='';
+    });
+
+    af.addEventListener('submit',function(ev){
+      ev.preventDefault();
+      if(aHp.value!==''){ return; }                                  // honeypot tripped — drop silently
+      if(Date.now()-Number(aTs.value) < 2000){ say('One moment — try that again.'); return; }
+      if(Date.now()-lastSent < 60000){ say('Just sent — give it a minute before trying again.'); return; }
+      if(!aEmail.checkValidity()){ say('That email address doesn’t look right.'); return; }
+      if(!aDomRow.hidden && !aDomain.value.trim()){ say('Add your company domain so we know what to score.'); return; }
+
+      if(!AUDIT_ENDPOINT){ say('Audit intake isn’t live yet — check back shortly.'); return; }
+
+      var email=aEmail.value.trim();
+      var domain=(aDomRow.hidden ? (email.split('@')[1]||'') : aDomain.value.trim()).toLowerCase();
+      var label=aBtn.textContent;
+      aBtn.disabled=true; aBtn.textContent='Sending…'; af.setAttribute('aria-busy','true');
+
+      fetch(AUDIT_ENDPOINT,{
+        method:'POST', headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({email:email,domain:domain,website:'',ts:Number(aTs.value),source:'index.html#cta'})
+      }).then(function(r){
+        if(r.ok){
+          lastSent=Date.now(); aEmail.value=''; aDomain.value=''; aDomRow.hidden=true;
+          // REVERT to a delivery promise only when FR-1.4 (2-day full scorecard) is live.
+          say('Got it — your request is in. We’ll follow up by email.');
+        } else if(r.status===429){ say('That didn’t go through — try again in a minute.'); }
+        else { say('That didn’t go through — try again.'); }
+      }).catch(function(){
+        say('That didn’t go through — try again.');
+      }).then(function(){
+        aBtn.disabled=false; aBtn.textContent=label; af.removeAttribute('aria-busy');
+      });
+    });
+  }
+
+  // motion: opt-in scroll reveals (reduced-motion users and no-JS get final state)
+  if(window.matchMedia && matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window){
+    document.documentElement.classList.add('anim');
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    },{threshold:0.15,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+  }
+</script>
+
+</body>
+</html>

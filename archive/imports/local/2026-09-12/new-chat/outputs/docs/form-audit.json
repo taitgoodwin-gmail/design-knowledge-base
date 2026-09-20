@@ -1,0 +1,194 @@
+[
+  {
+    "file": "index.html",
+    "mode": "absent",
+    "requests": 0,
+    "note": "Audit intake isn’t live yet — check back shortly.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "index.html",
+    "mode": "accepted",
+    "requests": 1,
+    "note": "Got it — your request is in. We’ll follow up by email.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "index.html",
+    "mode": "false-body",
+    "requests": 1,
+    "note": "Got it — your request is in. We’ll follow up by email.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "index.html",
+    "mode": "rate",
+    "requests": 1,
+    "note": "That didn’t go through — try again in a minute.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "index.html",
+    "mode": "server",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "index.html",
+    "mode": "network",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "what-is-geo.html",
+    "mode": "absent",
+    "requests": 0,
+    "note": "Audit intake isn’t live yet — check back shortly.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "what-is-geo.html",
+    "mode": "accepted",
+    "requests": 1,
+    "note": "Got it — your request is in. We’ll follow up by email.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "what-is-geo.html",
+    "mode": "false-body",
+    "requests": 1,
+    "note": "Got it — your request is in. We’ll follow up by email.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "what-is-geo.html",
+    "mode": "rate",
+    "requests": 1,
+    "note": "That didn’t go through — try again in a minute.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "what-is-geo.html",
+    "mode": "server",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "what-is-geo.html",
+    "mode": "network",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "research-hub.html",
+    "mode": "absent",
+    "requests": 0,
+    "note": "Audit intake isn’t live yet — check back shortly.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "research-hub.html",
+    "mode": "accepted",
+    "requests": 1,
+    "note": "Got it — you’re on the list. We’ll email you when the first brief is ready.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "research-hub.html",
+    "mode": "false-body",
+    "requests": 1,
+    "note": "Got it — you’re on the list. We’ll email you when the first brief is ready.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "research-hub.html",
+    "mode": "rate",
+    "requests": 1,
+    "note": "That didn’t go through — try again in a minute.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "research-hub.html",
+    "mode": "server",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "research-hub.html",
+    "mode": "network",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "answer-engine-index-q3-2026.html",
+    "mode": "absent",
+    "requests": 0,
+    "note": "Audit intake isn’t live yet — check back shortly.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "answer-engine-index-q3-2026.html",
+    "mode": "accepted",
+    "requests": 1,
+    "note": "Got it — your request is in. We’ll follow up by email.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "answer-engine-index-q3-2026.html",
+    "mode": "false-body",
+    "requests": 1,
+    "note": "Got it — your request is in. We’ll follow up by email.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "answer-engine-index-q3-2026.html",
+    "mode": "rate",
+    "requests": 1,
+    "note": "That didn’t go through — try again in a minute.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "answer-engine-index-q3-2026.html",
+    "mode": "server",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  },
+  {
+    "file": "answer-engine-index-q3-2026.html",
+    "mode": "network",
+    "requests": 1,
+    "note": "That didn’t go through — try again.",
+    "busy": false,
+    "buttonDisabled": false
+  }
+]

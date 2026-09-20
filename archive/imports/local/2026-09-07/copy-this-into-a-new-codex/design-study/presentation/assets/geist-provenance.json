@@ -1,0 +1,55 @@
+{
+  "assets": [],
+  "directoryPath": "/var/folders/72/43_7fsgj64z9ts7t_n6gghqw0000gn/T/browser-use/assets/509ca88f-4ca9-45e0-bf6c-0aa6ab696d46",
+  "failures": [
+    {
+      "contentType": null,
+      "id": "43faab6a4800d86d",
+      "name": "Anthropic-Logo-16x9.svg",
+      "reason": "Asset bundling failed",
+      "url": "https://geist-studio.files.svdcdn.com/production/assets/anthropic/Anthropic-Logo-16x9.svg?dm=1759168814"
+    },
+    {
+      "contentType": null,
+      "id": "2cc886e14d420c01",
+      "name": "Anthropic_ColorPalette.svg",
+      "reason": "Asset bundling failed",
+      "url": "https://geist-studio.files.svdcdn.com/production/assets/anthropic/Anthropic_ColorPalette.svg?dm=1720750839"
+    },
+    {
+      "contentType": null,
+      "id": "57f26dc8047af9fa",
+      "name": "Anthropic_Typography.svg",
+      "reason": "Asset bundling failed",
+      "url": "https://geist-studio.files.svdcdn.com/production/assets/anthropic/Anthropic_Typography.svg?dm=1720750848"
+    },
+    {
+      "contentType": null,
+      "id": "7c93161577e406e4",
+      "name": "Anthropic_ClaudePage.jpg",
+      "reason": "Asset bundling failed",
+      "url": "https://geist-studio.transforms.svdcdn.com/production/assets/anthropic/Anthropic_ClaudePage.jpg?w=1920&auto=compress%2Cformat&fit=min&dm=1720750837&s=e7a8d5785b07074e3369fcbe115cc005"
+    },
+    {
+      "contentType": null,
+      "id": "6f1aae9ae63b04f5",
+      "name": "Anthropic_ArticleTiles.png",
+      "reason": "Asset bundling failed",
+      "url": "https://geist-studio.transforms.svdcdn.com/production/assets/anthropic/Anthropic_ArticleTiles.png?w=1920&auto=compress%2Cformat&fit=min&dm=1720750836&s=1a81b7f5a36ebf591556a1308b479af6"
+    },
+    {
+      "contentType": null,
+      "id": "5bf6ba7a4f8974ed",
+      "name": "Anthropic_Guidelines.jpg",
+      "reason": "Asset bundling failed",
+      "url": "https://geist-studio.transforms.svdcdn.com/production/assets/anthropic/Anthropic_Guidelines.jpg?w=1920&auto=compress%2Cformat&fit=min&dm=1720750838&s=68b131665920e034b3430ba3b2f9458d"
+    }
+  ],
+  "manifestPath": "/var/folders/72/43_7fsgj64z9ts7t_n6gghqw0000gn/T/browser-use/assets/509ca88f-4ca9-45e0-bf6c-0aa6ab696d46/manifest.json",
+  "summary": {
+    "downloadedCount": 0,
+    "elapsedMs": 597180.249709,
+    "failedCount": 6,
+    "requestedCount": 6
+  }
+}

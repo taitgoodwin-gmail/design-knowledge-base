@@ -1,0 +1,2962 @@
+{
+  "summary": {
+    "captured_at": "2026-09-20",
+    "scope": "Known local design research collections and selected related build records. Targeted filename discovery also run to depth 6 under Documents/Codex. Not a complete filesystem, Notion, ChatGPT-history or live Google Slides export.",
+    "files": 319,
+    "unique_file_hashes": 269,
+    "duplicate_groups": 50,
+    "groups": {
+      "existing-knowledge-base": {
+        "files": 21,
+        "bytes": 146459
+      },
+      "figma-draft": {
+        "files": 22,
+        "bytes": 130921
+      },
+      "visual-design-study": {
+        "files": 233,
+        "bytes": 63468262
+      },
+      "current-mindleverx-study": {
+        "files": 7,
+        "bytes": 114919
+      },
+      "earlier-originals-and-packages": {
+        "files": 12,
+        "bytes": 1989418
+      },
+      "related-project-guidance": {
+        "files": 24,
+        "bytes": 502263
+      }
+    },
+    "existing_source_records": 41,
+    "existing_findings": 9,
+    "figma_source_records": 40,
+    "combined_unique_exact_source_urls": 81,
+    "figma_review_status": {
+      "index-reviewed": 4,
+      "sections-reviewed": 34,
+      "excerpt-reviewed": 2
+    },
+    "figma_controls": 138,
+    "figma_exercises": {
+      "passed-limited": 1,
+      "not-run": 17
+    },
+    "figma_scope_urls": 63,
+    "figma_modules": 14,
+    "visual_study_chapters": 6,
+    "google_slides": "https://docs.google.com/presentation/d/1C1go63EzNk0p7wTOB6BPbMRq_p2Thw1pHc-0RfXy6Jw/edit",
+    "google_slides_status": "Linked by saved README; historical 56-slide verification, not refetched in this inventory.",
+    "notion_status": "Connected plugin visible; no workspace content inspected in this inventory. Interpretation of leave Notion alone requested.",
+    "github_status": "Local baseline commit exists; no GitHub knowledge repository created or uploaded by this task yet."
+  },
+  "files": [
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/CHANGELOG.md",
+      "bytes": 1416,
+      "sha256": "8e6c1767a00e305f47ec63241051a5f6945a56a7ae825d791f4f478fe5c135a4",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/FINDINGS.md",
+      "bytes": 6229,
+      "sha256": "24a9de141d2b27e71a7d4e920cb253eca87e34800680f8458554b0570d4eaa29",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/KNOWLEDGE-POLICY.md",
+      "bytes": 2737,
+      "sha256": "cb517c6d46c8a6ca755530b61f2f11a0a90e3d1aeddb657a6edd18a05783fbdc",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/README.md",
+      "bytes": 4289,
+      "sha256": "cabcfe4de7385d58e8135347f60bd66dd86a161e5e4c492532d2df0c9fffd05a",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/REUSE.md",
+      "bytes": 1949,
+      "sha256": "137e7a09d836f405a5ccb588d8275048db95636f8faaa87a4cd77d4d61fdbf81",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/SOURCES.md",
+      "bytes": 16939,
+      "sha256": "f0f3f11eaf738029d4125a15f098f359a3cb6c373281ae4626c1201de9159dad",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/STORAGE-OPTIONS.md",
+      "bytes": 4896,
+      "sha256": "2e04a6643c5a1ad278591557326b20fb22e644b04d3b7496494d162641f78275",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/VERIFICATION.md",
+      "bytes": 1205,
+      "sha256": "6816787967853255661c13531a7630b08dba7b1f3a12e47a6ae8cb9c574ba2fe",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/advanced-uiux-teaching-evidence.md",
+      "bytes": 3153,
+      "sha256": "cd42b1dc857cbe7507eff6e191e584e57976772c775e27670a97b70693552c49",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/design-benchmark-evidence.md",
+      "bytes": 4823,
+      "sha256": "f0826400036c87a0007dd7565c07c4da4b96a6a079ddf50e6afec8cf53f13fcc",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/playbook-verification.md",
+      "bytes": 1631,
+      "sha256": "9144f51ab2f6ca60235ddf058f04c45e48497d0a3762fda4571cf12352a6d5f8",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/research-teaching-completion-audit.md",
+      "bytes": 4881,
+      "sha256": "29b56b6a1ab09cd71338937fc8f049831e4139c4fedf28560df198ad0c0be06b",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/uiux-harmonization-evidence.md",
+      "bytes": 3545,
+      "sha256": "81fa175cfc0c4341a74fbc3359531b53bb27ebae381a353143eeeef23d530a67",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/governance/official-source-build-practice.snapshot.md",
+      "bytes": 5224,
+      "sha256": "f6562da31c192db7b929eb21765ff037e3bb3f55c695af6ebfd44cc3542f8ded",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/library/design-judgment-worked-cases.md",
+      "bytes": 11421,
+      "sha256": "d3ebd054093f2aabebe580c930da3bb6be275414b86563093fe609e5360962b4",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/library/mindleverx-research-worksheet.md",
+      "bytes": 7252,
+      "sha256": "89d55d6a02b2fac2b541431872278c5e8229b29798ad00941448067112a2b560",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/library/uiux-design-playbook.md",
+      "bytes": 15176,
+      "sha256": "d0475acd99b83e100cdf73b32dbc8dbe0b2dfd91bccd967ea67628316ce4be65",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/records/findings.json",
+      "bytes": 8173,
+      "sha256": "1c8d09986849f8c06ac382d0dd661d058bf3604d4ed2947cf1cb53382afb6138",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/records/import-manifest.json",
+      "bytes": 2295,
+      "sha256": "e132c6a973693a4ff79748528ddb88672ad42deafc3e241f872d05b20f38a5cf",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/records/sources.json",
+      "bytes": 38020,
+      "sha256": "4ba618162a2d8c8b5a45a7f82fc687b8b4507dd0452b2e87886ee9102dd603c2",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "existing-knowledge-base",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/templates/records.md",
+      "bytes": 1205,
+      "sha256": "bef756d4ac1c5acad61bd34229d1098ced0c3d69920a4584513c2d93819ec104",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/CONTROLS.md",
+      "bytes": 14738,
+      "sha256": "42fac3712bf0546117731932b2d2629a3fdc9511beffca89d3604fca590ae5db",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/PRODUCT-MAP.md",
+      "bytes": 2153,
+      "sha256": "afbde3e7d2307026ade639e7c24d45fbccb7c8dfadaf85533bcdcd0b321ae6d2",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/SOURCES.md",
+      "bytes": 8786,
+      "sha256": "395fc2aacab9276271a800590a2e59670e5a1411fe4f56010d4f954578724647",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/exercises/README.md",
+      "bytes": 5610,
+      "sha256": "2324e69402d1aa449feb045b4f3ecc84ec378c0ef936b4767322db52f2162862",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/01-interface.md",
+      "bytes": 1195,
+      "sha256": "75f744b50cd5201c3787acfe9eb99d4dfbc7e95a6fbe5806b6faefc3d33ed0f3",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/02-containers.md",
+      "bytes": 1621,
+      "sha256": "2086f7bd915971b4c9fa9b2311553795bbb8016ea9881fa3db312b7ea11e3295",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/03-components.md",
+      "bytes": 1764,
+      "sha256": "95cb5c7d2910fb0f5c73830f069fa8b14c5cfb06269636f86e0ca91e4bddcad8",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/04-variables.md",
+      "bytes": 1645,
+      "sha256": "955b5ed3afcc2102e3dbba55b55f69fd352654c555601daf0a35056ae16ed60a",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/05-typography.md",
+      "bytes": 1283,
+      "sha256": "bfb0d46b694fa6bbc3e21b85a191e3d49e36cab5a18c477b7492746568ec2f57",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/06-prototypes.md",
+      "bytes": 1398,
+      "sha256": "6162720f9b74d6aa51ce01e276c0f616dcb69e3a08711e47f8e5d8ab566aa327",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/07-motion.md",
+      "bytes": 1290,
+      "sha256": "3ab7b40bca4244ca7ff2106023b391082afddc502482971ae3079bf637102ead",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/08-draw.md",
+      "bytes": 1066,
+      "sha256": "095185abf843a7c448e43504bff5b22eaad461191ef387f22bbe0c2ae19c31d2",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/09-ai-automation.md",
+      "bytes": 1643,
+      "sha256": "96dbe2293a71cae7d47332d465b700158095970c03bd667be29ade91753b34ef",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/10-dev-handoff.md",
+      "bytes": 1304,
+      "sha256": "db2a0966f0bee4bd43de767ad051075a490e9d4a998d77f2e3f497edfba53aed",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/11-sites.md",
+      "bytes": 1115,
+      "sha256": "b4ba4e60a0cb8683c992ef7f32ecf43e19f0f23ce923c58b70c9d54464069c5f",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/12-weave.md",
+      "bytes": 1211,
+      "sha256": "f43f5ef89133c781bab5b785fa38424bda73d5d68010cfdd4742366b41a25211",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/13-slides-buzz-figjam.md",
+      "bytes": 1675,
+      "sha256": "6e7040da617ff9ab856e7781d3b8737ed204a83f67547d55b5782f03e5d03e11",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/modules/14-maintenance.md",
+      "bytes": 1303,
+      "sha256": "c96381ae127d38943e7c51a1be2a8cc7f198dad11208c393a4b9f314e45e9dc9",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/records/controls.json",
+      "bytes": 44393,
+      "sha256": "7c39163d998751934c1bf2b65a7a67d2ecf1155250aebe83c580414ed58922fe",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/records/exercises.json",
+      "bytes": 6172,
+      "sha256": "1aa9c80ac5d7f7318b0bf836a3b85915f6527fd5ce5d4d5331d3f61ecb526ec9",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/records/scope.json",
+      "bytes": 12832,
+      "sha256": "5de7403b94ec01b649a4f093400b0e380f804be5fdccda7e12fbddba532c00d4",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "figma-draft",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/figma/records/sources.json",
+      "bytes": 16724,
+      "sha256": "7161f5df68fe47572b9ab906313c787119bac0906ac63da3c65dcb5230ab8ca7",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/START-HERE.md",
+      "bytes": 10373,
+      "sha256": "b3407507f44d21d380571b0abf9bb5c3c656b8ac48af972e0fd46abe825d1a00",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/build_study.py",
+      "bytes": 15268,
+      "sha256": "ccab6d90a1abc696589e5aa7ab2a5467ef57b325851710c21f3668a47ee0b5b3",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/material-study.html",
+      "bytes": 5078,
+      "sha256": "a48dcc244a39b94eb237c944e17354feea2f2efa14f29f85e36cdb5aaa6876f8",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/mobile-check.html",
+      "bytes": 281,
+      "sha256": "38556e455c5d04cc300c4ed73e242c2117e8e24ff710057fac4e15ba1ec0a7c5",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/README.md",
+      "bytes": 1907,
+      "sha256": "9e948395073a74db3bd9f3d2cab723f4416fd80ee3c49eacc7658d31cde5708e",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic-Logo-16x9.svg",
+      "bytes": 4076,
+      "sha256": "b99ba17621315d3391ef32ef61a810cca42882810c3f62ae2b26f1fdb57fb246",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic-Logo-16x9.svg.png",
+      "bytes": 250316,
+      "sha256": "499ad3c7ebbfca6b62862ee3496ea45c42078bb79a76f364bae231eda57f61e6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_ArticleTiles.png",
+      "bytes": 484818,
+      "sha256": "e3903cfdc7c37d61e54738cf349e9616356f5aae9a4cc1def5307eb53f484e93",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_ClaudePage.jpg",
+      "bytes": 164448,
+      "sha256": "2c3960b0dad443f000cf64a7f1ea141700bcc8ccf6d9a57030da0b72fd6755ea",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_ColorPalette.svg",
+      "bytes": 88172,
+      "sha256": "c9ba19d1cdf720af98f359f7195c42082fd9cdf60e19f04e3d7b53171ccfa64c",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_ColorPalette.svg.png",
+      "bytes": 388514,
+      "sha256": "4401fd258b295907302df3af22360ad58648d9ddc3b0ab0e88f7171b3595754e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_Guidelines.jpg",
+      "bytes": 128791,
+      "sha256": "1eb93c139b278a06ddeda1821e7d9a10ac44792b632f11ef09ef17c8e7579541",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_Typography.svg",
+      "bytes": 107994,
+      "sha256": "55ed801ada75df4b3f91003cf08aefb4bace639e24fbc7bd2ff749f7c39a25cd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_Typography.svg.png",
+      "bytes": 483392,
+      "sha256": "f510529e05b2096af3971f967537d18b128a2f4f469e0bdde083e8dce9ceb0a3",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/anthropic-claude.jpg",
+      "bytes": 164448,
+      "sha256": "2c3960b0dad443f000cf64a7f1ea141700bcc8ccf6d9a57030da0b72fd6755ea",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/geist-provenance.json",
+      "bytes": 2319,
+      "sha256": "7058d22aa58dd8de9c9cff3ef936cc096a4b2ba6fc96d1bee82adbd980fbbe62",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/iconic_ibm_system.svg",
+      "bytes": 12706,
+      "sha256": "803626655010f1a90126a175a30cafba6843a196a6c6c2f9f6fceba02b0ae999",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/iconic_ibm_system.svg.png",
+      "bytes": 124349,
+      "sha256": "f728f59c7a4393a2ed2cf46c23c86303a1bb4ed9f2f0e80e3e8c003a0536763e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/iconic_nike_silhouette.jpg",
+      "bytes": 136950,
+      "sha256": "1aac6d9c9b03e9c482cbbeaaaf612ffe42e31d1eea2627b8e3a374a1da215841",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/lucy-bluey-full.png",
+      "bytes": 47398,
+      "sha256": "9720829ac826d47925434c2a184031a7654a14af63124f145c4b89c59277885d",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/lucy-bluey.png",
+      "bytes": 7729,
+      "sha256": "51711ed681ec7507d2449b5eef414724bfe49eb8424d1cbe11a7c0c00b4cf947",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/build-content.py",
+      "bytes": 21158,
+      "sha256": "d3f440cf17430d208b19620a806e9d29e6ac648d6ebd935bc1b33fe626bd253d",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/build.mjs",
+      "bytes": 7674,
+      "sha256": "38efa66d53e261107889419e09bbf973803112bca520030c47ff57ba4c3e6af4",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/candidate.pptx",
+      "bytes": 1822797,
+      "sha256": "c23b47831ebd55b2de8f7df1f4e0186e8c66d8a30ad50e0d45b94d2df5a9fdda",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/candidate.pptx.inspect.ndjson",
+      "bytes": 161501,
+      "sha256": "342ba1d217bb409ff7c5a3e51c4407ed218faeee2372f04c306863c971b9d681",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/content.json",
+      "bytes": 67522,
+      "sha256": "b33580b38e77df7e97eb59c1a0c35b0ff4f07c8754d4098980e6500b9afcb281",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/deck.proto.json",
+      "bytes": 27229347,
+      "sha256": "8c0393bb0132ee6eb615c193312127e602416b20b60c9ffdd8c614003a64074c",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/enrich.py",
+      "bytes": 1862,
+      "sha256": "b77534114bd377c5fee128da3601205a34a614098cf32a6e6ce952c09a0df0b6",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/get-assets.py",
+      "bytes": 602,
+      "sha256": "e342bf76845043efb98bed5de569d1083d3481c3f31c9569ff364312062a18f0",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/get-iconic.py",
+      "bytes": 487,
+      "sha256": "5b336e7bc03505035ae5c1071d10c4a7b0982650aabe88a98130ebc367e7d58a",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/prepare-assets.mjs",
+      "bytes": 288,
+      "sha256": "ed6dd880eeb9103a8841be39f246acadff444757b43ddffe7c358a91434dd267",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/probe.mjs",
+      "bytes": 738,
+      "sha256": "906803edefa716f50f4fe6f7ccb2fadb6f194c2a281e0dca1dfc4238fab6a198",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/probe.pptx",
+      "bytes": 11691,
+      "sha256": "12543a5fa97662a35fda004eb3e33d37b852fe0aa02930ad777ed86e61278dcc",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/probe.pptx.inspect.ndjson",
+      "bytes": 556,
+      "sha256": "ec0a123876996d2191029b3d03d0ba65ae170abc91e2d7207d8d3d6c30350e98",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/validation-v2.json",
+      "bytes": 3593,
+      "sha256": "1cb16c1f0fe51703281be0098c4e28bec7eed5740bc9b6ecd7785df0be410867",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/validation.json",
+      "bytes": 3593,
+      "sha256": "856041b7a1136ae8897af1f28b394778226e16de96134eea3ff7ac090f8e0be0",
+      "role": "generated-build-intermediate",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/design-catalog.md",
+      "bytes": 4764,
+      "sha256": "ccfe9ad069f5b1a187663fdb8c16a95a674fbb5c4bb58b8ca329511c930ea086",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/design-system.json",
+      "bytes": 731136,
+      "sha256": "709e276900c3fc6447c0fb4a952e88c6cc4966e959fbcbf6968337d05f0ac3db",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/presentation.pdf",
+      "bytes": 1265070,
+      "sha256": "46d43c161d3ebace585b9f15385cea9fca2bc263002d7e0a89a89c4e0f98a936",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-01.png",
+      "bytes": 42231,
+      "sha256": "22940783a401a1652be0c62437501cb63809c26ceb1b307eff039ca1cfe3db18",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-02.png",
+      "bytes": 50640,
+      "sha256": "c8b680e68501a63466bce5ba842185b2a5eb795f12a7e86175ebdfeedaaff921",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-03.png",
+      "bytes": 61782,
+      "sha256": "94374abed08f6d0116cacdb9c2b9809cdaac525b88b24f4af63c91887259be76",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-04.png",
+      "bytes": 64432,
+      "sha256": "6e180d869a2d3f9e3798b282596f597175b3d136a70b74fc9be8d2bbf9f4332e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-05.png",
+      "bytes": 24453,
+      "sha256": "d9761e8c26c7f1d0c953d3b72854f27c0dd960da55afa9422543d1efbf4066a8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-06.png",
+      "bytes": 214643,
+      "sha256": "eae7f1f1277216e0b9044f905cb40f58a9d539cb1e59b71d0c932141addc47a0",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-07.png",
+      "bytes": 168897,
+      "sha256": "3c386b4e5b0baa040a5c0d885e68962c53fb3d6ff682763cd0011b25a6b98d05",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-08.png",
+      "bytes": 177058,
+      "sha256": "bc5ed869197e9722fc0befcb973d99f9a21e002e75b68bdb21f95349cb413be8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-09.png",
+      "bytes": 191183,
+      "sha256": "05fc0ae92b03cc361266cc58ad92d8ad0859dd0b40b8a9b2e688199602e21c43",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-10.png",
+      "bytes": 150397,
+      "sha256": "971dedf9e9b315ee62d6b11be9b82a612f522ca05be34f235d1d44eaee188879",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-11.png",
+      "bytes": 142287,
+      "sha256": "ee9c302de1ec2a8e955daf16c63164bc816a13249f1e7069081a0d10d7112edc",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-12.png",
+      "bytes": 136697,
+      "sha256": "dba73d2f4c9caa0fad8b681e88fb7ac6fd80b1562df188455ffa0de2293e6f45",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-13.png",
+      "bytes": 154516,
+      "sha256": "d96a7bbbcc96b7935d6462203bdb3fee5ccb4ab6441866d615a7a1e943126a33",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-14.png",
+      "bytes": 171830,
+      "sha256": "c6591bf7b9179e3dd6d7da4d84b8138c217f53d045734cf64b9e10949d0a1cca",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-15.png",
+      "bytes": 51859,
+      "sha256": "2d2bf9d5b2efef44afcf805d5e2dfd5c9227f5af37e3e9e2cd36b1ffbeb0b7d1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-16.png",
+      "bytes": 68241,
+      "sha256": "1cc8eeb5721e3b3874188f9631fc029c8af52ddd4688b5900e22972aec8872f5",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-17.png",
+      "bytes": 66645,
+      "sha256": "0bf6dca6c41b1b1f26a323561888476155a7d5458bdaea3a7a4f732d85f8e8e4",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-18.png",
+      "bytes": 32525,
+      "sha256": "3772b29bdb6297c926dbf3547ef9e04ec56efae8a3c0cfce911ef4754175ca26",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-19.png",
+      "bytes": 89937,
+      "sha256": "9d2e41125a798120bd7f196f35865117dd94e9bcbdc2ad320b5009f6e7c20690",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-20.png",
+      "bytes": 66257,
+      "sha256": "2cc1b3061a05e9f2af82fbaa0b9e613d1acc63b946d41743ea5b633cee1748f2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-21.png",
+      "bytes": 122291,
+      "sha256": "b5c76d463271bc725843c3a117079c7f43787c6f22e08c0b3eba1f4a0916e6e7",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-22.png",
+      "bytes": 73459,
+      "sha256": "f227ffd94570e898703ae861a6bde035ac78d0d3583996b5f62022507cf3c3a1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-23.png",
+      "bytes": 67436,
+      "sha256": "313b8b7a9fd66a642a3bcbaf2134b1f31863ec2838a983ed973392b67de4b937",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-24.png",
+      "bytes": 114846,
+      "sha256": "52224e2a4e3c12d3e6996d47f1c643dbcca186831d2e7547872fc79d6e77eb94",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-25.png",
+      "bytes": 68422,
+      "sha256": "79cf00d18a7a265bd6159b567bdff43fde891fb6803275e3bdc147a1b22a6af4",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-26.png",
+      "bytes": 74810,
+      "sha256": "26cbb2dfa6ee9706f3944e905aff68bfeff5c49ab96813a2d5c2425081307ad6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-27.png",
+      "bytes": 70652,
+      "sha256": "c8500dc4c4866efa2e461b37160cc05a1e096fec9b793eb08485da3c2485d242",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-28.png",
+      "bytes": 77504,
+      "sha256": "fe38b748f4c2d73c589715ec24edd42cec31504401d87ad6d68692040087ba48",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-29.png",
+      "bytes": 300910,
+      "sha256": "2cd4be14cdf2765172da05cb75c2df222efb6c153ed3fb732c755ec3d65727ad",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-30.png",
+      "bytes": 81089,
+      "sha256": "761bbdcf99c5e65ac94b7b3be94f60c075244bcedf6e088bd571773472a5a803",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-31.png",
+      "bytes": 76123,
+      "sha256": "54d9c70fa698074765626b427eeeff2c0228fc5a77346781039fc8b721905805",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-32.png",
+      "bytes": 118317,
+      "sha256": "71dde61ded2938eec54ff5266cc5307b03abdae744e059cbf103e9f51a8ceac7",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-33.png",
+      "bytes": 173365,
+      "sha256": "cb7caacfc8e07b32a9f3c9af3311645fbc5ebc64c600f6798ee436789c69538d",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-34.png",
+      "bytes": 24192,
+      "sha256": "ed6f86f333a6e996cec6904e93be44ef3871016f5883b53a71895b99ed207d19",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-35.png",
+      "bytes": 69246,
+      "sha256": "528fbc50bbf3ab2c3b813f229da2b103a82e0c7b3e2cbf21a442d1383164ab6e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-36.png",
+      "bytes": 63074,
+      "sha256": "ae87bacbb5c4fc7ea5065e76080d023a05e98c46e98bcd626e928e38a093b637",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-37.png",
+      "bytes": 45553,
+      "sha256": "4410774d37aca075228c326bab381cbcfd471cd726c85e0717722dadc921557e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-38.png",
+      "bytes": 65460,
+      "sha256": "8bf064f629c9c204d50717b6a21edcec5759bad3fd867a1ffc7ee4bbddf49069",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-39.png",
+      "bytes": 66806,
+      "sha256": "d6402357d49a050c0d09dcc6846b5bc13f277679a9cb1a24f785d82426535855",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-40.png",
+      "bytes": 79825,
+      "sha256": "8a17e65f38f29791fb1c4db0268de5c679cfe2741c6c1cbc677c238f17de5f1d",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-41.png",
+      "bytes": 67812,
+      "sha256": "5e9bbd3cee85507eebc61ca3f7bae63ea02edae8441a67cbc959a1e4a1bf4689",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-42.png",
+      "bytes": 34755,
+      "sha256": "cda502fe9e2a6743b014d322ce4d89e4e7528bc685bcd17ddc08bc01eba6b96c",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-43.png",
+      "bytes": 60010,
+      "sha256": "e191416f465085f218662249420860844e1cdf2262b3fe2142152ad34f47aa13",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-44.png",
+      "bytes": 57556,
+      "sha256": "10b44df4f0a6d09e9993d3d2ec3d7a01482efa86c2d2ecdb101932c832a35b93",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-45.png",
+      "bytes": 55376,
+      "sha256": "fc3ec61f404e718a5cd2a4025f77c03912556d3b2b11316b0ae01275309fd1d6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-46.png",
+      "bytes": 70849,
+      "sha256": "da72c6b3817bb54c5155f4cbfafe16cde32c7c915e76995c74339471dc5ed92b",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-47.png",
+      "bytes": 64969,
+      "sha256": "d0b631c5623b6dbbd55487fe43c770fbc727372608a7c6798200bec0f75bf682",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-48.png",
+      "bytes": 70142,
+      "sha256": "648837f168ced37e2eaf420849435567f85f878580829f69ead08ec03aca28a5",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-49.png",
+      "bytes": 74146,
+      "sha256": "2bb26247e52b302fc3646c59358259f9206f0115cfefe4f1f2a231b5b9426d20",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-50.png",
+      "bytes": 80300,
+      "sha256": "7a4e14eb264996e430d739dbd8a1f5eae213d592844b8d865d56a2950b369c1c",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-51.png",
+      "bytes": 67695,
+      "sha256": "f8a62c8abe2a79f5f77bd1c9bbb942eb612f7dd830d370572964f6ea3a90c5ae",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-52.png",
+      "bytes": 76595,
+      "sha256": "e08d71bd55b183da189e9dd81bdc463d93ba12f9377c1ffe97faea8cdc54ee64",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-53.png",
+      "bytes": 74903,
+      "sha256": "134b20b974e35676a26e7afc477fadda2148c0031fee52fadaa05f0c0784f617",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-54.png",
+      "bytes": 76877,
+      "sha256": "ea52f4173f138e86cc791bad02c846917dcced8ea787453365d693d01612958a",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-55.png",
+      "bytes": 87049,
+      "sha256": "df223baa1daae819c332e7fad5663ab0bdcd6912819f85eb66f9baec040a2777",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-render/slide-56.png",
+      "bytes": 50141,
+      "sha256": "be4d0e5de342239c107d8df06b0d94d6c9e4aca0cf53647ff0b92d6224620458",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/native-verification.json",
+      "bytes": 1339,
+      "sha256": "9726e98eaa2cd79b115908d1728aa6226e3bd34f7c3fb7a26e75911ec0e0f2de",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-1.png",
+      "bytes": 72438,
+      "sha256": "fd4b4a7d7b9f9f476a4ae455c0dd15b1f7bfa3241212a6c11e1347ce309b18a9",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-10.png",
+      "bytes": 242331,
+      "sha256": "9b15d5da4d42ef75f4d7b62f9b9a0a7a46f09255afba8196f1a76792a9c4fa9b",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-11.png",
+      "bytes": 231895,
+      "sha256": "8e4c57d7ebd008e1f0a52b0c6fba0c67f0b970f989199814809d763573e6deff",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-12.png",
+      "bytes": 225542,
+      "sha256": "0056d80395bc9d77638bbf177d8bbd759a2dd2e44444021b897355a297c7570e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-13.png",
+      "bytes": 248267,
+      "sha256": "ddfed10de85fbceba0348d78f9f376411d85dbf7a8cb024374dbd16c7a9033f6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-14.png",
+      "bytes": 281571,
+      "sha256": "e592b87325a582786118b5d695c4a159f83a2b97e8c4915117eb9f62e886610a",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-15.png",
+      "bytes": 80405,
+      "sha256": "c2fdb467e17985f7ac1fb67f55efbc7da19a9d8e6e806954d36d3f8b29f727bd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-16.png",
+      "bytes": 98158,
+      "sha256": "ebbfb1d5375cf9896816239283aeefcdd1c3dc5e6c727ac2ba43bc346dc79392",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-17.png",
+      "bytes": 106288,
+      "sha256": "4ac3ebf2954f5016d404c27ed9795a27187fc98377bfa29f5489a786b70bd4f7",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-18.png",
+      "bytes": 51692,
+      "sha256": "18d0bc26a505dffaee2e333ba22bb0d30b8d57d05691399a7d2a283be52765d5",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-19.png",
+      "bytes": 124830,
+      "sha256": "b32df1ea96fa27b1c7a79faf6cdfd4e760f8ce3a5859eee7fdfb1f3437a1a085",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-2.png",
+      "bytes": 78641,
+      "sha256": "b765b71c4b97f7f459e824ae8c7bbea2f90b1fdd2d4fd4810676800de585feb0",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-20.png",
+      "bytes": 100454,
+      "sha256": "aacc58740238d6c9c4ab104b56929494493b0b8d1574c7dceaaf7907b6368852",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-21.png",
+      "bytes": 109454,
+      "sha256": "86a0e1a2ff7dcb4d9fc33b36c9b1f16518a48fb0718012951a35ac614e3fc98b",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-22.png",
+      "bytes": 110209,
+      "sha256": "1649e0dd34de4edad8ac250e00035dc51381ee242da8e17393ef1ecd4b89fa95",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-23.png",
+      "bytes": 102233,
+      "sha256": "4521c5575e265782b70bcc0ceb4df09905bccbfb5e92ffdb235a4f695ca62cd2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-24.png",
+      "bytes": 169193,
+      "sha256": "ccb0bc2ca241c40e1d630ef49a3e42dc5ae95956be105f80eb5dd8c8df40dbb8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-25.png",
+      "bytes": 107882,
+      "sha256": "91497b945bf319487969d53dc57aca8a655434860a304974cf2b79ffc43e6736",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-26.png",
+      "bytes": 116626,
+      "sha256": "a9fdfbc54532639fe15c80320b2fab17272e04d3329e0fd79cbb6377bf49df85",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-27.png",
+      "bytes": 111265,
+      "sha256": "c321a06c65f1f7e0466c6b2c0490090efd9b212ff11f5c6fa823548153ece4fd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-28.png",
+      "bytes": 123521,
+      "sha256": "2fe4e6915e14de6d5d0eedca4f3b247b6fed1dc27ec8fd5cf218801fd0e346b2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-29.png",
+      "bytes": 500174,
+      "sha256": "8f6be67baacc8b4391b08b09cb1ca581e8fae7147ad8fedf7341d5956e2510f6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-3.png",
+      "bytes": 97532,
+      "sha256": "12e0484e5a211fbd500a231ca449d5780c2ec1ee12677cd148e267c40270ddb8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-30.png",
+      "bytes": 122958,
+      "sha256": "763bb2c1e8587d3e0e8a33ff569dc56529174aaaa91dd3c65f8f7787ece17ef1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-31.png",
+      "bytes": 91692,
+      "sha256": "4726080b4385ba9c9bed90a43aaf03cb827645fc47231a879db01abc09ca4824",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-32.png",
+      "bytes": 123215,
+      "sha256": "12e9c1a5a0b563363bd48736622a89ce98f7a28e13b815c945d61ffb79e0ffd6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-33.png",
+      "bytes": 222603,
+      "sha256": "c91a27956fcad075697633ddd4ae44d998e2133223ea1d1b6e1283aa5bc2b8c3",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-34.png",
+      "bytes": 38887,
+      "sha256": "9a84845016dafbf3a8a7aaa8792c3f716f06c5ddf2dd5d98a708aaacd47a755f",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-35.png",
+      "bytes": 104699,
+      "sha256": "a0ef82956a28f66e1923acad618496603ef4e22fef9ff22238b7aab11278881e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-36.png",
+      "bytes": 97679,
+      "sha256": "a6a3b3ea26e4e916e234675e8ae40e8b7302d4ed770c229933416ff2436f34f1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-37.png",
+      "bytes": 91727,
+      "sha256": "9d19788a6b2aef3919c91f8f092e3bb14db646904172c1ab680692a1e1d7f287",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-38.png",
+      "bytes": 110366,
+      "sha256": "b76208c7b82bb67290bb9d65947a8dd402c643a80158adef900681ba8050ed73",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-39.png",
+      "bytes": 105442,
+      "sha256": "a9529c10e1ea13bbe723b743735d3da3468bae02645b8f1112ccec545ed9c6cc",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-4.png",
+      "bytes": 101955,
+      "sha256": "40b94997298bc2202f95280d65fd6742465923a0129dff52a35769502d3fe6cb",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-40.png",
+      "bytes": 120788,
+      "sha256": "b612424cc7a3ef4d9c868f6730215ade1d4a75b46315dcb69f57ca366be05c54",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-41.png",
+      "bytes": 104947,
+      "sha256": "0763c542cd47a54ab66c9f6e532c91ff7526af2c7aabbe6616d28de1a572b5eb",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-42.png",
+      "bytes": 55821,
+      "sha256": "5df75e3c0688c5dedc4f8e5d57f02159dbea38880abcdbef67ec8690fc88c0f3",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-43.png",
+      "bytes": 98966,
+      "sha256": "3c6154cc075bcb6ec7f734c06d67386a75530242100b3d28edf9e04974827ee2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-44.png",
+      "bytes": 86172,
+      "sha256": "16853b1d46ce120132ab8cf4a0d28e43d89fddc503a9b9d97ebbe69390632acb",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-45.png",
+      "bytes": 82766,
+      "sha256": "fa144ce6099228753daa75f39ccd6b4129d65edf868b638804fff2f6bec773e0",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-46.png",
+      "bytes": 109978,
+      "sha256": "4bd1d39a6e598ec09bba4e2a0700c6b5bf90fe9ca05b733a118a0360ac5d5473",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-47.png",
+      "bytes": 104557,
+      "sha256": "92b1de41c0db0cb78282267c6733a73b66b7d82c8257503e74a624a7465f75a1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-48.png",
+      "bytes": 110152,
+      "sha256": "d5b5b37a171cf677ba809bd384c67bdfc2defb189d5c8b479d72849cee86dd26",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-49.png",
+      "bytes": 113916,
+      "sha256": "6376f10cdf08ab866b99c124ee4e866668019c586dd0a01876af15fa65f41694",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-5.png",
+      "bytes": 37793,
+      "sha256": "aeab0939ff0ba019d647a4924350fc99f8ca92b4a91ffef92a1d091fcdbbbb27",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-50.png",
+      "bytes": 118558,
+      "sha256": "be63c9ac08ebe1908f7f1a5dd4356036df91890816e4426314b2500f6cb8f46d",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-51.png",
+      "bytes": 102657,
+      "sha256": "82b4485ec4f981df8bf3da7639d2a0194818f06ef46bc8800a59db005ce16c6e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-52.png",
+      "bytes": 113627,
+      "sha256": "2f981e647d8a7194f1cf6b7135da1504e0a93066ff9d87904b04fe005c3db1fd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-53.png",
+      "bytes": 117488,
+      "sha256": "aacbb8d4e1ab1475201cdc824eae284af0c914bb295b5cb1abcc84286ff1e811",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-54.png",
+      "bytes": 110044,
+      "sha256": "5fe686b1a77a7eb30fff88a58f7caac76a5c525c47b9f291df0cfc0a05576ae8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-55.png",
+      "bytes": 129906,
+      "sha256": "e8e526854679a407d09008bded223545e82ed58894c2cbbc64d011404cb2668e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-56.png",
+      "bytes": 75830,
+      "sha256": "775d72e53fa03e0bc88aec614e57a2f94efbb5584da8dc0efd3c79de382c2a31",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-6.png",
+      "bytes": 347272,
+      "sha256": "00b955eecf33a52b40f2c3340e0ea9c272044beb9569b651dc3707c5c479d4e2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-7.png",
+      "bytes": 271981,
+      "sha256": "71de1d5db5a70dda8a9d66a1e35aa317d782f0f306beb55ff7c02bd886013067",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-8.png",
+      "bytes": 287309,
+      "sha256": "49b2de023fd157cb8e2e04cb99a0960be473f74af34cd4df2e4b70865a9cefae",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-9.png",
+      "bytes": 303614,
+      "sha256": "97e5ed7e62c946bb6a3a3bc8e39324e42f904a0838e8305ae500fdd7a17ea092",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1.pptx",
+      "bytes": 1819558,
+      "sha256": "9d23c875817e9a8ac9202b64f51b589a928b56467bd9be939f2183e35f583e7b",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-1.png",
+      "bytes": 72438,
+      "sha256": "fd4b4a7d7b9f9f476a4ae455c0dd15b1f7bfa3241212a6c11e1347ce309b18a9",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-10.png",
+      "bytes": 248064,
+      "sha256": "83a63e15f6246a04059d50c96530433466addb6b973300b880993f6fa1799582",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-11.png",
+      "bytes": 237583,
+      "sha256": "57ccaf3a0a0f5dac5e5ab2599a4dedf370a240440b83a2c8958035d06e804acd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-12.png",
+      "bytes": 231175,
+      "sha256": "4abce517beffedfab08bebc6b6aabcacf120d98bc0590f13e8a860dd5ddd433b",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-13.png",
+      "bytes": 253972,
+      "sha256": "0a90ba669afc3b8fd066bc1dbc59421491b0c3a35d1cd9b751f06a523b01dc5e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-14.png",
+      "bytes": 287442,
+      "sha256": "a9e502fa91cf5573b9040d678b0f1d66b36d4d5ed91caccc1bdbe2a959e185f4",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-15.png",
+      "bytes": 80405,
+      "sha256": "c2fdb467e17985f7ac1fb67f55efbc7da19a9d8e6e806954d36d3f8b29f727bd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-16.png",
+      "bytes": 106319,
+      "sha256": "07d9b8fc1621f718546ac0b2b4d34db97902d643b53088589fc41cfdf15fe704",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-17.png",
+      "bytes": 106288,
+      "sha256": "4ac3ebf2954f5016d404c27ed9795a27187fc98377bfa29f5489a786b70bd4f7",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-18.png",
+      "bytes": 51692,
+      "sha256": "18d0bc26a505dffaee2e333ba22bb0d30b8d57d05691399a7d2a283be52765d5",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-19.png",
+      "bytes": 124830,
+      "sha256": "b32df1ea96fa27b1c7a79faf6cdfd4e760f8ce3a5859eee7fdfb1f3437a1a085",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-2.png",
+      "bytes": 78641,
+      "sha256": "b765b71c4b97f7f459e824ae8c7bbea2f90b1fdd2d4fd4810676800de585feb0",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-20.png",
+      "bytes": 100454,
+      "sha256": "aacc58740238d6c9c4ab104b56929494493b0b8d1574c7dceaaf7907b6368852",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-21.png",
+      "bytes": 109454,
+      "sha256": "86a0e1a2ff7dcb4d9fc33b36c9b1f16518a48fb0718012951a35ac614e3fc98b",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-22.png",
+      "bytes": 106023,
+      "sha256": "66a73c50e317e8fac7b9699c3b3ee4ea6a01af4d6b5de5634656e6aaa3340269",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-23.png",
+      "bytes": 102233,
+      "sha256": "4521c5575e265782b70bcc0ceb4df09905bccbfb5e92ffdb235a4f695ca62cd2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-24.png",
+      "bytes": 172866,
+      "sha256": "4f33bd8234088cfb769b53859e131b48e6916efda20375e444fcae571ed61dcd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-25.png",
+      "bytes": 107882,
+      "sha256": "91497b945bf319487969d53dc57aca8a655434860a304974cf2b79ffc43e6736",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-26.png",
+      "bytes": 116626,
+      "sha256": "a9fdfbc54532639fe15c80320b2fab17272e04d3329e0fd79cbb6377bf49df85",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-27.png",
+      "bytes": 111265,
+      "sha256": "c321a06c65f1f7e0466c6b2c0490090efd9b212ff11f5c6fa823548153ece4fd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-28.png",
+      "bytes": 123521,
+      "sha256": "2fe4e6915e14de6d5d0eedca4f3b247b6fed1dc27ec8fd5cf218801fd0e346b2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-29.png",
+      "bytes": 500174,
+      "sha256": "8f6be67baacc8b4391b08b09cb1ca581e8fae7147ad8fedf7341d5956e2510f6",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-3.png",
+      "bytes": 97532,
+      "sha256": "12e0484e5a211fbd500a231ca449d5780c2ec1ee12677cd148e267c40270ddb8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-30.png",
+      "bytes": 122958,
+      "sha256": "763bb2c1e8587d3e0e8a33ff569dc56529174aaaa91dd3c65f8f7787ece17ef1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-31.png",
+      "bytes": 91692,
+      "sha256": "4726080b4385ba9c9bed90a43aaf03cb827645fc47231a879db01abc09ca4824",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-32.png",
+      "bytes": 124520,
+      "sha256": "9daa32d482f046ce7c4b440d69acb5d56879f3572f6fcb92fda0e1fe235e1756",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-33.png",
+      "bytes": 222603,
+      "sha256": "c91a27956fcad075697633ddd4ae44d998e2133223ea1d1b6e1283aa5bc2b8c3",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-34.png",
+      "bytes": 38887,
+      "sha256": "9a84845016dafbf3a8a7aaa8792c3f716f06c5ddf2dd5d98a708aaacd47a755f",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-35.png",
+      "bytes": 118942,
+      "sha256": "6cf49eee577e7cc15115872f7ae4fdca8e1731109e80946a68028f2302a7f6c3",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-36.png",
+      "bytes": 114723,
+      "sha256": "7969654831d5b042719f0ccc1a521ad5e35b628e281f6fb301ca479a27872813",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-37.png",
+      "bytes": 76363,
+      "sha256": "a57e79e8717bc12ad53ba1a4ac1f4674acf54c586f6f0cf0edbf27b7b3550f41",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-38.png",
+      "bytes": 105181,
+      "sha256": "9d099c66b19c627307c5fa2b055bcb00d5cd77eda0ef65cfc620f48d3c467fd5",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-39.png",
+      "bytes": 105442,
+      "sha256": "a9529c10e1ea13bbe723b743735d3da3468bae02645b8f1112ccec545ed9c6cc",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-4.png",
+      "bytes": 101955,
+      "sha256": "40b94997298bc2202f95280d65fd6742465923a0129dff52a35769502d3fe6cb",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-40.png",
+      "bytes": 120788,
+      "sha256": "b612424cc7a3ef4d9c868f6730215ade1d4a75b46315dcb69f57ca366be05c54",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-41.png",
+      "bytes": 104947,
+      "sha256": "0763c542cd47a54ab66c9f6e532c91ff7526af2c7aabbe6616d28de1a572b5eb",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-42.png",
+      "bytes": 55821,
+      "sha256": "5df75e3c0688c5dedc4f8e5d57f02159dbea38880abcdbef67ec8690fc88c0f3",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-43.png",
+      "bytes": 98966,
+      "sha256": "3c6154cc075bcb6ec7f734c06d67386a75530242100b3d28edf9e04974827ee2",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-44.png",
+      "bytes": 86172,
+      "sha256": "16853b1d46ce120132ab8cf4a0d28e43d89fddc503a9b9d97ebbe69390632acb",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-45.png",
+      "bytes": 82766,
+      "sha256": "fa144ce6099228753daa75f39ccd6b4129d65edf868b638804fff2f6bec773e0",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-46.png",
+      "bytes": 109978,
+      "sha256": "4bd1d39a6e598ec09bba4e2a0700c6b5bf90fe9ca05b733a118a0360ac5d5473",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-47.png",
+      "bytes": 104557,
+      "sha256": "92b1de41c0db0cb78282267c6733a73b66b7d82c8257503e74a624a7465f75a1",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-48.png",
+      "bytes": 110152,
+      "sha256": "d5b5b37a171cf677ba809bd384c67bdfc2defb189d5c8b479d72849cee86dd26",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-49.png",
+      "bytes": 113916,
+      "sha256": "6376f10cdf08ab866b99c124ee4e866668019c586dd0a01876af15fa65f41694",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-5.png",
+      "bytes": 37793,
+      "sha256": "aeab0939ff0ba019d647a4924350fc99f8ca92b4a91ffef92a1d091fcdbbbb27",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-50.png",
+      "bytes": 118558,
+      "sha256": "be63c9ac08ebe1908f7f1a5dd4356036df91890816e4426314b2500f6cb8f46d",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-51.png",
+      "bytes": 102657,
+      "sha256": "82b4485ec4f981df8bf3da7639d2a0194818f06ef46bc8800a59db005ce16c6e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-52.png",
+      "bytes": 113627,
+      "sha256": "2f981e647d8a7194f1cf6b7135da1504e0a93066ff9d87904b04fe005c3db1fd",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-53.png",
+      "bytes": 117488,
+      "sha256": "aacbb8d4e1ab1475201cdc824eae284af0c914bb295b5cb1abcc84286ff1e811",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-54.png",
+      "bytes": 110044,
+      "sha256": "5fe686b1a77a7eb30fff88a58f7caac76a5c525c47b9f291df0cfc0a05576ae8",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-55.png",
+      "bytes": 129906,
+      "sha256": "e8e526854679a407d09008bded223545e82ed58894c2cbbc64d011404cb2668e",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-56.png",
+      "bytes": 75830,
+      "sha256": "775d72e53fa03e0bc88aec614e57a2f94efbb5584da8dc0efd3c79de382c2a31",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-6.png",
+      "bytes": 352995,
+      "sha256": "f9517eb274b9f58583f399fb8f978bb13ae4632f29b3d120cc82ac820c9f1c4a",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-7.png",
+      "bytes": 279598,
+      "sha256": "fe6a4cf0d035a291a04a94b6ca4ff42d17797e397b1231b2e872467228966c6c",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-8.png",
+      "bytes": 293135,
+      "sha256": "24b8df61cbeca3d13a55c65aea504e1e4dd2cc66aa2a3cbd8ae079fb3723ed82",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-9.png",
+      "bytes": 309665,
+      "sha256": "925da4046c7e7e261c78f3f0921b5d1d1bb608e3fedb29096e876acebcd7f62f",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2.pptx",
+      "bytes": 1822797,
+      "sha256": "c23b47831ebd55b2de8f7df1f4e0186e8c66d8a30ad50e0d45b94d2df5a9fdda",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output-issues.json",
+      "bytes": 452,
+      "sha256": "70a5eddf30835678ba50bd00d37152da7548448d30a9c1d134a475985f6d7fc1",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/raw-output.json",
+      "bytes": 4081030,
+      "sha256": "7d066c09316be8c1f25505cefc04d9a7b109e9a794d055ce88df5ba17766db79",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/01-risograph.jpeg",
+      "bytes": 43339,
+      "sha256": "06e4a942eee919037ed7422b662f5e754fee57a9f58dd6e23758d0ca1fe7a279",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/02-claymorphism.jpeg",
+      "bytes": 44662,
+      "sha256": "8a41fde50fc3aa6274f37d0484fbc30505c15f4c6f4da531349e168d11fad101",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/03-organic-tech.jpeg",
+      "bytes": 51770,
+      "sha256": "d43ba4bf5903573827e88731bc7e1d13fb43acdab83b16ef6fccc0872f2f6198",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/04-dirty-gradients.jpeg",
+      "bytes": 42668,
+      "sha256": "b5975dcc97da991950fcc9cc8993732edb34e270135277e2ddd98da7fda41699",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/05-austurbane.jpeg",
+      "bytes": 35871,
+      "sha256": "6ad26a7420eb7f8ffb43311aaf18ac33c0b205b83999b4214246370c0483f59f",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/06-clean-girl-brutalism.jpeg",
+      "bytes": 34432,
+      "sha256": "42f420461035cccba3259c9443068549791343723ec295d5b14a2a8b9a167867",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/07-spray.jpeg",
+      "bytes": 41908,
+      "sha256": "426b7f0d09867098a0f2610a5e3102aaceaa3b9da38512cb9252ba0a652b9b5d",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/08-gzhel.jpeg",
+      "bytes": 44108,
+      "sha256": "a363604dd462860c30e6634555fe878ca082b5a34f44aff93292ebb201e63cd5",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/09-overview.jpeg",
+      "bytes": 60377,
+      "sha256": "3b2a2526a17c48c39b801697471f360eaacc3217964c9f12c4bb510c5f913b68",
+      "role": "image-or-render-needs-provenance-review",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/references/manifest.json",
+      "bytes": 5003,
+      "sha256": "771a82e77ed11c87510b89aea3d6755e5468be3e4b6210be550362407bf81224",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/research/contemporary-materials.md",
+      "bytes": 10524,
+      "sha256": "7d1bffb506107b56e98cf09822293689c42b5c0f98ea8a02f5bacf11e2eb1601",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/research/history-and-print.md",
+      "bytes": 14931,
+      "sha256": "0e312a2e14b4081f6d34490309588ddac9a6d58cddd4afd4a5bc6284a11bc5c0",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/research/lucy-eden-source-notes.md",
+      "bytes": 7697,
+      "sha256": "97f8c2f8df57bcbc298a60c777480069083b337e6c3b6fc0c15398b2fcb60573",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/research/perception-and-motion.md",
+      "bytes": 11022,
+      "sha256": "8d9fe9ab28a21b789add77b6cc75e678bcd321b26472a42d45957bdc9c2f5c8c",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/research/tiktok-discovery.md",
+      "bytes": 8905,
+      "sha256": "8013123a674d6bb448c15b6cdfb7d4107a7aa7d97a78c2b1c7ca0fa853e33ad8",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/research/zach-heffner-aisthetes.md",
+      "bytes": 7519,
+      "sha256": "a0dd3020015cf0c4dfe33b4af5f5f417bdec035f8354e2a956fb1c2c984161d8",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/slides-content-brand.json",
+      "bytes": 13014,
+      "sha256": "49153c5bbacb8653c14ad95eb05a5b707216c232c09b4a18c023ead09df14109",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/slides-content-iconic.json",
+      "bytes": 6550,
+      "sha256": "f48b2e7526ebc905c865cf758503668c59f84a2e4088bb9ca5c5a52e836d9115",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/slides-content-ux.json",
+      "bytes": 9604,
+      "sha256": "21a3f46fc9d6798b3eb8ba5a38b32e765edc527af472ae8c6b6efe5032c82f29",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/study-book.html",
+      "bytes": 769972,
+      "sha256": "5570a0718ccf79245b81ed232a2de002254768c8813313441abf588930bd0405",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "visual-design-study",
+      "path": "2026-09-07/copy-this-into-a-new-codex/design-study/verification.json",
+      "bytes": 969,
+      "sha256": "2d65224ac90859124abb2f6d15102204fad5160f45c47c7ee8ec228e70e0ecc4",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/outputs/mindleverx-contrast-checks.json",
+      "bytes": 1761,
+      "sha256": "99be8a16d7bc8b8000cb55103a61847aa1acd300f0d568f2fba4924675bc4249",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/outputs/mindleverx-design-directions.md",
+      "bytes": 3587,
+      "sha256": "c33cab9ae656b5ccba73bb4ac6915cfe1d52df4b33b39777611e0673fd3ef371",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/outputs/mindleverx-design-rationale.md",
+      "bytes": 19712,
+      "sha256": "78f4f821a11c960ab37448f2d3c9003eee5421bf65797506e29d93fe720d7007",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/outputs/mindleverx-site-inventory.md",
+      "bytes": 2718,
+      "sha256": "1479594e687170b637fd519f0730d979e1fa756ad7182259eb297605764d3dba",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/work/mindleverx-directions.html",
+      "bytes": 13751,
+      "sha256": "daa3ed88c3ba6a9d6384648856dafd4f2db0ce67894423f7878705a37f331e67",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/work/mindleverx-directions.js",
+      "bytes": 1958,
+      "sha256": "d78ca30ed4c973d4a24ce3532b1a8bfb60f37aa2176d642f1d52c1a8f596251d",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "current-mindleverx-study",
+      "path": "2026-09-20/help-me-navigate-this-page-x20/work/mindleverx-preview.html",
+      "bytes": 71432,
+      "sha256": "1df72a0d55f9f3674b48f3f1880c29d37ad7557fbf08400b68bed0f881f502f6",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-07/copy-this-into-a-new-codex/visual-design-study-2026-09-08-expanded.zip",
+      "bytes": 945207,
+      "sha256": "d1f118dd07101c6faa5216e1fe1f94c34241fb78e04ff04b0d84eea06b787989",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-07/copy-this-into-a-new-codex/visual-design-study-2026-09-08.zip",
+      "bytes": 942558,
+      "sha256": "bf513054090e087ef2879a49fdc032504041464a1020fe2c6bd6d53d50a9f5d5",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-judgment-worked-cases.md",
+      "bytes": 11421,
+      "sha256": "d3ebd054093f2aabebe580c930da3bb6be275414b86563093fe609e5360962b4",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base-notion-import.zip",
+      "bytes": 49029,
+      "sha256": "a225e9c2a891437e0ad1cf930314a759a5c9d332e8116dcf94959f142c767900",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/mindleverx-research-worksheet.md",
+      "bytes": 7252,
+      "sha256": "89d55d6a02b2fac2b541431872278c5e8229b29798ad00941448067112a2b560",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/outputs/uiux-design-playbook.md",
+      "bytes": 15176,
+      "sha256": "d0475acd99b83e100cdf73b32dbc8dbe0b2dfd91bccd967ea67628316ce4be65",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/work/advanced-uiux-teaching-evidence.md",
+      "bytes": 3153,
+      "sha256": "cd42b1dc857cbe7507eff6e191e584e57976772c775e27670a97b70693552c49",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/work/design-benchmark-evidence.md",
+      "bytes": 4823,
+      "sha256": "f0826400036c87a0007dd7565c07c4da4b96a6a079ddf50e6afec8cf53f13fcc",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/work/notion-migration-status.json",
+      "bytes": 742,
+      "sha256": "06ff1030a08dfaed6d597a3adf22422fb1a0bb17fbd415535acf29806b92a5ed",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/work/playbook-verification.md",
+      "bytes": 1631,
+      "sha256": "9144f51ab2f6ca60235ddf058f04c45e48497d0a3762fda4571cf12352a6d5f8",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/work/research-teaching-completion-audit.md",
+      "bytes": 4881,
+      "sha256": "29b56b6a1ab09cd71338937fc8f049831e4139c4fedf28560df198ad0c0be06b",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "earlier-originals-and-packages",
+      "path": "2026-09-19/what-do-you-think-of-this/work/uiux-harmonization-evidence.md",
+      "bytes": 3545,
+      "sha256": "81fa175cfc0c4341a74fbc3359531b53bb27ebae381a353143eeeef23d530a67",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-07/we-are-building-a-new-private/outputs/squarespace-build-machine-v1.2.0/Levarum-Squarespace-Design-and-Build-Guide-v1.0.md",
+      "bytes": 12314,
+      "sha256": "04d64a113875000e31b81d9a5e9178328a1017aada5ab49547fc308738aff929",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-07/we-are-building-a-new-private/outputs/squarespace-build-machine-v1.3.0/squarespace-build-coach/references/design-system.md",
+      "bytes": 2915,
+      "sha256": "b7c8d82c08e68dfb495dc652bb8d1b55a2893a6071a93ef8193d24f1b0eb92df",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/h/work/design-workflow-demo.html",
+      "bytes": 4056,
+      "sha256": "e0e6f40dee8974f1ad5768a36de48b5353602f9baa1f57c77c81fbc6f064cdeb",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/CODEX-NEXT-PROMPT.md",
+      "bytes": 2240,
+      "sha256": "300bf7d05ec916f3a156a3f8582ff24b9227942a5f65e7c55ac04c6aba1f59e0",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/MANIFEST.json",
+      "bytes": 2499,
+      "sha256": "273d14ec1e33da9751d9365ab93462f1c5f3d0f4db0d1c7a4ac38a77e73c2da9",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/MindLeverX-launch-handoff.zip",
+      "bytes": 89998,
+      "sha256": "e94780aa4e0df97fa8a83a9a86614183b60321f3bbc71610a46eda5a37911ef9",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/MindLeverX-pre-design-audit.zip",
+      "bytes": 89998,
+      "sha256": "e94780aa4e0df97fa8a83a9a86614183b60321f3bbc71610a46eda5a37911ef9",
+      "role": "packaged-artifact",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/README.md",
+      "bytes": 636,
+      "sha256": "73b8d4f6a01f6c0fed5721859d84631a18eadada73a49d9ee1bee5aa5455672d",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/checks/audit_static.py",
+      "bytes": 2484,
+      "sha256": "8910f493ecc38b1314d42f0aa1d24e4f76d8fa96f0520fe83a8d8865dafc79d9",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/checks/form-audit.cjs",
+      "bytes": 1896,
+      "sha256": "a660942d4199a0fa4df79d71b00c26ebf592bb696f18f34862ed2f5d814e4e6d",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/docs/CODEX-HANDOFF.md",
+      "bytes": 17549,
+      "sha256": "1f3cf033f3223710914230c0d69fd697bf1852c180d5ad426ffd621342cccd77",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/docs/form-audit.json",
+      "bytes": 4806,
+      "sha256": "0272c528fd8d1ccd3a18b69ebc762f94b430e16c71adb8989691a38cf954cc19",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/docs/responsive-audit.json",
+      "bytes": 5942,
+      "sha256": "da6cd978fd8802e7c5e28bc8ffb12e6812278ce2437382ca15665a1211b40622",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/docs/static-audit.json",
+      "bytes": 25423,
+      "sha256": "67bdd459614afc725ef39dc0e3063e7feda5b299eaf855f96289154229fb5e25",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/about.html",
+      "bytes": 34256,
+      "sha256": "239143a0220f32db288d265eb24b41f53404eecb81a05132d36597efc639610b",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/answer-engine-index-q3-2026.html",
+      "bytes": 32593,
+      "sha256": "b2b54b211d529d31182d7f3ca6e4c18c990063d17277c4fbcb2276b258971f0f",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/case-study.html",
+      "bytes": 35466,
+      "sha256": "e1963687a90e98d2d056967da1d00a3595bfd6327c908671469de10c619f176b",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/index.html",
+      "bytes": 44897,
+      "sha256": "fc014e1231b17d0a94306df7dda42fd1dcd465af4f9334cc3c1265d03f0af382",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/llms.txt",
+      "bytes": 2744,
+      "sha256": "de0336dccf4d1af969699f0f3dc7699e5e827932940476a3da3049ac45b95b76",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/research-hub.html",
+      "bytes": 29895,
+      "sha256": "f1d1fb397de1f83f3e34ec24a59aba0c76e7d42ee4eb4361e109a2da6713a5d6",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/robots.txt",
+      "bytes": 1582,
+      "sha256": "d6f306fabf625f2d75670b0892a123d7079b8e9814f070cf3c6753881bf25447",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/sitemap.xml",
+      "bytes": 1343,
+      "sha256": "a3971fbfb83bdc879f396d492221f983fbaf2aa8f49a83315929aa586c193123",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/new-chat/outputs/reference-build/site-v3.1/dist/what-is-geo.html",
+      "bytes": 47447,
+      "sha256": "590a7edc4d21389741ecc0053ff34870227dd7d07c939e92e04b4a671b9765c9",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    },
+    {
+      "group": "related-project-guidance",
+      "path": "2026-09-12/what-requirements-in-this-workbook-would/outputs/mindleverx-production-assessment.md",
+      "bytes": 9284,
+      "sha256": "5b8e65d2db198cd6c451ba63795e13c3441130f8299df72438bf18341082bb39",
+      "role": "reference-or-record",
+      "review_status": "file-enumerated; content review varies; not a new source verification"
+    }
+  ],
+  "exact_duplicate_groups": [
+    {
+      "sha256": "cd42b1dc857cbe7507eff6e191e584e57976772c775e27670a97b70693552c49",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/advanced-uiux-teaching-evidence.md",
+        "2026-09-19/what-do-you-think-of-this/work/advanced-uiux-teaching-evidence.md"
+      ]
+    },
+    {
+      "sha256": "f0826400036c87a0007dd7565c07c4da4b96a6a079ddf50e6afec8cf53f13fcc",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/design-benchmark-evidence.md",
+        "2026-09-19/what-do-you-think-of-this/work/design-benchmark-evidence.md"
+      ]
+    },
+    {
+      "sha256": "9144f51ab2f6ca60235ddf058f04c45e48497d0a3762fda4571cf12352a6d5f8",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/playbook-verification.md",
+        "2026-09-19/what-do-you-think-of-this/work/playbook-verification.md"
+      ]
+    },
+    {
+      "sha256": "29b56b6a1ab09cd71338937fc8f049831e4139c4fedf28560df198ad0c0be06b",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/research-teaching-completion-audit.md",
+        "2026-09-19/what-do-you-think-of-this/work/research-teaching-completion-audit.md"
+      ]
+    },
+    {
+      "sha256": "81fa175cfc0c4341a74fbc3359531b53bb27ebae381a353143eeeef23d530a67",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/evidence/uiux-harmonization-evidence.md",
+        "2026-09-19/what-do-you-think-of-this/work/uiux-harmonization-evidence.md"
+      ]
+    },
+    {
+      "sha256": "d3ebd054093f2aabebe580c930da3bb6be275414b86563093fe609e5360962b4",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/library/design-judgment-worked-cases.md",
+        "2026-09-19/what-do-you-think-of-this/outputs/design-judgment-worked-cases.md"
+      ]
+    },
+    {
+      "sha256": "89d55d6a02b2fac2b541431872278c5e8229b29798ad00941448067112a2b560",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/library/mindleverx-research-worksheet.md",
+        "2026-09-19/what-do-you-think-of-this/outputs/mindleverx-research-worksheet.md"
+      ]
+    },
+    {
+      "sha256": "d0475acd99b83e100cdf73b32dbc8dbe0b2dfd91bccd967ea67628316ce4be65",
+      "paths": [
+        "2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/library/uiux-design-playbook.md",
+        "2026-09-19/what-do-you-think-of-this/outputs/uiux-design-playbook.md"
+      ]
+    },
+    {
+      "sha256": "2c3960b0dad443f000cf64a7f1ea141700bcc8ccf6d9a57030da0b72fd6755ea",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/Anthropic_ClaudePage.jpg",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/assets/anthropic-claude.jpg"
+      ]
+    },
+    {
+      "sha256": "c23b47831ebd55b2de8f7df1f4e0186e8c66d8a30ad50e0d45b94d2df5a9fdda",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/build/candidate.pptx",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2.pptx"
+      ]
+    },
+    {
+      "sha256": "fd4b4a7d7b9f9f476a4ae455c0dd15b1f7bfa3241212a6c11e1347ce309b18a9",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-1.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-1.png"
+      ]
+    },
+    {
+      "sha256": "c2fdb467e17985f7ac1fb67f55efbc7da19a9d8e6e806954d36d3f8b29f727bd",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-15.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-15.png"
+      ]
+    },
+    {
+      "sha256": "4ac3ebf2954f5016d404c27ed9795a27187fc98377bfa29f5489a786b70bd4f7",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-17.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-17.png"
+      ]
+    },
+    {
+      "sha256": "18d0bc26a505dffaee2e333ba22bb0d30b8d57d05691399a7d2a283be52765d5",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-18.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-18.png"
+      ]
+    },
+    {
+      "sha256": "b32df1ea96fa27b1c7a79faf6cdfd4e760f8ce3a5859eee7fdfb1f3437a1a085",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-19.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-19.png"
+      ]
+    },
+    {
+      "sha256": "b765b71c4b97f7f459e824ae8c7bbea2f90b1fdd2d4fd4810676800de585feb0",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-2.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-2.png"
+      ]
+    },
+    {
+      "sha256": "aacc58740238d6c9c4ab104b56929494493b0b8d1574c7dceaaf7907b6368852",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-20.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-20.png"
+      ]
+    },
+    {
+      "sha256": "86a0e1a2ff7dcb4d9fc33b36c9b1f16518a48fb0718012951a35ac614e3fc98b",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-21.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-21.png"
+      ]
+    },
+    {
+      "sha256": "4521c5575e265782b70bcc0ceb4df09905bccbfb5e92ffdb235a4f695ca62cd2",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-23.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-23.png"
+      ]
+    },
+    {
+      "sha256": "91497b945bf319487969d53dc57aca8a655434860a304974cf2b79ffc43e6736",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-25.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-25.png"
+      ]
+    },
+    {
+      "sha256": "a9fdfbc54532639fe15c80320b2fab17272e04d3329e0fd79cbb6377bf49df85",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-26.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-26.png"
+      ]
+    },
+    {
+      "sha256": "c321a06c65f1f7e0466c6b2c0490090efd9b212ff11f5c6fa823548153ece4fd",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-27.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-27.png"
+      ]
+    },
+    {
+      "sha256": "2fe4e6915e14de6d5d0eedca4f3b247b6fed1dc27ec8fd5cf218801fd0e346b2",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-28.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-28.png"
+      ]
+    },
+    {
+      "sha256": "8f6be67baacc8b4391b08b09cb1ca581e8fae7147ad8fedf7341d5956e2510f6",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-29.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-29.png"
+      ]
+    },
+    {
+      "sha256": "12e0484e5a211fbd500a231ca449d5780c2ec1ee12677cd148e267c40270ddb8",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-3.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-3.png"
+      ]
+    },
+    {
+      "sha256": "763bb2c1e8587d3e0e8a33ff569dc56529174aaaa91dd3c65f8f7787ece17ef1",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-30.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-30.png"
+      ]
+    },
+    {
+      "sha256": "4726080b4385ba9c9bed90a43aaf03cb827645fc47231a879db01abc09ca4824",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-31.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-31.png"
+      ]
+    },
+    {
+      "sha256": "c91a27956fcad075697633ddd4ae44d998e2133223ea1d1b6e1283aa5bc2b8c3",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-33.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-33.png"
+      ]
+    },
+    {
+      "sha256": "9a84845016dafbf3a8a7aaa8792c3f716f06c5ddf2dd5d98a708aaacd47a755f",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-34.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-34.png"
+      ]
+    },
+    {
+      "sha256": "a9529c10e1ea13bbe723b743735d3da3468bae02645b8f1112ccec545ed9c6cc",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-39.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-39.png"
+      ]
+    },
+    {
+      "sha256": "40b94997298bc2202f95280d65fd6742465923a0129dff52a35769502d3fe6cb",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-4.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-4.png"
+      ]
+    },
+    {
+      "sha256": "b612424cc7a3ef4d9c868f6730215ade1d4a75b46315dcb69f57ca366be05c54",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-40.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-40.png"
+      ]
+    },
+    {
+      "sha256": "0763c542cd47a54ab66c9f6e532c91ff7526af2c7aabbe6616d28de1a572b5eb",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-41.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-41.png"
+      ]
+    },
+    {
+      "sha256": "5df75e3c0688c5dedc4f8e5d57f02159dbea38880abcdbef67ec8690fc88c0f3",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-42.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-42.png"
+      ]
+    },
+    {
+      "sha256": "3c6154cc075bcb6ec7f734c06d67386a75530242100b3d28edf9e04974827ee2",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-43.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-43.png"
+      ]
+    },
+    {
+      "sha256": "16853b1d46ce120132ab8cf4a0d28e43d89fddc503a9b9d97ebbe69390632acb",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-44.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-44.png"
+      ]
+    },
+    {
+      "sha256": "fa144ce6099228753daa75f39ccd6b4129d65edf868b638804fff2f6bec773e0",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-45.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-45.png"
+      ]
+    },
+    {
+      "sha256": "4bd1d39a6e598ec09bba4e2a0700c6b5bf90fe9ca05b733a118a0360ac5d5473",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-46.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-46.png"
+      ]
+    },
+    {
+      "sha256": "92b1de41c0db0cb78282267c6733a73b66b7d82c8257503e74a624a7465f75a1",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-47.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-47.png"
+      ]
+    },
+    {
+      "sha256": "d5b5b37a171cf677ba809bd384c67bdfc2defb189d5c8b479d72849cee86dd26",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-48.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-48.png"
+      ]
+    },
+    {
+      "sha256": "6376f10cdf08ab866b99c124ee4e866668019c586dd0a01876af15fa65f41694",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-49.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-49.png"
+      ]
+    },
+    {
+      "sha256": "aeab0939ff0ba019d647a4924350fc99f8ca92b4a91ffef92a1d091fcdbbbb27",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-5.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-5.png"
+      ]
+    },
+    {
+      "sha256": "be63c9ac08ebe1908f7f1a5dd4356036df91890816e4426314b2500f6cb8f46d",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-50.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-50.png"
+      ]
+    },
+    {
+      "sha256": "82b4485ec4f981df8bf3da7639d2a0194818f06ef46bc8800a59db005ce16c6e",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-51.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-51.png"
+      ]
+    },
+    {
+      "sha256": "2f981e647d8a7194f1cf6b7135da1504e0a93066ff9d87904b04fe005c3db1fd",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-52.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-52.png"
+      ]
+    },
+    {
+      "sha256": "aacbb8d4e1ab1475201cdc824eae284af0c914bb295b5cb1abcc84286ff1e811",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-53.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-53.png"
+      ]
+    },
+    {
+      "sha256": "5fe686b1a77a7eb30fff88a58f7caac76a5c525c47b9f291df0cfc0a05576ae8",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-54.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-54.png"
+      ]
+    },
+    {
+      "sha256": "e8e526854679a407d09008bded223545e82ed58894c2cbbc64d011404cb2668e",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-55.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-55.png"
+      ]
+    },
+    {
+      "sha256": "775d72e53fa03e0bc88aec614e57a2f94efbb5584da8dc0efd3c79de382c2a31",
+      "paths": [
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v1/slide-56.png",
+        "2026-09-07/copy-this-into-a-new-codex/design-study/presentation/output/Design-Field-Guide-v2/slide-56.png"
+      ]
+    },
+    {
+      "sha256": "e94780aa4e0df97fa8a83a9a86614183b60321f3bbc71610a46eda5a37911ef9",
+      "paths": [
+        "2026-09-12/new-chat/outputs/MindLeverX-launch-handoff.zip",
+        "2026-09-12/new-chat/outputs/MindLeverX-pre-design-audit.zip"
+      ]
+    }
+  ]
+}

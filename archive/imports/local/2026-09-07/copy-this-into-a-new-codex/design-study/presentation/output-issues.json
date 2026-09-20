@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "presentation": {
+    "id": "1C1go63EzNk0p7wTOB6BPbMRq_p2Thw1pHc-0RfXy6Jw",
+    "title": "Design Field Guide — import source",
+    "revisionId": "PFYMorrPk8jA6g",
+    "slideCount": 56
+  },
+  "snapshotSha256": "5fcd3f3313d2212df007edccf5e2ac4b4c594efb06342ad885129a61549a15da",
+  "summary": {
+    "totalIssues": 0,
+    "reportedIssues": 0,
+    "truncated": false,
+    "bySeverity": {},
+    "byCode": {}
+  },
+  "issues": []
+}

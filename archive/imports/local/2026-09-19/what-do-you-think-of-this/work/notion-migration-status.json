@@ -1,0 +1,12 @@
+{
+  "status": "prepared_not_uploaded",
+  "prepared_at": "2026-09-19",
+  "destination": "Notion new Design Knowledge Base page",
+  "archive": "/Users/tag/Documents/Codex/2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base-notion-import.zip",
+  "source_rows": 41,
+  "browser_tab_id": "1112539421",
+  "blocker": "Notion connector not installed; browser at login. Automatic approval review rejected Google sign-in without authorization of a specific account. Await user login or confirmed connection.",
+  "page_url": null,
+  "verification": "ZIP integrity, 41 source records and local Markdown file links checked. Notion import/rendering not yet tested.",
+  "documentation": "https://www.notion.com/help/import-data-into-notion"
+}

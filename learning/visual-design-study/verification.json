@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-08",
+  "original_jpegs": 9,
+  "research_chapters": 4,
+  "browser_checked": [
+    "Study renders in actual Chrome at desktop width; initial screenshot loads",
+    "Organic Tech reference switch updates title, observation and image",
+    "Soft volume updates mode, caption and computed SVG gradient fill",
+    "Keyboard End on spacing changes readout to 64 px and computed margin to 64px",
+    "Keyboard End on grain changes readout to 60% and computed opacity to 0.6",
+    "360 CSS pixel iframe top-of-book screenshot inspected; no claim of full mobile audit"
+  ],
+  "not_checked": [
+    "Physical mobile device",
+    "Full book accessibility/contrast audit",
+    "Offline airplane-mode execution; no external resource dependencies are authored",
+    "Every possible reference/slider state",
+    "Complete TikTok audio or every video frame",
+    "Original attribution of most pictured artwork"
+  ],
+  "book_bytes": 751165,
+  "fragment_bytes": 5078
+}

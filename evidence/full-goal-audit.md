@@ -13,7 +13,7 @@ Checked 2026-09-20. The user's instruction is to finish the full work autonomous
 | Deep, repeatable Figma capability knowledge, including all supplied product areas | Article/feature/context inventory, source review notes, reproducible exercises with actual evidence and access limits | In progress. Public Help pagination now yields 887 articles across 14 categories; external Weave, videos, all UI contexts and full article review remain separate |
 | Complete the recorded 18-exercise practice plan | Each exact procedure and acceptance condition verified in its relevant product | In progress. Records are updated only when the corresponding evidence exists; no substitutions for unrun products |
 | State whether every detail of every site was scraped | Defined scope, pagination/fetch coverage, review and visual/interactive limits | Exhaustive coverage not proven. Retrieval, review, visual observation and hands-on use remain separate |
-| Push and verify the final collection | Remote commit equality, private visibility, fresh retrieval and CI pass covering final changes | v2.2.0 / dd81a55 verified remotely with successful CI (run 35534116420); AI/Slides/FigJam and public Help inventory increment is being validated |
+| Push and verify the final collection | Remote commit equality, private visibility, fresh retrieval and CI pass covering final changes | v2.3.0 content checkpoint 34e16b6 verified in a fresh clone, private remote and successful CI 35535994552; [publication receipt](publication-2.3.0.json) |
 
 ## Current next work
 
@@ -24,3 +24,5 @@ Previous goal turn classification: **progress** — v2.0.0 publication, private 
 No whole-goal completion is claimed by this document. New source links and new exercises should not silently turn into unrelated product launches, purchases or publications.
 
 Current prerequisite gates: E13 Sites and E16 Buzz require new legal-term acceptance; E14 Weave reports an unlinked account. Questions are pending; evidence and ready-to-run procedures are in [product readiness](../tools/figma/evidence/lab/product-access-and-readiness.md). Independent AI, Slides, FigJam, source discovery and repository work progressed in this continuation.
+
+Publication checkpoint: [v2.3.0 receipt](publication-2.3.0.json) records all three passing checks from a fresh clone at 34e16b6. Fifteen exercises have evidence (one limited navigation pass and fourteen fixture passes); three await the prerequisites above. This status does not claim that all 887 retrieved articles are reviewed or every Figma feature is mastered.

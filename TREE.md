@@ -383,6 +383,7 @@ evidence/local-validation.json
 evidence/migration-counts.json
 evidence/migration.md
 evidence/publication-2.1.0.json
+evidence/publication-2.3.0.json
 evidence/remote-verification.json
 governance/knowledge-policy.md
 governance/maintenance.md

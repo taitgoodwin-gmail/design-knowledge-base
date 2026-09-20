@@ -2,7 +2,7 @@
 
 [Open the editable lab](https://www.figma.com/design/UgtCQvjyZpBQVOxhZAK4sk/MindLeverX?node-id=34-8). File `UgtCQvjyZpBQVOxhZAK4sk`, page `34:8`, editor `figma`. The lab is a separate page in the existing draft file. The observed tool could edit this file; the exact paid plan/seat is not established by that fact.
 
-Each numbered JSON file contains the actual MCP response, including failures. PNGs are downloaded Figma renders, visually inspected during this run. These are API-and-render checks, not browser implementation, keyboard, screen-reader, conversion or customer-outcome tests. Scripts are in [the exercise scripts directory](../../exercises/scripts/README.md).
+Each numbered JSON file contains the actual MCP response, including failures. PNGs are downloaded Figma renders, visually inspected during this run. Early records are API-and-render checks; E08/E12 add bounded presentation/browser and keyboard evidence. No full screen-reader, conversion or customer-outcome assurance is claimed. Scripts are in [the exercise scripts directory](../../exercises/scripts/README.md).
 
 ## E02 — responsive evidence card: passed in the recorded fixture
 
@@ -53,8 +53,10 @@ Checked 2026-09-20. Review scope is the relevant article sections, not every lin
 
 ## Remaining work
 
-E09 and E10 now have separate [motion and vector results](motion-and-vector.md), including a native MP4 export. Eight exercises remain unrun: E08 and E11–E17. E01 retains its earlier limited navigation evidence. The 183-article Design inventory establishes public API retrieval scope, not exhaustive capability knowledge or article review. [Whole-goal audit](../../../../evidence/full-goal-audit.md).
+E09 and E10 now have separate [motion and vector results](motion-and-vector.md), including a native MP4 export. Six exercises remain unrun: E11 and E13–E17. E01 retains its earlier limited navigation evidence. The 183-article Design inventory establishes public API retrieval scope, not exhaustive capability knowledge or article review. [Whole-goal audit](../../../../evidence/full-goal-audit.md).
 
 Saved-observation verification: [result](validation-observations.json). Repository integrity: [result](validation-integrity.json). [Latest live lab readback](28-final-lab-after-motion.json) contains 118 nodes; [original-page readback](17-original-page-check.json) matches the nine top-level node IDs and geometry observed before this wave. This comparison does not claim a byte-for-byte export of the entire Figma file.
 
 Component-wave results: [E04/E05/E06](components-and-variables.md), with separate foundations and component pages and actual boolean-conflict resolution.
+
+Prototype/handoff results: [E08/E12](prototype-and-handoff.md), with presentation navigation, reset caveats and a responsive keyboard-operable browser fixture.

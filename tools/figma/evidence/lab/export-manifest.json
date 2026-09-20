@@ -48,6 +48,14 @@
     "e05-slot-open.png": {
       "bytes": 25407,
       "sha256": "cf976d992dd31e125df6d74acfe5e437bfd98f336f3d4cde58de4410900bc3ea"
+    },
+    "e08-final-prototype.png": {
+      "bytes": 51194,
+      "sha256": "a29e5dfd497ff6bbaa34b483b10a893ced2985a9f94a01499822ce03e83ce5c8"
+    },
+    "e12-default-reference.png": {
+      "bytes": 12821,
+      "sha256": "d2b89e82fbf9592993fcc280b8fc15b054371d2e29676f202391eed59fe8d783"
     }
   }
 }

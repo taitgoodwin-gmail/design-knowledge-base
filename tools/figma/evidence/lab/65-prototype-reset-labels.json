@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"63:34\",\"63:47\",\"63:18\",\"63:20\"],\"resetMeaning\":\"Navigation to closed; does not erase history\",\"startControls\":\"Hidden Back and inactive pseudo-button; no empty-history action offered\"}"
+    }
+  ],
+  "isError": false
+}

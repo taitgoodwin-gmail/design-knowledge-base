@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.2.0 — 2026-09-20
+
+- Verified E08 disclosure, error recovery, Back and presentation restart in Chrome; preserved the self-navigation rejection, naming comparison and reset limitations.
+- Implemented E12 from actual Figma context: static reference matches 360×204 and tokens; interactive equivalent adds native disclosure semantics, focus, 44px target, explicit simulated error and immediate state changes.
+- Checked Enter/Space/retry/reset, independent appearance and source visibility, ordered long sources and four browser widths.
+- Retained official Inter asset/license and source provenance; catalog now 612 exact URLs and selected Figma register 44 records. Six exercises remain unrun: E11 and E13–E17.
+
 ## 2.1.0 — 2026-09-20
 
 - Continued the full goal beyond migration: added an explicit requirement/evidence audit.

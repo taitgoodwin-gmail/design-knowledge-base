@@ -1,0 +1,10 @@
+{
+  "checked": "2026-09-20",
+  "source": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/Inter-Regular.woff2",
+  "font_sha256": "e06f6b1bc553aaea4e4668023ed0ab0a147129c3107f511bc7d03d361b0ae085",
+  "bytes": 111268,
+  "license_source": "https://github.com/rsms/inter/blob/master/LICENSE.txt",
+  "license": "SIL Open Font License 1.1",
+  "unchanged_asset": true,
+  "note": "Official CDN CSS returned 403; exact font bytes retrieved from the official GitHub repository."
+}

@@ -14,6 +14,9 @@
   "slot_state_switches": 3,
   "boolean_binding_routes": 2,
   "contrast_pairs": 6,
+  "prototype_frames": 3,
+  "handoff_width_cases": 4,
+  "handoff_keyboard_cases": 2,
   "original_top_level_nodes_preserved": 9,
   "passed": true
 }

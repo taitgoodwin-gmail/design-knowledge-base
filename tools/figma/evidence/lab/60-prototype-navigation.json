@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: Reaction at index 0 was invalid (destination 63:35 was rejected — the destination node may not exist, the source may not be a valid prototype source, or the destination may not be reachable from this source; for NAVIGATE actions, destinations must be a different top-level frame on the same page)\n    at <anonymous> (<input>:1:22)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 169247af-1b1d-47a6-8188-330797c2f302"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

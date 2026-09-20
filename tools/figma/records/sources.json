@@ -393,5 +393,14 @@
     "scope": "Export formats and return types; SVG_STRING returns a string. Applied SVG export in E10; native MP4 exported via Figma export tool. No claim of lossless Figma reimport.",
     "method": "Official developer documentation via web; bounded export and browser checks",
     "evidence": "evidence/lab/motion-and-vector.md"
+  },
+  {
+    "id": "S44",
+    "title": "Plugin Action",
+    "url": "https://developers.figma.com/docs/plugins/api/Action/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "BACK navigation and NODE transition/reset options; E08 acceptance and self-target rejection observed separately",
+    "method": "Current official documentation and installed API typings; actual MCP/browser exercise"
   }
 ]

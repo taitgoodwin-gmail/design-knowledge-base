@@ -2,7 +2,7 @@
   {
     "id": "E01",
     "title": "Context and navigation",
-    "procedure": "Open File, Variables, then return to File. Switch Design \u2192 Motion \u2192 Design without editing content.",
+    "procedure": "Open File, Variables, then return to File. Switch Design → Motion → Design without editing content.",
     "acceptance": "Panels match the requested modes and the original design selection returns.",
     "status": "passed-limited",
     "evidence": "evidence/2026-09-20-ui-inspection.md"
@@ -72,8 +72,10 @@
     "title": "Source disclosure prototype",
     "procedure": "Prototype closed/open/error states; repeat actions, go back and restart. Deliberately rename one matching layer.",
     "acceptance": "State is predictable; explain the changed Smart Animate behavior; record reset behavior.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/prototype-and-handoff.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Actual Figma presentation or browser handoff interaction; bounded observations and exceptions are recorded"
   },
   {
     "id": "E09",
@@ -108,8 +110,10 @@
     "title": "Handoff fixture",
     "procedure": "Document a component state, token references, responsive rule and keyboard intent; implement a small equivalent.",
     "acceptance": "Design-to-code mapping and rendered behavior are checked, not inferred from snippets.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/prototype-and-handoff.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Actual Figma presentation or browser handoff interaction; bounded observations and exceptions are recorded"
   },
   {
     "id": "E13",
@@ -146,7 +150,7 @@
   {
     "id": "E17",
     "title": "FigJam decision record",
-    "procedure": "Create an observation \u2192 assumption \u2192 decision map with linked sources and a disagreement path.",
+    "procedure": "Create an observation → assumption → decision map with linked sources and a disagreement path.",
     "acceptance": "A reader can distinguish evidence from interpretation and recover the source.",
     "status": "not-run",
     "evidence": null

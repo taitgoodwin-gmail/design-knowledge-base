@@ -18,3 +18,7 @@ Sources: [S17: Connect prototypes](https://help.figma.com/hc/en-us/articles/3600
 ## Practice and acceptance
 
 Run E08 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Verified fixture nuance
+
+E08 was run in Chrome presentation view: [results](../evidence/lab/prototype-and-handoff.md). Rename matching changed the qualitative transition; the name was restored. NAVIGATE to the closed frame preserved history, while presentation R restarted the flow. Start-state Back is guarded. Slow Smart Animate disclosed transient text overlap, informing the immediate-state browser handoff. These are bounded observations, not universal guarantees.

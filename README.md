@@ -1,6 +1,6 @@
 # Design Knowledge Base
 
-Private reusable research for MindLeverX, Levarum, and future business/customer builds. Edition **2.1.0**, assembled 20 September 2026. GitHub is the maintained home for this edition; the earlier local collections and Notion pages remain unchanged historical originals.
+Private reusable research for MindLeverX, Levarum, and future business/customer builds. Edition **2.2.0**, assembled 20 September 2026. GitHub is the maintained home for this edition; the earlier local collections and Notion pages remain unchanged historical originals.
 
 ## Start with your task
 
@@ -17,9 +17,9 @@ Private reusable research for MindLeverX, Levarum, and future business/customer 
 | Check sources, coverage or contradictions | [Source catalog guide](sources/README.md) and [conflicts](sources/conflicts.md) |
 | Verify migration and preservation | [Migration evidence](evidence/migration.md) |
 
-The collection accounts for **319 original local files**, **25 Notion page snapshots**, and **609 distinct catalog URLs**. URLs include partial reviews, historical register entries, scope seeds, and links not fetched. These counts are not a claim of exhaustive research or verified mastery. Fifty exact-duplicate groups are tracked by hash; Git stores identical content once while original archive paths remain intact.
+The collection accounts for **319 original local files**, **25 Notion page snapshots**, and **612 distinct catalog URLs**. URLs include partial reviews, historical register entries, scope seeds, and links not fetched. These counts are not a claim of exhaustive research or verified mastery. Fifty exact-duplicate groups are tracked by hash; Git stores identical content once while original archive paths remain intact.
 
-The Figma draft includes 14 modules, 138 observed controls, and 18 exercises. One navigation exercise has a limited recorded pass; nine more have measured fixture results (E02–E07, E09, E10, E18), and 8 remain unrun. The public Design article inventory now contains 183 retrieved articles; retrieval is not review. Notion's Design Knowledge Base page was empty; substantive material came from its other research and governance pages. See [known gaps](tools/figma/known-gaps.md).
+The Figma draft includes 14 modules, 138 observed controls, and 18 exercises. One navigation exercise has a limited recorded pass; eleven more have measured fixture results (E02–E10, E12, E18), and 6 remain unrun. The public Design article inventory now contains 183 retrieved articles; retrieval is not review. Notion's Design Knowledge Base page was empty; substantive material came from its other research and governance pages. See [known gaps](tools/figma/known-gaps.md).
 
 ## Use and maintain
 

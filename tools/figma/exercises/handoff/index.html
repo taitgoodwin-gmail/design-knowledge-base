@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Figma evidence-card handoff lab</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="card.js" defer></script>
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">E12 · DESIGN TO CODE</p><h1>Follow the evidence.</h1><p>A working handoff exercise. Source entries are fictional; no AI service or search result is connected.</p></header>
+  <form class="controls" aria-label="Lab controls" onsubmit="return false">
+    <div class="appearance-control"><label for="appearance">Appearance</label> <select id="appearance"><option value="light">Light</option><option value="dark">Dark</option></select></div>
+    <label><input id="long-copy" type="checkbox"> Long question and source list</label>
+    <label><input id="show-source" type="checkbox" checked> Offer source disclosure</label>
+    <button id="simulate-error" type="button">Simulate source error</button>
+    <button id="reset" type="button">Reset example</button>
+  </form>
+  <section class="example" aria-labelledby="interactive-heading">
+    <h2 id="interactive-heading">Interactive equivalent</h2>
+    <article id="evidence-card" class="evidence-card" data-state="Default" aria-labelledby="card-question">
+      <p id="card-state" class="state" role="status" aria-live="polite">Default</p>
+      <h3 id="card-question">What evidence supports this answer?</h3>
+      <p id="card-explanation">Updated guidance: open the original source and check its date.</p>
+      <button id="source-toggle" class="source-toggle" type="button" aria-expanded="false" aria-controls="source-list">Source [1] available — show source</button>
+      <div id="source-list" class="source-list" hidden><p>[1] Example source — inspect the original.</p></div>
+    </article>
+    <p id="following">Following content stays below the card.</p>
+  </section>
+  <section class="example reference" aria-labelledby="reference-heading">
+    <h2 id="reference-heading">Static Figma reference</h2>
+    <p class="note">Default variant at up to 360px. The interactive version adds a 44px button target and disclosure semantics.</p>
+    <div id="reference-card" class="evidence-card" data-node-id="57:41">
+      <p class="state">Default</p>
+      <p>What evidence supports this answer?</p>
+      <p>Updated guidance: open the original source and check its date.</p>
+      <p class="source-text">Source [1] available</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

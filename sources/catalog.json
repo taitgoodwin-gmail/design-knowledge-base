@@ -1103,6 +1103,13 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-prototype-handoff",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Name/hierarchy matching and diagnostic timing; E08 experiment",
+          "evidence": "tools/figma/evidence/lab/prototype-and-handoff.md"
         }
       ]
     },
@@ -3583,6 +3590,13 @@
           "status": "linked-in-imported-research",
           "scope": "Inspect original evidence notes for claim scope and retrieval limits; not refreshed during migration.",
           "evidence": "projects/mindleverx/mindleverx-design-rationale.md"
+        },
+        {
+          "collection": "figma-prototype-handoff",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Button, Enter/Space and aria-expanded; E12 browser fixture",
+          "evidence": "tools/figma/evidence/lab/prototype-and-handoff.md"
         }
       ]
     },
@@ -10153,6 +10167,48 @@
           "status": "sections-reviewed-and-applied",
           "scope": "Export formats and return types; SVG_STRING returns a string. Applied SVG export in E10; native MP4 exported via Figma export tool. No claim of lossless Figma reimport.",
           "evidence": "tools/figma/evidence/lab/motion-and-vector.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-8ee2cc5c2f1a",
+      "title": "Plugin Action",
+      "url": "https://developers.figma.com/docs/plugins/api/Action/",
+      "records": [
+        {
+          "collection": "figma-prototype-handoff",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "BACK and NODE action semantics; E08",
+          "evidence": "tools/figma/evidence/lab/prototype-and-handoff.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-156d9efec3fb",
+      "title": "Inter official repository",
+      "url": "https://github.com/rsms/inter",
+      "records": [
+        {
+          "collection": "figma-prototype-handoff",
+          "recorded_checked_at": "2026-09-20",
+          "status": "repository-and-license-reviewed",
+          "scope": "Official font source and reuse license for local E12 fixture",
+          "evidence": "tools/figma/evidence/lab/prototype-and-handoff.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-38ed9245b2e9",
+      "title": "Inter Regular font asset",
+      "url": "https://raw.githubusercontent.com/rsms/inter/master/docs/font-files/Inter-Regular.woff2",
+      "records": [
+        {
+          "collection": "figma-prototype-handoff",
+          "recorded_checked_at": "2026-09-20",
+          "status": "asset-downloaded",
+          "scope": "Unmodified local font bytes with SHA256 and SIL OFL license",
+          "evidence": "tools/figma/evidence/lab/prototype-and-handoff.md"
         }
       ]
     }

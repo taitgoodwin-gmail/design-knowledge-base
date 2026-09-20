@@ -18,3 +18,7 @@ Sources: [S27: Code Connect](https://developers.figma.com/docs/code-connect/), [
 ## Practice and acceptance
 
 Run E12 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Verified fixture
+
+E12 now has an [implemented HTML/CSS/JavaScript example](../exercises/handoff/README.md) and [browser evidence](../evidence/lab/prototype-and-handoff.md). Static geometry/tokens matched the Figma default; a native 44px disclosure button intentionally increased working-card height. Enter/Space, error recovery, independent appearance/state, source ordering and four widths were checked. This does not verify Code Connect publication or a production backend.

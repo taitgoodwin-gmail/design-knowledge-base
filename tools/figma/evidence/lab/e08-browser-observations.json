@@ -1,0 +1,90 @@
+{
+  "checked": "2026-09-20",
+  "browser": "Chrome extension",
+  "surface": "Figma prototype presentation",
+  "method": "Actual clicks with canvas screenshot and URL observation; screenshots inspected in conversation, not archived as PNG files",
+  "diagnostic_transition_seconds": 6,
+  "observations": [
+    {
+      "step": "baseline closed to open",
+      "start": "63:9",
+      "action": "Show source",
+      "destination": "63:22",
+      "during": "Following text and lower controls moved down; disclosure faded at its destination position, creating transient overlap at slow diagnostic duration",
+      "end": "Source disclosure and following content were separately readable; Hide source, error, Back and Restart controls visible"
+    },
+    {
+      "step": "rename",
+      "node": "63:28",
+      "before": "Following content",
+      "after": "Following content / deliberately unmatched",
+      "other_layer_geometry": "unchanged"
+    },
+    {
+      "step": "unmatched transition",
+      "during": "Following content stayed at its source position early in the transition and later appeared at the destination while other matching controls moved; qualitative comparison is consistent with dissolve instead of position interpolation",
+      "final": "Layer name restored"
+    },
+    {
+      "step": "repeated disclosure",
+      "sequence": [
+        "Closed",
+        "Open",
+        "Closed",
+        "Open"
+      ],
+      "verified": true
+    },
+    {
+      "step": "error recovery",
+      "sequence": [
+        "Open",
+        "Error",
+        "Back to Open",
+        "Error",
+        "Retry to Open"
+      ],
+      "verified": true
+    },
+    {
+      "step": "fixture reset",
+      "sequence": [
+        "Open",
+        "Reset to Closed",
+        "Back to Open"
+      ],
+      "finding": "Navigate to closed retains history; resetInteractiveComponents does not erase navigation history",
+      "label_correction": "Reset to closed"
+    },
+    {
+      "step": "presentation restart",
+      "action": "R shortcut shown on the Restart button",
+      "from": "Open",
+      "to": "Closed",
+      "verified_twice": true
+    },
+    {
+      "step": "restart anomalies",
+      "finding": "Restart button automation sometimes left unchanged or black canvas. BACK at an empty history also showed a black canvas. These observations do not establish a general Figma defect; do not treat URL changes alone as successful rendering."
+    },
+    {
+      "step": "final guard",
+      "finding": "Back and inactive At start pseudo-button hidden on closed frame; final closed/open states rendered correctly and R returned to closed"
+    }
+  ],
+  "page_id": "63:8",
+  "frames": {
+    "closed": "63:9",
+    "open": "63:22",
+    "error": "63:35"
+  },
+  "final_transition_seconds": 0.2,
+  "final_easing": "EASE_OUT",
+  "flow_url": "https://www.figma.com/proto/UgtCQvjyZpBQVOxhZAK4sk/MindLeverX?page-id=63%3A8&node-id=63-9&starting-point-node-id=63%3A9&scaling=scale-down",
+  "bounded_result": "passed-fixture",
+  "limitations": [
+    "Qualitative canvas observations; not frame-by-frame animation timing measurement",
+    "Presentation Restart button clicks were unreliable in this automation run; R shortcut verified twice",
+    "No screen-reader audit, production backend, or OS reduced-motion setting test"
+  ]
+}

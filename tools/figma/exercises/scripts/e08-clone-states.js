@@ -1,0 +1,11 @@
+const page=await figma.getNodeByIdAsync('63:8');await figma.setCurrentPageAsync(page);
+const closed=await figma.getNodeByIdAsync('63:9');
+for(const t of closed.findAllWithCriteria({types:['TEXT']}))for(const s of t.getStyledTextSegments(['fontName']))await figma.loadFontAsync(s.fontName);
+const open=closed.clone();open.name='E08 / Open';open.x=710;
+open.children.find(n=>n.name==='Disclosure').visible=true;
+open.children.find(n=>n.name==='Source button').children[0].characters='Hide source';
+const error=closed.clone();error.name='E08 / Error';error.x=1260;
+error.children.find(n=>n.name==='Disclosure').visible=true;
+error.children.find(n=>n.name==='Disclosure').characters='Source could not be loaded. Retry, or go back. No result is being treated as evidence.';
+error.children.find(n=>n.name==='Source button').children[0].characters='Retry source';
+return {createdNodeIds:[open.id,...open.findAll(()=>true).map(n=>n.id),error.id,...error.findAll(()=>true).map(n=>n.id)],frames:[closed,open,error].map(n=>({id:n.id,name:n.name,width:n.width,height:n.height,children:n.children.map(c=>({id:c.id,name:c.name,y:c.y,height:c.height,visible:c.visible}))}))};

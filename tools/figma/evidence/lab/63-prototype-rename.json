@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"63:28\"],\"before\":\"Following content\",\"after\":\"Following content / deliberately unmatched\",\"y\":286,\"height\":21,\"parentId\":\"63:22\"}"
+    }
+  ],
+  "isError": false
+}

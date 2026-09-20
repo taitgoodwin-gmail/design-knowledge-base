@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"pageId\":\"63:8\",\"createdNodeIds\":[\"63:8\",\"63:9\",\"63:10\",\"63:11\",\"63:12\",\"63:13\",\"63:14\",\"63:15\"],\"cardId\":\"63:9\",\"children\":[{\"id\":\"63:10\",\"name\":\"Question\",\"width\":342,\"height\":36,\"y\":24,\"visible\":true},{\"id\":\"63:11\",\"name\":\"Answer\",\"width\":342,\"height\":72,\"y\":76,\"visible\":true},{\"id\":\"63:12\",\"name\":\"Source button\",\"width\":342,\"height\":48,\"y\":164,\"visible\":true},{\"id\":\"63:14\",\"name\":\"Disclosure\",\"width\":342,\"height\":42,\"y\":228,\"visible\":false},{\"id\":\"63:15\",\"name\":\"Following content\",\"width\":342,\"height\":21,\"y\":228,\"visible\":true}],\"fontFamilies\":[{\"family\":\"Inter\",\"style\":\"Bold\",\"variationSettings\":{\"wght\":700,\"slnt\":0}},{\"family\":\"Inter\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"slnt\":0}},{\"family\":\"Inter\",\"style\":\"Bold\",\"variationSettings\":{\"wght\":700,\"slnt\":0}},{\"family\":\"Inter\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"slnt\":0}},{\"family\":\"Inter\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"slnt\":0}}]}"
+    }
+  ],
+  "isError": false
+}

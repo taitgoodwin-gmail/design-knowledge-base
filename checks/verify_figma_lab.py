@@ -111,11 +111,42 @@ for root in audit['records']:
 contrast = json.loads((LAB / '56-component-contrast.json').read_text())
 assert len(contrast['pairs']) == 6 and all(p['ratio'] >= 4.5 for p in contrast['pairs'])
 original = result('17-original-page-check.json')['children']
-preserved = result('55-original-after-components.json')['topLevel']
+preserved = result('70-original-after-prototype.json')['topLevel']
 keys = ('id', 'name', 'x', 'y', 'width', 'height')
 assert [{k: n[k] for k in keys} for n in original] == [{k: n[k] for k in keys} for n in preserved]
+prototype = result('66-prototype-final-audit.json')
+assert len(prototype['records']) == 3 and not prototype['issues']
+assert prototype['flows'] == [{'nodeId': '63:9', 'name': 'E08 / Source disclosure'}]
+assert all(not f['missingFonts'] and f['width'] == 390 and f['height'] == 640 for f in prototype['records'])
+assert all(n['name'] not in ('Back button', 'Restart button') for n in prototype['records'][0]['visibleChildren'])
+for f in prototype['records']:
+    for n in f['reactions']:
+        for reaction in n['reactions']:
+            for action in reaction['actions']:
+                if action['type'] == 'NODE':
+                    assert action['destinationId'] != f['id']
+                    if action['transition']:
+                        assert close(action['transition']['duration'], .2)
+                        assert action['transition']['easing']['type'] == 'EASE_OUT'
+rejected = json.loads((LAB / '60-prototype-navigation.json').read_text())
+assert rejected['isError'] and 'different top-level frame' in rejected['content'][0]['text']
+handoff = json.loads((LAB / 'e12-browser-observations.json').read_text())
+assert (handoff['reference']['width'], handoff['reference']['height']) == (360, 204)
+assert handoff['reference']['font_loaded'] and handoff['interactive_default']['height'] == 224
+assert [(k['key'], k['expanded'], k['focus']) for k in handoff['keyboard']] == [('Enter', True, 'source-toggle'), ('Space', False, 'source-toggle')]
+assert [c['viewport'] for c in handoff['width_cases']] == [320, 390, 768, 1440]
+for c in handoff['width_cases']:
+    assert not c['violations'] and c['page_width'] == c['viewport']
+    assert c['source_width'] == c['source_scroll_width']
+    assert c['source_order'] == ['[3]', '[1]', '[2]'] and c['button_height'] >= 44
+    assert close(c['following_top'] - c['card_bottom'], 16)
+assert handoff['reset']['state'] == 'Default' and not handoff['reset']['expanded']
+font_dir = ROOT / 'tools/figma/exercises/handoff/assets'
+font_record = json.loads((font_dir / 'provenance.json').read_text())
+font_bytes = (font_dir / 'Inter-Regular.woff2').read_bytes()
+assert len(font_bytes) == font_record['bytes'] and hashlib.sha256(font_bytes).hexdigest() == font_record['font_sha256']
 manifest = json.loads((LAB / 'export-manifest.json').read_text())
 for name, expected in manifest['files'].items():
     blob = (LAB / name).read_bytes()
     assert len(blob) == expected['bytes'] and hashlib.sha256(blob).hexdigest() == expected['sha256'], name
-print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'component_roots_checked': len(audit['records']), 'slot_state_switches': len(slot_cases), 'boolean_binding_routes': 2, 'contrast_pairs': len(contrast['pairs']), 'original_top_level_nodes_preserved': len(original), 'passed': True}, indent=2))
+print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'component_roots_checked': len(audit['records']), 'slot_state_switches': len(slot_cases), 'boolean_binding_routes': 2, 'contrast_pairs': len(contrast['pairs']), 'prototype_frames': len(prototype['records']), 'handoff_width_cases': len(handoff['width_cases']), 'handoff_keyboard_cases': len(handoff['keyboard']), 'original_top_level_nodes_preserved': len(original), 'passed': True}, indent=2))

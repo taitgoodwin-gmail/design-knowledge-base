@@ -1,0 +1,154 @@
+{
+  "checked": "2026-09-20",
+  "browser": "Chrome extension",
+  "method": "Actual rendered DOM measurements, accessibility snapshots, screenshots and native keyboard events; browser screenshots inspected in conversation, not archived",
+  "reference": {
+    "figma_node": "57:41",
+    "width": 360,
+    "height": 204,
+    "font": "Inter",
+    "font_loaded": true,
+    "font_size": 16,
+    "line_height": 24,
+    "padding": 24,
+    "gap": 12,
+    "radius": 16,
+    "background": "rgb(247, 247, 252)",
+    "color": "rgb(17, 20, 43)"
+  },
+  "interactive_default": {
+    "width": 360,
+    "height": 224,
+    "button_height": 44,
+    "intentional_height_difference": 20
+  },
+  "keyboard": [
+    {
+      "key": "Enter",
+      "state": "Open",
+      "expanded": true,
+      "source_hidden": false,
+      "focus": "source-toggle"
+    },
+    {
+      "key": "Space",
+      "state": "Default",
+      "expanded": false,
+      "source_hidden": true,
+      "focus": "source-toggle",
+      "focus_outline": "rgb(36, 72, 255) solid 3px"
+    }
+  ],
+  "error_retry": {
+    "error_copy": "Simulated source error. Retry to show the example.",
+    "trigger": "Simulate source error",
+    "retry_key": "Enter",
+    "result": "Open"
+  },
+  "width_cases": [
+    {
+      "viewport": 320,
+      "card_width": 288,
+      "card_height": 572,
+      "source_width": 240,
+      "card_bottom": 1174.09375,
+      "following_top": 1190.09375,
+      "page_width": 320,
+      "source_scroll_width": 240,
+      "button_height": 44,
+      "source_count": 3,
+      "source_order": [
+        "[3]",
+        "[1]",
+        "[2]"
+      ],
+      "violations": [],
+      "appearance": "dark",
+      "state": "Open"
+    },
+    {
+      "viewport": 390,
+      "card_width": 358,
+      "card_height": 548,
+      "source_width": 310,
+      "card_bottom": 1150.09375,
+      "following_top": 1166.09375,
+      "page_width": 390,
+      "source_scroll_width": 310,
+      "button_height": 44,
+      "source_count": 3,
+      "source_order": [
+        "[3]",
+        "[1]",
+        "[2]"
+      ],
+      "violations": [],
+      "appearance": "dark",
+      "state": "Open"
+    },
+    {
+      "viewport": 768,
+      "card_width": 360,
+      "card_height": 548,
+      "source_width": 312,
+      "card_bottom": 973.296875,
+      "following_top": 989.296875,
+      "page_width": 768,
+      "source_scroll_width": 312,
+      "button_height": 44,
+      "source_count": 3,
+      "source_order": [
+        "[3]",
+        "[1]",
+        "[2]"
+      ],
+      "violations": [],
+      "appearance": "dark",
+      "state": "Open"
+    },
+    {
+      "viewport": 1440,
+      "card_width": 360,
+      "card_height": 548,
+      "source_width": 312,
+      "card_bottom": 973.296875,
+      "following_top": 989.296875,
+      "page_width": 1440,
+      "source_scroll_width": 312,
+      "button_height": 44,
+      "source_count": 3,
+      "source_order": [
+        "[3]",
+        "[1]",
+        "[2]"
+      ],
+      "violations": [],
+      "appearance": "dark",
+      "state": "Open"
+    }
+  ],
+  "visibility": {
+    "appearance": "dark",
+    "source_offer": false,
+    "button_hidden": true,
+    "source_hidden": true,
+    "state": "Default"
+  },
+  "reset": {
+    "state": "Default",
+    "appearance": "light",
+    "long_copy": false,
+    "show_source": true,
+    "expanded": false,
+    "source_hidden": true,
+    "animation_name": "none",
+    "transition_duration": "0s"
+  },
+  "limitations": [
+    "No live AI or source fetch",
+    "No full WCAG, screen-reader, zoom, cross-browser or OS reduced-motion audit",
+    "getAnimations was unavailable in the browser inspection surface; no animation-count result claimed",
+    "Static reference matches recorded geometry/tokens; no pixel-diff conformance claim"
+  ],
+  "bounded_result": "passed-fixture"
+}

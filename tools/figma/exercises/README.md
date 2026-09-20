@@ -64,7 +64,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** State is predictable; explain the changed Smart Animate behavior; record reset behavior.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/prototype-and-handoff.md)
 
 ## E09: Motion lab
 
@@ -96,7 +96,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Design-to-code mapping and rendered behavior are checked, not inferred from snippets.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/prototype-and-handoff.md)
 
 ## E13: Sites breakpoint inheritance
 

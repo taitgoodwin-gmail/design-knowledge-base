@@ -17,4 +17,4 @@ Sources: [S15: Typography systems](https://www.figma.com/best-practices/typograp
 
 ## Practice and acceptance
 
-Run E07 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+E07 has [recorded font/width and resizing results](../evidence/lab/README.md) for Inter, Noto Sans, Japanese text and a long identifier. Six final auto-height cases fit the measured bounds. Auto-width and an undersized fixed box demonstrated why dimensions need checking. This does not establish equivalence in browser rendering.

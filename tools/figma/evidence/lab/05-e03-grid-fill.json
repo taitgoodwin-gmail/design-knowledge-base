@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"37:38\",\"37:40\",\"37:42\",\"37:44\",\"37:46\",\"37:48\"],\"results\":[{\"id\":\"37:38\",\"result\":\"accepted\",\"width\":173.3333282470703},{\"id\":\"37:40\",\"result\":\"accepted\",\"width\":173.3333282470703},{\"id\":\"37:42\",\"result\":\"accepted\",\"width\":173.3333282470703},{\"id\":\"37:44\",\"result\":\"accepted\",\"width\":173.3333282470703},{\"id\":\"37:46\",\"result\":\"accepted\",\"width\":173.3333282470703},{\"id\":\"37:48\",\"result\":\"accepted\",\"width\":173.3333282470703}],\"tracks\":[{\"type\":\"FLEX\",\"value\":1},{\"type\":\"FLEX\",\"value\":1},{\"type\":\"FLEX\",\"value\":1}]}"
+    }
+  ],
+  "isError": false
+}

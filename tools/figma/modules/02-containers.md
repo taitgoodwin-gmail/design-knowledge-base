@@ -18,4 +18,6 @@ Sources: [S05: Groups versus frames](https://www.figma.com/best-practices/groups
 
 ## Practice and acceptance
 
-Run E02,E03 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+E02 and E03 now have [measured fixture results](../evidence/lab/README.md): 16 card states and three-width guide/wrap/grid comparisons. These verify the named fixtures, not arbitrary responsive pages.
+
+Refresh note: a stretch layout guide can alter constraint-relative positions even though it does not wrap content. Do not describe it as having no layout effect. [Official guide/constraint explanation](https://help.figma.com/hc/en-us/articles/360039957934-Combine-layout-guides-and-constraints), checked 2026-09-20; E18 records the rerun.

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"35:8\",\"35:9\",\"35:10\",\"35:11\",\"35:12\",\"35:13\",\"35:14\"],\"cardId\":\"35:8\",\"children\":[{\"id\":\"35:9\",\"name\":\"Question\",\"type\":\"TEXT\"},{\"id\":\"35:10\",\"name\":\"Answer\",\"type\":\"TEXT\"},{\"id\":\"35:11\",\"name\":\"Source button\",\"type\":\"FRAME\"},{\"id\":\"35:13\",\"name\":\"Disclosure\",\"type\":\"TEXT\"},{\"id\":\"35:14\",\"name\":\"Following content\",\"type\":\"TEXT\"}]}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,4 @@
+const page=await figma.getNodeByIdAsync('34:8');await figma.setCurrentPageAsync(page);const frames=await Promise.all(['37:8','37:10','37:12'].map(id=>figma.getNodeByIdAsync(id)));const results=[];
+for(const width of [600,390,840]){for(const f of frames){f.resize(width,f.height);if(f.id==='37:10')f.counterAxisSizingMode='AUTO';results.push({name:f.name,width,height:f.height,mode:f.layoutMode,tracks:f.layoutMode==='GRID'?f.gridColumnSizes.map(t=>({type:t.type,value:t.value})):null,children:f.children.map(c=>({id:c.id,name:c.name,x:c.x,y:c.y,width:c.width,height:c.height,row:f.layoutMode==='GRID'?c.gridRowAnchorIndex:null,column:f.layoutMode==='GRID'?c.gridColumnAnchorIndex:null}))});}}
+for(const f of frames){f.resize(600,f.height);if(f.id==='37:10')f.counterAxisSizingMode='AUTO';}
+return{mutatedNodeIds:frames.map(f=>f.id),results};

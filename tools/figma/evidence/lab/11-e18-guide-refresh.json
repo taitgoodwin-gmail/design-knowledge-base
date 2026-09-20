@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: in set_layoutGrids: Property \"layoutGrids\" failed validation: Unrecognized key(s) in object: 'sectionSize' at index 0\n    at set (<input>:75:11)\n    at <anonymous> (PLUGIN_1_SOURCE:2:62)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 6a6fd544-63fb-43dc-bd63-3650834f08b4"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

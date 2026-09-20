@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"39:9\"],\"states\":[{\"mode\":\"height-original\",\"width\":272,\"height\":156,\"containerWidth\":320,\"font\":{\"family\":\"Noto Sans\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"wdth\":100,\"CTGR\":0}},\"textAutoResize\":\"HEIGHT\",\"characters\":\"A useful answer makes its evidence easy to understand and inspect.\"},{\"mode\":\"auto-width\",\"width\":892,\"height\":39,\"containerWidth\":320,\"font\":{\"family\":\"Noto Sans\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"wdth\":100,\"CTGR\":0}},\"textAutoResize\":\"WIDTH_AND_HEIGHT\",\"characters\":\"A useful answer makes its evidence easy to understand and inspect.\"},{\"mode\":\"fixed-small-box\",\"width\":272,\"height\":39,\"containerWidth\":320,\"font\":{\"family\":\"Noto Sans\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"wdth\":100,\"CTGR\":0}},\"textAutoResize\":\"NONE\",\"characters\":\"A useful answer makes its evidence easy to understand and inspect.\"},{\"mode\":\"restored-auto-height\",\"width\":272,\"height\":156,\"containerWidth\":320,\"font\":{\"family\":\"Noto Sans\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"wdth\":100,\"CTGR\":0}},\"textAutoResize\":\"HEIGHT\",\"characters\":\"A useful answer makes its evidence easy to understand and inspect.\"}]}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,6 @@
+const page=await figma.getNodeByIdAsync('34:8');await figma.setCurrentPageAsync(page);await figma.loadFontAsync({family:'Inter',style:'Regular'});
+const ids=[],frames=[];for(let i=0;i<3;i++){const mode=['Guide','Wrap','Grid'][i];const f=mode==='Guide'?figma.createFrame():figma.createAutoLayout('HORIZONTAL');ids.push(f.id);f.name='E03 / '+mode;f.x=160+i*680;f.y=1060;f.resize(600,240);f.fills=[figma.util.solidPaint('#EDF1FC')];f.clipsContent=false;
+if(mode==='Guide'){f.layoutGrids=[{pattern:'COLUMNS',alignment:'STRETCH',count:3,gutterSize:16,offset:24,visible:true,color:{r:0.2,g:0.3,b:0.8,a:0.08}}];}
+else {f.paddingTop=24;f.paddingBottom=24;f.paddingLeft=24;f.paddingRight=24;f.counterAxisSizingMode='FIXED';f.primaryAxisSizingMode='FIXED';if(mode==='Wrap'){f.layoutWrap='WRAP';f.itemSpacing=16;f.counterAxisSpacing=16;f.counterAxisSizingMode='AUTO';}else{f.layoutMode='GRID';f.gridRowCount=2;f.gridColumnCount=3;f.gridRowGap=16;f.gridColumnGap=16;}}
+const title=figma.createText();ids.push(title.id);title.fontName={family:'Inter',style:'Regular'};title.characters=mode+' — six identical cards';title.fontSize=20;title.x=f.x;title.y=1010;frames.push({mode,id:f.id});}
+return {createdNodeIds:ids,frames};

@@ -16,7 +16,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** No overlap; content and controls remain visible; expansion moves following content.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/README.md)
 
 ## E03: Grid versus visual guide
 
@@ -24,7 +24,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Can explain and demonstrate differences in reflow, track sizing and spans.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/README.md)
 
 ## E04: Component state and overrides
 
@@ -56,7 +56,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** No necessary content is hidden; dimensions and line-height choices are documented.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/README.md)
 
 ## E08: Source disclosure prototype
 
@@ -144,5 +144,4 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Evidence status and dates accurately reflect the new check; validator passes.
 
-**Result:** not-run. No run recorded.
-
+**Result:** passed-fixture. [Evidence](../evidence/lab/README.md)

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"37:12\",\"37:40\",\"37:38\"],\"tracks\":[{\"type\":\"FIXED\",\"value\":120},{\"type\":\"FLEX\",\"value\":1},{\"type\":\"FLEX\",\"value\":1}],\"children\":[{\"id\":\"37:38\",\"name\":\"Card 1\",\"x\":24,\"y\":24,\"width\":336,\"height\":80,\"row\":0,\"column\":0,\"rowSpan\":1,\"columnSpan\":2},{\"id\":\"37:40\",\"name\":\"Card 2\",\"x\":160,\"y\":226.6666717529297,\"width\":200,\"height\":80,\"row\":2,\"column\":1,\"rowSpan\":1,\"columnSpan\":1},{\"id\":\"37:42\",\"name\":\"Card 3\",\"x\":376,\"y\":24,\"width\":200,\"height\":80,\"row\":0,\"column\":2,\"rowSpan\":1,\"columnSpan\":1},{\"id\":\"37:44\",\"name\":\"Card 4\",\"x\":24,\"y\":125.33333587646484,\"width\":120,\"height\":80,\"row\":1,\"column\":0,\"rowSpan\":1,\"columnSpan\":1},{\"id\":\"37:46\",\"name\":\"Card 5\",\"x\":160,\"y\":125.33333587646484,\"width\":200,\"height\":80,\"row\":1,\"column\":1,\"rowSpan\":1,\"columnSpan\":1},{\"id\":\"37:48\",\"name\":\"Card 6\",\"x\":376,\"y\":125.33333587646484,\"width\":200,\"height\":80,\"row\":1,\"column\":2,\"rowSpan\":1,\"columnSpan\":1}]}"
+    }
+  ],
+  "isError": false
+}

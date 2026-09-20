@@ -19,6 +19,6 @@ Documentation checked in selected scope on 20 September 2026. This is a learning
 | [13](modules/13-slides-buzz-figjam.md) | Slides, Buzz and FigJam |
 | [14](modules/14-maintenance.md) | Currency, conflicts and access |
 
-[Product map](PRODUCT-MAP.md) · [40 source records](SOURCES.md) · [138 observed controls](CONTROLS.md) · [18 exercises](exercises/README.md) · [known gaps](known-gaps.md).
+[Product map](PRODUCT-MAP.md) · [42 source records](SOURCES.md) · [138 observed controls](CONTROLS.md) · [18 exercises](exercises/README.md) · [known gaps](known-gaps.md).
 
-The control register records a limited Design/Variables/Motion inspection in one file context. Only E01 has a limited navigation pass; the other exercises remain not-run. [Inspection evidence](evidence/2026-09-20-ui-inspection.md). The 63 scope URLs are starting references, not a completed crawl.
+The control register records a limited Design/Variables/Motion inspection in one file context. E01 has a limited navigation pass; E02, E03, E07 and E18 have [recorded fixture results](evidence/lab/README.md). Thirteen exercises remain not-run. [Inspection evidence](evidence/2026-09-20-ui-inspection.md). The 63 supplied scope URLs remain starting references. The [183-article public Design inventory](../../sources/figma-design-article-inventory.json) exhausts the observed category API pagination, not every Figma product or every review.

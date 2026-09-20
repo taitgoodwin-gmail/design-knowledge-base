@@ -2,7 +2,7 @@
   {
     "id": "E01",
     "title": "Context and navigation",
-    "procedure": "Open File, Variables, then return to File. Switch Design \u2192 Motion \u2192 Design without editing content.",
+    "procedure": "Open File, Variables, then return to File. Switch Design → Motion → Design without editing content.",
     "acceptance": "Panels match the requested modes and the original design selection returns.",
     "status": "passed-limited",
     "evidence": "evidence/2026-09-20-ui-inspection.md"
@@ -12,16 +12,20 @@
     "title": "Responsive evidence card",
     "procedure": "In a sandbox, create a card with question, answer, source button and disclosure. Test short/long text at 320, 390, 768 and 1440 widths.",
     "acceptance": "No overlap; content and controls remain visible; expansion moves following content.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/README.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Recorded Figma MCP fixture plus rendered-image inspection; see exact acceptance evidence and limitations"
   },
   {
     "id": "E03",
     "title": "Grid versus visual guide",
     "procedure": "Compare a visual layout guide, horizontal wrap and grid using identical six-card content; resize each.",
     "acceptance": "Can explain and demonstrate differences in reflow, track sizing and spans.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/README.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Recorded Figma MCP fixture plus rendered-image inspection; see exact acceptance evidence and limitations"
   },
   {
     "id": "E04",
@@ -52,8 +56,10 @@
     "title": "Typography resilience",
     "procedure": "Compare text resizing and wrapping with a long headline, paragraph, non-Latin text and alternate fonts.",
     "acceptance": "No necessary content is hidden; dimensions and line-height choices are documented.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/README.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Recorded Figma MCP fixture plus rendered-image inspection; see exact acceptance evidence and limitations"
   },
   {
     "id": "E08",
@@ -130,7 +136,7 @@
   {
     "id": "E17",
     "title": "FigJam decision record",
-    "procedure": "Create an observation \u2192 assumption \u2192 decision map with linked sources and a disagreement path.",
+    "procedure": "Create an observation → assumption → decision map with linked sources and a disagreement path.",
     "acceptance": "A reader can distinguish evidence from interpretation and recover the source.",
     "status": "not-run",
     "evidence": null
@@ -140,7 +146,9 @@
     "title": "Knowledge refresh",
     "procedure": "Choose a changed capability, re-read official docs, rerun its exercise, update source date and changelog.",
     "acceptance": "Evidence status and dates accurately reflect the new check; validator passes.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/README.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Recorded Figma MCP fixture plus rendered-image inspection; see exact acceptance evidence and limitations"
   }
 ]

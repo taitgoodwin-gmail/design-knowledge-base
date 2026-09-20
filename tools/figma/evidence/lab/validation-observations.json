@@ -1,0 +1,9 @@
+{
+  "scope": "saved observations only; no live Figma rerun",
+  "card_cases": 16,
+  "layout_cases": 9,
+  "font_width_cases": 6,
+  "guide_control_cases": 2,
+  "expected_tool_rejection_preserved": true,
+  "passed": true
+}

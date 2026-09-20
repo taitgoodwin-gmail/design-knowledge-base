@@ -5,6 +5,7 @@ import hashlib, json, re, sys
 from urllib.parse import unquote
 
 ROOT=Path(__file__).resolve().parents[1]
+IGNORED_PARTS={'.git','.research-cache','.firecrawl','__pycache__'}
 errors=[]
 def require(condition,message):
  if not condition:errors.append(message)
@@ -23,7 +24,7 @@ for r in notion:
  require((ROOT/r['markdown_path']).is_file(),f"Missing readable Notion page: {r['id']}")
 json_count=0
 for p in ROOT.rglob('*.json'):
- if '.git' in p.parts:continue
+ if IGNORED_PARTS.intersection(p.parts):continue
  try:json.loads(p.read_text());json_count+=1
  except Exception as e:errors.append(f'Invalid JSON: {p.relative_to(ROOT)}: {e}')
 sources=json.loads((ROOT/'sources/catalog.json').read_text())['sources']
@@ -42,7 +43,7 @@ for r in json.loads((ROOT/'tools/figma/records/exercises.json').read_text()):
  if r.get('evidence'):require((ROOT/'tools/figma'/r['evidence']).is_file(),f"Missing exercise evidence: {r['id']}")
 links=0
 for p in ROOT.rglob('*.md'):
- if '.git' in p.parts or 'archive' in p.relative_to(ROOT).parts:continue
+ if IGNORED_PARTS.intersection(p.parts) or 'archive' in p.relative_to(ROOT).parts:continue
  text=re.sub(r'```.*?```','',p.read_text(),flags=re.S)
  for target in re.findall(r'\]\(([^)]+)\)',text):
   target=target.strip().split(' "')[0].strip('<>')
@@ -51,7 +52,7 @@ for p in ROOT.rglob('*.md'):
   if not target:continue
   links+=1
   require((p.parent/target).exists(),f'Broken maintained link: {p.relative_to(ROOT)} -> {target}')
-sizes=[(p.stat().st_size,str(p.relative_to(ROOT))) for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.parts]
+sizes=[(p.stat().st_size,str(p.relative_to(ROOT))) for p in ROOT.rglob('*') if p.is_file() and not IGNORED_PARTS.intersection(p.parts)]
 require(all(n<100*1024*1024 for n,_ in sizes),'File exceeds GitHub ordinary Git limit')
 summary={'local_archives':len(local['files']),'notion_snapshots':len(notion),'source_urls':len(sources),'valid_json_files':json_count,'maintained_links_checked':links,'largest_file_bytes':max(sizes)[0],'errors':errors}
 print(json.dumps(summary,indent=2))

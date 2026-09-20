@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"39:8\",\"39:9\",\"39:10\",\"39:11\",\"39:12\"],\"frameId\":\"39:8\",\"children\":[{\"id\":\"39:9\",\"name\":\"Headline\",\"font\":{\"family\":\"Inter\",\"style\":\"Bold\",\"variationSettings\":{\"wght\":700,\"slnt\":0}},\"width\":342,\"height\":117,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"39:10\",\"name\":\"Paragraph\",\"font\":{\"family\":\"Inter\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"slnt\":0}},\"width\":342,\"height\":120,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"39:11\",\"name\":\"Japanese\",\"font\":{\"family\":\"Noto Sans JP\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400}},\"width\":342,\"height\":78,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"39:12\",\"name\":\"Long source identifier\",\"font\":{\"family\":\"Inter\",\"style\":\"Regular\",\"variationSettings\":{\"wght\":400,\"slnt\":0}},\"width\":342,\"height\":63,\"textAutoResize\":\"HEIGHT\"}]}"
+    }
+  ],
+  "isError": false
+}

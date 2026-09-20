@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"37:14\",\"37:15\",\"37:16\",\"37:17\",\"37:18\",\"37:19\"],\"mutatedNodeIds\":[\"37:8\"],\"parent\":{\"id\":\"37:8\",\"name\":\"E03 / Guide\",\"width\":600,\"height\":240},\"children\":[{\"id\":\"37:14\",\"name\":\"Card 1\",\"x\":24,\"y\":24,\"width\":160,\"height\":80},{\"id\":\"37:16\",\"name\":\"Card 2\",\"x\":200,\"y\":24,\"width\":160,\"height\":80},{\"id\":\"37:18\",\"name\":\"Card 3\",\"x\":376,\"y\":24,\"width\":160,\"height\":80}]}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,9 @@
+const page=await figma.getNodeByIdAsync('34:8');await figma.setCurrentPageAsync(page);await Promise.all([{family:'Inter',style:'Bold'},{family:'Inter',style:'Regular'},{family:'Noto Sans',style:'Regular'},{family:'Noto Sans JP',style:'Regular'}].map(f=>figma.loadFontAsync(f)));
+const frame=figma.createAutoLayout('VERTICAL');frame.name='E07 / Typography resilience';frame.x=160;frame.y=1700;frame.resize(390,100);frame.counterAxisSizingMode='FIXED';frame.primaryAxisSizingMode='AUTO';frame.paddingTop=24;frame.paddingBottom=24;frame.paddingLeft=24;frame.paddingRight=24;frame.itemSpacing=20;frame.fills=[figma.util.solidPaint('#F6F8FF')];frame.clipsContent=false;const ids=[frame.id];
+const samples=[
+['Headline','A useful answer makes its evidence easy to understand and inspect.',{family:'Inter',style:'Bold'},28,140],
+['Paragraph','Evidence can be incomplete. Describe the context, identify the source and explain the limits before asking someone to act. Longer content should expand the layout instead of hiding important qualifications.',{family:'Inter',style:'Regular'},16,150],
+['Japanese','情報の出典を確認し、内容が正確で最新かどうかを確かめましょう。観察した事実と解釈を区別します。',{family:'Noto Sans JP',style:'Regular'},16,160],
+['Long source identifier','Source: research_record_2026_09_20_abcdefghijklmnopqrstuvwxyz0123456789_abcdefghijklmnopqrstuvwxyz',{family:'Inter',style:'Regular'},14,150]];
+for(const [name,characters,font,size,line]of samples){const t=figma.createText();ids.push(t.id);t.name=name;t.fontName=font;t.fontSize=size;t.lineHeight={unit:'PERCENT',value:line};t.characters=characters;t.fills=[figma.util.solidPaint('#16223D')];frame.appendChild(t);t.textAutoResize='HEIGHT';t.layoutSizingHorizontal='FILL';}
+return {createdNodeIds:ids,frameId:frame.id,children:frame.children.map(t=>({id:t.id,name:t.name,font:t.fontName,width:t.width,height:t.height,textAutoResize:t.textAutoResize}))};

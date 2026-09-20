@@ -358,5 +358,25 @@
     "review_status": "excerpt-reviewed",
     "scope": "Editor read/write capability and distinction from other APIs; exact APIs require current docs.",
     "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S41",
+    "title": "Combine layout guides and constraints",
+    "url": "https://help.figma.com/hc/en-us/articles/360039957934-Combine-layout-guides-and-constraints",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Stretch guides affect constraint-relative positions; E18 control comparison.",
+    "method": "Official documentation via web and public article API; bounded lab application",
+    "evidence": "evidence/lab/README.md"
+  },
+  {
+    "id": "S42",
+    "title": "Adjust text dimensions and resizing",
+    "url": "https://help.figma.com/hc/en-us/articles/27378154668951-Adjust-text-dimensions-and-resizing",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Dimensions, auto-width, fixed boxes and auto-height; E07 measured resizing.",
+    "method": "Official documentation via web and public article API; bounded lab application",
+    "evidence": "evidence/lab/README.md"
   }
 ]

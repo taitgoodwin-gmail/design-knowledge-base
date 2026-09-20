@@ -1,6 +1,6 @@
 # Figma source register
 
-Checked dates reflect this research pass. “Sections-reviewed” means relevant returned sections were inspected, not that every video, link or detail was mastered. No third-party publications are mirrored.
+Dates and review depth apply to the stated scope. Article retrieval, review, visual inspection and hands-on exercises are distinct. See the separate public Design article inventory for broader discovery.
 
 | ID | Source | Checked | Review depth | Scope |
 |---|---|---|---|---|
@@ -44,3 +44,5 @@ Checked dates reflect this research pass. “Sections-reviewed” means relevant
 | S38 | [Components, styles and libraries](https://www.figma.com/best-practices/components-styles-and-shared-libraries/) | 2026-09-20 | sections-reviewed | Reuse and library organization; cross-check current entitlements. |
 | S39 | [Product overview](https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma) | 2026-09-20 | sections-reviewed | Product roles, including FigJam; not a full feature inventory. |
 | S40 | [Plugin API](https://developers.figma.com/docs/plugins/) | 2026-09-20 | excerpt-reviewed | Editor read/write capability and distinction from other APIs; exact APIs require current docs. |
+| S41 | [Combine layout guides and constraints](https://help.figma.com/hc/en-us/articles/360039957934-Combine-layout-guides-and-constraints) | 2026-09-20 | sections-reviewed | Stretch guides affect constraint-relative positions; E18 control comparison. |
+| S42 | [Adjust text dimensions and resizing](https://help.figma.com/hc/en-us/articles/27378154668951-Adjust-text-dimensions-and-resizing) | 2026-09-20 | sections-reviewed | Dimensions, auto-width, fixed boxes and auto-height; E07 measured resizing. |

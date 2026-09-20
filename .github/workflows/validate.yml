@@ -12,3 +12,4 @@ jobs:
           python-version: '3.12'
       - run: python3 checks/validate.py
       - run: python3 checks/retrieval_smoke.py
+      - run: python3 checks/verify_figma_lab.py

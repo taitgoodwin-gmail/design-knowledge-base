@@ -731,6 +731,13 @@
           "status": "sections-reviewed",
           "scope": "Current navigation bar, sidebar and selection context.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -746,6 +753,13 @@
           "status": "sections-reviewed",
           "scope": "Toolbar, Actions, Draw and Dev Mode routes; not every submenu exercised.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -776,6 +790,21 @@
           "status": "sections-reviewed",
           "scope": "Flow, resizing, min/max and ignore-auto-layout interactions.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab-review",
+          "original_id": "S06",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied-in-fixture",
+          "scope": "Flow, resizing, min/max and ignore-auto-layout interactions.",
+          "evidence": "tools/figma/evidence/lab/README.md"
         }
       ]
     },
@@ -791,6 +820,21 @@
           "status": "sections-reviewed",
           "scope": "Tracks, spans, fractional allocation and distinction from visual guides.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab-review",
+          "original_id": "S07",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied-in-fixture",
+          "scope": "Tracks, spans, fractional allocation and distinction from visual guides.",
+          "evidence": "tools/figma/evidence/lab/README.md"
         }
       ]
     },
@@ -806,6 +850,13 @@
           "status": "sections-reviewed",
           "scope": "Main components, linked instances and reuse.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -821,6 +872,13 @@
           "status": "sections-reviewed",
           "scope": "Text, boolean, instance swap, variant and slot properties; simplified-instance deprecation.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -836,6 +894,13 @@
           "status": "sections-reviewed",
           "scope": "Nested flexible instance content; restrictions and slot settings.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -851,6 +916,13 @@
           "status": "sections-reviewed",
           "scope": "Unique property combinations; not every possible combination is necessary.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -866,6 +938,13 @@
           "status": "sections-reviewed",
           "scope": "Six types including timing and easing; styles versus variables.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -896,6 +975,13 @@
           "status": "sections-reviewed",
           "scope": "Mode-to-variant value matching; boolean property wording conflicts with S09.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -926,6 +1012,21 @@
           "status": "sections-reviewed",
           "scope": "Type controls, text dimensions, truncation and wrap styles; browser implementation requires separate checks.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab-review",
+          "original_id": "S16",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied-in-fixture",
+          "scope": "Type controls, text dimensions, truncation and wrap styles; browser implementation requires separate checks.",
+          "evidence": "tools/figma/evidence/lab/README.md"
         }
       ]
     },
@@ -941,6 +1042,13 @@
           "status": "sections-reviewed",
           "scope": "Hotspot, trigger, action and transition configuration.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -956,6 +1064,13 @@
           "status": "sections-reviewed",
           "scope": "Matching uses names and hierarchy; transition troubleshooting.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -971,6 +1086,13 @@
           "status": "sections-reviewed",
           "scope": "Conditional action and animation sequencing; run-time behavior untested here.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -1001,6 +1123,13 @@
           "status": "sections-reviewed",
           "scope": "Illustration mode changes tools and sidebars; Design mode retains other controls.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -1031,6 +1160,13 @@
           "status": "sections-reviewed",
           "scope": "Agent in design files versus Make; does not establish output quality.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -1211,6 +1347,13 @@
           "status": "sections-reviewed",
           "scope": "Export scope, slices, file copies and permission restrictions.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
         }
       ]
     },
@@ -7601,6 +7744,2347 @@
           "evidence": "reference-library/notion/foundry-onboarding-3b2792ca.md"
         }
       ]
+    },
+    {
+      "id": "REF-52764b084adf",
+      "title": "Use auto layout with CSS Flexbox in mind",
+      "url": "https://help.figma.com/hc/en-us/articles/42031586813719-Use-auto-layout-with-CSS-Flexbox-in-mind",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-7dce6b7bbaa4",
+      "title": "Hide or minimize the UI",
+      "url": "https://help.figma.com/hc/en-us/articles/41414918021271-Hide-or-minimize-the-UI",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-fd450d38c48c",
+      "title": "Export animations from Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/41307983648407-Export-animations-from-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0fafa9c06d75",
+      "title": "Turn coded screens into editable design layers",
+      "url": "https://help.figma.com/hc/en-us/articles/40826832449303-Turn-coded-screens-into-editable-design-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cb57e297b53e",
+      "title": "Check designs in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/39592284074263-Check-designs-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f376a9756e9c",
+      "title": "See viewer history for your files",
+      "url": "https://help.figma.com/hc/en-us/articles/29638316371479-See-viewer-history-for-your-files",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-82a7d9092076",
+      "title": "Layers 101: Get started with layers",
+      "url": "https://help.figma.com/hc/en-us/articles/26584819173271-Layers-101-Get-started-with-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-7f01f4db16da",
+      "title": "Present prototypes offline",
+      "url": "https://help.figma.com/hc/en-us/articles/26463081577367-Present-prototypes-offline",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2e33531b16ad",
+      "title": "Get started with Apple's UI kit",
+      "url": "https://help.figma.com/hc/en-us/articles/24037833895831-Get-started-with-Apple-s-UI-kit",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-03a0d0b1cbad",
+      "title": "Start designing with UI kits",
+      "url": "https://help.figma.com/hc/en-us/articles/24037724065943-Start-designing-with-UI-kits",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-048f61cf7c9f",
+      "title": "Use the actions menu in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/23570416033943-Use-the-actions-menu-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-d5f1d0bb1f27",
+      "title": "Edit objects on the canvas in bulk",
+      "url": "https://help.figma.com/hc/en-us/articles/21635177948567-Edit-objects-on-the-canvas-in-bulk",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ec41e9f5cabe",
+      "title": "Identify matching objects",
+      "url": "https://help.figma.com/hc/en-us/articles/21523793229463-Identify-matching-objects",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4475971079ee",
+      "title": "Set prototype device and background settings",
+      "url": "https://help.figma.com/hc/en-us/articles/21158597546391-Set-prototype-device-and-background-settings",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4a1c889d463d",
+      "title": "Advanced prototyping examples",
+      "url": "https://help.figma.com/hc/en-us/articles/17146044893591-Advanced-prototyping-examples",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8c5ce414d49e",
+      "title": "Use sections in prototyping",
+      "url": "https://help.figma.com/hc/en-us/articles/16194160540567-Use-sections-in-prototyping",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a39385823e8b",
+      "title": "Guide to variables in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/15339657135383-Guide-to-variables-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4139c6d7f339",
+      "title": "View prototype connections",
+      "url": "https://help.figma.com/hc/en-us/articles/4411431245335-View-prototype-connections",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f6f1747983b5",
+      "title": "Guide to branching",
+      "url": "https://help.figma.com/hc/en-us/articles/360063144053-Guide-to-branching",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f34db301e806",
+      "title": "Guide to libraries in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/360041051154-Guide-to-libraries-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6a882b599488",
+      "title": "Guide to fills",
+      "url": "https://help.figma.com/hc/en-us/articles/360041003694-Guide-to-fills",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6194f1ea53ec",
+      "title": "Guide to imports in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/360040027794-Guide-to-imports-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-22b9fa91796b",
+      "title": "Parent, child, and sibling relationships",
+      "url": "https://help.figma.com/hc/en-us/articles/360039959014-Parent-child-and-sibling-relationships",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4ba75a6cc167",
+      "title": "Vector networks",
+      "url": "https://help.figma.com/hc/en-us/articles/360040450213-Vector-networks",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-9ba625059331",
+      "title": "Guide to text in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/360039956434-Guide-to-text-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5d1d171d5556",
+      "title": "Use Figma products with a keyboard",
+      "url": "https://help.figma.com/hc/en-us/articles/360040328653-Use-Figma-products-with-a-keyboard",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c580c167f5dc",
+      "title": "Guide to comments in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/360039825314-Guide-to-comments-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a3a28f4cc41c",
+      "title": "Present to collaborators using spotlight",
+      "url": "https://help.figma.com/hc/en-us/articles/360040322673-Present-to-collaborators-using-spotlight",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c9fc8af46f1e",
+      "title": "Guide to prototyping in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/360040314193-Guide-to-prototyping-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-38b42420d14f",
+      "title": "Styles in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/360039238753-Styles-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2bb19875282f",
+      "title": "Migrate a library to using slots",
+      "url": "https://help.figma.com/hc/en-us/articles/38607529833751-Migrate-a-library-to-using-slots",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0dcdf7c0311f",
+      "title": "Draw with illustration tools",
+      "url": "https://help.figma.com/hc/en-us/articles/31440438150935-Draw-with-illustration-tools",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e159ab44a3e2",
+      "title": "Layers 101: Explore layer types",
+      "url": "https://help.figma.com/hc/en-us/articles/26620239826199-Layers-101-Explore-layer-types",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0ff55dd87d7b",
+      "title": "State management for prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/14397859494295-State-management-for-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-65d75191f2d5",
+      "title": "Add descriptions to styles, components, and variables",
+      "url": "https://help.figma.com/hc/en-us/articles/7938814091287-Add-descriptions-to-styles-components-and-variables",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-082fc8d85c15",
+      "title": "Toggle on auto layout in designs",
+      "url": "https://help.figma.com/hc/en-us/articles/5731482952599-Toggle-on-auto-layout-in-designs",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-31315c6dc16c",
+      "title": "Share a branch",
+      "url": "https://help.figma.com/hc/en-us/articles/5665697002263-Share-a-branch",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-b4bb4d9ea45e",
+      "title": "Set small and big nudge values",
+      "url": "https://help.figma.com/hc/en-us/articles/4404575206295-Set-small-and-big-nudge-values",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5cdba371a080",
+      "title": "Add prototype connections from main components",
+      "url": "https://help.figma.com/hc/en-us/articles/4404380377367-Add-prototype-connections-from-main-components",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-40d8d519b415",
+      "title": "Use cursor chat in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/4403130802199-Use-cursor-chat-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8643810ee8d5",
+      "title": "Add comments to files",
+      "url": "https://help.figma.com/hc/en-us/articles/360041068574-Add-comments-to-files",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f9fadce93122",
+      "title": "Update fills using the color picker",
+      "url": "https://help.figma.com/hc/en-us/articles/360041003774-Update-fills-using-the-color-picker",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c267f1ad89b1",
+      "title": "Import files to the file browser",
+      "url": "https://help.figma.com/hc/en-us/articles/360041003114-Import-files-to-the-file-browser",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e5f3e69400f6",
+      "title": "Use animated GIFs in prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/360041486873-Use-animated-GIFs-in-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-75c73346d838",
+      "title": "Edit vector layers",
+      "url": "https://help.figma.com/hc/en-us/articles/360039957634-Edit-vector-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ded3ffd93f41",
+      "title": "Select layers and objects",
+      "url": "https://help.figma.com/hc/en-us/articles/360040449873-Select-layers-and-objects",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-aa463d1bc2c5",
+      "title": "Play your prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/360040318013-Play-your-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-7708c19d3225",
+      "title": "Create color, text, effect, and layout guide styles",
+      "url": "https://help.figma.com/hc/en-us/articles/360038746534-Create-color-text-effect-and-layout-guide-styles",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-449653db2f65",
+      "title": "Use gradients as a fill or stroke",
+      "url": "https://help.figma.com/hc/en-us/articles/34208860210199-Use-gradients-as-a-fill-or-stroke",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c6365a7077f6",
+      "title": "Create custom shapes with the shape builder tool",
+      "url": "https://help.figma.com/hc/en-us/articles/31616004109847-Create-custom-shapes-with-the-shape-builder-tool",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a217b0a7c644",
+      "title": "Create patterns with transforms",
+      "url": "https://help.figma.com/hc/en-us/articles/31440427042839-Create-patterns-with-transforms",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8b8cda321f4b",
+      "title": "Use the horizontal and vertical flows in auto layout",
+      "url": "https://help.figma.com/hc/en-us/articles/31289464393751-Use-the-horizontal-and-vertical-flows-in-auto-layout",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-1b45acaeff52",
+      "title": "Layers 101: Combine layers",
+      "url": "https://help.figma.com/hc/en-us/articles/26610806345623-Layers-101-Combine-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-37f757d75f36",
+      "title": "Use AI tools in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/23870272542231-Use-AI-tools-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-9ff2af90f3bc",
+      "title": "Create and manage variables and collections",
+      "url": "https://help.figma.com/hc/en-us/articles/15145852043927-Create-and-manage-variables-and-collections",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-07b77666e964",
+      "title": "Use videos in prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/8878274530455-Use-videos-in-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-01a42bfa6564",
+      "title": "Get updates from main files",
+      "url": "https://help.figma.com/hc/en-us/articles/5665728006423-Get-updates-from-main-files",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8f4d199e3fe9",
+      "title": "View and manage comments",
+      "url": "https://help.figma.com/hc/en-us/articles/360041547593-View-and-manage-comments",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-019458b25ca9",
+      "title": "Adjust your zoom and view options",
+      "url": "https://help.figma.com/hc/en-us/articles/360041065034-Adjust-your-zoom-and-view-options",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e2b40c4e15c2",
+      "title": "Optimize design files for developer handoff",
+      "url": "https://help.figma.com/hc/en-us/articles/360040521453-Optimize-design-files-for-developer-handoff",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6e7bf6a18be3",
+      "title": "Import Sketch files",
+      "url": "https://help.figma.com/hc/en-us/articles/360040514273-Import-Sketch-files",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-11d25a96828a",
+      "title": "Adjust alignment, rotation, position, and dimensions",
+      "url": "https://help.figma.com/hc/en-us/articles/360039956914-Adjust-alignment-rotation-position-and-dimensions",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5aa6ba809205",
+      "title": "Add a font to Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/360039956894-Add-a-font-to-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cc83783946aa",
+      "title": "Create and manage prototype flows",
+      "url": "https://help.figma.com/hc/en-us/articles/360039823894-Create-and-manage-prototype-flows",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-98db10df30ec",
+      "title": "View prototypes on a mobile device",
+      "url": "https://help.figma.com/hc/en-us/articles/360040321093-View-prototypes-on-a-mobile-device",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c71f06f5e316",
+      "title": "Manage and share styles",
+      "url": "https://help.figma.com/hc/en-us/articles/360039820134-Manage-and-share-styles",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c5578d0aa86c",
+      "title": "Publish a library",
+      "url": "https://help.figma.com/hc/en-us/articles/360025508373-Publish-a-library",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-44b868888255",
+      "title": "Convert strokes to vector paths",
+      "url": "https://help.figma.com/hc/en-us/articles/33052305733015-Convert-strokes-to-vector-paths",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-95f9b9732e59",
+      "title": "Use patterns as a fill or stroke",
+      "url": "https://help.figma.com/hc/en-us/articles/31616030150167-Use-patterns-as-a-fill-or-stroke",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0d094cd7cd8f",
+      "title": "Apply variables to designs",
+      "url": "https://help.figma.com/hc/en-us/articles/15343107263511-Apply-variables-to-designs",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a7888cd97c8f",
+      "title": "Accessible prototypes in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/7810391964695-Accessible-prototypes-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-37341cc565e6",
+      "title": "View and manage branches",
+      "url": "https://help.figma.com/hc/en-us/articles/5668839659415-View-and-manage-branches",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c46b428ee9ea",
+      "title": "Copy and paste objects",
+      "url": "https://help.figma.com/hc/en-us/articles/4409078832791-Copy-and-paste-objects",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-3af7181a54fb",
+      "title": "Apply and adjust stroke properties",
+      "url": "https://help.figma.com/hc/en-us/articles/360049283914-Apply-and-adjust-stroke-properties",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-33d4c5ce3276",
+      "title": "Browse and apply fonts",
+      "url": "https://help.figma.com/hc/en-us/articles/360041308034-Browse-and-apply-fonts",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-06e68239908c",
+      "title": "Move or edit comments",
+      "url": "https://help.figma.com/hc/en-us/articles/360041547853-Move-or-edit-comments",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-78087d081392",
+      "title": "Change the background color of the canvas",
+      "url": "https://help.figma.com/hc/en-us/articles/360041064814-Change-the-background-color-of-the-canvas",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-88e63f7101e5",
+      "title": "Frames in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/360041539473-Frames-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c0cef56f4ee3",
+      "title": "Prototype triggers",
+      "url": "https://help.figma.com/hc/en-us/articles/360040035834-Prototype-triggers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0009b647a8f3",
+      "title": "Copy assets between design tools",
+      "url": "https://help.figma.com/hc/en-us/articles/360040030374-Copy-assets-between-design-tools",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-deec2b666434",
+      "title": "Comment on prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/360039824594-Comment-on-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-79a119d5f74a",
+      "title": "Create overlays in your prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/360039818254-Create-overlays-in-your-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f0b4fcf5889c",
+      "title": "Apply styles to layers and objects",
+      "url": "https://help.figma.com/hc/en-us/articles/360040316193-Apply-styles-to-layers-and-objects",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-bd84cdedcd89",
+      "title": "Review and accept library updates",
+      "url": "https://help.figma.com/hc/en-us/articles/360039234193-Review-and-accept-library-updates",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-3df0f270a476",
+      "title": "Create components to reuse in designs",
+      "url": "https://help.figma.com/hc/en-us/articles/360038663154-Create-components-to-reuse-in-designs",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-9e6325d276bd",
+      "title": "Set custom thumbnails for files",
+      "url": "https://help.figma.com/hc/en-us/articles/360038511413-Set-custom-thumbnails-for-files",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2d87133f0dea",
+      "title": "Combine vertical, horizontal, and grid auto layout flows",
+      "url": "https://help.figma.com/hc/en-us/articles/31441443713047-Combine-vertical-horizontal-and-grid-auto-layout-flows",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cd2e913a6f9e",
+      "title": "Request a branch review",
+      "url": "https://help.figma.com/hc/en-us/articles/5691414603543-Request-a-branch-review",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-92f884d68b68",
+      "title": "Swap libraries",
+      "url": "https://help.figma.com/hc/en-us/articles/4404856784663-Swap-libraries",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-fa45eaa3e0bc",
+      "title": "Sketch on the canvas with the pencil tool",
+      "url": "https://help.figma.com/hc/en-us/articles/4402723791511-Sketch-on-the-canvas-with-the-pencil-tool",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6b0d5b6aee07",
+      "title": "Preserve scroll position in prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/360051747774-Preserve-scroll-position-in-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5a5ed24403aa",
+      "title": "Convert text to vector paths",
+      "url": "https://help.figma.com/hc/en-us/articles/360047239073-Convert-text-to-vector-paths",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c82600425e46",
+      "title": "Manage email notifications for comments on files",
+      "url": "https://help.figma.com/hc/en-us/articles/360041547813-Manage-email-notifications-for-comments-on-files",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5ae0dfeb915d",
+      "title": "Apply blend modes to layers, fills, and effects",
+      "url": "https://help.figma.com/hc/en-us/articles/360040667874-Apply-blend-modes-to-layers-fills-and-effects",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cd0bf84d9a49",
+      "title": "Prototype actions",
+      "url": "https://help.figma.com/hc/en-us/articles/360040035874-Prototype-actions",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cbb5a2eea376",
+      "title": "Scale layers while maintaining proportions",
+      "url": "https://help.figma.com/hc/en-us/articles/360040451453-Scale-layers-while-maintaining-proportions",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-fb85ee38983e",
+      "title": "Add guides to the canvas or frames",
+      "url": "https://help.figma.com/hc/en-us/articles/360040449713-Add-guides-to-the-canvas-or-frames",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-fee9b67ac081",
+      "title": "Create and apply text styles",
+      "url": "https://help.figma.com/hc/en-us/articles/360039957034-Create-and-apply-text-styles",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-990e064608b8",
+      "title": "Prototype scroll and overflow behavior",
+      "url": "https://help.figma.com/hc/en-us/articles/360039818734-Prototype-scroll-and-overflow-behavior",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4e7eacaeace8",
+      "title": "Create and insert component instances",
+      "url": "https://help.figma.com/hc/en-us/articles/360039150173-Create-and-insert-component-instances",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c25582412480",
+      "title": "Extend a variable collection",
+      "url": "https://help.figma.com/hc/en-us/articles/36346281624471-Extend-a-variable-collection",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-7d6abaa2374f",
+      "title": "Offset a vector path",
+      "url": "https://help.figma.com/hc/en-us/articles/33792861450263-Offset-a-vector-path",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-164ba48da8ce",
+      "title": "Adjust text dimensions and resizing",
+      "url": "https://help.figma.com/hc/en-us/articles/27378154668951-Adjust-text-dimensions-and-resizing",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab-review",
+          "original_id": "S42",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied-in-fixture",
+          "scope": "Dimensions, auto-width, fixed boxes and auto-height; E07 measured resizing.",
+          "evidence": "tools/figma/evidence/lab/README.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-6760cdeb70f1",
+      "title": "Export formats and settings for static designs",
+      "url": "https://help.figma.com/hc/en-us/articles/13402894554519-Export-formats-and-settings-for-static-designs",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f337a41b192e",
+      "title": "Organize your canvas with sections",
+      "url": "https://help.figma.com/hc/en-us/articles/9771500257687-Organize-your-canvas-with-sections",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-d1fb7566b54f",
+      "title": "View layer outlines in Figma Design",
+      "url": "https://help.figma.com/hc/en-us/articles/5724448965527-View-layer-outlines-in-Figma-Design",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e1363d1044e8",
+      "title": "Review branch changes",
+      "url": "https://help.figma.com/hc/en-us/articles/5693123873687-Review-branch-changes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-18bce2bbf2ae",
+      "title": "Move published components",
+      "url": "https://help.figma.com/hc/en-us/articles/4404848314647-Move-published-components",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-111bfdb711be",
+      "title": "Create interactive components with variants",
+      "url": "https://help.figma.com/hc/en-us/articles/360061175334-Create-interactive-components-with-variants",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-879929d886f6",
+      "title": "Prototype animations",
+      "url": "https://help.figma.com/hc/en-us/articles/360040522373-Prototype-animations",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-82f161a2b6ae",
+      "title": "Add images and videos to designs",
+      "url": "https://help.figma.com/hc/en-us/articles/360040028034-Add-images-and-videos-to-designs",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0422dd7151f1",
+      "title": "Shape tools",
+      "url": "https://help.figma.com/hc/en-us/articles/360040450133-Shape-tools",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a1cd6b5114bf",
+      "title": "Explore the navigation bar and left sidebar",
+      "url": "https://help.figma.com/hc/en-us/articles/360039831974-Explore-the-navigation-bar-and-left-sidebar",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0af50a470866",
+      "title": "Detach an instance from the component",
+      "url": "https://help.figma.com/hc/en-us/articles/360038665754-Detach-an-instance-from-the-component",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-53b8282ccb30",
+      "title": "The difference between slots, instance swaps, and variants",
+      "url": "https://help.figma.com/hc/en-us/articles/38741465279895-The-difference-between-slots-instance-swaps-and-variants",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f71e65acabff",
+      "title": "Simplify a vector path",
+      "url": "https://help.figma.com/hc/en-us/articles/33792593975575-Simplify-a-vector-path",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-648ffde130c9",
+      "title": "The difference between variables and styles",
+      "url": "https://help.figma.com/hc/en-us/articles/15871097384471-The-difference-between-variables-and-styles",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a31acd01c481",
+      "title": "Variable modes in prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/15253268379799-Variable-modes-in-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-92a4e5a18506",
+      "title": "Find and replace in Figma",
+      "url": "https://help.figma.com/hc/en-us/articles/9141292269847-Find-and-replace-in-Figma",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-3ceee695abba",
+      "title": "Merge branch into main file",
+      "url": "https://help.figma.com/hc/en-us/articles/5691189138839-Merge-branch-into-main-file",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cd0259180520",
+      "title": "Add or remove a library from a design file",
+      "url": "https://help.figma.com/hc/en-us/articles/1500008731201-Add-or-remove-a-library-from-a-design-file",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c58763f7e0f4",
+      "title": "Prototype easing and spring animations",
+      "url": "https://help.figma.com/hc/en-us/articles/360051748654-Prototype-easing-and-spring-animations",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8b2faef28b81",
+      "title": "Add links to text",
+      "url": "https://help.figma.com/hc/en-us/articles/360045942953-Add-links-to-text",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-d9736aa2151f",
+      "title": "Apply effects to layers",
+      "url": "https://help.figma.com/hc/en-us/articles/360041488473-Apply-effects-to-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c8009b9df832",
+      "title": "Adjust the properties of an image",
+      "url": "https://help.figma.com/hc/en-us/articles/360041098433-Adjust-the-properties-of-an-image",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-18f6930c3144",
+      "title": "Measure distances between layers",
+      "url": "https://help.figma.com/hc/en-us/articles/360039956974-Measure-distances-between-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-49792acb5487",
+      "title": "The difference between frames and groups",
+      "url": "https://help.figma.com/hc/en-us/articles/360039832054-The-difference-between-frames-and-groups",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-23d562842c82",
+      "title": "Design, prototype, and explore layer properties in the right sidebar",
+      "url": "https://help.figma.com/hc/en-us/articles/360039832014-Design-prototype-and-explore-layer-properties-in-the-right-sidebar",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5ffef6cbc61f",
+      "title": "Incomplete merges or updates",
+      "url": "https://help.figma.com/hc/en-us/articles/5691750511383-Incomplete-merges-or-updates",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ebd0feee2137",
+      "title": "Adjust corner radius and smoothing",
+      "url": "https://help.figma.com/hc/en-us/articles/360050986854-Adjust-corner-radius-and-smoothing",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ca1efd72d82f",
+      "title": "Lock and unlock layers",
+      "url": "https://help.figma.com/hc/en-us/articles/360041596573-Lock-and-unlock-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-b5ba3cae8204",
+      "title": "Crop an image",
+      "url": "https://help.figma.com/hc/en-us/articles/360040675194-Crop-an-image",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2ef76c7a21ec",
+      "title": "Boolean operations",
+      "url": "https://help.figma.com/hc/en-us/articles/360039957534-Boolean-operations",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-b26f253de36f",
+      "title": "Arc tool: create arcs, semi-circles, and rings",
+      "url": "https://help.figma.com/hc/en-us/articles/360040450173-Arc-tool-create-arcs-semi-circles-and-rings",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-eda5407115a5",
+      "title": "Add emojis and smart symbols to text",
+      "url": "https://help.figma.com/hc/en-us/articles/360039957174-Add-emojis-and-smart-symbols-to-text",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4a3b057e796e",
+      "title": "Enable access to libraries in your drafts",
+      "url": "https://help.figma.com/hc/en-us/articles/360038743434-Enable-access-to-libraries-in-your-drafts",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6e01e5b1f3fe",
+      "title": "Edit main components",
+      "url": "https://help.figma.com/hc/en-us/articles/360038665934-Edit-main-components",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-04fe301ebbaf",
+      "title": "Apply changes to instances",
+      "url": "https://help.figma.com/hc/en-us/articles/360039150733-Apply-changes-to-instances",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-11a6f44a2f10",
+      "title": "Flatten layers",
+      "url": "https://help.figma.com/hc/en-us/articles/30101373312279-Flatten-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2d3b6304f909",
+      "title": "Sample colors with the eyedropper tool",
+      "url": "https://help.figma.com/hc/en-us/articles/27643269375767-Sample-colors-with-the-eyedropper-tool",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-59fd17c01029",
+      "title": "Use expressions in prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/15253194385943-Use-expressions-in-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4b73be4ba8e9",
+      "title": "Masks",
+      "url": "https://help.figma.com/hc/en-us/articles/360040450253-Masks",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f8d5f4cc81f7",
+      "title": "Create bulleted and numbered lists",
+      "url": "https://help.figma.com/hc/en-us/articles/360040449773-Create-bulleted-and-numbered-lists",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-30a3bacd6261",
+      "title": "Enable a library for a team",
+      "url": "https://help.figma.com/hc/en-us/articles/360039234953-Enable-a-library-for-a-team",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0bd310cf1c20",
+      "title": "Swap components and instances",
+      "url": "https://help.figma.com/hc/en-us/articles/360039150413-Swap-components-and-instances",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e09248273d4f",
+      "title": "Create and use animated components",
+      "url": "https://help.figma.com/hc/en-us/articles/41307940738967-Create-and-use-animated-components",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8c1d297ea08a",
+      "title": "Use variables in prototypes",
+      "url": "https://help.figma.com/hc/en-us/articles/14506587589399-Use-variables-in-prototypes",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6d4a47830731",
+      "title": "View and adjust colors in a mixed selection",
+      "url": "https://help.figma.com/hc/en-us/articles/360042553434-View-and-adjust-colors-in-a-mixed-selection",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5064118508d3",
+      "title": "Toggle visibility to hide layers",
+      "url": "https://help.figma.com/hc/en-us/articles/360041112614-Toggle-visibility-to-hide-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8898017d4a2c",
+      "title": "Hide styles, components, and variables when publishing",
+      "url": "https://help.figma.com/hc/en-us/articles/360039238193-Hide-styles-components-and-variables-when-publishing",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4da87aae5324",
+      "title": "Edit instances with component properties",
+      "url": "https://help.figma.com/hc/en-us/articles/8883757553943-Edit-instances-with-component-properties",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f1fbf8ae8bcd",
+      "title": "About color models",
+      "url": "https://help.figma.com/hc/en-us/articles/360043042113-About-color-models",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0bd826ce539c",
+      "title": "Rename Layers",
+      "url": "https://help.figma.com/hc/en-us/articles/360039958934-Rename-Layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-634b9710db34",
+      "title": "Use icon fonts",
+      "url": "https://help.figma.com/hc/en-us/articles/360040449513-Use-icon-fonts",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e77f4f387472",
+      "title": "Remove your access to a library",
+      "url": "https://help.figma.com/hc/en-us/articles/360038743894-Remove-your-access-to-a-library",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f53ad4aca36f",
+      "title": "Name and organize components",
+      "url": "https://help.figma.com/hc/en-us/articles/360038663994-Name-and-organize-components",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ee38ec78d192",
+      "title": "Use OpenType features",
+      "url": "https://help.figma.com/hc/en-us/articles/4913951097367-Use-OpenType-features",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-1e40bf62c45c",
+      "title": "Unpublish a library",
+      "url": "https://help.figma.com/hc/en-us/articles/360039236853-Unpublish-a-library",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-db675e9af12f",
+      "title": "Use variable fonts",
+      "url": "https://help.figma.com/hc/en-us/articles/5579502031511-Use-variable-fonts",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a74285e902e5",
+      "title": "Copy and paste properties between layers",
+      "url": "https://help.figma.com/hc/en-us/articles/4412765442967-Copy-and-paste-properties-between-layers",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-742f397f7e2c",
+      "title": "Arrange layers with Smart selection",
+      "url": "https://help.figma.com/hc/en-us/articles/360040450233-Arrange-layers-with-Smart-selection",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-20e12363abcc",
+      "title": "Add text in Chinese, Japanese, and Korean",
+      "url": "https://help.figma.com/hc/en-us/articles/360040449673-Add-text-in-Chinese-Japanese-and-Korean",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ee6ad7c11de9",
+      "title": "Add right-to-left text",
+      "url": "https://help.figma.com/hc/en-us/articles/4972283635863-Add-right-to-left-text",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-1d3d49e771cc",
+      "title": "Apply constraints to define how layers resize",
+      "url": "https://help.figma.com/hc/en-us/articles/360039957734-Apply-constraints-to-define-how-layers-resize",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0e84736e0896",
+      "title": "Create layout guides",
+      "url": "https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-guides",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-865ee954bb92",
+      "title": "Combine layout guides and constraints",
+      "url": "https://help.figma.com/hc/en-us/articles/360039957934-Combine-layout-guides-and-constraints",
+      "records": [
+        {
+          "collection": "figma-design-discovery",
+          "recorded_checked_at": "2026-09-20",
+          "status": "body-retrieved-not-reviewed",
+          "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
+          "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab-review",
+          "original_id": "S41",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied-in-fixture",
+          "scope": "Stretch guides affect constraint-relative positions; E18 control comparison.",
+          "evidence": "tools/figma/evidence/lab/README.md"
+        }
+      ]
     }
-  ]
+  ],
+  "updated_at": "2026-09-20"
 }

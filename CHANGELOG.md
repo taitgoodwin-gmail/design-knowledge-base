@@ -8,6 +8,7 @@
 - Corrected the layout-guide/constraint nuance using official guidance and a controlled rerun.
 - Verified native motion export at four timestamps in Chrome, preserved a static alternative, and documented SVG reimport effect loss separately from browser export fidelity.
 - Verified main-component propagation, surviving overrides, reordered native slots, 19 lab variables and both boolean-binding routes; resolved X02 for the observed MCP/file context.
+- Completed Brim desktop visual review and rendered all three MindLeverX concepts at desktop/390px; fixed standalone HTML encoding/viewport metadata and checked source disclosure by click and Space.
 - Added saved-observation checks to CI; 8 practice exercises still require work.
 
 ## 2.0.0 — 2026-09-20

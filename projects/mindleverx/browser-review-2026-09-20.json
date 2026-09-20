@@ -1,0 +1,57 @@
+{
+  "checked_at": "2026-09-20",
+  "method": "Chrome CUA in the specified extension instance; actual browser screenshots, accessibility states and read-only DOM measurements",
+  "screenshots": "Visually inspected in conversation; browser screenshots were not saved as repository PNGs",
+  "brim": {
+    "url": "https://tothebrim.studio/",
+    "observed": [
+      "Desktop hero: blue atmospheric field, large white brand wordmark, concise navigation, smaller offer copy and call action",
+      "Scrolled work section: large photographic project panel with project/service/sector labels and separate case-study and live-site links"
+    ],
+    "limits": "No full-site, mobile, motion-performance, conversion or GEO outcome audit; no external booking or outbound case-study action performed"
+  },
+  "concept": {
+    "path": "projects/mindleverx/previews/mindleverx-directions.html",
+    "initial_failure": "Standalone fragment omitted charset and viewport metadata; browser displayed punctuation as mojibake",
+    "fix": "Added doctype, lang=en, UTF-8, viewport, page title and document/body wrapper",
+    "desktop_directions": [
+      "signal",
+      "human",
+      "proof"
+    ],
+    "mobile_width": 390,
+    "mobile_directions": [
+      {
+        "direction": "signal",
+        "document_scroll_width": 390
+      },
+      {
+        "direction": "human",
+        "document_scroll_width": 390
+      },
+      {
+        "direction": "proof",
+        "document_scroll_width": 390
+      }
+    ],
+    "interaction_checks": [
+      {
+        "action": "Choose each direction",
+        "observed": "Correct heading, visual theme and selected toggle state"
+      },
+      {
+        "action": "Click source disclosure",
+        "observed": "Example-only explanation visible and aria-expanded true"
+      },
+      {
+        "action": "Press Space with disclosure focused",
+        "observed": "Explanation hidden and aria-expanded false"
+      },
+      {
+        "action": "Open Human Current source at 390px",
+        "observed": "Expanded answer bottom 530.156px; following evidence section starts 563.844px; no overlap"
+      }
+    ],
+    "limits": "Representative desktop/mobile checks, not full accessibility, cross-browser or Figma prototype verification. This existing preview is not E08 or E12 and has not been imported into Figma."
+  }
+}

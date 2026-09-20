@@ -17,14 +17,14 @@ All three are visual hypotheses for review. None has been validated for conversi
 | Reference | URL | Review evidence and usable idea |
 | --- | --- | --- |
 | Dirtverse | https://dirtverse.co/ | Live page and screenshot inspected. Compact black wordmark, generous white space, distinctive dimensional objects. Adapt graphic identity and confident composition. |
-| Brim | https://tothebrim.studio/ | Live text retrieved; visual direction supplied by user. Separate browser session prevented direct screenshot inspection here. User's rich-blue, oversized-type reference informs Signal Observatory. |
+| Brim | https://tothebrim.studio/ | Live desktop hero and selected-work section visually inspected in Chrome. Blue atmospheric field, oversized white wordmark and image-led project presentation confirm the supplied reference direction. No full motion/mobile audit. |
 | Future Human | https://www.future-human.de/ | Opening screen visually inspected: dark field, elegant serif, cinematic image sequence and entrance step. Adapt warmth and atmosphere; omit the entrance gate. Full motion experience was not verified. |
 | Jowinski | https://www.framer.com/community/gallery/jowinski-fr/ | Framer gallery preview visually inspected: dimensional arc of project cards on white. Adapt to evidence exhibits with a readable list option. Live portfolio behavior not tested. |
 | Amit Goyani | https://www.framer.com/community/gallery/amitgoyani-com/ | Framer gallery preview visually inspected: floating dark objects and depth around a central element. Use depth sparingly around an answer/source relationship. Live portfolio behavior not tested. |
 
 ## Preview status
 
-An interactive hero-and-evidence concept comparison was created for conversation review. It is not yet added to Figma. Fragment markup and JavaScript syntax were checked. Chrome could not connect to the local preview server, so rendered layout was not verified in Chrome during this turn.
+The interactive hero-and-evidence comparison is now a standalone HTML document with UTF-8, viewport and title metadata. All three directions were rendered in Chrome at desktop and 390px; direction switching and click/Space disclosure toggling were checked. The expanded Human Current card did not overlap its next section. [Browser observation record](browser-review-2026-09-20.json). It is not yet added to Figma and is not a full accessibility or cross-browser audit.
 
 ## Import state carried forward
 

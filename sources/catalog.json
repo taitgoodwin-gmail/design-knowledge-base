@@ -3667,6 +3667,14 @@
           "status": "linked-in-imported-research",
           "scope": "Inspect original evidence notes for claim scope and retrieval limits; not refreshed during migration.",
           "evidence": "projects/mindleverx/mindleverx-design-directions.md"
+        },
+        {
+          "collection": "mindleverx-reference-review",
+          "original_id": "Brim",
+          "recorded_checked_at": "2026-09-20",
+          "status": "desktop-visual-sections-reviewed",
+          "scope": "Hero and selected-work panel observed in Chrome; full-site/mobile/motion performance not tested.",
+          "evidence": "projects/mindleverx/browser-review-2026-09-20.json"
         }
       ]
     },

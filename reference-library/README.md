@@ -5,7 +5,7 @@
 | Reference | Use as inspiration | Evidence limit |
 |---|---|---|
 | Dirtverse | Graphic confidence and identity | Prior live page/screenshot inspection, not a full-site behavior audit |
-| Brim | Scale, blue atmosphere and space | Prior text retrieval plus user's visual description |
+| Brim | Scale, blue atmosphere and space | Current desktop hero and selected-work inspection; full mobile/motion behavior untested |
 | Future Human | Cinematic warmth and elegant type | Opening screen inspected; full motion not verified |
 | Jowinski | Dimensional project/evidence presentation | Framer preview inspected; live portfolio not tested |
 | Amit Goyani | Controlled depth and spatial composition | Framer preview inspected; live portfolio not tested |

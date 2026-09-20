@@ -1,7 +1,7 @@
 {
   "runId": "component-lab-20260920",
-  "phase": "phase4",
-  "step": "publication",
+  "phase": "complete",
+  "step": "bounded component lab complete",
   "completedSteps": [
     "P0.a",
     "P0.b",
@@ -20,7 +20,8 @@
     "P3.c",
     "P3.d",
     "P4.a",
-    "P4.b"
+    "P4.b",
+    "P4.c"
   ],
   "entities": {
     "pages": {
@@ -57,7 +58,6 @@
       "probe": "58:49"
     }
   },
-  "pendingValidations": [
-    "GitHub commit equality and CI"
-  ]
+  "pendingValidations": [],
+  "publicationEvidence": "evidence/publication-2.1.0.json"
 }

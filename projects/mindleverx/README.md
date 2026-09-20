@@ -7,6 +7,6 @@
 - [Historical findings](historical-findings.md) and [records](historical-findings.json).
 - [Site inventory](mindleverx-site-inventory.md): dated discovery, not a fresh crawl.
 - [Production assessment, September 12](production-assessment-2026-09-12.md): historical project context.
-- [Concept preview](previews/mindleverx-directions.html): open locally; prior browser rendering remained unverified.
+- [Concept preview](previews/mindleverx-directions.html): open locally; three directions checked in Chrome at desktop and 390px, with disclosure toggling. [Review evidence](browser-review-2026-09-20.json).
 
 This folder contains research/case-study material. Active build truth and code belong in the [MindLeverX product repository](https://github.com/taitgoodwin-gmail/MindLeverX). Do not turn these dated findings into a second active backlog or assume imported site frames cover every route/state.

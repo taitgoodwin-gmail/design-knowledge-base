@@ -381,6 +381,7 @@ evidence/github-import-manifest-2026-09-20.json
 evidence/local-validation.json
 evidence/migration-counts.json
 evidence/migration.md
+evidence/publication-2.1.0.json
 evidence/remote-verification.json
 governance/knowledge-policy.md
 governance/maintenance.md
@@ -427,6 +428,7 @@ principles/uiux-design-playbook.md
 projects/levarum/README.md
 projects/levarum/squarespace-design-and-build-guide.md
 projects/mindleverx/README.md
+projects/mindleverx/browser-review-2026-09-20.json
 projects/mindleverx/figma-file.md
 projects/mindleverx/historical-findings.json
 projects/mindleverx/historical-findings.md

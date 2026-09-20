@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"48:19\",\"48:20\",\"48:21\",\"48:22\",\"48:23\",\"48:24\",\"48:25\"],\"frameId\":\"48:19\",\"children\":[{\"id\":\"48:20\",\"name\":\"Editable source connections\",\"type\":\"VECTOR\"},{\"id\":\"48:21\",\"name\":\"Rotated editable citation tile\",\"type\":\"VECTOR\"},{\"id\":\"48:22\",\"name\":\"Source marker 1\",\"type\":\"ELLIPSE\"},{\"id\":\"48:23\",\"name\":\"Source marker 2\",\"type\":\"ELLIPSE\"},{\"id\":\"48:24\",\"name\":\"Source marker 3\",\"type\":\"ELLIPSE\"},{\"id\":\"48:25\",\"name\":\"Citation marks\",\"type\":\"VECTOR\"}],\"tracks\":[{\"id\":\"48:20\",\"tracks\":{},\"styles\":[]},{\"id\":\"48:21\",\"tracks\":{},\"styles\":[]},{\"id\":\"48:22\",\"tracks\":{},\"styles\":[]},{\"id\":\"48:23\",\"tracks\":{},\"styles\":[]},{\"id\":\"48:24\",\"tracks\":{},\"styles\":[]},{\"id\":\"48:25\",\"tracks\":{},\"styles\":[]}]}"
+    }
+  ],
+  "isError": false
+}

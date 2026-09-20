@@ -1,0 +1,26 @@
+<svg width="500" height="300" viewBox="0 0 500 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="E10 / Original citation motif">
+<rect width="500" height="300" fill="#F6F8FF"/>
+<path id="Editable source connections" d="M96 70C160 70 170 146 245 146M245 146C170 146 160 230 96 230M245 146C300 146 324 92 404 92" stroke="#6A7FEB" stroke-width="3" stroke-linecap="round"/>
+<g id="Rotated editable citation tile" filter="url(#filter0_d_46_8)">
+<path d="M213.844 103.773L277.221 94.8662C287.784 93.3816 293.808 97.9208 295.293 108.484L304.2 171.861C305.684 182.424 301.145 188.447 290.582 189.932L227.205 198.839C216.642 200.323 210.618 195.784 209.134 185.221L200.227 121.844C198.742 111.281 203.281 105.258 213.844 103.773Z" fill="#274BDD"/>
+<path d="M213.844 103.773L277.221 94.8662C287.784 93.3816 293.808 97.9208 295.293 108.484L304.2 171.861C305.684 182.424 301.145 188.447 290.582 189.932L227.205 198.839C216.642 200.323 210.618 195.784 209.134 185.221L200.227 121.844C198.742 111.281 203.281 105.258 213.844 103.773Z" stroke="black"/>
+</g>
+<circle id="Source marker 1" cx="96" cy="70" r="18.5" fill="white" stroke="#274BDD" stroke-width="3"/>
+<circle id="Source marker 2" cx="96" cy="230" r="18.5" fill="white" stroke="#274BDD" stroke-width="3"/>
+<circle id="Source marker 3" cx="404" cy="92" r="18.5" fill="white" stroke="#274BDD" stroke-width="3"/>
+<path id="Citation marks" d="M229 139L231.505 156.825L243.388 155.155L240.883 137.33L229 139ZM252.766 135.66L255.272 153.485L267.155 151.815L264.65 133.99L252.766 135.66Z" fill="white" stroke="black"/>
+</g>
+<defs>
+<filter id="filter0_d_46_8" x="187.453" y="88.0919" width="129.521" height="129.521" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="6"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.07 0 0 0 0 0.12 0 0 0 0 0.35 0 0 0 0.18 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_46_8"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_46_8" result="shape"/>
+</filter>
+</defs>
+</svg>
+

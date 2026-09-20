@@ -72,7 +72,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Purpose and final state clear; no obscured reading; runtime/export remains a separate check.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/motion-and-vector.md)
 
 ## E10: Editable illustration
 
@@ -80,7 +80,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Source stays editable; export does not clip or misrender important details.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/motion-and-vector.md)
 
 ## E11: AI and automation fixture
 

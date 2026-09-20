@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"48:20\"],\"nodeId\":\"48:20\",\"tracks\":{\"OPACITY\":{\"id\":\"KeyframeTrackId:49:8\",\"baseValue\":{\"type\":\"FLOAT\",\"value\":1},\"keyframes\":[{\"id\":\"49:9\",\"easing\":{\"type\":\"CUSTOM_CUBIC_BEZIER\",\"easingFunctionCubicBezier\":{\"x1\":0.5,\"y1\":0,\"x2\":0.5,\"y2\":1}},\"value\":{\"type\":\"FLOAT\",\"value\":0},\"timelinePosition\":0},{\"id\":\"49:10\",\"easing\":{\"type\":\"LINEAR\",\"easingFunctionCubicBezier\":{\"x1\":0,\"y1\":0,\"x2\":1,\"y2\":1}},\"value\":{\"type\":\"FLOAT\",\"value\":1},\"timelinePosition\":0.6}]}},\"animations\":{\"OPACITY\":{\"tracks\":[{\"id\":\"KeyframeTrackId:49:8\",\"keyframes\":[{\"id\":\"49:9\",\"easing\":{\"type\":\"CUSTOM_CUBIC_BEZIER\",\"easingFunctionCubicBezier\":{\"x1\":0.5,\"y1\":0,\"x2\":0.5,\"y2\":1}},\"value\":{\"type\":\"FLOAT\",\"value\":0},\"timelinePosition\":0},{\"id\":\"49:10\",\"easing\":{\"type\":\"LINEAR\",\"easingFunctionCubicBezier\":{\"x1\":0,\"y1\":0,\"x2\":1,\"y2\":1}},\"value\":{\"type\":\"FLOAT\",\"value\":1},\"timelinePosition\":0.6}],\"keyframeOperation\":\"SET\"}],\"timelineDuration\":2,\"baseValue\":{\"type\":\"FLOAT\",\"value\":1}}},\"timelines\":[{\"id\":\"48:19\",\"duration\":2}]}"
+    }
+  ],
+  "isError": false
+}

@@ -53,6 +53,6 @@ Checked 2026-09-20. Review scope is the relevant article sections, not every lin
 
 ## Remaining work
 
-E04–E06 and E08–E17 are not completed by this wave. E01 retains its earlier limited navigation evidence. The 183-article Design inventory establishes public API retrieval scope, not exhaustive capability knowledge or article review. [Whole-goal audit](../../../../evidence/full-goal-audit.md).
+E09 and E10 now have separate [motion and vector results](motion-and-vector.md), including a native MP4 export. Eleven exercises remain unrun: E04–E06, E08 and E11–E17. E01 retains its earlier limited navigation evidence. The 183-article Design inventory establishes public API retrieval scope, not exhaustive capability knowledge or article review. [Whole-goal audit](../../../../evidence/full-goal-audit.md).
 
-Saved-observation verification: [result](validation-observations.json). Repository integrity: [result](validation-integrity.json). [Final live lab readback](16-final-lab.json) contains 82 nodes; [original-page readback](17-original-page-check.json) matches the nine top-level node IDs and geometry observed before this wave. This comparison does not claim a byte-for-byte export of the entire Figma file.
+Saved-observation verification: [result](validation-observations.json). Repository integrity: [result](validation-integrity.json). [Latest live lab readback](28-final-lab-after-motion.json) contains 118 nodes; [original-page readback](17-original-page-check.json) matches the nine top-level node IDs and geometry observed before this wave. This comparison does not claim a byte-for-byte export of the entire Figma file.

@@ -17,4 +17,4 @@ Sources: [S21: Explore Figma Draw](https://help.figma.com/hc/en-us/articles/3144
 
 ## Practice and acceptance
 
-Run E10 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+E10 has [native-vector and export evidence](../evidence/lab/motion-and-vector.md). The SVG rendered with its shadow in Chrome, while its Figma reimport did not visibly preserve that effect. Keep editable native source and verify each actual delivery format. Brush tools and advanced Draw transforms remain outside this exercise.

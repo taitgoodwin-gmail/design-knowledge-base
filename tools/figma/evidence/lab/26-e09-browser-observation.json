@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-20",
+  "browser": "Chrome extension instance 6ec5009a-7916-424e-9cc1-c08a0116361f",
+  "tab_id": "1112539642",
+  "url": "http://127.0.0.1:38821/export-preview.html",
+  "method": "Seeked the native Figma MP4 through visible timestamp buttons; confirmed each timestamp in page status and inspected browser screenshots.",
+  "video": "e09-native-reveal.mp4",
+  "export_request": {"node_id":"48:19","fps":5,"quality":"low","width":500},
+  "observed_metadata": {"width":500,"height":300,"duration_seconds":2.2},
+  "timeline_duration_seconds": 2,
+  "samples": [
+    {"seconds":0,"observation":"Connection paths absent; citation tile and all source markers visible."},
+    {"seconds":0.2,"observation":"Connection paths partially visible; tile and source markers remain stable."},
+    {"seconds":0.6,"observation":"All connection paths visible; artwork fully within the video bounds."},
+    {"seconds":1.8,"observation":"Final artwork remains visible and unchanged."}
+  ],
+  "raw_browser_screenshots_saved": false,
+  "limitations": ["The video is preserved; browser screenshot observations are recorded as narrative, not separate PNGs.","The exported MP4 reports 2.2 seconds while the Figma timeline reports 2.0; no exact-duration-equivalence claim.","No deployed website, operating-system reduced-motion detection, native Figma preview loop preference, or cross-browser test was performed."]
+}

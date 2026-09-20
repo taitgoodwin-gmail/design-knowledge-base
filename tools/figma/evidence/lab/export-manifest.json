@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-09-20",
+  "files": {
+    "e09-native-reveal.mp4": {
+      "bytes": 34383,
+      "sha256": "4e2227977548a456874fd1cad9967f2e2c10c5f852d20a9feede8d83e4170218"
+    },
+    "e10-citation-motif.svg": {
+      "bytes": 2247,
+      "sha256": "68a8b842add4013d8be103c5789c5c35c7f0460a01f229f6d3b33b1533eb70c5"
+    },
+    "e10-original.png": {
+      "bytes": 16086,
+      "sha256": "51e57cd5f536c0a403c8378d58d4b1e5344d3436195d7bda8f3f098da29d38f6"
+    },
+    "e10-roundtrip.png": {
+      "bytes": 16098,
+      "sha256": "dd171664be4c03d74e5753caf7401ad7ca7ef40cb9b1d3db759370e707da2a6f"
+    }
+  }
+}

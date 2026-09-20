@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-20",
+  "browser": "Chrome extension instance 6ec5009a-7916-424e-9cc1-c08a0116361f",
+  "tab_id": "1112539642",
+  "url": "http://127.0.0.1:38821/e10-citation-motif.svg",
+  "method": "Opened the local exported SVG through the authorized Chrome instance and inspected the returned browser screenshot.",
+  "observation": "Three source markers, connection paths, rotated citation tile, white marks and soft shadow are visible. All fit the 500 by 300 artwork. SVG import back into Figma did not visibly preserve the shadow; the external Chrome render did.",
+  "raw_browser_screenshot_saved": false,
+  "limitation": "Visual comparison, not a pixel-identity or cross-browser test. Original and Figma reimport PNGs and the exported SVG are preserved separately."
+}

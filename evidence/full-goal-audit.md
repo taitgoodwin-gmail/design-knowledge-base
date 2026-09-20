@@ -17,8 +17,8 @@ Checked 2026-09-20. The user's instruction is to finish the full work autonomous
 
 ## Current next work
 
-E02/E03/E07/E18 results are now preserved in [the Figma lab](../tools/figma/evidence/lab/README.md). Continue component/slot/token exercises, prototype/motion/vector/handoff work and the separate Sites, Weave, Slides, Buzz and FigJam exercises. Expand source discovery and review across the supplied product/resource scope. Review named visual-reference coverage and whole-goal evidence before marking complete.
+E02/E03/E07/E09/E10/E18 results are now preserved in [the Figma lab](../tools/figma/evidence/lab/README.md). Continue component/slot/token exercises, prototype/handoff work and the separate Sites, Weave, Slides, Buzz and FigJam exercises. Expand source discovery and review across the supplied product/resource scope. Review named visual-reference coverage and whole-goal evidence before marking complete.
 
-Previous goal turn classification: **progress** — v2.0.0 publication, private visibility, commit equality and successful GitHub workflows were verified. This continuation also made progress: created an 82-node editable lab, collected original measurement/render evidence, exercised four additional procedures, corrected a documented nuance and discovered 183 public Design articles. This is not a blocked or no-progress turn.
+Previous goal turn classification: **progress** — v2.0.0 publication, private visibility, commit equality and successful GitHub workflows were verified. This continuation also made progress: created a 118-node editable lab, collected original measurement/render evidence, exercised six additional procedures, corrected a documented nuance and discovered 183 public Design articles. This is not a blocked or no-progress turn.
 
 No whole-goal completion is claimed by this document. New source links and new exercises should not silently turn into unrelated product launches, purchases or publications.

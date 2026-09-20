@@ -1108,6 +1108,14 @@
           "status": "sections-reviewed",
           "scope": "Timeline, auto-keyframe, time, duration, playback and tracks; open beta.",
           "evidence": "tools/figma/records/sources.json"
+        },
+        {
+          "collection": "figma-lab",
+          "original_id": "S20",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Timeline, auto-keyframe, time, duration, playback and tracks; open beta.",
+          "evidence": "tools/figma/evidence/lab/motion-and-vector.md"
         }
       ]
     },
@@ -1130,6 +1138,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab",
+          "original_id": "S21",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Illustration mode changes tools and sidebars; Design mode retains other controls.",
+          "evidence": "tools/figma/evidence/lab/motion-and-vector.md"
         }
       ]
     },
@@ -10082,6 +10098,21 @@
           "status": "sections-reviewed-and-applied-in-fixture",
           "scope": "Stretch guides affect constraint-relative positions; E18 control comparison.",
           "evidence": "tools/figma/evidence/lab/README.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-33d13fdf2a4d",
+      "title": "exportAsync — Figma Plugin API",
+      "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-exportasync/",
+      "records": [
+        {
+          "collection": "figma-lab",
+          "original_id": "S43",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Export formats and return types; SVG_STRING returns a string. Applied SVG export in E10; native MP4 exported via Figma export tool. No claim of lossless Figma reimport.",
+          "evidence": "tools/figma/evidence/lab/motion-and-vector.md"
         }
       ]
     }

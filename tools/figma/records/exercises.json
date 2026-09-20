@@ -74,16 +74,20 @@
     "title": "Motion lab",
     "procedure": "Animate a decorative source connection, inspect endpoints, change easing and create a static reduced-motion alternative.",
     "acceptance": "Purpose and final state clear; no obscured reading; runtime/export remains a separate check.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/motion-and-vector.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Bounded Figma authoring and actual export rendering; see per-surface limitations"
   },
   {
     "id": "E10",
     "title": "Editable illustration",
     "procedure": "Draw an original source motif with vectors, transforms and one effect; export and compare.",
     "acceptance": "Source stays editable; export does not clip or misrender important details.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/motion-and-vector.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Bounded Figma authoring and actual export rendering; see per-surface limitations"
   },
   {
     "id": "E11",

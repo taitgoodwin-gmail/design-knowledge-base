@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Figma lab export verification</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:32px;color:#16223d}h1{font-size:28px}h2{font-size:20px}section{margin:24px 0}button{font:inherit;padding:10px 16px;margin:4px;cursor:pointer}button:focus-visible{outline:3px solid #274bdd}video,img{display:block;max-width:100%;height:auto}output{display:block;margin:12px 0}.compare{display:flex;gap:24px;flex-wrap:wrap}figure{margin:0}figcaption{padding:8px 0}</style>
+<h1>Figma lab export verification</h1>
+<p>Local diagnostic page. The video is the native Figma timeline export; the SVG is the exported artwork.</p>
+<section><h2>E09 — native motion export</h2>
+<video id="motion" width="500" height="300" preload="auto" src="e09-native-reveal.mp4" aria-label="Native Figma animation; use the timestamp buttons to inspect frames"></video>
+<div><button data-time="0">Start — 0.0 seconds</button><button data-time="0.2">During — 0.2 seconds</button><button data-time="0.6">Settled — 0.6 seconds</button><button data-time="1.8">Held — 1.8 seconds</button></div>
+<output id="status" aria-live="polite">Loading video metadata…</output>
+</section>
+<section><h2>E10 — vector export comparison</h2><div class="compare">
+<figure><img src="e10-original.png" width="500" height="300" alt="Figma original citation motif"><figcaption>Figma original render</figcaption></figure>
+<figure><img src="e10-citation-motif.svg" width="500" height="300" alt="Exported SVG rendered by the browser"><figcaption>Browser-rendered SVG export</figcaption></figure>
+<figure><img src="e10-roundtrip.png" width="500" height="300" alt="Export imported back into Figma"><figcaption>Figma SVG reimport — inspect effect fidelity</figcaption></figure>
+</div></section>
+<script>
+const video=document.querySelector('#motion'),status=document.querySelector('#status');
+function report(){status.textContent=`Time ${video.currentTime.toFixed(1)} seconds; duration ${video.duration.toFixed(1)} seconds; ${video.videoWidth} × ${video.videoHeight}; ${video.paused?'paused':'playing'}`;}
+video.addEventListener('loadedmetadata',report);video.addEventListener('seeked',report);video.addEventListener('pause',report);video.addEventListener('play',report);
+document.querySelectorAll('button[data-time]').forEach(button=>button.addEventListener('click',()=>{video.pause();video.currentTime=Number(button.dataset.time);report();}));
+</script></html>

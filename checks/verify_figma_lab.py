@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check saved lab measurements; does not claim a live Figma rerun."""
 import json
+import hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -65,4 +66,28 @@ assert [n['x'] for n in control[0]['after'][:3]] == [24, 200, 376]
 assert [n['x'] for n in control[1]['after'][:3]] == [24, 130, 306]
 failure = json.loads((LAB / '11-e18-guide-refresh.json').read_text())
 assert failure['isError'] and 'sectionSize' in failure['content'][0]['text']
-print(json.dumps({'scope': 'saved observations only; no live Figma rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'passed': True}, indent=2))
+linear = result('22-e09-linear.json')['tracks']['OPACITY']
+eased = result('23-e09-ease-out.json')['tracks']['OPACITY']
+assert linear['id'] == eased['id']
+assert [k['id'] for k in linear['keyframes']] == [k['id'] for k in eased['keyframes']]
+assert linear['keyframes'][-1]['easing']['type'] == 'LINEAR'
+assert eased['keyframes'][-1]['easing']['type'] == 'EASE_OUT'
+assert [(k['timelinePosition'], k['value']['value']) for k in eased['keyframes']] == [(0, 0), (.6, 1)]
+static = result('24-e09-static.json')['children']
+assert len(static) == 6 and all(not n['tracks'] and not n['styles'] and n['opacity'] == 1 for n in static)
+vector = result('19-e10-export.json')
+assert len(vector['sourceVectors']) == 3 and all(n['paths'] for n in vector['sourceVectors'])
+assert '<filter' in vector['svg'] and '<svg' in vector['svg']
+assert close(vector['sourceVectors'][1]['rotation'], 8)
+for item in vector['bounds']:
+    b = item['bounds']
+    assert b['x'] >= 600 and b['y'] >= 1700 and b['x'] + b['width'] <= 1100 and b['y'] + b['height'] <= 2000
+video = (LAB / 'e09-native-reveal.mp4').read_bytes()
+assert len(video) > 1000 and b'ftyp' in video[:40]
+observed = json.loads((LAB / '26-e09-browser-observation.json').read_text())
+assert [s['seconds'] for s in observed['samples']] == [0, .2, .6, 1.8]
+manifest = json.loads((LAB / 'export-manifest.json').read_text())
+for name, expected in manifest['files'].items():
+    blob = (LAB / name).read_bytes()
+    assert len(blob) == expected['bytes'] and hashlib.sha256(blob).hexdigest() == expected['sha256'], name
+print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'passed': True}, indent=2))

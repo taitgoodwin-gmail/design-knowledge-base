@@ -177,7 +177,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Timeline, auto-keyframe, time, duration, playback and tracks; open beta.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled",
+    "evidence": "evidence/lab/motion-and-vector.md"
   },
   {
     "id": "S21",
@@ -186,7 +187,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Illustration mode changes tools and sidebars; Design mode retains other controls.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled",
+    "evidence": "evidence/lab/motion-and-vector.md"
   },
   {
     "id": "S22",
@@ -378,5 +380,15 @@
     "scope": "Dimensions, auto-width, fixed boxes and auto-height; E07 measured resizing.",
     "method": "Official documentation via web and public article API; bounded lab application",
     "evidence": "evidence/lab/README.md"
+  },
+  {
+    "id": "S43",
+    "title": "exportAsync — Figma Plugin API",
+    "url": "https://developers.figma.com/docs/plugins/api/properties/nodes-exportasync/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Export formats and return types; SVG_STRING returns a string. Applied SVG export in E10; native MP4 exported via Figma export tool. No claim of lossless Figma reimport.",
+    "method": "Official developer documentation via web; bounded export and browser checks",
+    "evidence": "evidence/lab/motion-and-vector.md"
   }
 ]

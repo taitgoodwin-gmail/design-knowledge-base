@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"46:8\",\"46:9\",\"46:10\",\"46:11\",\"46:12\",\"46:13\",\"46:14\"],\"frameId\":\"46:8\",\"nodes\":[{\"id\":\"46:9\",\"name\":\"Editable source connections\",\"type\":\"VECTOR\",\"x\":96,\"y\":70,\"width\":308,\"height\":160,\"rotation\":0,\"effects\":[]},{\"id\":\"46:10\",\"name\":\"Rotated editable citation tile\",\"type\":\"VECTOR\",\"x\":198,\"y\":106,\"width\":96,\"height\":96,\"rotation\":8.000000756261047,\"effects\":[{\"type\":\"DROP_SHADOW\",\"visible\":true,\"radius\":12,\"boundVariables\":{},\"color\":{\"r\":0.07000000029802322,\"g\":0.11999999731779099,\"b\":0.3499999940395355,\"a\":0.18000000715255737},\"offset\":{\"x\":0,\"y\":6},\"spread\":0,\"blendMode\":\"NORMAL\",\"showShadowBehindNode\":true}]},{\"id\":\"46:11\",\"name\":\"Source marker 1\",\"type\":\"ELLIPSE\",\"x\":76,\"y\":50,\"width\":40,\"height\":40,\"rotation\":0,\"effects\":[]},{\"id\":\"46:12\",\"name\":\"Source marker 2\",\"type\":\"ELLIPSE\",\"x\":76,\"y\":210,\"width\":40,\"height\":40,\"rotation\":0,\"effects\":[]},{\"id\":\"46:13\",\"name\":\"Source marker 3\",\"type\":\"ELLIPSE\",\"x\":384,\"y\":72,\"width\":40,\"height\":40,\"rotation\":0,\"effects\":[]},{\"id\":\"46:14\",\"name\":\"Citation marks\",\"type\":\"VECTOR\",\"x\":229,\"y\":139,\"width\":36,\"height\":18,\"rotation\":8.000000756261047,\"effects\":[]}]}"
+    }
+  ],
+  "isError": false
+}

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"48:8\",\"48:9\",\"48:10\",\"48:11\",\"48:12\",\"48:13\",\"48:14\",\"48:15\",\"48:16\",\"48:17\",\"48:18\"],\"importedId\":\"48:8\",\"width\":500,\"height\":300,\"children\":[{\"id\":\"48:9\",\"type\":\"GROUP\",\"name\":\"E10 / Original citation motif\"}]}"
+    }
+  ],
+  "isError": false
+}

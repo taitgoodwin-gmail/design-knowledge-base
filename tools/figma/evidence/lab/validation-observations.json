@@ -1,9 +1,14 @@
 {
-  "scope": "saved observations only; no live Figma rerun",
+  "scope": "saved observations only; no live Figma or browser rerun",
   "card_cases": 16,
   "layout_cases": 9,
   "font_width_cases": 6,
   "guide_control_cases": 2,
   "expected_tool_rejection_preserved": true,
+  "motion_track_edit_verified": true,
+  "static_alternative_children": 6,
+  "editable_vector_nodes": 3,
+  "native_video_bytes": 34383,
+  "browser_sample_observations": 4,
   "passed": true
 }

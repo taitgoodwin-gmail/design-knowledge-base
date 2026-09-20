@@ -378,6 +378,7 @@ evidence/github-import-manifest-2026-09-20.json
 evidence/local-validation.json
 evidence/migration-counts.json
 evidence/migration.md
+evidence/remote-verification.json
 governance/knowledge-policy.md
 governance/maintenance.md
 governance/official-source-build-practice.md

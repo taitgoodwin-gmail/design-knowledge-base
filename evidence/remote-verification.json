@@ -1,0 +1,104 @@
+{
+  "checked_at": "2026-09-20",
+  "repository": "https://github.com/taitgoodwin-gmail/design-knowledge-base",
+  "private": true,
+  "branch": "main",
+  "verified_content_commit": "b453f0a03512eb26afdf1089d34ffa1ba69b9b60",
+  "remote_blob_count": 502,
+  "remote_tree_matches_local": true,
+  "fresh_checkout_commit": "b453f0a03512eb26afdf1089d34ffa1ba69b9b60",
+  "checks": {
+    "integrity": {
+      "local_archives": 319,
+      "notion_snapshots": 25,
+      "source_urls": 442,
+      "valid_json_files": 77,
+      "maintained_links_checked": 280,
+      "largest_file_bytes": 27229347,
+      "errors": []
+    },
+    "retrieval": [
+      {
+        "query": "element rationale",
+        "expected": "templates/element-rationale.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "templates/element-rationale.md",
+          "projects/mindleverx/mindleverx-design-rationale.md",
+          "principles/README.md",
+          "README.md",
+          "TREE.md",
+          "templates/README.md",
+          "CATALOG.md",
+          "projects/mindleverx/README.md"
+        ]
+      },
+      {
+        "query": "code connect",
+        "expected": "integrations/code-connect.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "integrations/code-connect.md",
+          "tools/figma/modules/10-dev-handoff.md",
+          "integrations/figma-chatgpt-codex.md",
+          "reference-library/notion/source-register-3bf792ca.md",
+          "tools/figma/SOURCES.md",
+          "TREE.md",
+          "CATALOG.md",
+          "projects/mindleverx/mindleverx-design-rationale.md"
+        ]
+      },
+      {
+        "query": "notion research imports",
+        "expected": "reference-library/notion/README.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "reference-library/notion/README.md",
+          "TREE.md",
+          "sources/uiux-catalog.md",
+          "reference-library/notion/canonical-instruction-texts-3ba792ca.md",
+          "reference-library/notion/augmind-agnostic-delivery-methodology-living-draft-3dc792ca-d273cfd9.md",
+          "reference-library/notion/cycle-2026-08-05-dry-run-harness-3b3792ca.md",
+          "reference-library/notion/foundry-team-charter-3b2792ca.md",
+          "reference-library/notion/website-redesign-39a792ca.md"
+        ]
+      },
+      {
+        "query": "reduced motion",
+        "expected": "workflows/ai-and-motion.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "learning/visual-design-study/research/perception-and-motion.md",
+          "tools/figma/modules/07-motion.md",
+          "workflows/ai-and-motion.md",
+          "projects/mindleverx/mindleverx-design-rationale.md",
+          "projects/levarum/squarespace-design-and-build-guide.md",
+          "tools/squarespace/design-system.md",
+          "learning/visual-design-study/START-HERE.md",
+          "projects/mindleverx/historical-findings.md"
+        ]
+      },
+      {
+        "query": "Figma knowledge practice",
+        "expected": "tools/figma/README.md",
+        "found_in_first_eight": true,
+        "paths": [
+          "tools/figma/README.md",
+          "tools/figma/SOURCES.md",
+          "TREE.md",
+          "README.md",
+          "tools/figma/modules/12-weave.md",
+          "integrations/code-connect.md",
+          "AGENTS.md",
+          "sources/conflicts.md"
+        ]
+      }
+    ]
+  },
+  "scope_note": "Verifies the content commit above. A subsequent documentation commit records this receipt and the final file tree.",
+  "github_actions": {
+    "run_id": 35529511661,
+    "conclusion": "success",
+    "url": "https://github.com/taitgoodwin-gmail/design-knowledge-base/actions/runs/35529511661"
+  }
+}

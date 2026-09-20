@@ -19,3 +19,7 @@ The seventeen unrun Figma exercises, source conflicts, full reference-site inter
 ## Existing GitHub history reconciled
 
 An independent publication of the in-progress local collection was found at `c82cff3407b8df523ace706c88e3ddb04b87d639`. Its [initial import receipt](github-import-2026-09-20.md) and manifest remain historical records of that snapshot. This edition merges that history with the original local baseline and completes the missing navigation/evidence/checks. Initial-import hashes describe the initial commit, not subsequently revised maintained files.
+
+## Verified publication
+
+The private GitHub repository was read back at content commit `b453f0a03512eb26afdf1089d34ffa1ba69b9b60`. All 502 remote blob paths/hashes matched the local committed tree. A fresh authenticated GitHub clone passed the archive/hash, JSON, source-ID, maintained-link and five-query retrieval checks. GitHub Actions passed for that commit. See [machine-readable remote verification](remote-verification.json) and [the successful workflow](https://github.com/taitgoodwin-gmail/design-knowledge-base/actions/runs/35529511661). This final documentation update records the evidence; release tag v2.0.0 identifies the completed edition.

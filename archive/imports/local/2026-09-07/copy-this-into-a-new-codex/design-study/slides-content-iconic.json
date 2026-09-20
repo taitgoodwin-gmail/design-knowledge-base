@@ -1,0 +1,56 @@
+[
+  {
+    "id": "iconic_nike_silhouette",
+    "title": "Nike: a silhouette with a job",
+    "body": [
+      "Carolyn Davidson designed the shoe-side mark in 1971; its curve suggested motion.",
+      "Study the taper, direction and negative space—not just its simplicity.",
+      "Its present familiarity is not a fair first-impression test for a new logo."
+    ],
+    "notes": "Nike's own archive identifies Davidson and the initial shoe-side brief, while documenting later adaptation across products and media. Our design reading is that the taper and asymmetry supply direction without a literal runner illustration. That is interpretation, not a controlled measurement of effectiveness. The transferable exercise is to inspect a proposed mark in one color, on its intended surface, and at small sizes. Do not borrow the Swoosh or promise that minimal geometry creates comparable recognition. A new identity needs its own distinctive form and a way to teach the name. This example is educational commentary, not a universal ranking.",
+    "source_urls": ["https://about.nike.com/en/magazine/nike-swoosh-logo-history"],
+    "suggested_visual": "Use the official archive's timeline image as an educational reference; label it Nike archive, not original artwork. Add an external annotation identifying silhouette/taper without modifying the source image.",
+    "image_url": "https://nmp.about.nike.com/about/prod/0cc8c295-a643-44f4-acb3-c18bfc2289f1/nike-swoosh-logo-timeline.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwicmVzaXplIjp7IndpZHRoIjozODQwfX19&s=cf8fdb210e3ba5e388cdfd16eb16711c9303b0a5fd4921afd9d10e3f0600aa84",
+    "evidence": "Official brand article opened. Direct image link recovered by clicking article image; image fetch failed in web reader, so render/download remains unverified."
+  },
+  {
+    "id": "iconic_fedex_negative_space",
+    "title": "FedEx: meaning between the letters",
+    "body": [
+      "Lindon Leader describes reconstructing letterforms to create the E–x arrow.",
+      "The wordmark communicates the name; the arrow supplies a second discovery.",
+      "A hidden idea should reward attention without requiring explanation."
+    ],
+    "notes": "In a first-person interview, Leader dates the work to 1994 at Landor and explains that he combined and adjusted letterform characteristics to obtain the arrow. He describes the hidden device as a bonus rather than the whole communication. This is primary creator testimony hosted by the interviewer, not FedEx's current brand manual. The creator's own linked site was inaccessible during this research. Our proposed lesson is to examine counters and spacing as designed forms, while retaining readable lettering. Do not force an unrelated symbol into every wordmark. The interview does not establish that negative space universally improves recognition or conversion.",
+    "source_urls": ["https://thesneeze.com/the-man-behind-the-fedex-logo/"],
+    "suggested_visual": "Actual FedEx wordmark with a separate explanatory callout beside the E–x gap; source the authentic image before placement. No verified direct brand-owned image URL obtained.",
+    "evidence": "Original interview opened and read; qualifies as primary creator testimony but is hosted on interviewer domain. If deck requires only creator-owned or brand-owned domains, hold this slide until a qualifying source is available."
+  },
+  {
+    "id": "iconic_ibm_system",
+    "title": "IBM: the mark lives inside a system",
+    "body": [
+      "Paul Rand's 8-bar design dates to 1972.",
+      "Official light and dark versions use optical adjustments—not a simple inversion.",
+      "Clear space, placement and consistent application protect the identity."
+    ],
+    "notes": "IBM's current design guidance specifies different stripe weights and counter details for positive and reversed versions, alongside clear-space and application rules. These are concrete evidence of craft beyond drawing a recognizable set of initials. Study the principle, not the proprietary grid: mathematically equal shapes may need adjustment to appear balanced. Our practical extension is to review any new identity on both light and dark surfaces and at realistic sizes. A logo file alone is not a complete identity system. IBM's rules belong to IBM; their exact spacing and color prescriptions are not universal standards to impose on a different business.",
+    "source_urls": ["https://www.ibm.com/design/language/ibm-logos/8-bar/"],
+    "suggested_visual": "Official IBM 8-bar grid diagram, plus a concise annotation about optical adjustment. Do not redraw the logo from ordinary type.",
+    "image_url": "https://www.ibm.com/design/language/a41bb6fc86bf12f915d28f4c34f33d74/8bar.svg",
+    "evidence": "Official guidance opened; direct SVG link recovered. Web reader rejected SVG content type, so Google Slides compatibility is unverified; may require a faithful rendered reference."
+  },
+  {
+    "id": "iconic_recognition_familiarity",
+    "title": "Recognizable is not the same as already familiar",
+    "body": [
+      "Separate shape discrimination, prior familiarity and correct brand naming.",
+      "Famous marks carry years of exposure and associations into the comparison.",
+      "For new work, test readability and learning—not a claim of instant iconic status."
+    ],
+    "notes": "This is an evaluation distinction and proposed study method, not a reported experimental finding. Nike's archive recounts the mark's development through products and public exposure; IBM explicitly stresses consistent visible use. Those accounts caution against judging a new mark against a familiar incumbent as if exposure were equal. For a small study, ask separately whether viewers have seen a mark before, can distinguish it from alternatives, and can connect it to the correct name after controlled exposure. Record mistakes instead of inventing a score. These checks can inform refinement; they do not predict future fame or prove commercial performance alone.",
+    "source_urls": ["https://about.nike.com/en/magazine/nike-swoosh-logo-history", "https://www.ibm.com/design/language/ibm-logos/8-bar/"],
+    "suggested_visual": "Three clearly labeled columns: Distinguish the shape / Seen it before / Name the brand. Use neutral geometric study marks, not a fabricated recognition-results chart.",
+    "evidence": "Brand histories/guidance support context; testing distinction and exercise are explicitly the research team's proposal. No recognition study was run."
+  }
+]

@@ -1,0 +1,443 @@
+[
+  {
+    "id": "U001",
+    "category": "Product",
+    "title": "Figma Design",
+    "url": "https://www.figma.com/design/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U002",
+    "category": "Product",
+    "title": "Figma Make",
+    "url": "https://www.figma.com/make/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U003",
+    "category": "Product",
+    "title": "Figma Weave",
+    "url": "https://weave.figma.com/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U004",
+    "category": "Product",
+    "title": "Dev Mode",
+    "url": "https://www.figma.com/dev-mode/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U005",
+    "category": "Product",
+    "title": "Figma Motion",
+    "url": "https://www.figma.com/motion/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U006",
+    "category": "Product",
+    "title": "FigJam",
+    "url": "https://www.figma.com/figjam/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U007",
+    "category": "Product",
+    "title": "Figma Slides",
+    "url": "https://www.figma.com/slides/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U008",
+    "category": "Product",
+    "title": "Figma Draw",
+    "url": "https://www.figma.com/draw/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U009",
+    "category": "Product",
+    "title": "Figma Sites",
+    "url": "https://www.figma.com/sites/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U010",
+    "category": "Product",
+    "title": "Figma Buzz",
+    "url": "https://www.figma.com/buzz/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U011",
+    "category": "Product",
+    "title": "Design and explore",
+    "url": "https://www.figma.com/design-explore/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U012",
+    "category": "Product",
+    "title": "Build and ship products",
+    "url": "https://www.figma.com/build-ship/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U013",
+    "category": "Product",
+    "title": "AI workflows",
+    "url": "https://www.figma.com/ai/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U014",
+    "category": "Product",
+    "title": "Release notes",
+    "url": "https://www.figma.com/release-notes/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U015",
+    "category": "Product",
+    "title": "Downloads",
+    "url": "https://www.figma.com/downloads/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U016",
+    "category": "Plans",
+    "title": "Pricing",
+    "url": "https://www.figma.com/pricing/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U017",
+    "category": "Plans",
+    "title": "Enterprise",
+    "url": "https://www.figma.com/enterprise/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U018",
+    "category": "Plans",
+    "title": "Organization",
+    "url": "https://www.figma.com/organization/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U019",
+    "category": "Plans",
+    "title": "Professional",
+    "url": "https://www.figma.com/professional/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U020",
+    "category": "Use cases",
+    "title": "UI design",
+    "url": "https://www.figma.com/ui-design-tool/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U021",
+    "category": "Use cases",
+    "title": "UX design",
+    "url": "https://www.figma.com/ux-design-tool/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U022",
+    "category": "Use cases",
+    "title": "Wireframing",
+    "url": "https://www.figma.com/wireframe-tool/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U023",
+    "category": "Use cases",
+    "title": "Diagramming",
+    "url": "https://www.figma.com/figjam/diagramming-tool/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U024",
+    "category": "Use cases",
+    "title": "Prototyping",
+    "url": "https://www.figma.com/prototyping/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U025",
+    "category": "Use cases",
+    "title": "Brainstorming",
+    "url": "https://www.figma.com/figjam/brainstorming-tool/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U026",
+    "category": "Use cases",
+    "title": "Presentation Maker",
+    "url": "https://www.figma.com/presentation-maker/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U027",
+    "category": "Use cases",
+    "title": "Online whiteboard",
+    "url": "https://www.figma.com/figjam/online-whiteboard/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U028",
+    "category": "Use cases",
+    "title": "Strategic planning",
+    "url": "https://www.figma.com/figjam/strategic-planning/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U029",
+    "category": "Use cases",
+    "title": "Mind mapping",
+    "url": "https://www.figma.com/figjam/mind-map/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U030",
+    "category": "Use cases",
+    "title": "AI website generator",
+    "url": "https://www.figma.com/solutions/ai-website-generator/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U031",
+    "category": "Use cases",
+    "title": "AI design generator",
+    "url": "https://www.figma.com/solutions/ai-design-generator/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U032",
+    "category": "Use cases",
+    "title": "AI app builder",
+    "url": "https://www.figma.com/solutions/ai-app-builder/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U033",
+    "category": "Use cases",
+    "title": "AI UI generator",
+    "url": "https://www.figma.com/solutions/ai-ui-generator/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U034",
+    "category": "Use cases",
+    "title": "Weave AI tool",
+    "url": "https://www.figma.com/solutions/figma-ai-tool-weave/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U035",
+    "category": "Use cases",
+    "title": "AI design agent",
+    "url": "https://www.figma.com/solutions/ai-design-agent/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U036",
+    "category": "Resources",
+    "title": "Blog",
+    "url": "https://www.figma.com/blog/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U037",
+    "category": "Resources",
+    "title": "Best practices",
+    "url": "https://www.figma.com/best-practices/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U038",
+    "category": "Resources",
+    "title": "Gradient Library",
+    "url": "https://www.figma.com/gradients/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U039",
+    "category": "Resources",
+    "title": "Gradient Generator",
+    "url": "https://www.figma.com/gradient-generator/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U040",
+    "category": "Resources",
+    "title": "GIF maker",
+    "url": "https://www.figma.com/gif-maker/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U041",
+    "category": "Resources",
+    "title": "Color wheel",
+    "url": "https://www.figma.com/color-wheel/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U042",
+    "category": "Resources",
+    "title": "Colors",
+    "url": "https://www.figma.com/colors/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U043",
+    "category": "Resources",
+    "title": "Color picker",
+    "url": "https://www.figma.com/color-picker/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U044",
+    "category": "Resources",
+    "title": "Font Library",
+    "url": "https://www.figma.com/fonts/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U045",
+    "category": "Resources",
+    "title": "Templates",
+    "url": "https://www.figma.com/templates/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U046",
+    "category": "Resources",
+    "title": "Developers",
+    "url": "https://www.figma.com/developers/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U047",
+    "category": "Resources",
+    "title": "Integrations",
+    "url": "https://www.figma.com/product-integrations/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U048",
+    "category": "Resources",
+    "title": "Affiliate program",
+    "url": "https://www.figma.com/affiliate-program/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U049",
+    "category": "Resources",
+    "title": "Resource library",
+    "url": "https://www.figma.com/resource-library/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U050",
+    "category": "Resources",
+    "title": "Reports and insights",
+    "url": "https://www.figma.com/reports/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U051",
+    "category": "Resources",
+    "title": "Legal and privacy",
+    "url": "https://www.figma.com/legal/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U052",
+    "category": "Resources",
+    "title": "Impressum",
+    "url": "https://www.figma.com/legal/impressum/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U053",
+    "category": "Resources",
+    "title": "Support",
+    "url": "https://help.figma.com/hc/en-us",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U054",
+    "category": "Resources",
+    "title": "Status",
+    "url": "https://status.figma.com/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U055",
+    "category": "Resources",
+    "title": "Modern slavery statement",
+    "url": "https://static.figma.com/uploads/35bc6db4415269cfeace41c8c4637945a85732b2.pdf",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U056",
+    "category": "Resources",
+    "title": "Climate disclosure statement",
+    "url": "https://static.figma.com/uploads/d2a204b5cc4d64ff539fcd445d0ddedab7dc00f6",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U057",
+    "category": "Company",
+    "title": "Events",
+    "url": "https://www.figma.com/events/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U058",
+    "category": "Company",
+    "title": "Customers",
+    "url": "https://www.figma.com/customers/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U059",
+    "category": "Company",
+    "title": "Careers",
+    "url": "https://www.figma.com/careers/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U060",
+    "category": "Company",
+    "title": "Newsroom",
+    "url": "https://www.figma.com/newsroom/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U061",
+    "category": "Company",
+    "title": "Brand assets",
+    "url": "https://www.figma.com/using-the-figma-brand/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U062",
+    "category": "Owner priority sources",
+    "title": "Best Practice Guides",
+    "url": "https://www.figma.com/best-practices/guides/",
+    "status": "supplied; see source register for review evidence"
+  },
+  {
+    "id": "U063",
+    "category": "Owner priority sources",
+    "title": "Figma Design Help Center",
+    "url": "https://help.figma.com/hc/en-us/categories/360002042553-Figma-Design",
+    "status": "supplied; see source register for review evidence"
+  }
+]

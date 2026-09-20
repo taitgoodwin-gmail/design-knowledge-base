@@ -1,0 +1,1343 @@
+[
+  {
+    "title": "Claude Code — Overview",
+    "url": "https://code.claude.com/docs/en/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Documentation index (docs map)",
+    "url": "https://code.claude.com/docs/en/claude_code_docs_map.md",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Quickstart",
+    "url": "https://code.claude.com/docs/en/quickstart",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Advanced setup",
+    "url": "https://code.claude.com/docs/en/setup",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "CLI reference",
+    "url": "https://code.claude.com/docs/en/cli-reference",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Headless mode",
+    "url": "https://code.claude.com/docs/en/headless",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Settings (settings.json)",
+    "url": "https://code.claude.com/docs/en/settings",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Configure permissions",
+    "url": "https://code.claude.com/docs/en/permissions",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Choose a permission mode",
+    "url": "https://code.claude.com/docs/en/permission-modes",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Memory (CLAUDE.md and auto memory)",
+    "url": "https://code.claude.com/docs/en/memory",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Hooks reference",
+    "url": "https://code.claude.com/docs/en/hooks",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Hooks guide",
+    "url": "https://code.claude.com/docs/en/hooks-guide",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Commands reference",
+    "url": "https://code.claude.com/docs/en/commands",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Extend Claude with skills",
+    "url": "https://code.claude.com/docs/en/skills",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Subagents",
+    "url": "https://code.claude.com/docs/en/sub-agents",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "MCP (full reference)",
+    "url": "https://code.claude.com/docs/en/mcp",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "MCP quickstart",
+    "url": "https://code.claude.com/docs/en/mcp-quickstart",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Create plugins",
+    "url": "https://code.claude.com/docs/en/plugins",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Plugin marketplaces",
+    "url": "https://code.claude.com/docs/en/plugin-marketplaces",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Discover plugins",
+    "url": "https://code.claude.com/docs/en/discover-plugins",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Plugins reference",
+    "url": "https://code.claude.com/docs/en/plugins-reference",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "GitHub Actions",
+    "url": "https://code.claude.com/docs/en/github-actions",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "VS Code",
+    "url": "https://code.claude.com/docs/en/vs-code",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "JetBrains IDEs",
+    "url": "https://code.claude.com/docs/en/jetbrains",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code changelog",
+    "url": "https://code.claude.com/docs/en/changelog",
+    "kind": "changelog",
+    "source_stated_date": "2026-08-14",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK overview",
+    "url": "https://code.claude.com/docs/en/agent-sdk/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK quickstart",
+    "url": "https://code.claude.com/docs/en/agent-sdk/quickstart",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — Python reference",
+    "url": "https://code.claude.com/docs/en/agent-sdk/python",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — TypeScript reference",
+    "url": "https://code.claude.com/docs/en/agent-sdk/typescript",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — permissions",
+    "url": "https://code.claude.com/docs/en/agent-sdk/permissions",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — custom tools",
+    "url": "https://code.claude.com/docs/en/agent-sdk/custom-tools",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — MCP",
+    "url": "https://code.claude.com/docs/en/agent-sdk/mcp",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — subagents",
+    "url": "https://code.claude.com/docs/en/agent-sdk/subagents",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent SDK — hooks",
+    "url": "https://code.claude.com/docs/en/agent-sdk/hooks",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "anthropics/claude-agent-sdk-python",
+    "url": "https://github.com/anthropics/claude-agent-sdk-python",
+    "kind": "repo",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "anthropics/claude-agent-sdk-typescript",
+    "url": "https://github.com/anthropics/claude-agent-sdk-typescript",
+    "kind": "repo",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code user FAQ",
+    "url": "https://support.claude.com/en/articles/14554922-claude-code-user-faq",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code help collection",
+    "url": "https://support.claude.com/en/collections/14445694-claude-code",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Get started with Claude Cowork",
+    "url": "https://support.claude.com/en/articles/13345190-get-started-with-claude-cowork",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Cowork on web, desktop, and mobile",
+    "url": "https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Cowork architecture overview",
+    "url": "https://support.claude.com/en/articles/14479288-claude-cowork-architecture-overview",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Schedule recurring tasks",
+    "url": "https://support.claude.com/en/articles/13854387-schedule-recurring-tasks-in-claude-cowork",
+    "kind": "support",
+    "source_stated_date": "2026-07-14",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Live artifacts",
+    "url": "https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork",
+    "kind": "support",
+    "source_stated_date": "2026-07-15",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Projects in Cowork",
+    "url": "https://support.claude.com/en/articles/14116274-organize-your-tasks-with-projects-in-claude-cowork",
+    "kind": "support",
+    "source_stated_date": "2026-04-09",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Use Claude Cowork safely",
+    "url": "https://support.claude.com/en/articles/13364135-use-claude-cowork-safely",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Computer use in Cowork",
+    "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+    "kind": "support",
+    "source_stated_date": "2026-04-24",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Assign tasks from anywhere (Dispatch)",
+    "url": "https://support.claude.com/en/articles/13947068-assign-tasks-from-anywhere-in-claude-cowork",
+    "kind": "support",
+    "source_stated_date": "2026-07-07",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Cowork on Team and Enterprise",
+    "url": "https://support.claude.com/en/articles/13455879-use-claude-cowork-on-team-and-enterprise-plans",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Monitor Cowork with OpenTelemetry",
+    "url": "https://support.claude.com/en/articles/14477985-monitor-claude-cowork-activity-with-opentelemetry",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Use plugins in Claude",
+    "url": "https://support.claude.com/en/articles/13837440-use-plugins-in-claude",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Skills, connectors and plugins directory",
+    "url": "https://support.claude.com/en/articles/14328846-browse-skills-connectors-and-plugins-in-one-directory",
+    "kind": "support",
+    "source_stated_date": "2026-05-29",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Use skills in Claude",
+    "url": "https://support.claude.com/en/articles/12512180-use-skills-in-claude",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Use connectors",
+    "url": "https://support.claude.com/en/articles/11176164-use-connectors-to-extend-claude-s-capabilities",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Cowork help collection",
+    "url": "https://support.claude.com/en/collections/19667525-claude-cowork",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Cowork product page",
+    "url": "https://www.anthropic.com/product/claude-cowork",
+    "kind": "blog",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Customize Claude Cowork",
+    "url": "https://claude.com/resources/tutorials/customize-claude-cowork",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Release notes (Claude apps)",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "kind": "changelog",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "anthropics/knowledge-work-plugins",
+    "url": "https://github.com/anthropics/knowledge-work-plugins",
+    "kind": "repo",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "anthropics/claude-plugins-community",
+    "url": "https://github.com/anthropics/claude-plugins-community",
+    "kind": "repo",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Introducing Claude Design by Anthropic Labs",
+    "url": "https://www.anthropic.com/news/claude-design-anthropic-labs",
+    "kind": "blog",
+    "source_stated_date": "2026-04-17",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Get started with Claude Design",
+    "url": "https://support.claude.com/en/articles/14604416-get-started-with-claude-design",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Set up your design system",
+    "url": "https://support.claude.com/en/articles/14604397-set-up-your-design-system-in-claude-design",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Design admin guide",
+    "url": "https://support.claude.com/en/articles/14604406-claude-design-admin-guide-for-team-and-enterprise-plans",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude for Creative Work",
+    "url": "https://www.anthropic.com/news/claude-for-creative-work",
+    "kind": "blog",
+    "source_stated_date": "2026-04-28",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompt engineering overview",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompting best practices",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompting Claude Opus 5",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompting Claude Sonnet 5",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-sonnet-5",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompting Claude Fable 5",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompting Claude Opus 4.8",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-4-8",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Define success criteria and build evaluations",
+    "url": "https://platform.claude.com/docs/en/test-and-evaluate/develop-tests",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Reduce hallucinations",
+    "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/reduce-hallucinations",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Increase output consistency",
+    "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/increase-consistency",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Best Practices for Prompt Engineering for 2026",
+    "url": "https://claude.com/blog/best-practices-for-prompt-engineering",
+    "kind": "blog",
+    "source_stated_date": "2025-11-10",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "anthropics/prompt-eng-interactive-tutorial",
+    "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+    "kind": "repo",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "anthropics/claude-cookbooks",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "kind": "repo",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Effective context engineering for AI agents",
+    "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+    "kind": "blog",
+    "source_stated_date": "2025-09-29",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "API overview",
+    "url": "https://platform.claude.com/docs/en/api/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Create a Message",
+    "url": "https://platform.claude.com/docs/en/api/messages/create",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Streaming messages",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/streaming",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Prompt caching",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Batch processing",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Files API",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/files",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Citations",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/citations",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Thinking",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/thinking",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Extended thinking (legacy)",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/extended-thinking",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "deprecated",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Effort",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Context windows",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-windows",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Compaction",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/compaction",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Context editing",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/context-editing",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Structured outputs",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Models overview",
+    "url": "https://platform.claude.com/docs/en/about-claude/models/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Model IDs and versioning",
+    "url": "https://platform.claude.com/docs/en/about-claude/models/model-ids-and-versions",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Model deprecations",
+    "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Pricing",
+    "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "List Models",
+    "url": "https://platform.claude.com/docs/en/api/models/list",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Rate limits",
+    "url": "https://platform.claude.com/docs/en/api/rate-limits",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Beta headers",
+    "url": "https://platform.claude.com/docs/en/api/beta-headers",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Platform release notes",
+    "url": "https://platform.claude.com/docs/en/release-notes/overview",
+    "kind": "changelog",
+    "source_stated_date": "2026-08-11",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Tool use with Claude",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Define tools",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/define-tools",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Handle tool calls",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/handle-tool-calls",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Tool runner (SDK)",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-runner",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Tool search tool",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-search-tool",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Programmatic tool calling",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/tool-use/programmatic-tool-calling",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "MCP connector",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-connector",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "MCP tunnels",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/mcp-tunnels/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Agent Skills",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Skill authoring best practices",
+    "url": "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Using Agent Skills with the API",
+    "url": "https://platform.claude.com/docs/en/build-with-claude/skills-guide",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Managed Agents overview",
+    "url": "https://platform.claude.com/docs/en/managed-agents/overview",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Managed Agents quickstart",
+    "url": "https://platform.claude.com/docs/en/managed-agents/quickstart",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Multiagent orchestration",
+    "url": "https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Tools (Managed Agents)",
+    "url": "https://platform.claude.com/docs/en/managed-agents/tools",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "MCP Specification 2026-07-28",
+    "url": "https://modelcontextprotocol.io/specification/2026-07-28",
+    "kind": "spec",
+    "source_stated_date": "2026-07-28",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "MCP Specification 2025-06-18",
+    "url": "https://modelcontextprotocol.io/specification/2025-06-18",
+    "kind": "spec",
+    "source_stated_date": "2025-06-18",
+    "historical_status": "deprecated",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "The 2026-07-28 MCP Specification (announcement)",
+    "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+    "kind": "blog",
+    "source_stated_date": "2026-07-28",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Building Effective AI Agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "kind": "blog",
+    "source_stated_date": "2024-12-19",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Writing effective tools for AI agents",
+    "url": "https://www.anthropic.com/engineering/writing-tools-for-agents",
+    "kind": "blog",
+    "source_stated_date": "2025-09-11",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Scaling Managed Agents",
+    "url": "https://www.anthropic.com/engineering/managed-agents",
+    "kind": "blog",
+    "source_stated_date": "2026-04-08",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Effective harnesses for long-running agents",
+    "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents",
+    "kind": "blog",
+    "source_stated_date": "2025-11-26",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Usage Policy",
+    "url": "https://www.anthropic.com/legal/aup",
+    "kind": "policy",
+    "source_stated_date": "2025-09-15",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Privacy Policy",
+    "url": "https://www.anthropic.com/legal/privacy",
+    "kind": "policy",
+    "source_stated_date": "2026-07-08",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Consumer Terms of Service",
+    "url": "https://www.anthropic.com/legal/consumer-terms",
+    "kind": "policy",
+    "source_stated_date": "2025-10-08",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Commercial Terms of Service",
+    "url": "https://www.anthropic.com/legal/commercial-terms",
+    "kind": "policy",
+    "source_stated_date": "2025-06-17",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "What certifications has Anthropic obtained?",
+    "url": "https://support.claude.com/en/articles/10015870-what-certifications-has-anthropic-obtained",
+    "kind": "support",
+    "source_stated_date": "2026-03-16",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Anthropic Trust Center",
+    "url": "https://trust.anthropic.com/",
+    "kind": "trust",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code — Security",
+    "url": "https://code.claude.com/docs/en/security",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Access audit logs",
+    "url": "https://support.claude.com/en/articles/9970975-access-audit-logs",
+    "kind": "support",
+    "source_stated_date": "2026-06-15",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Set up single sign-on (SSO)",
+    "url": "https://support.claude.com/en/articles/13132885-set-up-single-sign-on-sso",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "How long do you store my data? (consumer)",
+    "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data",
+    "kind": "policy",
+    "source_stated_date": "2026-07-01",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Responsible Scaling Policy (v3.4)",
+    "url": "https://www.anthropic.com/responsible-scaling-policy",
+    "kind": "policy",
+    "source_stated_date": "2026-07-08",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "API and data retention (Zero Data Retention)",
+    "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Securely deploying AI agents",
+    "url": "https://code.claude.com/docs/en/agent-sdk/secure-deployment",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Mitigate jailbreaks and prompt injections",
+    "url": "https://platform.claude.com/docs/en/test-and-evaluate/strengthen-guardrails/mitigate-jailbreaks",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "IP allowlisting",
+    "url": "https://support.claude.com/en/articles/13200993-restrict-access-to-claude-with-ip-allowlisting",
+    "kind": "support",
+    "source_stated_date": "2026-03-16",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Access the Compliance API",
+    "url": "https://support.claude.com/en/articles/13015708-access-the-compliance-api",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "beta",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Custom data retention controls (Enterprise)",
+    "url": "https://support.claude.com/en/articles/10440198-custom-data-retention-controls-for-enterprise-plans",
+    "kind": "support",
+    "source_stated_date": "2026-03-16",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Business Associate Agreements (BAA)",
+    "url": "https://support.claude.com/en/articles/8114513-business-associate-agreements-baa-for-commercial-customers",
+    "kind": "support",
+    "source_stated_date": "2026-07-14",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code — Data usage",
+    "url": "https://code.claude.com/docs/en/data-usage",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Tenant Restrictions",
+    "url": "https://support.claude.com/en/articles/13198485-enforce-network-level-access-control-with-tenant-restrictions",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Roles and permissions",
+    "url": "https://support.claude.com/en/articles/9267276-roles-and-permissions",
+    "kind": "support",
+    "source_stated_date": "2026-06-18",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Approach to GDPR",
+    "url": "https://privacy.claude.com/en/articles/10023628-what-is-your-approach-to-gdpr-or-related-issues",
+    "kind": "policy",
+    "source_stated_date": "2026-03-16",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "How we contain Claude across products",
+    "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+    "kind": "blog",
+    "source_stated_date": "2026-05-25",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Using agents according to our Usage Policy",
+    "url": "https://support.claude.com/en/articles/12005017-using-agents-according-to-our-usage-policy",
+    "kind": "support",
+    "source_stated_date": "2026-03-16",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Set up JIT or SCIM provisioning",
+    "url": "https://support.claude.com/en/articles/13133195-set-up-jit-or-scim-provisioning",
+    "kind": "support",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code — Enterprise network configuration",
+    "url": "https://code.claude.com/docs/en/network-config",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Exceptions to our Usage Policy",
+    "url": "https://support.claude.com/en/articles/9528712-exceptions-to-our-usage-policy",
+    "kind": "support",
+    "source_stated_date": "2026-03-16",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  },
+  {
+    "title": "Claude Code — Sandboxed Bash tool",
+    "url": "https://code.claude.com/docs/en/sandboxing",
+    "kind": "docs",
+    "source_stated_date": "not stated",
+    "historical_status": "current",
+    "reported_verified_at": "2026-08-17",
+    "verification_basis": "Notion register assertion; not independently refreshed in migration"
+  }
+]

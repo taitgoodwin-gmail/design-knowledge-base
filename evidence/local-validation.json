@@ -1,0 +1,98 @@
+{
+  "checked_at": "2026-09-20",
+  "scope": "pre-publication local checks",
+  "checks": {
+    "integrity": {
+      "exit_code": 0,
+      "result": {
+        "local_archives": 319,
+        "notion_snapshots": 25,
+        "source_urls": 442,
+        "valid_json_files": 75,
+        "maintained_links_checked": 271,
+        "largest_file_bytes": 27229347,
+        "errors": []
+      }
+    },
+    "retrieval": {
+      "exit_code": 0,
+      "result": [
+        {
+          "query": "element rationale",
+          "expected": "templates/element-rationale.md",
+          "found_in_first_eight": true,
+          "paths": [
+            "templates/element-rationale.md",
+            "projects/mindleverx/mindleverx-design-rationale.md",
+            "principles/README.md",
+            "README.md",
+            "templates/README.md",
+            "CATALOG.md",
+            "projects/mindleverx/README.md",
+            "workflows/design-review.md"
+          ]
+        },
+        {
+          "query": "code connect",
+          "expected": "integrations/code-connect.md",
+          "found_in_first_eight": true,
+          "paths": [
+            "integrations/code-connect.md",
+            "tools/figma/modules/10-dev-handoff.md",
+            "integrations/figma-chatgpt-codex.md",
+            "reference-library/notion/source-register-3bf792ca.md",
+            "tools/figma/SOURCES.md",
+            "CATALOG.md",
+            "projects/mindleverx/mindleverx-design-rationale.md",
+            "projects/mindleverx/production-assessment-2026-09-12.md"
+          ]
+        },
+        {
+          "query": "notion research imports",
+          "expected": "reference-library/notion/README.md",
+          "found_in_first_eight": true,
+          "paths": [
+            "reference-library/notion/README.md",
+            "sources/uiux-catalog.md",
+            "reference-library/notion/canonical-instruction-texts-3ba792ca.md",
+            "reference-library/notion/augmind-agnostic-delivery-methodology-living-draft-3dc792ca-d273cfd9.md",
+            "reference-library/notion/cycle-2026-08-05-dry-run-harness-3b3792ca.md",
+            "reference-library/notion/foundry-team-charter-3b2792ca.md",
+            "reference-library/notion/website-redesign-39a792ca.md",
+            "reference-library/notion/daily-reports-3bf792ca.md"
+          ]
+        },
+        {
+          "query": "reduced motion",
+          "expected": "workflows/ai-and-motion.md",
+          "found_in_first_eight": true,
+          "paths": [
+            "learning/visual-design-study/research/perception-and-motion.md",
+            "tools/figma/modules/07-motion.md",
+            "workflows/ai-and-motion.md",
+            "projects/mindleverx/mindleverx-design-rationale.md",
+            "projects/levarum/squarespace-design-and-build-guide.md",
+            "tools/squarespace/design-system.md",
+            "learning/visual-design-study/START-HERE.md",
+            "projects/mindleverx/historical-findings.md"
+          ]
+        },
+        {
+          "query": "Figma knowledge practice",
+          "expected": "tools/figma/README.md",
+          "found_in_first_eight": true,
+          "paths": [
+            "tools/figma/README.md",
+            "tools/figma/SOURCES.md",
+            "README.md",
+            "tools/figma/modules/12-weave.md",
+            "integrations/code-connect.md",
+            "AGENTS.md",
+            "sources/conflicts.md",
+            "docs/build-guidance.md"
+          ]
+        }
+      ]
+    }
+  }
+}

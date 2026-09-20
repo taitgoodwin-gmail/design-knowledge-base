@@ -1,0 +1,971 @@
+[
+  {
+    "id": "cover",
+    "title": "A field guide\nto expressive design",
+    "body": [
+      "Visual styles, logo craft and brand systems",
+      "Living study edition 1.0 / 8 September 2026"
+    ],
+    "notes": "",
+    "image": null,
+    "source_urls": [],
+    "kind": "cover",
+    "section": "Foundations"
+  },
+  {
+    "id": "map",
+    "title": "How to use this field guide",
+    "body": [
+      "Browse the visual atlas to learn the vocabulary.",
+      "Read the case studies to see how decisions work together.",
+      "Use the exercises and templates for future design reviews."
+    ],
+    "notes": "The slide canvas carries the main lesson. Speaker notes preserve context, source URLs and open questions. This is a learning library, not an approved Levarum identity. New references can be added using the template near the end. Keep the same deck as the working artifact and use Google Slides version history for substantial revisions.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Foundations"
+  },
+  {
+    "id": "evidence",
+    "title": "Four kinds of evidence",
+    "body": [
+      "Observed: visible in an inspected image or page.",
+      "Documented: a source describes the process or rationale.",
+      "Interpretation: our explanation or design hypothesis.",
+      "Tested: a named check with recorded conditions and results."
+    ],
+    "notes": "An attractive reference does not establish usability, recall or sales. Source captions can establish a creator’s intent without proving an audience response. A screenshot may show a texture without identifying the production process. The notes flag access gaps and original-artwork attribution limits. All four labels are useful, but they answer different questions.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Foundations"
+  },
+  {
+    "id": "questions",
+    "title": "Five questions for looking closely",
+    "body": [
+      "What attracts attention first? What appears related?",
+      "Which cues create the apparent material?",
+      "Which parts carry information, and which create atmosphere?",
+      "What survives when decorative effects disappear?"
+    ],
+    "notes": "These questions form our teaching method. They are not a validated scoring rubric. Describe relationships such as scale, contrast, proximity, edge or lighting before assigning a style adjective. The answers turn an instinctive preference into something that can be developed and compared.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Foundations"
+  },
+  {
+    "id": "atlas-cover",
+    "title": "The visual atlas",
+    "body": [
+      "Ten labels. Several kinds of design knowledge."
+    ],
+    "notes": "",
+    "image": null,
+    "source_urls": [],
+    "kind": "divider",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "atlas-map",
+    "title": "The names describe different things",
+    "body": [
+      "Risograph names a printing technology.",
+      "Gzhel names a regional ceramic tradition.",
+      "Austurbane is an attributed contemporary classification.",
+      "Other labels describe visual impressions or informal hybrids."
+    ],
+    "notes": "The names are useful entry points, not equivalent historical movements. The supplied overview preserves the wording used in the social post. It cannot establish that every pictured artist used the same label. Denny Kurien’s matching TikTok post was found and partially inspected. Original artwork credits remain incomplete.",
+    "image": "../references/09-overview.jpeg",
+    "source_urls": [
+      "https://www.tiktok.com/@denny.kurien/video/7680157545746418964"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "riso",
+    "title": "Risograph",
+    "body": [
+      "Separated spot colors create a layered composition.",
+      "Transparent overlaps introduce additional color relationships.",
+      "Texture can coexist with precise information."
+    ],
+    "notes": "A physical Risograph print uses stencil duplication, color separations and spot inks. PageMasters describes halftones, ink drums, registration and trapping. The poster screenshot suggests overprinting but cannot verify its physical production. RISO’s history distinguishes a 1958 precursor from 1980 models. Study the arrangement before imitating grain. Digital artwork should be described as Riso-inspired when no physical print exists.",
+    "image": "../references/01-risograph.jpeg",
+    "source_urls": [
+      "https://www.pagemasters.co/risograph",
+      "https://risottostudio.com/pages/advanced-print-setup",
+      "https://www.riso.co.jp/english/product/digital_dup/history/index.html"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "clay",
+    "title": "Claymorphism",
+    "body": [
+      "Rounded edges and coordinated light suggest touch.",
+      "The reference combines fins, folds and glossy volumes.",
+      "A consistent material can connect different ideas."
+    ],
+    "notes": "The supplied Simplicity21 reference contains blue fins, green folds, coral cylinders and orange rounded forms. The matching portfolio credits Kyungtae Kim and Toss Design. Five objects represent the conference title and four themes. This connects visual form to content. Claymorphism is an informal label, not proof of a particular 3D process. A soft object used as illustration should not be confused with an interactive control.",
+    "image": "../references/02-claymorphism.jpeg",
+    "source_urls": [
+      "https://www.behance.net/gallery/127686975/Simplicity-21",
+      "https://microsoft.design/articles/an-emoji-for-your-thoughts-2/"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "organic",
+    "title": "Organic Tech",
+    "body": [
+      "Porous, tufted forms surround a plain information card.",
+      "Biological complexity contrasts with precise typography.",
+      "The subject should connect to a real idea."
+    ],
+    "notes": "The observed contrast between intricate surface and restrained information creates much of this reference’s character. Organic need not mean green or environmental. Scale can shift a form from friendly to microscopic or unsettling. Nature-like appearance cannot substantiate environmental benefit. The original crop’s authorship remains unresolved. Cartier’s Farinart is an adjacent documented case using 3D grain forms tied to agriculture, rather than proof that the original artist used the label Organic Tech.",
+    "image": "../references/03-organic-tech.jpeg",
+    "source_urls": [
+      "https://agencecartier.com/en/projects/farinart-a-new-identity-crops-up/"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "dirty",
+    "title": "Dirty Gradients",
+    "body": [
+      "Broad color transitions create atmosphere.",
+      "Muted mixing and irregular texture change the surface.",
+      "A quiet region helps the words retain priority."
+    ],
+    "notes": "Dirty is a loose descriptor for noise, uneven density, desaturation or irregular boundaries. The screenshot supports broad color transitions and restrained composition. Its exact grain method is unverified. Pentagram’s Intrinsic offers an adjacent example in which gradient echoes represent possible future robot positions. That source does not label its project Dirty Gradients. Meaning can come from behavior rather than an effect pasted onto every section.",
+    "image": "../references/04-dirty-gradients.jpeg",
+    "source_urls": [
+      "https://www.pentagram.com/work/intrinsic"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "austurbane",
+    "title": "Austurbane",
+    "body": [
+      "Restrained color and fine serif titles set a quiet rhythm.",
+      "Overlapping objects create depth and directional tension.",
+      "Lighting and materials contribute as much as palette."
+    ],
+    "notes": "CARI credits Alex Edwards with the label, combining austere and urbane. Its account includes generous space, natural materials, staged photography and dramatic shadows. This particular screenshot teaches angle, overlap and restraint. Beige and a serif do not guarantee sophistication. Compare the same objects under hard and diffuse light to isolate how lighting changes a composition. The pictured packaging’s creator remains unverified.",
+    "image": "../references/05-austurbane.jpeg",
+    "source_urls": [
+      "https://cari.institute/aesthetics/austurbane"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "brutal",
+    "title": "Clean Girl Brutalism",
+    "body": [
+      "A heavy title anchors the upper edge.",
+      "A large quiet field separates it from compact information.",
+      "One saturated pink block carries strong visual weight."
+    ],
+    "notes": "The exact compound label’s origin and definition were not established. Architectural Brutalism and CARI’s Nu-Brutalism are related research contexts, not evidence for a single formal movement with this name. The useful observations are the heavy AGNI lettering, white space, edge rule and asymmetrical information. Sparse composition must still preserve useful labels and controls when translated to a website.",
+    "image": "../references/06-clean-girl-brutalism.jpeg",
+    "source_urls": [
+      "https://cari.institute/aesthetics/nu-brutalism",
+      "https://www.riba.org/explore/riba-collections/architectural-styles/brutalism-movement/"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "spray",
+    "title": "Spray",
+    "body": [
+      "Blue gestural marks carry personality.",
+      "Small black typesetting carries product facts.",
+      "The arrangement stays organized while the marks vary."
+    ],
+    "notes": "A spray vocabulary can suggest play, workshop markings, street culture or military stencils depending on context. The supplied coffee package uses loose lettering and drawings. Pentagram’s American Weed Co. uses a different stencil language rooted in the founders’ context. Surface resemblance does not establish a shared meaning. Preserve legibility in critical information and investigate original authorship rather than crediting a repost account as the artist.",
+    "image": "../references/07-spray.jpeg",
+    "source_urls": [
+      "https://www.pentagram.com/work/american-weed-co"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "gzhel",
+    "title": "Gzhel and the attribution question",
+    "body": [
+      "Cobalt-on-white can carry rhythm through tone and scale.",
+      "Repeated motifs and open space shape a pattern.",
+      "The LOEWE bag’s Gzhel attribution remains unverified."
+    ],
+    "notes": "The national Russian commission for UNESCO describes a regional ceramic history and twentieth-century revival involving Alexander Saltykov and Natalia Bessarabova. This is not evidence of a UNESCO heritage designation. The supplied LOEWE image shows blue birds and foliage in a tiled arrangement. The De Morgan Foundation documents another LOEWE collaboration, but it has not been matched to this exact bag. Preserve the uncertainty rather than relabel the asset. Study tonal brushwork and spacing as mechanisms.",
+    "image": "../references/08-gzhel.jpeg",
+    "source_urls": [
+      "https://unesco.ru/en/news/gjel37/",
+      "https://farfor-gzhel.com/en/the-award-at-home-in-the-nomination-design-and-craft/",
+      "https://www.demorgan.org.uk/de-morgan-x-loewe-autumn-winter-2019/"
+    ],
+    "kind": "portrait",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "iridescence",
+    "title": "Holographic iridescence",
+    "body": [
+      "Changing highlights suggest a responsive material.",
+      "Reflection, geometry and lighting work together.",
+      "A static rainbow fill cannot establish holography."
+    ],
+    "notes": "Only the small overview tile was supplied for this label. Its object, maker and production method are unknown. 3M’s Dichroic DF Chill provides a documented physical comparison: apparent colors vary with viewing angle and with reflected versus transmitted light. Use a still image where it conveys the effect adequately. This terminology lesson distinguishes material behavior from a loose aesthetic description.",
+    "image": null,
+    "source_urls": [
+      "https://www.3m.com/3M/en_US/p/d/v000096543/"
+    ],
+    "kind": "text",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "asian",
+    "title": "Cultural references need specific context",
+    "body": [
+      "The source’s “Asian Chic” thumbnail shows a dense frame and saturated contrast.",
+      "A maker, place and date are more useful than a broad label.",
+      "Lettering and motifs carry meanings beyond appearance."
+    ],
+    "notes": "Asian Chic has documented usage in Leshkowich and Jones’s 2003 fashion scholarship. That does not establish one graphic-design movement or the provenance of the supplied thumbnail. Their Vietnam and Indonesia examples show that meaning depends on who makes, circulates and interprets an object. A V&A account of chinoiserie is a separate historical comparison. The source resolution is insufficient to identify script or maker. Use an attributable object whenever possible.",
+    "image": null,
+    "source_urls": [
+      "https://www.colorado.edu/anthropology/sites/default/files/attached-files/5leshkowichjonesft.pdf",
+      "https://www.vam.ac.uk/articles/chinoiserie-an-introduction"
+    ],
+    "kind": "text",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "combining",
+    "title": "Combining styles by assigning roles",
+    "body": [
+      "Typography and spacing organize the information.",
+      "One material family gives imagery a shared character.",
+      "Color creates atmosphere or carries a defined meaning.",
+      "A gesture supplies emphasis where it is useful."
+    ],
+    "notes": "This is our design heuristic, not a universal formula. Organic geometry could share one iridescent material without requiring every section to contain fur, chrome, clay and spray. The question is whether the effects compete for attention or serve distinct purposes. Play Studio’s Adobe MAX project provides an adjacent documented example of an organizing lens, core colors and varied artwork, including human-directed generative collage.",
+    "image": null,
+    "source_urls": [
+      "https://play.studio/work/adobe-max"
+    ],
+    "kind": "text",
+    "section": "Visual atlas"
+  },
+  {
+    "id": "craft-cover",
+    "title": "Logo craft and brand systems",
+    "body": [
+      "How specific decisions become a recognizable family."
+    ],
+    "notes": "",
+    "image": null,
+    "source_urls": [],
+    "kind": "divider",
+    "section": "Logo craft"
+  },
+  {
+    "id": "iconic_nike_silhouette",
+    "title": "Nike: a silhouette with a job",
+    "body": [
+      "Carolyn Davidson designed the shoe-side mark in 1971; its curve suggested motion.",
+      "Study the taper, direction and negative space rather than just its simplicity.",
+      "Its present familiarity is not a fair first-impression test for a new logo."
+    ],
+    "notes": "Nike's own archive identifies Davidson and the initial shoe-side brief, while documenting later adaptation across products and media. Our design reading is that the taper and asymmetry supply direction without a literal runner illustration. That is interpretation, not a controlled measurement of effectiveness. The transferable exercise is to inspect a proposed mark in one color, on its intended surface, and at small sizes. Do not borrow the Swoosh or promise that minimal geometry creates comparable recognition. A new identity needs its own distinctive form and a way to teach the name. This example is educational commentary, not a universal ranking.",
+    "source_urls": [
+      "https://about.nike.com/en/magazine/nike-swoosh-logo-history"
+    ],
+    "suggested_visual": "Use the official archive's timeline image as an educational reference; label it Nike archive, not original artwork. Add an external annotation identifying silhouette/taper without modifying the source image.",
+    "image_url": "https://nmp.about.nike.com/about/prod/0cc8c295-a643-44f4-acb3-c18bfc2289f1/nike-swoosh-logo-timeline.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwicmVzaXplIjp7IndpZHRoIjozODQwfX19&s=cf8fdb210e3ba5e388cdfd16eb16711c9303b0a5fd4921afd9d10e3f0600aa84",
+    "evidence": "Official brand article opened. Direct image link recovered by clicking article image; image fetch failed in web reader, so render/download remains unverified.",
+    "kind": "landscape",
+    "section": "Logo craft",
+    "image": "assets/iconic_nike_silhouette.jpg"
+  },
+  {
+    "id": "iconic_fedex_negative_space",
+    "title": "FedEx: meaning between the letters",
+    "body": [
+      "Lindon Leader describes reconstructing letterforms to create the E–x arrow.",
+      "The wordmark communicates the name; the arrow supplies a second discovery.",
+      "A hidden idea should reward attention without requiring explanation."
+    ],
+    "notes": "In a first-person interview, Leader dates the work to 1994 at Landor and explains that he combined and adjusted letterform characteristics to obtain the arrow. He describes the hidden device as a bonus rather than the whole communication. This is primary creator testimony hosted by the interviewer, not FedEx's current brand manual. The creator's own linked site was inaccessible during this research. Our proposed lesson is to examine counters and spacing as designed forms, while retaining readable lettering. Do not force an unrelated symbol into every wordmark. The interview does not establish that negative space universally improves recognition or conversion.",
+    "source_urls": [
+      "https://thesneeze.com/the-man-behind-the-fedex-logo/"
+    ],
+    "suggested_visual": "Actual FedEx wordmark with a separate explanatory callout beside the E–x gap; source the authentic image before placement. No verified direct brand-owned image URL obtained.",
+    "evidence": "Original interview opened and read; qualifies as primary creator testimony but is hosted on interviewer domain. If deck requires only creator-owned or brand-owned domains, hold this slide until a qualifying source is available.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "iconic_ibm_system",
+    "title": "IBM: the mark lives inside a system",
+    "body": [
+      "Paul Rand's 8-bar design dates to 1972.",
+      "Official light and dark versions use optical adjustments rather than a simple inversion.",
+      "Clear space, placement and consistent application protect the identity."
+    ],
+    "notes": "IBM's current design guidance specifies different stripe weights and counter details for positive and reversed versions, alongside clear-space and application rules. These are concrete evidence of craft beyond drawing a recognizable set of initials. Study the principle, not the proprietary grid: mathematically equal shapes may need adjustment to appear balanced. Our practical extension is to review any new identity on both light and dark surfaces and at realistic sizes. A logo file alone is not a complete identity system. IBM's rules belong to IBM; their exact spacing and color prescriptions are not universal standards to impose on a different business.",
+    "source_urls": [
+      "https://www.ibm.com/design/language/ibm-logos/8-bar/"
+    ],
+    "suggested_visual": "Official IBM 8-bar grid diagram, plus a concise annotation about optical adjustment. Do not redraw the logo from ordinary type.",
+    "image_url": "https://www.ibm.com/design/language/a41bb6fc86bf12f915d28f4c34f33d74/8bar.svg",
+    "evidence": "Official guidance opened; direct SVG link recovered. Web reader rejected SVG content type, so Google Slides compatibility is unverified; may require a faithful rendered reference.",
+    "kind": "landscape",
+    "section": "Logo craft",
+    "image": "assets/iconic_ibm_system.svg.png"
+  },
+  {
+    "id": "iconic_recognition_familiarity",
+    "title": "Recognition and familiarity",
+    "body": [
+      "Separate shape discrimination, prior familiarity and correct brand naming.",
+      "Famous marks carry years of exposure and associations into the comparison.",
+      "For new work, test readability and learning rather than a claim of instant iconic status."
+    ],
+    "notes": "This is an evaluation distinction and proposed study method, not a reported experimental finding. Nike's archive recounts the mark's development through products and public exposure; IBM explicitly stresses consistent visible use. Those accounts caution against judging a new mark against a familiar incumbent as if exposure were equal. For a small study, ask separately whether viewers have seen a mark before, can distinguish it from alternatives, and can connect it to the correct name after controlled exposure. Record mistakes instead of inventing a score. These checks can inform refinement; they do not predict future fame or prove commercial performance alone.",
+    "source_urls": [
+      "https://about.nike.com/en/magazine/nike-swoosh-logo-history",
+      "https://www.ibm.com/design/language/ibm-logos/8-bar/"
+    ],
+    "suggested_visual": "Three clearly labeled columns: Distinguish the shape / Seen it before / Name the brand. Use neutral geometric study marks, not a fabricated recognition-results chart.",
+    "evidence": "Brand histories/guidance support context; testing distinction and exercise are explicitly the research team's proposal. No recognition study was run.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "brand-01",
+    "title": "Logo critique: inspect relationships",
+    "body": [
+      "Silhouette: what reads before the details?",
+      "Interior spaces, curves and spacing shape the word.",
+      "Compare the full name and a compact mark.",
+      "Separate craft observations from personal taste."
+    ],
+    "notes": "A useful critique names a visible relationship and the context in which it matters. Start with the overall silhouette, then inspect the spaces inside letters, the gaps between them, curve transitions and relative visual weight. These are proposed teaching checks, not a transcript of Lucy Eden's complete method. Her services page treats the primary logo, secondary version, smaller mark, typography, color and supporting artwork as one identity. That supports evaluating a family of related assets instead of asking a single logo to do every job. An exercise is to compare an unchanged wordmark in a broad header and a small square, noting which details disappear. Record observations before proposing changes. Readability, recognition and commercial impact are different questions; a cleaner drawing alone does not prove increased sales.",
+    "source_urls": [
+      "https://www.edenbrands.us/services",
+      "https://www.tiktok.com/@lucyedendesign/video/7665353012268829965"
+    ],
+    "suggested_visual": "Original annotated specimen using a neutral invented word: label silhouette, counter, spacing and curve; show wide-header and small-square contexts. Explicitly label as teaching diagram, not Lucy's work.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "brand-02",
+    "title": "Lucy Eden: refine the existing letter",
+    "body": [
+      "Earlier sampled frames show Y-curve refinements.",
+      "A comparison outline makes contour changes visible.",
+      "Small changes can retain a mark’s character.",
+      "Image: logo context; the editing frame is discussed in notes."
+    ],
+    "notes": "The lead agent inspected Lucy Eden's public TikTok profile and sampled frames of the Bluey critique in the user's Chrome session on 8 September 2026. The player showed a runtime of one minute and twelve seconds. One editing frame showed vector anchors on the curved Y, a comparison outline and the on-screen word 'consistent.' This supports a narrow but valuable lesson: the work includes contour refinement within an existing letterform, rather than merely selecting a replacement font. It does not establish every change Lucy made, the full rationale or a measured improvement in recognition. Full audio and every before-and-after frame were not inspected. For practice, identify an inconsistent curve and compare one controlled adjustment while preserving the surrounding letters. This exercise is ours, not an attributed reconstruction of her complete process. The displayed screenshot is a later logo-context frame and does not display the anchors described above. It is not presented as the editing-frame evidence.",
+    "source_urls": [
+      "https://www.tiktok.com/@lucyedendesign/video/7669805166178209037"
+    ],
+    "suggested_visual": "Use the saved sampled editing frame if available, credited to Lucy Eden and Bluey; highlight the Y anchors without recreating an unobserved final result. Otherwise use a clearly labelled original contour-comparison diagram.",
+    "kind": "landscape",
+    "section": "Logo craft",
+    "image": "assets/lucy-bluey-full.png"
+  },
+  {
+    "id": "brand-03",
+    "title": "Michelle Elman: compose one unified name",
+    "body": [
+      "Custom signature lettering nests into a unified arrangement.",
+      "A small speech bubble adds contextual character.",
+      "Patterns and illustrations carry additional expression.",
+      "Judge the composition against the intended personality."
+    ],
+    "notes": "Lucy Eden's own Michelle Elman case study describes a rebrand intended to express candid, empathetic, bold and wise traits. She explains the primary mark as custom signature-style lettering arranged to nest together, with a speech-bubble detail above the i. The educational point is the division of labor: the name remains one recognizable composition while a restrained detail and supporting illustrations communicate additional context. This is the designer's stated rationale, not independent proof of how audiences perceive the mark. Ask where the letters share a rhythm, which gaps feel deliberate and whether the small detail still works at reduced size. Do not infer that every personal brand needs handwriting or a speech bubble. The transferable decision is to connect a particular identity to a particular construction, then test its intended uses. Source text was available in the saved research. A fresh screenshot attempt for Splatter returned Page Not Found on 8 September 2026. The original logo assets are not reproduced on this slide. Recheck the current portfolio before relying on the link.",
+    "source_urls": [
+      "https://www.edenbrands.us/case-studies/michelle-elman"
+    ],
+    "suggested_visual": "One credited primary wordmark from the case study beside a supporting-pattern example; annotate nesting and speech-bubble detail only after visually confirming the assets.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "brand-04",
+    "title": "Splatter: let the experience shape the letters",
+    "body": [
+      "Paint-throwing experience informs bold, playful letter behavior.",
+      "Custom wordmark uses slanted and stacked forms.",
+      "A condensed badge adapts the identity to another space.",
+      "Real painted splashes become original supporting graphics."
+    ],
+    "notes": "The Splatter case study links a paint-throwing experience to an identity intended to feel creative, liberating, edgy and fun. Lucy describes custom slanted and stacked letterforms and a condensed variation arranged as a symmetrical badge. She also describes painting on paper and scanning the results to make the pattern and icon material. That primary account establishes the maker's stated process; it does not make surface roughness a general test for human authorship. The lesson is to connect the behavior of the letters and supporting marks to the activity itself. Compare the expressive wordmark with its compact version: what remains identifiable when the arrangement changes? Originality can come from a specific process and a coherent set of choices, rather than from adding unrelated decorative effects to an otherwise conventional layout. Source text was available in the saved research. A fresh screenshot attempt for Splatter returned Page Not Found on 8 September 2026. The original logo assets are not reproduced on this slide. Recheck the current portfolio before relying on the link.",
+    "source_urls": [
+      "https://www.edenbrands.us/case-studies/splatter"
+    ],
+    "suggested_visual": "Credited wordmark, badge and scanned-paint examples in three coordinated panels; caption the documented making process and avoid implying the teaching deck created these assets.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "brand-05",
+    "title": "Marlowe & Sage: repeat a distinctive relationship",
+    "body": [
+      "Rounded serif lettering supports the intended warmth.",
+      "An intertwined ampersand connects the full name.",
+      "The compact mark reuses initials and that connection.",
+      "A type category alone cannot determine personality."
+    ],
+    "notes": "For Marlowe & Sage, Lucy's case study describes a childcare brand seeking a nurturing, warm, wise and encouraging presence. Her stated solution uses rounded serif lettering, with an ampersand woven into the wordmark. The smaller mark recombines initials through the same ampersand relationship, while simple shapes, leaves and light illustration support the wider identity. This is a useful counterexample to the blanket claim that serif typography must feel formal or dated. The actual construction and context matter. The practical exercise is to trace one distinctive relationship through the full wordmark and smaller mark, then ask what survives when detail is reduced. Do not copy the ampersand as a formula. Study the coherence between assets and evaluate the designer's intended warmth as a hypothesis rather than a measured audience response. Source text was available in the saved research. A fresh screenshot attempt for Splatter returned Page Not Found on 8 September 2026. The original logo assets are not reproduced on this slide. Recheck the current portfolio before relying on the link.",
+    "source_urls": [
+      "https://www.edenbrands.us/case-studies/marlowe-and-sage"
+    ],
+    "suggested_visual": "Show credited primary and compact marks side by side with a connector tracing the repeated ampersand relationship; small supporting-pattern swatch below.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "brand-06",
+    "title": "TBWA / DXD: making becomes a system",
+    "body": [
+      "TBWA documents drawing, painting, cutting and experimentation.",
+      "The process supplies varied visual material.",
+      "A system still needs recognizable forms and clear hierarchy.",
+      "Maker process is documented; audience effects are not."
+    ],
+    "notes": "TBWA's own public post states that its global design studio DXD used drawing, painting, cutting and experimentation while developing the new identity. That is primary corroboration of the studio's stated hands-on process. It does not prove that audiences trust rough imagery more, nor that all irregular marks were individually handmade. The teaching distinction is between generating material and organizing its use. A coherent system can allow variation in edges, annotations or image treatment while retaining identifiable shapes, legible typography and a clear order of information. Those proposed system checks are our synthesis; they are not an extracted TBWA rulebook. When reviewing the example, ask which visual qualities recur across applications and which change. The news index dates the DXD rebrand item to 5 August 2026; do not invent a broader historical origin from that one launch.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/tbwa_our-global-design-studio-dxd-have-taken-us-activity-7492923688888184832-YRdB",
+      "https://tbwa.com/news/"
+    ],
+    "suggested_visual": "Credited TBWA/DXD process frame beside two verified applications if available. Label 'documented process' separately from 'our questions about consistency and variation'; do not fabricate brand guidelines.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "brand-07",
+    "title": "Anthropic: warmth and technical structure together",
+    "body": [
+      "Geist connects the identity to human values and technical craft.",
+      "Typographic mark, Styrene/Tiempos and warm color work together.",
+      "Illustration extends the language for varied audiences.",
+      "A UI component system carries the identity into use."
+    ],
+    "notes": "Geist's Anthropic case study describes more than an illustrative style. Its account connects a human-centered mission with technical craft through a typographic logo containing a distinct slash, the Styrene and Tiempos families, warm color, illustration and photography. It also describes an extensive UI component system and modular CMS. This offers a concrete example of a brand language extending into interface and product contexts. The educational question is how expressive qualities survive when the design must organize articles, controls and repeated content. The source is the studio's account of its project, not a current audit of every Anthropic surface. Its statements about AI safety, fundraising and company success are outside the design evidence used here. Neither warmth nor illustration alone demonstrates trust; the documented strength is the coordinated scope of the identity and implementation.",
+    "source_urls": [
+      "https://geist.co/work/anthropic"
+    ],
+    "suggested_visual": "Four credited case-study samples: typography, color, illustration and UI. Draw a simple connection from foundations to applications; do not use current product screenshots as if they were the historical deliverable.",
+    "kind": "landscape",
+    "section": "Logo craft",
+    "image": "assets/Anthropic_ClaudePage.jpg"
+  },
+  {
+    "id": "brand-08",
+    "title": "Naive design: useful hypothesis, limited proof",
+    "body": [
+      "Signals proposes hand-drawn character as a response to polished sameness.",
+      "Irregular appearance cannot prove human authorship.",
+      "McLuhan references and 'exponential trust' are not measurements.",
+      "Keep expressive material; test clarity and real applications."
+    ],
+    "notes": "The user supplied a Signals transcript discussing deliberately hand-drawn design through TBWA/DXD, Who Gives A Crap, Oatly and Anthropic. The research record treats it as supplied text; this contributor did not independently watch or authenticate the complete clip. Its claims about AI perfection being ignored by the brain, form always preceding content, and trust increasing exponentially require evidence beyond portfolio examples. A McLuhan reference provides an interpretive perspective, not a controlled perception experiment. Oatly's own investor document dates its Nordic rebrand to 2013–14, so that example cannot establish that this entire approach originated in response to recent generative AI. The useful working hypothesis is that expressive material may help differentiate an appropriate identity. Evaluate coherence, reading and application separately, and preserve actual making records when provenance matters. No trust increase or Levarum direction is established by this research.",
+    "source_urls": [
+      "https://www.zachheffner.com/privacy-policy",
+      "https://www.linkedin.com/posts/tbwa_our-global-design-studio-dxd-have-taken-us-activity-7492923688888184832-YRdB",
+      "https://geist.co/work/anthropic",
+      "https://investors.oatly.com/static-files/530eaa69-0fb0-40e9-9aac-1147bb6eea14"
+    ],
+    "suggested_visual": "Evidence matrix with three columns: creator interpretation, source-supported process, untested outcome. Include the Oatly 2013–14 timeline fact; use no pseudo-neuroscience diagram or numerical trust chart.",
+    "kind": "text",
+    "section": "Logo craft"
+  },
+  {
+    "id": "anthropic-foundations",
+    "title": "Anthropic’s foundations",
+    "body": [
+      "Warm color supports both communication and interface use.",
+      "Styrene and Tiempos bring different typographic voices.",
+      "The full system includes more than the logo."
+    ],
+    "notes": "Geist’s historical case study describes the relationship between human values and technical craft. These primary project visuals show its published palette and typography. They are examples from the case study, not a specification for current Anthropic products. Audience trust and commercial effectiveness have not been measured by this study.",
+    "image": "assets/Anthropic_ColorPalette.svg.png",
+    "source_urls": [
+      "https://geist.co/work/anthropic"
+    ],
+    "kind": "landscape",
+    "section": "Brand systems"
+  },
+  {
+    "id": "anthropic-typography",
+    "title": "Typography as a brand voice",
+    "body": [
+      "Letterforms contribute tone even without decorative imagery.",
+      "A pairing needs clear roles for headings and reading text.",
+      "Actual size, spacing and context determine the result."
+    ],
+    "notes": "This is Geist’s published Anthropic typography specimen. Its account names Commercial Type’s Styrene and Klim’s Tiempos. Our transferable question is how type families divide the work across an interface, article and campaign. The same font can feel different when its size, weight, line length or spacing changes. The specimen does not approve these fonts for Levarum.",
+    "image": "assets/Anthropic_Typography.svg.png",
+    "source_urls": [
+      "https://geist.co/work/anthropic"
+    ],
+    "kind": "landscape",
+    "section": "Brand systems"
+  },
+  {
+    "id": "anthropic-application",
+    "title": "A system across repeated content",
+    "body": [
+      "Repeated content needs a stable information hierarchy.",
+      "Illustration can vary within that stable structure.",
+      "Guidelines make future choices easier to coordinate."
+    ],
+    "notes": "The source image shows article tiles in Geist’s Anthropic case study. Treat it as a historical project application. Compare recurring typography and layout with the varied subject matter. A useful visual system tells future makers which elements are fixed and which can vary. It does not require every page to repeat an identical composition.",
+    "image": "assets/Anthropic_ArticleTiles.png",
+    "source_urls": [
+      "https://geist.co/work/anthropic"
+    ],
+    "kind": "landscape",
+    "section": "Brand systems"
+  },
+  {
+    "id": "web-cover",
+    "title": "Design in use",
+    "body": [
+      "Reading, motion and smaller screens change the brief."
+    ],
+    "notes": "",
+    "image": null,
+    "source_urls": [],
+    "kind": "divider",
+    "section": "Design in use"
+  },
+  {
+    "id": "ux-hierarchy-spacing",
+    "title": "Space tells us what belongs together",
+    "body": [
+      "Establish a first, second and third point of attention.",
+      "Keep related captions and objects visibly close.",
+      "Use boundaries and connecting lines only when their relationship is meaningful."
+    ],
+    "notes": "In the supplied AGNI screenshot, a heavy heading, large quiet field and compact pink information block divide the composition into distinct roles. That is an observation, not proof of an ideal reading order. Palmer's discussion of grouping describes proximity, common region, connectedness and synchrony: spacing is only one way to make things belong together. Our design interpretation is to try relative distance before adding another enclosing box. For a teaching comparison, keep the content, font, colors and outer width constant; change only the title-to-description gap. Ask what seems connected and what attracts attention first. There is no universal correct gap. Repeat at a narrower width because the surrounding relationships change. Treat the participant's answer as an observation, not a validated usability score. The editable teaching diagram on this slide is an original explanation, not a source screenshot or an implementation test. Original slide teaching points: Establish a first, second and third point of attention. Keep related captions and objects visibly close. Use boundaries and connecting lines only when their relationship is meaningful.",
+    "source_urls": [
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+      "https://www.cooperhewitt.org/exhibitions/how-posters-work/"
+    ],
+    "suggested_visual": "Original two-panel diagram with identical titles and descriptions; vary only their internal vertical gap. Include a small caption identifying the changed variable.",
+    "kind": "diagram",
+    "section": "Design in use",
+    "diagram": "spacing"
+  },
+  {
+    "id": "ux-color-contrast",
+    "title": "Protect the reading surface",
+    "body": [
+      "Check contrast where the letters actually sit.",
+      "WCAG AA: 4.5:1 for ordinary text; 3:1 for qualifying large text, with exceptions.",
+      "Texture and moving color can change the background beneath text."
+    ],
+    "notes": "A palette swatch cannot describe every part of a textured or changing background. W3C's Contrast Minimum explanation provides the stated thresholds and exceptions; qualifying large text is at least 18 point, or 14 point bold. The source also warns that thin or unusual fonts may look faint despite a nominal passing ratio. Do not award a contrast pass by looking at this slide. For the learning exercise, hold text, its color, layout and base gradient fixed while increasing the opacity of one deterministic grain layer. Ask when the field draws attention away from the words. That answer describes the viewer's experience, not everyone else's readability. A controlled solid region behind important text is one possible design response; it need not remove texture from the rest of the composition. The editable teaching diagram on this slide is an original explanation, not a source screenshot or an implementation test. Original slide teaching points: Check contrast where the letters actually sit. WCAG AA: 4.5:1 for ordinary text; 3:1 for qualifying large text, with exceptions. Texture and moving color can change the background beneath text.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    ],
+    "suggested_visual": "Same short sentence on two identical gradients, one with stronger grain. Beside them show a solid reading-region alternative, clearly labeled as a separate design response, not a controlled third condition.",
+    "kind": "diagram",
+    "section": "Design in use",
+    "diagram": "contrast"
+  },
+  {
+    "id": "ux-motion",
+    "title": "Motion and its still alternative",
+    "body": [
+      "Use movement to explain change or acknowledge an action.",
+      "Keep the meaning available in a still state.",
+      "Reduced-motion support and a pause control address different needs."
+    ],
+    "notes": "Motion can reveal a sequence, but synchronized movement can also suggest that unrelated elements form a system. Ask what the movement communicates beyond atmosphere. W3C's Animation from Interactions criterion is Level AAA and concerns disabling nonessential interaction-triggered motion. The separate Level A Pause, Stop, Hide criterion addresses qualifying automatically moving, blinking or scrolling information that lasts more than five seconds alongside other content, unless essential. Do not present these as one interchangeable rule. A proposed later experiment compares the same decorative form at rest and translating, without also changing its size, color or rotation. Supply user-activated play and pause; default to still when reduced motion is preferred. This motion experiment is not implemented in the first study book, and no audience or accessibility test is claimed here. The editable teaching diagram on this slide is an original explanation, not a source screenshot or an implementation test. Original slide teaching points: Use movement to explain change or acknowledge an action. Keep the meaning available in a still state. Reduced-motion support and a pause control address different needs.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf"
+    ],
+    "suggested_visual": "A storyboard of one object in three positions paired with its still equivalent; show the same explanatory text in both. Label the sequence Proposed motion lesson.",
+    "kind": "diagram",
+    "section": "Design in use",
+    "diagram": "motion"
+  },
+  {
+    "id": "ux-mobile-reflow",
+    "title": "Translate the composition to a smaller surface",
+    "body": [
+      "Preserve hierarchy and relationships while changing the arrangement.",
+      "Let meaningful text reflow rather than baking it into an image.",
+      "WCAG AA Reflow includes 320 CSS-pixel width for ordinary vertical content, with exceptions."
+    ],
+    "notes": "A poster fixes its surface; a website accommodates different widths, text lengths and zoom. The aim is to preserve the design's roles, not every coordinate. A headline can wrap differently, an atmospheric object can become a peripheral detail, and a multi-column arrangement can become a sequence. W3C's Reflow explanation requires content at the specified equivalent width to retain information and functionality without two-dimensional scrolling, with exceptions for content that needs two-dimensional layout. This is not a claim that every stacked layout is good. Inspect whether captions still belong to their images and whether the action remains easy to find. Use actual editable text in the eventual implementation. These diagrams explain a proposed method; they do not establish that a specific site passes mobile, zoom or reflow checks. The editable teaching diagram on this slide is an original explanation, not a source screenshot or an implementation test. Original slide teaching points: Preserve hierarchy and relationships while changing the arrangement. Let meaningful text reflow rather than baking it into an image. WCAG AA Reflow includes 320 CSS-pixel width for ordinary vertical content, with exceptions.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+    ],
+    "suggested_visual": "Wide and narrow original wireframes with matching labeled content. Recompose the same headline, supporting sentence, object and action; emphasize preserved relationships, not screenshot scaling.",
+    "kind": "diagram",
+    "section": "Design in use",
+    "diagram": "reflow"
+  },
+  {
+    "id": "ux-performance-assets",
+    "title": "Choose the material effect and its cost together",
+    "body": [
+      "Light, shape and texture jointly create material cues.",
+      "Compare a static authored asset with a live effect before adding complexity.",
+      "Measure bytes and rendering behavior; appearance cannot prove speed."
+    ],
+    "notes": "The gloss research by Storrs, Anderson and Fleming studies how reflectance, lighting and geometry interact in material perception. It does not establish that a glossy object improves trust or conversion. For an authored visual, define the message and desired material cue first, then choose how to render it. A static asset can preserve complex lighting; a live effect can respond to interaction. Neither is automatically faster in every context. Google's browser guidance recommends transform and opacity where appropriate and warns against overusing will-change. That advice does not guarantee a large animated blurred layer will be inexpensive. Compare actual asset sizes, a performance trace and the experience on intended devices. Record the implementation and conditions with the result. No such website performance measurement is reported by this teaching slide.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41562-021-01097-6",
+      "https://web.dev/articles/animations-and-performance"
+    ],
+    "suggested_visual": "One original material object with two labeled implementation paths: static rendered asset and live effect. Under each, blank measurement fields for bytes, device and observed rendering behavior; avoid invented benchmark values.",
+    "kind": "text",
+    "section": "Design in use"
+  },
+  {
+    "id": "ux-repeatable-critique",
+    "title": "Turn a reaction into a useful design test",
+    "body": [
+      "Describe the visible cause before assigning a style adjective.",
+      "Change one variable; keep the content and comparison conditions fixed.",
+      "Separate preference, documented requirements and measured results.",
+      "Record the next revision and what remains unknown."
+    ],
+    "notes": "Start with a concrete observation: the heading occupies most of the opening, or a textured field sits behind a small caption. Then state an interpretation as a hypothesis, such as the texture competing with the caption. Choose a focused comparison: change the texture strength while retaining text, layout and the grain pattern. Ask the viewer to describe the difference and record the conditions. This is our repeatable teaching method, not a scientifically validated scoring rubric. The material selector in the first book compares bundled treatments, so it cannot isolate the contribution of each lighting, opacity or grain change. Museum accounts explain making decisions; perception research informs hypotheses; W3C supplies applicable requirements. None substitutes for a real implementation check or audience evidence. Finish with a specific revision and an honest unresolved question.",
+    "source_urls": [
+      "https://www.cooperhewitt.org/2014/12/05/making-a-poster-is-a-process/",
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    ],
+    "suggested_visual": "A compact four-step worksheet: Observation → Hypothesis → Controlled comparison → Result and next action. Include an example about grain strength, with the result field labeled Not tested.",
+    "kind": "text",
+    "section": "Design in use"
+  },
+  {
+    "id": "native-toolkit",
+    "title": "Implementation choices in Squarespace",
+    "body": [
+      "Native settings: verify the current documented editor path.",
+      "Authored assets: retain originals and inspect exported crops.",
+      "Custom code or external services: record dependencies and rollback.",
+      "Test the result on the actual private site."
+    ],
+    "notes": "This slide is a future implementation checklist, not a feature audit. The current lesson does not verify native support for a particular effect, plan, font or integration. Before a build batch, identify whether the feature is native, an account dependency, an extension, custom code or an external service. Purchases, provider commitments, DNS, sharing and publication remain subject to specific approval. Keep a known-good version and undo route. No website implementation occurs during creation of this presentation.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Design in use"
+  },
+  {
+    "id": "workshop-cover",
+    "title": "A repeatable design workshop",
+    "body": [
+      "Shared language makes the next decision easier."
+    ],
+    "notes": "",
+    "image": null,
+    "source_urls": [],
+    "kind": "divider",
+    "section": "Workshop"
+  },
+  {
+    "id": "exercise-material",
+    "title": "Exercise: material, spacing and grain",
+    "body": [
+      "Compare bundled material treatments while holding shapes still.",
+      "Change title-to-description spacing and observe grouping.",
+      "Vary grain strength over fixed text and a fixed gradient."
+    ],
+    "notes": "The companion study book implements these three exercises. The material selector changes several coordinated cues, so it is not a single-variable causal test. Spacing and grain exercises change a more focused variable. Record what the viewer notices without converting preference into an accessibility or conversion score. Motion remains a proposed later exercise. Download the HTML from the saved library and open it in a browser for interactive use.",
+    "image": null,
+    "source_urls": [
+      "https://drive.google.com/file/d/1-Xuq7o32ZkGV8pxPG61T45pqlr-okEV3/view"
+    ],
+    "kind": "text",
+    "section": "Workshop"
+  },
+  {
+    "id": "reference-template",
+    "title": "New reference template",
+    "body": [
+      "Reference title, creator, date and source URL",
+      "Screenshot and the specific detail to inspect",
+      "Observed mechanism and possible use",
+      "Unknowns, evidence status and next question"
+    ],
+    "notes": "Duplicate this slide when adding a reference. Replace the prompts with source-specific content. Add full image attribution, the date accessed and any restrictions or failed retrievals to the notes. Separate the original artist from a curator or repost account. A reference can be inspiring while its provenance remains incomplete. Keep approved project decisions elsewhere so inclusion in this library is never mistaken for approval.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Workshop"
+  },
+  {
+    "id": "decision-template",
+    "title": "Design decision template",
+    "body": [
+      "Requirement and intended audience",
+      "Alternatives compared under the same conditions",
+      "Choice, rationale and remaining uncertainty",
+      "Test evidence, owner, date and rollback route"
+    ],
+    "notes": "Duplicate this page when a design decision is actually made. Identify what the user approved and the evidence behind it. Record proposed tests separately from completed tests. Retain rejected alternatives only when they explain a useful tradeoff. For Levarum, link the corresponding Sheet decision and session entry. This template contains no pending request for immediate art direction.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Workshop"
+  },
+  {
+    "id": "levarum",
+    "title": "Questions to carry into Levarum",
+    "body": [
+      "Which feeling supports what the service actually does?",
+      "Which visual detail could become recognizably ours?",
+      "Where should expression appear, and where should reading lead?",
+      "What remains convincing without motion or decoration?"
+    ],
+    "notes": "The user requested deeper study before a logo or website direction. These open questions preserve that sequence. The earlier palette, logo and style proposals do not become approved because they appear in the research history. A future concept comparison should use the same content and requirements, then inspect mobile, accessibility and performance. Keep private Levarum decisions separate from reusable methods.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Workshop"
+  },
+  {
+    "id": "maintenance",
+    "title": "Keeping this library alive",
+    "body": [
+      "Keep this Google Slides deck as the working master.",
+      "Add source dates and evidence status when a lesson changes.",
+      "Use named versions for substantial revisions.",
+      "Maintain a short change log and a list of open questions."
+    ],
+    "notes": "Suggested maintenance method: add new references beside the relevant subject, update the index and source list, and append a dated entry explaining what changed and why. Recheck a source when its freshness matters to a decision. Saved knowledge supports later retrieval and discussion. It does not retrain the underlying model or guarantee automatic recall. The deck should be linked from the project’s working Sheet and remain private unless the owner approves otherwise.",
+    "image": null,
+    "source_urls": [],
+    "kind": "text",
+    "section": "Living library"
+  },
+  {
+    "id": "agents",
+    "title": "Research contributors and training",
+    "body": [
+      "Three agents studied history, materials and perception.",
+      "Their sources and inspection limits are the verifiable record.",
+      "Role assignments do not imply separate specialist training.",
+      "Saving a library provides reusable context."
+    ],
+    "notes": "The agents used the same underlying model with distinct research briefs. OpenAI describes development data as including public internet information, partnerships and information supplied or generated by users, trainers and researchers. We do not have an itemized training bibliography, and cannot claim that a particular book or designer appeared in training. The notes identify the sources actually retrieved in this project. This gives us a durable basis for future review without implying model-weight retraining.",
+    "image": null,
+    "source_urls": [
+      "https://openai.com/policies/how-chatgpt-and-our-foundation-models-are-developed/"
+    ],
+    "kind": "text",
+    "section": "Living library"
+  },
+  {
+    "id": "log",
+    "title": "Edition history and open questions",
+    "body": [
+      "1.0 / 8 September 2026: first consolidated teaching deck.",
+      "Source artwork attribution remains incomplete for several reel images.",
+      "Lucy’s Bluey critique was sampled, not fully transcribed.",
+      "Audience response and Levarum implementation remain untested."
+    ],
+    "notes": "The initial edition consolidates six saved research chapters, original reference screenshots, agent teaching notes and source-specific observations. The Signals argument comes from the user’s supplied transcript. TBWA and Geist corroborate selected process claims, while broader brain and trust assertions remain unverified. Future entries should record a date, change, source and affected slide. The primary source library remains linked below.",
+    "image": null,
+    "source_urls": [
+      "https://drive.google.com/drive/folders/1CtjBy4KKutNKf97jToAocSG5_M6aGJVq"
+    ],
+    "kind": "text",
+    "section": "Living library"
+  },
+  {
+    "id": "sources-1",
+    "title": "Source directory 1",
+    "body": [
+      "https://www.tiktok.com/@denny.kurien/video/7680157545746418964",
+      "https://www.pagemasters.co/risograph",
+      "https://risottostudio.com/pages/advanced-print-setup",
+      "https://www.riso.co.jp/english/product/digital_dup/history/index.html",
+      "https://www.behance.net/gallery/127686975/Simplicity-21",
+      "https://microsoft.design/articles/an-emoji-for-your-thoughts-2/",
+      "https://agencecartier.com/en/projects/farinart-a-new-identity-crops-up/"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://www.tiktok.com/@denny.kurien/video/7680157545746418964",
+      "https://www.pagemasters.co/risograph",
+      "https://risottostudio.com/pages/advanced-print-setup",
+      "https://www.riso.co.jp/english/product/digital_dup/history/index.html",
+      "https://www.behance.net/gallery/127686975/Simplicity-21",
+      "https://microsoft.design/articles/an-emoji-for-your-thoughts-2/",
+      "https://agencecartier.com/en/projects/farinart-a-new-identity-crops-up/"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  },
+  {
+    "id": "sources-2",
+    "title": "Source directory 2",
+    "body": [
+      "https://www.pentagram.com/work/intrinsic",
+      "https://cari.institute/aesthetics/austurbane",
+      "https://cari.institute/aesthetics/nu-brutalism",
+      "https://www.riba.org/explore/riba-collections/architectural-styles/brutalism-movement/",
+      "https://www.pentagram.com/work/american-weed-co",
+      "https://unesco.ru/en/news/gjel37/",
+      "https://farfor-gzhel.com/en/the-award-at-home-in-the-nomination-design-and-craft/"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://www.pentagram.com/work/intrinsic",
+      "https://cari.institute/aesthetics/austurbane",
+      "https://cari.institute/aesthetics/nu-brutalism",
+      "https://www.riba.org/explore/riba-collections/architectural-styles/brutalism-movement/",
+      "https://www.pentagram.com/work/american-weed-co",
+      "https://unesco.ru/en/news/gjel37/",
+      "https://farfor-gzhel.com/en/the-award-at-home-in-the-nomination-design-and-craft/"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  },
+  {
+    "id": "sources-3",
+    "title": "Source directory 3",
+    "body": [
+      "https://www.demorgan.org.uk/de-morgan-x-loewe-autumn-winter-2019/",
+      "https://www.3m.com/3M/en_US/p/d/v000096543/",
+      "https://www.colorado.edu/anthropology/sites/default/files/attached-files/5leshkowichjonesft.pdf",
+      "https://www.vam.ac.uk/articles/chinoiserie-an-introduction",
+      "https://play.studio/work/adobe-max",
+      "https://about.nike.com/en/magazine/nike-swoosh-logo-history",
+      "https://thesneeze.com/the-man-behind-the-fedex-logo/"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://www.demorgan.org.uk/de-morgan-x-loewe-autumn-winter-2019/",
+      "https://www.3m.com/3M/en_US/p/d/v000096543/",
+      "https://www.colorado.edu/anthropology/sites/default/files/attached-files/5leshkowichjonesft.pdf",
+      "https://www.vam.ac.uk/articles/chinoiserie-an-introduction",
+      "https://play.studio/work/adobe-max",
+      "https://about.nike.com/en/magazine/nike-swoosh-logo-history",
+      "https://thesneeze.com/the-man-behind-the-fedex-logo/"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  },
+  {
+    "id": "sources-4",
+    "title": "Source directory 4",
+    "body": [
+      "https://www.ibm.com/design/language/ibm-logos/8-bar/",
+      "https://www.edenbrands.us/services",
+      "https://www.tiktok.com/@lucyedendesign/video/7665353012268829965",
+      "https://www.tiktok.com/@lucyedendesign/video/7669805166178209037",
+      "https://www.edenbrands.us/case-studies/michelle-elman",
+      "https://www.edenbrands.us/case-studies/splatter",
+      "https://www.edenbrands.us/case-studies/marlowe-and-sage"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://www.ibm.com/design/language/ibm-logos/8-bar/",
+      "https://www.edenbrands.us/services",
+      "https://www.tiktok.com/@lucyedendesign/video/7665353012268829965",
+      "https://www.tiktok.com/@lucyedendesign/video/7669805166178209037",
+      "https://www.edenbrands.us/case-studies/michelle-elman",
+      "https://www.edenbrands.us/case-studies/splatter",
+      "https://www.edenbrands.us/case-studies/marlowe-and-sage"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  },
+  {
+    "id": "sources-5",
+    "title": "Source directory 5",
+    "body": [
+      "https://www.linkedin.com/posts/tbwa_our-global-design-studio-dxd-have-taken-us-activity-7492923688888184832-YRdB",
+      "https://tbwa.com/news/",
+      "https://geist.co/work/anthropic",
+      "https://www.zachheffner.com/privacy-policy",
+      "https://investors.oatly.com/static-files/530eaa69-0fb0-40e9-9aac-1147bb6eea14",
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+      "https://www.cooperhewitt.org/exhibitions/how-posters-work/"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://www.linkedin.com/posts/tbwa_our-global-design-studio-dxd-have-taken-us-activity-7492923688888184832-YRdB",
+      "https://tbwa.com/news/",
+      "https://geist.co/work/anthropic",
+      "https://www.zachheffner.com/privacy-policy",
+      "https://investors.oatly.com/static-files/530eaa69-0fb0-40e9-9aac-1147bb6eea14",
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+      "https://www.cooperhewitt.org/exhibitions/how-posters-work/"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  },
+  {
+    "id": "sources-6",
+    "title": "Source directory 6",
+    "body": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "https://www.nature.com/articles/s41562-021-01097-6",
+      "https://web.dev/articles/animations-and-performance",
+      "https://www.cooperhewitt.org/2014/12/05/making-a-poster-is-a-process/"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "https://www.nature.com/articles/s41562-021-01097-6",
+      "https://web.dev/articles/animations-and-performance",
+      "https://www.cooperhewitt.org/2014/12/05/making-a-poster-is-a-process/"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  },
+  {
+    "id": "sources-7",
+    "title": "Source directory 7",
+    "body": [
+      "https://drive.google.com/file/d/1-Xuq7o32ZkGV8pxPG61T45pqlr-okEV3/view",
+      "https://openai.com/policies/how-chatgpt-and-our-foundation-models-are-developed/",
+      "https://drive.google.com/drive/folders/1CtjBy4KKutNKf97jToAocSG5_M6aGJVq"
+    ],
+    "notes": "Sources are linked on the teaching slides as well as in this directory. Access dates and qualification details appear in the corresponding speaker notes. Original artworks remain the property of their creators. Inclusion supports private study and does not provide a reuse license.",
+    "source_urls": [
+      "https://drive.google.com/file/d/1-Xuq7o32ZkGV8pxPG61T45pqlr-okEV3/view",
+      "https://openai.com/policies/how-chatgpt-and-our-foundation-models-are-developed/",
+      "https://drive.google.com/drive/folders/1CtjBy4KKutNKf97jToAocSG5_M6aGJVq"
+    ],
+    "kind": "sources",
+    "section": "Source directory"
+  }
+]

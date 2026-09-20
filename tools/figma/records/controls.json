@@ -1,0 +1,1796 @@
+[
+  {
+    "id": "C001",
+    "name": "Main menu",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C002",
+    "name": "File",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C003",
+    "name": "Agents",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C004",
+    "name": "Assets",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C005",
+    "name": "Tools",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C006",
+    "name": "Variables",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C007",
+    "name": "Edit file menu",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C008",
+    "name": "Minimize UI",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C009",
+    "name": "Pages",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C010",
+    "name": "Find",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C011",
+    "name": "Add new page",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C012",
+    "name": "Layers",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C013",
+    "name": "Share",
+    "area": "Design / navigation",
+    "context": "No special selection",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C014",
+    "name": "Move",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C015",
+    "name": "Move tools",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C016",
+    "name": "Frame",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C017",
+    "name": "Region tools",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C018",
+    "name": "Rectangle",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C019",
+    "name": "Shape tools",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C020",
+    "name": "Pen",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C021",
+    "name": "Creation tools",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C022",
+    "name": "Text",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C023",
+    "name": "Type tools",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C024",
+    "name": "Comment",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C025",
+    "name": "Actions",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C026",
+    "name": "Draw",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C027",
+    "name": "Design",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C028",
+    "name": "Motion",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C029",
+    "name": "Dev Mode",
+    "area": "Design / toolbar",
+    "context": "Design mode",
+    "source_ids": [
+      "S04"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C030",
+    "name": "Frame Dimension Presets",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C031",
+    "name": "Toggle ready for dev status",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C032",
+    "name": "Create component",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C033",
+    "name": "More actions",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C034",
+    "name": "Align left",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C035",
+    "name": "Align horizontal centers",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C036",
+    "name": "Align right",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C037",
+    "name": "Align top",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C038",
+    "name": "Align vertical centers",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C039",
+    "name": "Align bottom",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C040",
+    "name": "X-position",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C041",
+    "name": "Y-position",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C042",
+    "name": "Rotation",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C043",
+    "name": "Rotate 90\u02da right",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C044",
+    "name": "Flip horizontal",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C045",
+    "name": "Flip vertical",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C046",
+    "name": "Toggle auto layout",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C047",
+    "name": "Freeform",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C048",
+    "name": "Vertical",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C049",
+    "name": "Horizontal",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C050",
+    "name": "Grid",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C051",
+    "name": "Horizontal resizing",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C052",
+    "name": "Vertical resizing + min height",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C053",
+    "name": "Hug contents",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C054",
+    "name": "Add min width",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C055",
+    "name": "Add max width",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C056",
+    "name": "Min height",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C057",
+    "name": "Add max height",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C058",
+    "name": "Remove min",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C059",
+    "name": "Lock aspect ratio",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C060",
+    "name": "Align top left",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C061",
+    "name": "Align top center",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C062",
+    "name": "Align top right",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C063",
+    "name": "Align center",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C064",
+    "name": "Align bottom left",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C065",
+    "name": "Align bottom center",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C066",
+    "name": "Align bottom right",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C067",
+    "name": "Vertical gap between objects",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C068",
+    "name": "Auto layout settings",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C069",
+    "name": "Horizontal padding",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C070",
+    "name": "Vertical padding",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C071",
+    "name": "Individual padding",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C072",
+    "name": "Clip content",
+    "area": "Design / selected frame",
+    "context": "One auto-layout frame selected",
+    "source_ids": [
+      "S06"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C073",
+    "name": "Hide",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C074",
+    "name": "Apply blend mode",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C075",
+    "name": "Opacity",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C076",
+    "name": "Corner radius",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C077",
+    "name": "Individual corners",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C078",
+    "name": "Fill styles and variables",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C079",
+    "name": "Add fill",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C080",
+    "name": "Color",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C081",
+    "name": "Fill opacity",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C082",
+    "name": "Toggle fill visibility",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C083",
+    "name": "Remove fill",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C084",
+    "name": "Stroke",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C085",
+    "name": "Stroke styles and variables",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C086",
+    "name": "Add stroke",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C087",
+    "name": "Effects",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C088",
+    "name": "Effects styles",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C089",
+    "name": "Add effect",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C090",
+    "name": "Selection colors",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C091",
+    "name": "Layout guide",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C092",
+    "name": "Layout guide styles",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C093",
+    "name": "Add layout guide",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C094",
+    "name": "Export",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C095",
+    "name": "Add export settings",
+    "area": "Design / appearance",
+    "context": "Frame selected",
+    "source_ids": [
+      "S03"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C096",
+    "name": "Design tab",
+    "area": "Design / prototype access",
+    "context": "Frame selected",
+    "source_ids": [
+      "S17"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C097",
+    "name": "Prototype tab",
+    "area": "Design / prototype access",
+    "context": "Frame selected",
+    "source_ids": [
+      "S17"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C098",
+    "name": "Present",
+    "area": "Design / prototype access",
+    "context": "Frame selected",
+    "source_ids": [
+      "S17"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C099",
+    "name": "Prototype view",
+    "area": "Design / prototype access",
+    "context": "Frame selected",
+    "source_ids": [
+      "S17"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C100",
+    "name": "Zoom and view options",
+    "area": "Design / prototype access",
+    "context": "Frame selected",
+    "source_ids": [
+      "S17"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C101",
+    "name": "Collections options",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C102",
+    "name": "Create collection",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C103",
+    "name": "Groups",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C104",
+    "name": "Collapse groups",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C105",
+    "name": "Search",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C106",
+    "name": "Filter",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C107",
+    "name": "New variable mode",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C108",
+    "name": "Edit variable",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C109",
+    "name": "Create variable",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C110",
+    "name": "Easing settings",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C111",
+    "name": "Minimize",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C112",
+    "name": "Hide panel",
+    "area": "Variables / panel",
+    "context": "Variables workflow open",
+    "source_ids": [
+      "S12"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C113",
+    "name": "Origin",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C114",
+    "name": "Motion Translation X",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C115",
+    "name": "Motion Translation Y",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C116",
+    "name": "Add Position X / Position Y keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C117",
+    "name": "Motion Scale X",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C118",
+    "name": "Motion Scale Y",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C119",
+    "name": "Add Scale X / Scale Y keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C120",
+    "name": "Unlock scale aspect ratio",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C121",
+    "name": "Motion Rotation",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C122",
+    "name": "Add Rotation keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C123",
+    "name": "Add Width keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C124",
+    "name": "Add Height keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C125",
+    "name": "Add Stack Spacing keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C126",
+    "name": "Add Stack Padding Left / Stack Padding Right keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C127",
+    "name": "Add Stack Padding Top / Stack Padding Bottom keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C128",
+    "name": "Add Opacity keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C129",
+    "name": "Add Corner Radius keyframe",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C130",
+    "name": "Play",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C131",
+    "name": "Toggle auto-keyframing",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C132",
+    "name": "Current time",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C133",
+    "name": "Duration",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C134",
+    "name": "Change time format",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C135",
+    "name": "Loop",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C136",
+    "name": "Timeline scrubber",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C137",
+    "name": "Timeline zoom level",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  },
+  {
+    "id": "C138",
+    "name": "Collapse timeline",
+    "area": "Motion / controls",
+    "context": "Motion mode with selected frame",
+    "source_ids": [
+      "S20"
+    ],
+    "status": "observed",
+    "observed_date": "2026-09-20",
+    "evidence": "evidence/2026-09-20-ui-inspection.md",
+    "behavior_test": "pending"
+  }
+]

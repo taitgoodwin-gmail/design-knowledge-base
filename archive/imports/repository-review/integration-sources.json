@@ -1,0 +1,82 @@
+[
+  {
+    "id": "INT-01",
+    "title": "Use ChatGPT with Figma",
+    "url": "https://help.figma.com/hc/en-us/articles/35326636109975-Use-ChatGPT-with-Figma",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Dedicated ChatGPT app workflow describes FigJam and Slides; do not generalize its narrower scope to all current plugin surfaces.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-02",
+    "title": "Codex and Figma: Set up the MCP server",
+    "url": "https://help.figma.com/hc/en-us/articles/39888629089175-Codex-and-Figma-Set-up-the-MCP-server",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Remote MCP preferred; read/write/capture and Code Connect context; no setup changed in this review.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-03",
+    "title": "Write to canvas",
+    "url": "https://developers.figma.com/docs/figma-mcp-server/write-to-canvas/",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Native structure creation/editing; client and permission scope; changing access details require verification.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-04",
+    "title": "Code to canvas",
+    "url": "https://developers.figma.com/docs/figma-mcp-server/code-to-canvas/",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Live UI capture into editable frames; remote-only tools; captures are scoped to selected screens/states.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-05",
+    "title": "Building frontend UIs with Codex and Figma",
+    "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Design context and code-to-canvas round trip described; does not establish automatic continuous synchronization.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-06",
+    "title": "Plugins",
+    "url": "https://learn.chatgpt.com/docs/plugins",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Shared directory, skills/MCP, supported surfaces and access; local runtime tools separately observed.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-07",
+    "title": "Custom instructions with AGENTS.md",
+    "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "relevant-sections-reviewed",
+    "scope": "Project instruction discovery; proposed external knowledge pointer is our implementation choice.",
+    "applied_in": "README.md"
+  },
+  {
+    "id": "INT-08",
+    "title": "Prompting",
+    "url": "https://learn.chatgpt.com/docs/prompting",
+    "checked_at": "2026-09-20",
+    "method": "web search and official page open",
+    "review_status": "page-opened",
+    "scope": "Official coaching reference opened; detailed prompting claims not needed for this inventory.",
+    "applied_in": "README.md"
+  }
+]

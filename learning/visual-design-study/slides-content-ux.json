@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ux-hierarchy-spacing",
+    "title": "Space tells us what belongs together",
+    "body": [
+      "Establish a first, second and third point of attention.",
+      "Keep related captions and objects visibly close.",
+      "Use boundaries and connecting lines only when their relationship is meaningful."
+    ],
+    "notes": "In the supplied AGNI screenshot, a heavy heading, large quiet field and compact pink information block divide the composition into distinct roles. That is an observation, not proof of an ideal reading order. Palmer's discussion of grouping describes proximity, common region, connectedness and synchrony: spacing is only one way to make things belong together. Our design interpretation is to try relative distance before adding another enclosing box. For a teaching comparison, keep the content, font, colors and outer width constant; change only the title-to-description gap. Ask what seems connected and what attracts attention first. There is no universal correct gap. Repeat at a narrower width because the surrounding relationships change. Treat the participant's answer as an observation, not a validated usability score.",
+    "source_urls": [
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+      "https://www.cooperhewitt.org/exhibitions/how-posters-work/"
+    ],
+    "suggested_visual": "Original two-panel diagram with identical titles and descriptions; vary only their internal vertical gap. Include a small caption identifying the changed variable."
+  },
+  {
+    "id": "ux-color-contrast",
+    "title": "Protect the reading surface",
+    "body": [
+      "Check contrast where the letters actually sit.",
+      "WCAG AA: 4.5:1 for ordinary text; 3:1 for qualifying large text, with exceptions.",
+      "Texture and moving color can change the background beneath text."
+    ],
+    "notes": "A palette swatch cannot describe every part of a textured or changing background. W3C's Contrast Minimum explanation provides the stated thresholds and exceptions; qualifying large text is at least 18 point, or 14 point bold. The source also warns that thin or unusual fonts may look faint despite a nominal passing ratio. Do not award a contrast pass by looking at this slide. For the learning exercise, hold text, its color, layout and base gradient fixed while increasing the opacity of one deterministic grain layer. Ask when the field draws attention away from the words. That answer describes the viewer's experience, not everyone else's readability. A controlled solid region behind important text is one possible design response; it need not remove texture from the rest of the composition.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    ],
+    "suggested_visual": "Same short sentence on two identical gradients, one with stronger grain. Beside them show a solid reading-region alternative, clearly labeled as a separate design response, not a controlled third condition."
+  },
+  {
+    "id": "ux-motion",
+    "title": "Give motion a job—and an alternative",
+    "body": [
+      "Use movement to explain change or acknowledge an action.",
+      "Keep the meaning available in a still state.",
+      "Reduced-motion support and a pause control address different needs."
+    ],
+    "notes": "Motion can reveal a sequence, but synchronized movement can also suggest that unrelated elements form a system. Ask what the movement communicates beyond atmosphere. W3C's Animation from Interactions criterion is Level AAA and concerns disabling nonessential interaction-triggered motion. The separate Level A Pause, Stop, Hide criterion addresses qualifying automatically moving, blinking or scrolling information that lasts more than five seconds alongside other content, unless essential. Do not present these as one interchangeable rule. A proposed later experiment compares the same decorative form at rest and translating, without also changing its size, color or rotation. Supply user-activated play and pause; default to still when reduced motion is preferred. This motion experiment is not implemented in the first study book, and no audience or accessibility test is claimed here.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf"
+    ],
+    "suggested_visual": "A storyboard of one object in three positions paired with its still equivalent; show the same explanatory text in both. Label the sequence Proposed motion lesson."
+  },
+  {
+    "id": "ux-mobile-reflow",
+    "title": "Translate the composition to a smaller surface",
+    "body": [
+      "Preserve hierarchy and relationships while changing the arrangement.",
+      "Let meaningful text reflow rather than baking it into an image.",
+      "WCAG AA Reflow includes 320 CSS-pixel width for ordinary vertical content, with exceptions."
+    ],
+    "notes": "A poster fixes its surface; a website accommodates different widths, text lengths and zoom. The aim is to preserve the design's roles, not every coordinate. A headline can wrap differently, an atmospheric object can become a peripheral detail, and a multi-column arrangement can become a sequence. W3C's Reflow explanation requires content at the specified equivalent width to retain information and functionality without two-dimensional scrolling, with exceptions for content that needs two-dimensional layout. This is not a claim that every stacked layout is good. Inspect whether captions still belong to their images and whether the action remains easy to find. Use actual editable text in the eventual implementation. These diagrams explain a proposed method; they do not establish that a specific site passes mobile, zoom or reflow checks.",
+    "source_urls": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+    ],
+    "suggested_visual": "Wide and narrow original wireframes with matching labeled content. Recompose the same headline, supporting sentence, object and action; emphasize preserved relationships, not screenshot scaling."
+  },
+  {
+    "id": "ux-performance-assets",
+    "title": "Choose the material effect and its cost together",
+    "body": [
+      "Light, shape and texture jointly create material cues.",
+      "Compare a static authored asset with a live effect before adding complexity.",
+      "Measure bytes and rendering behavior; appearance cannot prove speed."
+    ],
+    "notes": "The gloss research by Storrs, Anderson and Fleming studies how reflectance, lighting and geometry interact in material perception. It does not establish that a glossy object improves trust or conversion. For an authored visual, define the message and desired material cue first, then choose how to render it. A static asset can preserve complex lighting; a live effect can respond to interaction. Neither is automatically faster in every context. Google's browser guidance recommends transform and opacity where appropriate and warns against overusing will-change. That advice does not guarantee a large animated blurred layer will be inexpensive. Compare actual asset sizes, a performance trace and the experience on intended devices. Record the implementation and conditions with the result. No such website performance measurement is reported by this teaching slide.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41562-021-01097-6",
+      "https://web.dev/articles/animations-and-performance"
+    ],
+    "suggested_visual": "One original material object with two labeled implementation paths: static rendered asset and live effect. Under each, blank measurement fields for bytes, device and observed rendering behavior; avoid invented benchmark values."
+  },
+  {
+    "id": "ux-repeatable-critique",
+    "title": "Turn a reaction into a useful design test",
+    "body": [
+      "Describe the visible cause before assigning a style adjective.",
+      "Change one variable; keep the content and comparison conditions fixed.",
+      "Separate preference, documented requirements and measured results.",
+      "Record the next revision and what remains unknown."
+    ],
+    "notes": "Start with a concrete observation: the heading occupies most of the opening, or a textured field sits behind a small caption. Then state an interpretation as a hypothesis, such as the texture competing with the caption. Choose a focused comparison: change the texture strength while retaining text, layout and the grain pattern. Ask the viewer to describe the difference and record the conditions. This is our repeatable teaching method, not a scientifically validated scoring rubric. The material selector in the first book compares bundled treatments, so it cannot isolate the contribution of each lighting, opacity or grain change. Museum accounts explain making decisions; perception research informs hypotheses; W3C supplies applicable requirements. None substitutes for a real implementation check or audience evidence. Finish with a specific revision and an honest unresolved question.",
+    "source_urls": [
+      "https://www.cooperhewitt.org/2014/12/05/making-a-poster-is-a-process/",
+      "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+    ],
+    "suggested_visual": "A compact four-step worksheet: Observation → Hypothesis → Controlled comparison → Result and next action. Include an example about grain strength, with the result field labeled Not tested."
+  }
+]

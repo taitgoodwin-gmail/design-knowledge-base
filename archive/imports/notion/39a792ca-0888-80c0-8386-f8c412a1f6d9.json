@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "type": "page"
+  },
+  "title": "Brand Guidelines",
+  "url": "https://app.notion.com/p/39a792ca088880c08386f8c412a1f6d9?pvs=204",
+  "text": "Here is the result of \"fetch\" for the Page with URL https://app.notion.com/p/39a792ca088880c08386f8c412a1f6d9 as of 2026-07-11T02:05:59.453Z:\n<page url=\"https://app.notion.com/p/39a792ca088880c08386f8c412a1f6d9\" icon=\"icons/color-palette_yellow\">\n<ancestor-path>\n<parent-data-source url=\"collection://39a792ca-0888-8020-8433-000bc15e9614\" name=\"Docs\"/>\n<ancestor-2-database url=\"https://app.notion.com/p/39a792ca08888012b008d0b718c46eae\" title=\"Docs\"/>\n</ancestor-path>\n<properties>\n{\"Name\":\"Brand Guidelines\",\"Project\":[\"https://app.notion.com/p/39a792ca088880d6a869f233022355b0\"],\"Status\":\"In progress\",\"Type\":\"Guideline\",\"url\":\"https://app.notion.com/p/39a792ca088880c08386f8c412a1f6d9\"}\n</properties>\n<iconMetadata>{\"type\":\"icon\",\"icon\":{\"name\":\"color-palette\",\"color\":\"yellow\"}}</iconMetadata>\n<content>\n# Brand Guidelines\nThis document defines the visual identity standards for the Website Redesign. All design and marketing assets should adhere to these guidelines to ensure a consistent brand experience.\n---\n## Logo\n- Always use the approved logo files — do not recreate or alter the logo\n- Minimum size: 24px height for digital use\n- Maintain clear space equal to the height of the logo mark on all sides\n## Color Palette\n<table header-row=\"true\">\n<tr>\n<td>**Color**</td>\n<td>**Hex**</td>\n<td>**Usage**</td>\n</tr>\n<tr>\n<td>Primary Blue</td>\n<td>#2D6CDF</td>\n<td>CTAs, links, key UI elements</td>\n</tr>\n<tr>\n<td>Off White</td>\n<td>#F9F9F7</td>\n<td>Page backgrounds</td>\n</tr>\n<tr>\n<td>Charcoal</td>\n<td>#1A1A1A</td>\n<td>Body text</td>\n</tr>\n<tr>\n<td>Warm Gray</td>\n<td>#6B6B6B</td>\n<td>Secondary text, captions</td>\n</tr>\n</table>\n## Typography\n- **Headings:** Inter, Bold (700) — sizes H1: 48px, H2: 32px, H3: 24px\n- **Body:** Inter, Regular (400) — 16px, 1.6 line height\n- **Captions / Labels:** Inter, Medium (500) — 12px, uppercase, 0.08em letter spacing\n## Imagery\n- Use high-contrast, human-centered photography\n- Avoid stock photos that feel generic or staged\n- Product screenshots should use the latest UI — no outdated screens\n- All images must be optimized for web (WebP preferred, max 200kb)\n## Do's and Don'ts\n- ✅ Use approved color palette and typography only\n- ✅ Maintain generous white space\n- ✅ Keep the logo on solid or approved background colors\n- ❌ Do not stretch, recolor, or add effects to the logo\n- ❌ Do not use off-brand fonts or colors\n- ❌ Do not use low-resolution images\n</content>\n</page>",
+  "cover": null,
+  "icon": {
+    "type": "icon",
+    "icon": {
+      "name": "color-palette",
+      "color": "yellow"
+    }
+  },
+  "path": "Docs",
+  "verification": {
+    "state": "unverified"
+  },
+  "page_last_edited_at": "2026-07-11T02:05:59.453Z"
+}

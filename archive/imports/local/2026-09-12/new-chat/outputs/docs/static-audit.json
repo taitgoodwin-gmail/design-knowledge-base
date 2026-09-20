@@ -1,0 +1,907 @@
+{
+  "about.html": {
+    "sha256": "239143a0220f32db288d265eb24b41f53404eecb81a05132d36597efc639610b",
+    "lines": 509,
+    "h1": 1,
+    "forms": [],
+    "canonical": [
+      [
+        "https://mindleverx.com/about.html",
+        233
+      ]
+    ],
+    "broken_local_links": [],
+    "external_assets_links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+      "https://fonts.gstatic.com",
+      "https://mindleverx.com/about.html"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MindLeverX",
+        "legalName": "MindLeverX, LLC",
+        "url": "https://mindleverx.com",
+        "foundingDate": "2026",
+        "description": "Generative engine optimization (GEO) for mid-market B2B SaaS \u2014 engineering, monitoring and reporting brand visibility across generative and classic search.",
+        "sameAs": []
+      }
+    ],
+    "internal_sentinel_count": 0,
+    "placeholder_href_count": 0,
+    "sample_label_count": 1,
+    "fields": [],
+    "title": [
+      "About \u2014 MindLeverX"
+    ],
+    "meta": [
+      [
+        {
+          "charset": "utf-8"
+        },
+        4
+      ],
+      [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        5
+      ],
+      [
+        {
+          "name": "description",
+          "content": "MindLeverX is a generative engine optimization practice for mid-market B2B SaaS: it measures whether AI answer engines cite a brand, labels every number with its provenance, and engineers the changes that move it."
+        },
+        7
+      ],
+      [
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        234
+      ],
+      [
+        {
+          "property": "og:site_name",
+          "content": "MindLeverX"
+        },
+        235
+      ],
+      [
+        {
+          "property": "og:title",
+          "content": "About \u2014 MindLeverX"
+        },
+        236
+      ],
+      [
+        {
+          "property": "og:description",
+          "content": "MindLeverX is a generative engine optimization practice for mid-market B2B SaaS: it measures whether AI answer engines cite a brand, labels every number with its provenance, and engineers the changes that move it."
+        },
+        237
+      ],
+      [
+        {
+          "property": "og:url",
+          "content": "https://mindleverx.com/about.html"
+        },
+        238
+      ],
+      [
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        239
+      ]
+    ]
+  },
+  "answer-engine-index-q3-2026.html": {
+    "sha256": "b2b54b211d529d31182d7f3ca6e4c18c990063d17277c4fbcb2276b258971f0f",
+    "lines": 467,
+    "h1": 1,
+    "forms": [
+      [
+        {
+          "class": "form",
+          "id": "auditform",
+          "novalidate": null
+        },
+        372
+      ]
+    ],
+    "canonical": [
+      [
+        "https://mindleverx.com/answer-engine-index-q3-2026.html",
+        209
+      ]
+    ],
+    "broken_local_links": [],
+    "external_assets_links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+      "https://fonts.gstatic.com",
+      "https://mindleverx.com/answer-engine-index-q3-2026.html"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MindLeverX",
+        "legalName": "MindLeverX, LLC",
+        "url": "https://mindleverx.com",
+        "foundingDate": "2026",
+        "description": "Generative engine optimization (GEO) for mid-market B2B SaaS \u2014 engineering, monitoring and reporting brand visibility across generative and classic search.",
+        "sameAs": []
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Answer Engine Index: Q3 2026",
+        "description": "MindLeverX's quarterly benchmark of how ChatGPT, Perplexity, Gemini and Claude cite B2B SaaS brands: citation rates rise, concentration grows, freshness beats authority on Perplexity.",
+        "url": "https://mindleverx.com/answer-engine-index-q3-2026.html",
+        "datePublished": "2026-07-24",
+        "dateModified": "2026-07-24",
+        "author": {
+          "@type": "Organization",
+          "name": "MindLeverX Research",
+          "url": "https://mindleverx.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "MindLeverX",
+          "url": "https://mindleverx.com"
+        },
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "MindLeverX",
+          "url": "https://mindleverx.com"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Generative Engine Optimization"
+        }
+      }
+    ],
+    "internal_sentinel_count": 0,
+    "placeholder_href_count": 0,
+    "sample_label_count": 8,
+    "fields": [
+      [
+        {
+          "type": "email",
+          "id": "auditemail",
+          "name": "email",
+          "required": null,
+          "placeholder": "you@company.com",
+          "aria-label": "Work email"
+        },
+        373
+      ],
+      [
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "tabindex": "-1",
+          "autocomplete": "off",
+          "placeholder": "Leave this field empty"
+        },
+        375
+      ],
+      [
+        {
+          "type": "hidden",
+          "name": "ts",
+          "id": "auditts",
+          "value": "0"
+        },
+        376
+      ]
+    ],
+    "title": [
+      "Answer Engine Index: Q3 2026 \u2014 MindLeverX Research"
+    ],
+    "meta": [
+      [
+        {
+          "charset": "utf-8"
+        },
+        4
+      ],
+      [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        5
+      ],
+      [
+        {
+          "name": "description",
+          "content": "MindLeverX's quarterly benchmark of how ChatGPT, Perplexity, Gemini and Claude cite B2B SaaS brands. Q3 2026: citation rates rise, concentration grows, freshness beats authority on Perplexity. Sample data."
+        },
+        7
+      ],
+      [
+        {
+          "property": "og:type",
+          "content": "article"
+        },
+        210
+      ],
+      [
+        {
+          "property": "og:site_name",
+          "content": "MindLeverX"
+        },
+        211
+      ],
+      [
+        {
+          "property": "og:title",
+          "content": "Answer Engine Index: Q3 2026 \u2014 MindLeverX Research"
+        },
+        212
+      ],
+      [
+        {
+          "property": "og:description",
+          "content": "MindLeverX's quarterly benchmark of how ChatGPT, Perplexity, Gemini and Claude cite B2B SaaS brands. Q3 2026: citation rates rise, concentration grows, freshness beats authority on Perplexity. Sample data."
+        },
+        213
+      ],
+      [
+        {
+          "property": "og:url",
+          "content": "https://mindleverx.com/answer-engine-index-q3-2026.html"
+        },
+        214
+      ],
+      [
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        215
+      ]
+    ]
+  },
+  "case-study.html": {
+    "sha256": "e1963687a90e98d2d056967da1d00a3595bfd6327c908671469de10c619f176b",
+    "lines": 477,
+    "h1": 1,
+    "forms": [],
+    "canonical": [
+      [
+        "https://mindleverx.com/case-study.html",
+        209
+      ]
+    ],
+    "broken_local_links": [],
+    "external_assets_links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+      "https://fonts.gstatic.com",
+      "https://mindleverx.com/case-study.html"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MindLeverX",
+        "legalName": "MindLeverX, LLC",
+        "url": "https://mindleverx.com",
+        "foundingDate": "2026",
+        "description": "Generative engine optimization (GEO) for mid-market B2B SaaS \u2014 engineering, monitoring and reporting brand visibility across generative and classic search.",
+        "sameAs": []
+      }
+    ],
+    "internal_sentinel_count": 0,
+    "placeholder_href_count": 0,
+    "sample_label_count": 3,
+    "fields": [],
+    "title": [
+      "Our own scorecard \u2014 MindLeverX"
+    ],
+    "meta": [
+      [
+        {
+          "charset": "utf-8"
+        },
+        4
+      ],
+      [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        5
+      ],
+      [
+        {
+          "name": "description",
+          "content": "MindLeverX runs its own GEO methodology on its own site and publishes the result: two dimensions measured, two labelled NOT MEASURED with the condition that unlocks them, and no composite score until all four exist."
+        },
+        7
+      ],
+      [
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        210
+      ],
+      [
+        {
+          "property": "og:site_name",
+          "content": "MindLeverX"
+        },
+        211
+      ],
+      [
+        {
+          "property": "og:title",
+          "content": "Our own scorecard \u2014 MindLeverX"
+        },
+        212
+      ],
+      [
+        {
+          "property": "og:description",
+          "content": "MindLeverX runs its own GEO methodology on its own site and publishes the result: two dimensions measured, two labelled NOT MEASURED with the condition that unlocks them, and no composite score until all four exist."
+        },
+        213
+      ],
+      [
+        {
+          "property": "og:url",
+          "content": "https://mindleverx.com/case-study.html"
+        },
+        214
+      ],
+      [
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        215
+      ]
+    ]
+  },
+  "index.html": {
+    "sha256": "fc014e1231b17d0a94306df7dda42fd1dcd465af4f9334cc3c1265d03f0af382",
+    "lines": 664,
+    "h1": 1,
+    "forms": [
+      [
+        {
+          "class": "form",
+          "id": "auditform",
+          "novalidate": null
+        },
+        527
+      ]
+    ],
+    "canonical": [
+      [
+        "https://mindleverx.com/",
+        280
+      ]
+    ],
+    "broken_local_links": [],
+    "external_assets_links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+      "https://fonts.gstatic.com",
+      "https://mindleverx.com/"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MindLeverX",
+        "legalName": "MindLeverX, LLC",
+        "url": "https://mindleverx.com",
+        "foundingDate": "2026",
+        "description": "Generative engine optimization (GEO) for mid-market B2B SaaS \u2014 engineering, monitoring and reporting brand visibility across generative and classic search.",
+        "sameAs": []
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "MindLeverX \u2014 Own the answer.",
+        "url": "https://mindleverx.com/",
+        "description": "MindLeverX engineers, monitors and reports your brand's presence across generative search (ChatGPT, Perplexity, Gemini) so AI answers cite you.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "MindLeverX",
+          "url": "https://mindleverx.com"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Generative Engine Optimization"
+        }
+      }
+    ],
+    "internal_sentinel_count": 0,
+    "placeholder_href_count": 0,
+    "sample_label_count": 6,
+    "fields": [
+      [
+        {
+          "type": "email",
+          "id": "auditemail",
+          "name": "email",
+          "required": null,
+          "placeholder": "you@company.com",
+          "aria-label": "Work email"
+        },
+        528
+      ],
+      [
+        {
+          "type": "text",
+          "id": "auditdomain",
+          "name": "domain",
+          "placeholder": "yourcompany.com",
+          "aria-label": "Company domain"
+        },
+        531
+      ],
+      [
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "tabindex": "-1",
+          "autocomplete": "off",
+          "placeholder": "Leave this field empty"
+        },
+        533
+      ],
+      [
+        {
+          "type": "hidden",
+          "name": "ts",
+          "id": "auditts",
+          "value": "0"
+        },
+        534
+      ]
+    ],
+    "title": [
+      "MindLeverX \u2014 Own the answer."
+    ],
+    "meta": [
+      [
+        {
+          "charset": "utf-8"
+        },
+        4
+      ],
+      [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        5
+      ],
+      [
+        {
+          "name": "description",
+          "content": "MindLeverX engineers, monitors and reports your brand's presence across generative search (ChatGPT, Perplexity, Gemini) so AI answers cite you."
+        },
+        7
+      ],
+      [
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        281
+      ],
+      [
+        {
+          "property": "og:site_name",
+          "content": "MindLeverX"
+        },
+        282
+      ],
+      [
+        {
+          "property": "og:title",
+          "content": "MindLeverX \u2014 Own the answer."
+        },
+        283
+      ],
+      [
+        {
+          "property": "og:description",
+          "content": "MindLeverX engineers, monitors and reports your brand's presence across generative search (ChatGPT, Perplexity, Gemini) so AI answers cite you."
+        },
+        284
+      ],
+      [
+        {
+          "property": "og:url",
+          "content": "https://mindleverx.com/"
+        },
+        285
+      ],
+      [
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        286
+      ]
+    ]
+  },
+  "research-hub.html": {
+    "sha256": "f1d1fb397de1f83f3e34ec24a59aba0c76e7d42ee4eb4361e109a2da6713a5d6",
+    "lines": 466,
+    "h1": 1,
+    "forms": [
+      [
+        {
+          "class": "form",
+          "id": "auditform",
+          "novalidate": null
+        },
+        365
+      ]
+    ],
+    "canonical": [
+      [
+        "https://mindleverx.com/research-hub.html",
+        215
+      ]
+    ],
+    "broken_local_links": [],
+    "external_assets_links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+      "https://fonts.gstatic.com",
+      "https://mindleverx.com/research-hub.html"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MindLeverX",
+        "legalName": "MindLeverX, LLC",
+        "url": "https://mindleverx.com",
+        "foundingDate": "2026",
+        "description": "Generative engine optimization (GEO) for mid-market B2B SaaS \u2014 engineering, monitoring and reporting brand visibility across generative and classic search.",
+        "sameAs": []
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "MindLeverX Research",
+        "url": "https://mindleverx.com/research-hub.html",
+        "description": "Benchmarks, methods and engine notes on generative engine optimization \u2014 home of the quarterly Answer Engine Index.",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "MindLeverX",
+          "url": "https://mindleverx.com"
+        },
+        "about": {
+          "@type": "Thing",
+          "name": "Generative Engine Optimization"
+        }
+      }
+    ],
+    "internal_sentinel_count": 0,
+    "placeholder_href_count": 0,
+    "sample_label_count": 6,
+    "fields": [
+      [
+        {
+          "type": "email",
+          "id": "auditemail",
+          "name": "email",
+          "required": null,
+          "placeholder": "you@company.com",
+          "aria-label": "Work email"
+        },
+        366
+      ],
+      [
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "tabindex": "-1",
+          "autocomplete": "off",
+          "placeholder": "Leave this field empty"
+        },
+        368
+      ],
+      [
+        {
+          "type": "hidden",
+          "name": "ts",
+          "id": "auditts",
+          "value": "0"
+        },
+        369
+      ]
+    ],
+    "title": [
+      "Research \u2014 MindLeverX"
+    ],
+    "meta": [
+      [
+        {
+          "charset": "utf-8"
+        },
+        4
+      ],
+      [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        5
+      ],
+      [
+        {
+          "name": "description",
+          "content": "Benchmarks, methods and engine notes on generative engine optimization \u2014 the MindLeverX research hub. Home of the Answer Engine Index."
+        },
+        7
+      ],
+      [
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        216
+      ],
+      [
+        {
+          "property": "og:site_name",
+          "content": "MindLeverX"
+        },
+        217
+      ],
+      [
+        {
+          "property": "og:title",
+          "content": "Research \u2014 MindLeverX"
+        },
+        218
+      ],
+      [
+        {
+          "property": "og:description",
+          "content": "Benchmarks, methods and engine notes on generative engine optimization \u2014 the MindLeverX research hub. Home of the Answer Engine Index."
+        },
+        219
+      ],
+      [
+        {
+          "property": "og:url",
+          "content": "https://mindleverx.com/research-hub.html"
+        },
+        220
+      ],
+      [
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        221
+      ]
+    ]
+  },
+  "what-is-geo.html": {
+    "sha256": "590a7edc4d21389741ecc0053ff34870227dd7d07c939e92e04b4a671b9765c9",
+    "lines": 660,
+    "h1": 1,
+    "forms": [
+      [
+        {
+          "class": "form",
+          "id": "auditform",
+          "novalidate": null
+        },
+        552
+      ]
+    ],
+    "canonical": [
+      [
+        "https://mindleverx.com/what-is-geo.html",
+        292
+      ]
+    ],
+    "broken_local_links": [],
+    "external_assets_links": [
+      "https://fonts.googleapis.com",
+      "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap",
+      "https://fonts.gstatic.com",
+      "https://mindleverx.com/what-is-geo.html"
+    ],
+    "schemas": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MindLeverX",
+        "legalName": "MindLeverX, LLC",
+        "url": "https://mindleverx.com",
+        "foundingDate": "2026",
+        "description": "Generative engine optimization (GEO) for mid-market B2B SaaS \u2014 engineering, monitoring and reporting brand visibility across generative and classic search.",
+        "sameAs": []
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "DefinedTerm",
+        "name": "Generative Engine Optimization",
+        "alternateName": "GEO",
+        "description": "Generative Engine Optimization (GEO) is the practice of engineering a brand's content, technical setup and off-site presence so that generative answer engines \u2014 like ChatGPT, Perplexity, Gemini and Claude \u2014 cite, quote and recommend it inside their answers. Where SEO competes for a ranked link, GEO competes to be the answer itself.",
+        "url": "https://mindleverx.com/what-is-geo.html",
+        "inDefinedTermSet": {
+          "@type": "DefinedTermSet",
+          "name": "MindLeverX GEO Methodology V1.0",
+          "url": "https://mindleverx.com/what-is-geo.html"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is GEO just SEO with a new name?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. GEO shares SEO's technical foundations \u2014 crawlability, structure, quality \u2014 but optimizes for a different outcome: being cited inside a generated answer rather than ranking a link a human clicks. The overlap is real, which is why GEO layers on top of SEO instead of replacing it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which engines does GEO target?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The generative answer engines buyers use \u2014 ChatGPT, Perplexity, Google's Gemini / AI Overviews, and Claude \u2014 plus the AI features embedded in classic search. Because each synthesizes answers differently, GEO monitors visibility across all of them rather than optimizing for one."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do you measure GEO if there are no rankings?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "With answer-engine monitoring: citation rate (how often your pages are cited), mention rate (how often your brand is named), and share of voice (your citation share versus the category), tracked daily and rolled into a composite GEO Readiness Score."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long until GEO shows results?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Answer engines refresh continuously, so technical and content fixes can surface within days. Off-site authority, the biggest lever, compounds over weeks to months. Movement is reported from day one so the trend is visible, not just the endpoint."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What does a GEO engagement actually involve?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A full loop: answer-first content and schema fixes, technical access work so crawlers can read the site, off-site citation building, and daily monitoring that proves the movement \u2014 run and re-checked by agentic AI."
+            }
+          }
+        ]
+      }
+    ],
+    "internal_sentinel_count": 0,
+    "placeholder_href_count": 0,
+    "sample_label_count": 4,
+    "fields": [
+      [
+        {
+          "type": "email",
+          "id": "auditemail",
+          "name": "email",
+          "required": null,
+          "placeholder": "you@company.com",
+          "aria-label": "Work email"
+        },
+        553
+      ],
+      [
+        {
+          "type": "text",
+          "id": "website",
+          "name": "website",
+          "tabindex": "-1",
+          "autocomplete": "off",
+          "placeholder": "Leave this field empty"
+        },
+        555
+      ],
+      [
+        {
+          "type": "hidden",
+          "name": "ts",
+          "id": "auditts",
+          "value": "0"
+        },
+        556
+      ]
+    ],
+    "title": [
+      "What is GEO? \u2014 MindLeverX"
+    ],
+    "meta": [
+      [
+        {
+          "charset": "utf-8"
+        },
+        4
+      ],
+      [
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1"
+        },
+        5
+      ],
+      [
+        {
+          "name": "description",
+          "content": "Generative Engine Optimization (GEO) is the practice of engineering your content, technical setup and off-site presence so generative answer engines \u2014 ChatGPT, Perplexity, Gemini, Claude \u2014 cite and quote you in their answers."
+        },
+        7
+      ],
+      [
+        {
+          "property": "og:type",
+          "content": "website"
+        },
+        293
+      ],
+      [
+        {
+          "property": "og:site_name",
+          "content": "MindLeverX"
+        },
+        294
+      ],
+      [
+        {
+          "property": "og:title",
+          "content": "What is GEO? \u2014 MindLeverX"
+        },
+        295
+      ],
+      [
+        {
+          "property": "og:description",
+          "content": "Generative Engine Optimization (GEO) is the practice of engineering your content, technical setup and off-site presence so generative answer engines \u2014 ChatGPT, Perplexity, Gemini, Claude \u2014 cite and quote you in their answers."
+        },
+        296
+      ],
+      [
+        {
+          "property": "og:url",
+          "content": "https://mindleverx.com/what-is-geo.html"
+        },
+        297
+      ],
+      [
+        {
+          "name": "twitter:card",
+          "content": "summary"
+        },
+        298
+      ]
+    ]
+  }
+}

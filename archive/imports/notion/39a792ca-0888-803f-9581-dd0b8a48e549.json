@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "type": "page"
+  },
+  "title": "Website Redesign Kickoff",
+  "url": "https://app.notion.com/p/39a792ca0888803f9581dd0b8a48e549?pvs=204",
+  "text": "Here is the result of \"fetch\" for the Page with URL https://app.notion.com/p/39a792ca0888803f9581dd0b8a48e549 as of 2026-07-11T02:05:59.453Z:\n<page url=\"https://app.notion.com/p/39a792ca0888803f9581dd0b8a48e549\">\n<ancestor-path>\n<parent-data-source url=\"collection://39a792ca-0888-80c7-95d0-000b7411280e\" name=\"Meetings\"/>\n<ancestor-2-database url=\"https://app.notion.com/p/39a792ca08888013bf1aca14543ccda3\" title=\"Meetings\"/>\n</ancestor-path>\n<properties>\n{\"Created on\":\"2026-07-11T02:05:59.389Z\",\"Name\":\"Website Redesign Kickoff\",\"Project\":[\"https://app.notion.com/p/39a792ca088880d6a869f233022355b0\"],\"url\":\"https://app.notion.com/p/39a792ca0888803f9581dd0b8a48e549\"}\n</properties>\n<iconMetadata>null</iconMetadata>\n<content>\n<meeting-notes readOnlyViewMeetingNoteUrl=\"https://app.notion.com/p/39a792ca0888803f9581dd0b8a48e549#39a792ca088880208331e8e2bd820ddc\">\n\t<notes>\n\t\t**Purpose**\n\t\t- Align on goals, scope, and constraints for the website redesign.\n\t\t- Confirm working team, milestones, and what \"success\" means for launch.\n\t\t**Key decisions**\n\t\t- Target launch: end of Q3 (subject to CMS decision by May 1).\n\t\t- Prioritize: clearer navigation + faster page performance + stronger conversion on primary CTA.\n\t\t- Homepage will include: refreshed hero, proof (logos + testimonials), feature overview, and a dedicated comparison section.\n\t\t- Keep existing URL structure where possible; any changes require an explicit redirect plan.\n\t\t**Immediate next steps**\n\t\t- [ ] Create content inventory + owners (Marketing)\n\t\t- [ ] Draft sitemap + top-nav proposal (Design)\n\t\t- [ ] Define CMS requirements + options (Engineering)\n\t\t- [ ] Baseline current metrics (Analytics)\n\t</notes>\n</meeting-notes>\n</content>\n</page>",
+  "cover": null,
+  "icon": null,
+  "path": "Meetings",
+  "verification": {
+    "state": "unverified"
+  },
+  "page_last_edited_at": "2026-07-11T02:05:59.453Z"
+}

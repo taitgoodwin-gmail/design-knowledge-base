@@ -1,0 +1,62 @@
+<div id="mlx-edit-demo">
+  <div class="viz-row" style="justify-content:space-between;margin-bottom:12px">
+    <span class="text-small">Design workflow simulation</span>
+    <span id="mlx-demo-status" class="text-small" aria-live="polite">Original preview · nothing published</span>
+  </div>
+  <section class="mlx-page" aria-label="Sample MindLeverX homepage preview">
+    <div class="mlx-nav"><span class="mlx-wordmark">MindLever<span>X</span></span><span class="mlx-nav-label">Sample homepage</span></div>
+    <div class="mlx-hero">
+      <div class="mlx-eyebrow">AI SEARCH INTELLIGENCE</div>
+      <h2 class="mlx-headline">Understand how AI<br>sees your brand.</h2>
+      <p class="mlx-description">A clearer view of your visibility, your competitors, and what to improve next.</p>
+      <span class="mlx-cta">Learn more <span aria-hidden="true">→</span></span>
+    </div>
+  </section>
+  <div style="margin-top:16px;margin-bottom:12px">
+    <div class="text-small text-muted" style="margin-bottom:6px">Example request you would type in this chat</div>
+    <div>“Make the headline bigger, give it more breathing room, and change the button to ‘Request a baseline.’”</div>
+  </div>
+  <div class="viz-controls">
+    <button type="button" class="btn btn-primary" id="mlx-apply-change">Simulate this change</button>
+    <button type="button" class="btn" id="mlx-undo-change" disabled>Undo</button>
+  </div>
+</div>
+<style>
+  #mlx-edit-demo .mlx-page{background:#f7f4ec;color:#0c1411;border:1px solid #d5d8ce;border-radius:10px;overflow:hidden;font-family:Arial,sans-serif;container-type:inline-size}
+  #mlx-edit-demo .mlx-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 24px;border-bottom:1px solid #d5d8ce}
+  #mlx-edit-demo .mlx-wordmark{font-size:21px;letter-spacing:-.8px;font-weight:500}
+  #mlx-edit-demo .mlx-wordmark>span{color:#a63b08}
+  #mlx-edit-demo .mlx-nav-label{font-size:12px;color:#4d6055;line-height:1.4}
+  #mlx-edit-demo .mlx-hero{padding:30px 24px 34px;transition:padding .25s ease}
+  #mlx-edit-demo .mlx-eyebrow{font:11px/1.5 ui-monospace,monospace;letter-spacing:1.4px;color:#49614f}
+  #mlx-edit-demo .mlx-headline{font-family:Georgia,serif;font-size:clamp(27px,5.6cqw,40px);font-weight:400;line-height:1.08;letter-spacing:-1.2px;margin:14px 0 14px;color:#0c1411;transition:font-size .25s ease,margin .25s ease}
+  #mlx-edit-demo .mlx-description{max-width:360px;font-size:14px;line-height:1.6;margin:0 0 20px;color:#46564b}
+  #mlx-edit-demo .mlx-cta{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:13px 16px;background:#254e3b;color:#fffdf8;border-radius:5px;font-size:13px;line-height:1.2}
+  #mlx-edit-demo .mlx-page.mlx-revised .mlx-hero{padding:44px 24px 46px}
+  #mlx-edit-demo .mlx-page.mlx-revised .mlx-headline{font-size:clamp(34px,7.8cqw,55px);margin:20px 0 21px}
+  #mlx-edit-demo .mlx-page.mlx-revised .mlx-description{margin-bottom:27px}
+  @media(prefers-reduced-motion:reduce){#mlx-edit-demo .mlx-hero,#mlx-edit-demo .mlx-headline{transition:none}}
+</style>
+<script>
+(() => {
+  const root = document.getElementById('mlx-edit-demo');
+  const preview = root.querySelector('.mlx-page');
+  const cta = root.querySelector('.mlx-cta');
+  const apply = root.querySelector('#mlx-apply-change');
+  const undo = root.querySelector('#mlx-undo-change');
+  const status = root.querySelector('#mlx-demo-status');
+  function setRevised(revised) {
+    preview.classList.toggle('mlx-revised', revised);
+    cta.replaceChildren(document.createTextNode(revised ? 'Request a baseline' : 'Learn more'));
+    const arrow = document.createElement('span');
+    arrow.setAttribute('aria-hidden','true');
+    arrow.textContent = '→';
+    cta.append(arrow);
+    apply.disabled = revised;
+    undo.disabled = !revised;
+    status.textContent = revised ? 'Revised preview · nothing published' : 'Original preview · nothing published';
+  }
+  apply.addEventListener('click', () => setRevised(true));
+  undo.addEventListener('click', () => setRevised(false));
+})();
+</script>

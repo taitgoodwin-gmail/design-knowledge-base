@@ -1,0 +1,362 @@
+[
+  {
+    "id": "S01",
+    "title": "Best Practice Guides",
+    "url": "https://www.figma.com/best-practices/guides/",
+    "checked": "2026-09-20",
+    "review_status": "index-reviewed",
+    "scope": "Workflow recommendations; some linked guides contain older approaches.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S02",
+    "title": "Figma Design Help Center",
+    "url": "https://help.figma.com/hc/en-us/categories/360002042553-Figma-Design",
+    "checked": "2026-09-20",
+    "review_status": "index-reviewed",
+    "scope": "Primary coverage index; reading the index is not reading all linked articles.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S03",
+    "title": "Explore design files",
+    "url": "https://help.figma.com/hc/en-us/articles/15297425105303-Explore-design-files",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Current navigation bar, sidebar and selection context.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S04",
+    "title": "Access design tools from the toolbar",
+    "url": "https://help.figma.com/hc/en-us/articles/360041064174-Access-design-tools-from-the-toolbar",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Toolbar, Actions, Draw and Dev Mode routes; not every submenu exercised.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S05",
+    "title": "Groups versus frames",
+    "url": "https://www.figma.com/best-practices/groups-versus-frames/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Container behavior; do not copy legacy shortcut instructions without checking current UI.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S06",
+    "title": "Guide to auto layout",
+    "url": "https://help.figma.com/hc/en-us/articles/360040451373-Guide-to-auto-layout",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Flow, resizing, min/max and ignore-auto-layout interactions.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S07",
+    "title": "Grid auto layout",
+    "url": "https://help.figma.com/hc/en-us/articles/31289469907863-Use-the-grid-auto-layout-flow",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Tracks, spans, fractional allocation and distinction from visual guides.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S08",
+    "title": "Guide to components",
+    "url": "https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Main components, linked instances and reuse.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S09",
+    "title": "Component properties",
+    "url": "https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Text, boolean, instance swap, variant and slot properties; simplified-instance deprecation.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S10",
+    "title": "Slots",
+    "url": "https://help.figma.com/hc/en-us/articles/38231200344599-Use-slots-to-build-flexible-components-in-Figma",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Nested flexible instance content; restrictions and slot settings.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S11",
+    "title": "Variants",
+    "url": "https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Unique property combinations; not every possible combination is necessary.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S12",
+    "title": "Variable types, collections and modes",
+    "url": "https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Six types including timing and easing; styles versus variables.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S13",
+    "title": "Create variables and aliases",
+    "url": "https://help.figma.com/hc/en-us/articles/15145852043927-Create-and-manage-variables",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Same-type aliasing and scopes.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S14",
+    "title": "Variable modes",
+    "url": "https://help.figma.com/hc/en-us/articles/15343816063383-Modes-for-variables",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Mode-to-variant value matching; boolean property wording conflicts with S09.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S15",
+    "title": "Typography systems",
+    "url": "https://www.figma.com/best-practices/typography-systems-in-figma/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Text style organization and font/line-height choices; historical workflow guide.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S16",
+    "title": "Text properties",
+    "url": "https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Type controls, text dimensions, truncation and wrap styles; browser implementation requires separate checks.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S17",
+    "title": "Connect prototypes",
+    "url": "https://help.figma.com/hc/en-us/articles/360040315773-Connect-your-prototype",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Hotspot, trigger, action and transition configuration.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S18",
+    "title": "Smart Animate",
+    "url": "https://help.figma.com/hc/en-us/articles/360039818874-Smart-animate-layers-between-frames",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Matching uses names and hierarchy; transition troubleshooting.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S19",
+    "title": "Multiple actions and conditionals",
+    "url": "https://help.figma.com/hc/en-us/articles/15253220891799-Multiple-actions-and-conditionals",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Conditional action and animation sequencing; run-time behavior untested here.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S20",
+    "title": "Motion timeline",
+    "url": "https://help.figma.com/hc/en-us/articles/41405906446999-Use-the-Figma-Motion-timeline",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Timeline, auto-keyframe, time, duration, playback and tracks; open beta.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S21",
+    "title": "Explore Figma Draw",
+    "url": "https://help.figma.com/hc/en-us/articles/31440394517143-Explore-Figma-Draw",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Illustration mode changes tools and sidebars; Design mode retains other controls.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S22",
+    "title": "Sites breakpoints",
+    "url": "https://help.figma.com/hc/en-us/articles/31242797809815-Add-or-delete-breakpoints-in-a-webpage",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Primary breakpoint, cascading changes and responsive widths.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S23",
+    "title": "Figma agent",
+    "url": "https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Agent in design files versus Make; does not establish output quality.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S24",
+    "title": "AI credits",
+    "url": "https://help.figma.com/hc/en-us/articles/33459875669015-How-AI-credits-work",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Costs vary by action/model/context; check current entitlement before usage.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S25",
+    "title": "Generate plugins",
+    "url": "https://help.figma.com/hc/en-us/articles/43028920030743-Generate-plugins-with-the-Figma-agent",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Generative plugin workflow and temporary beta conditions; no plugin generated here.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S26",
+    "title": "Figma MCP",
+    "url": "https://developers.figma.com/docs/figma-mcp-server/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Design context and native canvas writes; access/rate limits need separate validation.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S27",
+    "title": "Code Connect",
+    "url": "https://developers.figma.com/docs/code-connect/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Maps design components to code; account access varies.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S28",
+    "title": "Code Connect UI",
+    "url": "https://developers.figma.com/docs/code-connect/code-connect-ui-setup/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "UI mappings versus CLI snippets; published component prerequisites.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S29",
+    "title": "Weave knowledge center",
+    "url": "https://help.weavy.ai/en/",
+    "checked": "2026-09-20",
+    "review_status": "index-reviewed",
+    "scope": "Official destination linked by Figma Help; editor, models and account collections.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S30",
+    "title": "Weave editor",
+    "url": "https://help.weavy.ai/en/collections/15341378-weave-s-editor",
+    "checked": "2026-09-20",
+    "review_status": "index-reviewed",
+    "scope": "Nodes, edges, prompts, media, history, tools and timeline; individual lessons pending.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S31",
+    "title": "Buzz overview",
+    "url": "https://help.figma.com/hc/en-us/articles/31271566667543-Guide-to-Figma-Buzz",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Branded assets and controlled templates.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S32",
+    "title": "Buzz bulk create",
+    "url": "https://help.figma.com/hc/en-us/articles/31271824185623-Bulk-create-assets-in-Figma-Buzz",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "CSV/XLSX content mapping and generated assets.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S33",
+    "title": "Slides overview",
+    "url": "https://help.figma.com/hc/en-us/articles/24170630629911-Explore-Figma-Slides",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Collaborative decks, presenter notes and review use cases.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S34",
+    "title": "Slides live interactions",
+    "url": "https://help.figma.com/hc/en-us/articles/24246820870807-Add-live-interactions-to-slides",
+    "checked": "2026-09-20",
+    "review_status": "excerpt-reviewed",
+    "scope": "Live interactions require presentation rather than editor mode.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S35",
+    "title": "Static exports",
+    "url": "https://help.figma.com/hc/en-us/articles/360040028114-Export-static-designs-from-Figma",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Export scope, slices, file copies and permission restrictions.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S36",
+    "title": "Release notes",
+    "url": "https://www.figma.com/release-notes/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Recent September 2026 changes; not complete release history.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S37",
+    "title": "Component architecture",
+    "url": "https://www.figma.com/best-practices/component-architecture/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Modularity guidance includes explicitly outdated masking method; prefer current property/slot docs.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S38",
+    "title": "Components, styles and libraries",
+    "url": "https://www.figma.com/best-practices/components-styles-and-shared-libraries/",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Reuse and library organization; cross-check current entitlements.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S39",
+    "title": "Product overview",
+    "url": "https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Product roles, including FigJam; not a full feature inventory.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  },
+  {
+    "id": "S40",
+    "title": "Plugin API",
+    "url": "https://developers.figma.com/docs/plugins/",
+    "checked": "2026-09-20",
+    "review_status": "excerpt-reviewed",
+    "scope": "Editor read/write capability and distinction from other APIs; exact APIs require current docs.",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+  }
+]

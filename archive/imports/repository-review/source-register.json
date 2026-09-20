@@ -1,0 +1,731 @@
+[
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-001",
+    "title": "HEART author manuscript \u2014 CHI 2010",
+    "url": "https://blog.kleros.io/content/files/pub-tools-public-publication-data/pdf/36299.pdf",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "HEART, CHI 2010; author manuscript is linked from the Google publication. Context-specific measures still need validation."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-002",
+    "title": "Carbon: Button usage",
+    "url": "https://carbondesignsystem.com/components/button/usage/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "IBM Carbon guidance; applying it is a project choice, not mandatory adoption of Carbon."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-003",
+    "title": "Carbon: Color and tokens",
+    "url": "https://carbondesignsystem.com/elements/color/overview/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "IBM Carbon guidance; applying it is a project choice, not mandatory adoption of Carbon."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-004",
+    "title": "Carbon: Motion",
+    "url": "https://carbondesignsystem.com/elements/motion/overview/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "IBM Carbon guidance; applying it is a project choice, not mandatory adoption of Carbon."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-005",
+    "title": "Stanford: Web credibility guidelines",
+    "url": "https://credibility.stanford.edu/guidelines/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Historic credibility guidance; no present-day site-specific conversion effect established."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-006",
+    "title": "Google Search: AI features and your website",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Google Search AI features; do not generalize to unrelated engines or consumer apps."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-007",
+    "title": "Don Norman: Design as Communication",
+    "url": "https://jnd.org/design-as-communication/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Use in context; distinguish the published method from our synthesis and proposals."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-008",
+    "title": "NIST Handbook 161: Usability handbook for public safety communications",
+    "url": "https://nvlpubs.nist.gov/nistpubs/hb/2017/NIST.HB.161.pdf",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Public-safety communications context; general evaluation concepts transferred with scope limits."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-009",
+    "title": "Google Research: Measuring the User Experience on a Large Scale",
+    "url": "https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "HEART, CHI 2010; author manuscript is linked from the Google publication. Context-specific measures still need validation."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-010",
+    "title": "Android: Touch target size",
+    "url": "https://support.google.com/accessibility/android/answer/7101858?hl=en",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Android touch targets in dp; do not treat as a CSS requirement."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-011",
+    "title": "Design Council: The Double Diamond",
+    "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Use in context; distinguish the published method from our synthesis and proposals."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-012",
+    "title": "GOV.UK: Government design principles",
+    "url": "https://www.gov.uk/guidance/government-design-principles",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Use in context; distinguish the published method from our synthesis and proposals."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-013",
+    "title": "ISO 9241-11:2018 \u2014 public catalog",
+    "url": "https://www.iso.org/standard/63500.html",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Only public catalog scope inspected; full ISO standard was not accessed."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-014",
+    "title": "ISO 9241-210:2019 \u2014 public catalog",
+    "url": "https://www.iso.org/standard/77520.html",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Only public catalog scope inspected; full ISO standard was not accessed."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-015",
+    "title": "Microsoft: Patterns of Trustworthy Experimentation",
+    "url": "https://www.microsoft.com/en-us/research/articles/patterns-of-trustworthy-experimentation-pre-experiment-stage/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Experiment-design practices; no experiment was performed on MindLeverX."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-016",
+    "title": "NN/G: Definition of user experience",
+    "url": "https://www.nngroup.com/articles/definition-user-experience/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-017",
+    "title": "NN/G: Hamburger menus and hidden navigation",
+    "url": "https://www.nngroup.com/articles/hamburger-menus/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Hidden-navigation research supports a risk hypothesis; does not establish a breakpoint or effect size here."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-018",
+    "title": "NN/G: Information scent",
+    "url": "https://www.nngroup.com/articles/information-scent/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-019",
+    "title": "NN/G: Five principles of visual design",
+    "url": "https://www.nngroup.com/articles/principles-visual-design/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-020",
+    "title": "NN/G: Progressive disclosure",
+    "url": "https://www.nngroup.com/articles/progressive-disclosure/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-021",
+    "title": "NN/G: Ten usability heuristics",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Task-dependent design guidance; not a conformance rule or proof of a site-specific outcome."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-022",
+    "title": "OECD/JRC: Handbook on Constructing Composite Indicators",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2008/08/handbook-on-constructing-composite-indicators-methodology-and-user-guide_g1gh9301/9789264043466-en.pdf",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Policy composite indicators; general measurement reasoning transferred, not validation of a GEO metric."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-023",
+    "title": "Pew: Google clicks when an AI summary appears",
+    "url": "https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Google browsing study with specified population and dates; not a universal KPI prescription."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-024",
+    "title": "W3C: Web Content Accessibility Guidelines 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "Read the applicable criterion, level, exceptions and conformance scope; partial checks do not prove conformance."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-025",
+    "title": "W3C: Understanding Contrast (Minimum)",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-026",
+    "title": "W3C: Understanding Pause, Stop, Hide",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-027",
+    "title": "W3C: Understanding Target Size (Enhanced)",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-028",
+    "title": "W3C: Understanding Target Size (Minimum)",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-029",
+    "title": "W3C: Accessibility, usability and inclusion",
+    "url": "https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-030",
+    "title": "W3C: Involving users in evaluating web accessibility",
+    "url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+    "recorded_checked": "2026-09-19",
+    "status": "Existing research records from this thread; no new web retrieval during organization.",
+    "scope": "WAI explanation or evaluation guidance; distinguish explanatory advice from normative success criteria."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-031",
+    "title": "GitHub repositories and privacy",
+    "url": "https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-032",
+    "title": "GitHub browser file editing",
+    "url": "https://docs.github.com/en/repositories/working-with-files/managing-files/editing-files",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-033",
+    "title": "GitHub file history and Markdown preview",
+    "url": "https://docs.github.com/en/repositories/working-with-files/using-files/viewing-and-understanding-files",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-034",
+    "title": "GitHub issues for ideas and tasks",
+    "url": "https://docs.github.com/en/issues/tracking-your-work-with-issues/learning-about-issues/about-issues",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-035",
+    "title": "Notion database properties and views",
+    "url": "https://www.notion.com/help/intro-to-databases",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-036",
+    "title": "Notion web clipping",
+    "url": "https://www.notion.com/help/web-clipper",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-037",
+    "title": "Notion exports and their limitations",
+    "url": "https://www.notion.com/help/export-your-content",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-038",
+    "title": "Google Drive file access",
+    "url": "https://support.google.com/a/users/answer/9310458?hl=en",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-039",
+    "title": "Google Docs editing Markdown files",
+    "url": "https://support.google.com/docs/answer/18289341?hl=en",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection for the cloud-storage recommendation.",
+    "scope": "Official capability documentation inspected for storage comparison; no account-specific availability, integration or migration was tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-040",
+    "title": "GitHub rendered README navigation and images",
+    "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection after the user emphasized visual browsing.",
+    "scope": "Documented reading/gallery capabilities; no account-specific interface or migration tested."
+  },
+  {
+    "collection": "existing-knowledge-base",
+    "id": "SRC-041",
+    "title": "Notion galleries and image previews",
+    "url": "https://www.notion.com/help/galleries",
+    "recorded_checked": "2026-09-19",
+    "status": "Direct web inspection after the user emphasized visual browsing.",
+    "scope": "Documented reading/gallery capabilities; no account-specific interface or migration tested."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S01",
+    "title": "Best Practice Guides",
+    "url": "https://www.figma.com/best-practices/guides/",
+    "recorded_checked": "2026-09-20",
+    "status": "index-reviewed",
+    "scope": "Workflow recommendations; some linked guides contain older approaches."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S02",
+    "title": "Figma Design Help Center",
+    "url": "https://help.figma.com/hc/en-us/categories/360002042553-Figma-Design",
+    "recorded_checked": "2026-09-20",
+    "status": "index-reviewed",
+    "scope": "Primary coverage index; reading the index is not reading all linked articles."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S03",
+    "title": "Explore design files",
+    "url": "https://help.figma.com/hc/en-us/articles/15297425105303-Explore-design-files",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Current navigation bar, sidebar and selection context."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S04",
+    "title": "Access design tools from the toolbar",
+    "url": "https://help.figma.com/hc/en-us/articles/360041064174-Access-design-tools-from-the-toolbar",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Toolbar, Actions, Draw and Dev Mode routes; not every submenu exercised."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S05",
+    "title": "Groups versus frames",
+    "url": "https://www.figma.com/best-practices/groups-versus-frames/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Container behavior; do not copy legacy shortcut instructions without checking current UI."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S06",
+    "title": "Guide to auto layout",
+    "url": "https://help.figma.com/hc/en-us/articles/360040451373-Guide-to-auto-layout",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Flow, resizing, min/max and ignore-auto-layout interactions."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S07",
+    "title": "Grid auto layout",
+    "url": "https://help.figma.com/hc/en-us/articles/31289469907863-Use-the-grid-auto-layout-flow",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Tracks, spans, fractional allocation and distinction from visual guides."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S08",
+    "title": "Guide to components",
+    "url": "https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Main components, linked instances and reuse."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S09",
+    "title": "Component properties",
+    "url": "https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Text, boolean, instance swap, variant and slot properties; simplified-instance deprecation."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S10",
+    "title": "Slots",
+    "url": "https://help.figma.com/hc/en-us/articles/38231200344599-Use-slots-to-build-flexible-components-in-Figma",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Nested flexible instance content; restrictions and slot settings."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S11",
+    "title": "Variants",
+    "url": "https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Unique property combinations; not every possible combination is necessary."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S12",
+    "title": "Variable types, collections and modes",
+    "url": "https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Six types including timing and easing; styles versus variables."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S13",
+    "title": "Create variables and aliases",
+    "url": "https://help.figma.com/hc/en-us/articles/15145852043927-Create-and-manage-variables",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Same-type aliasing and scopes."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S14",
+    "title": "Variable modes",
+    "url": "https://help.figma.com/hc/en-us/articles/15343816063383-Modes-for-variables",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Mode-to-variant value matching; boolean property wording conflicts with S09."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S15",
+    "title": "Typography systems",
+    "url": "https://www.figma.com/best-practices/typography-systems-in-figma/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Text style organization and font/line-height choices; historical workflow guide."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S16",
+    "title": "Text properties",
+    "url": "https://help.figma.com/hc/en-us/articles/360039956634-Explore-text-properties",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Type controls, text dimensions, truncation and wrap styles; browser implementation requires separate checks."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S17",
+    "title": "Connect prototypes",
+    "url": "https://help.figma.com/hc/en-us/articles/360040315773-Connect-your-prototype",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Hotspot, trigger, action and transition configuration."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S18",
+    "title": "Smart Animate",
+    "url": "https://help.figma.com/hc/en-us/articles/360039818874-Smart-animate-layers-between-frames",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Matching uses names and hierarchy; transition troubleshooting."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S19",
+    "title": "Multiple actions and conditionals",
+    "url": "https://help.figma.com/hc/en-us/articles/15253220891799-Multiple-actions-and-conditionals",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Conditional action and animation sequencing; run-time behavior untested here."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S20",
+    "title": "Motion timeline",
+    "url": "https://help.figma.com/hc/en-us/articles/41405906446999-Use-the-Figma-Motion-timeline",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Timeline, auto-keyframe, time, duration, playback and tracks; open beta."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S21",
+    "title": "Explore Figma Draw",
+    "url": "https://help.figma.com/hc/en-us/articles/31440394517143-Explore-Figma-Draw",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Illustration mode changes tools and sidebars; Design mode retains other controls."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S22",
+    "title": "Sites breakpoints",
+    "url": "https://help.figma.com/hc/en-us/articles/31242797809815-Add-or-delete-breakpoints-in-a-webpage",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Primary breakpoint, cascading changes and responsive widths."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S23",
+    "title": "Figma agent",
+    "url": "https://help.figma.com/hc/en-us/articles/37998629035799-Work-with-the-Figma-agent-in-design-files",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Agent in design files versus Make; does not establish output quality."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S24",
+    "title": "AI credits",
+    "url": "https://help.figma.com/hc/en-us/articles/33459875669015-How-AI-credits-work",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Costs vary by action/model/context; check current entitlement before usage."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S25",
+    "title": "Generate plugins",
+    "url": "https://help.figma.com/hc/en-us/articles/43028920030743-Generate-plugins-with-the-Figma-agent",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Generative plugin workflow and temporary beta conditions; no plugin generated here."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S26",
+    "title": "Figma MCP",
+    "url": "https://developers.figma.com/docs/figma-mcp-server/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Design context and native canvas writes; access/rate limits need separate validation."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S27",
+    "title": "Code Connect",
+    "url": "https://developers.figma.com/docs/code-connect/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Maps design components to code; account access varies."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S28",
+    "title": "Code Connect UI",
+    "url": "https://developers.figma.com/docs/code-connect/code-connect-ui-setup/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "UI mappings versus CLI snippets; published component prerequisites."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S29",
+    "title": "Weave knowledge center",
+    "url": "https://help.weavy.ai/en/",
+    "recorded_checked": "2026-09-20",
+    "status": "index-reviewed",
+    "scope": "Official destination linked by Figma Help; editor, models and account collections."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S30",
+    "title": "Weave editor",
+    "url": "https://help.weavy.ai/en/collections/15341378-weave-s-editor",
+    "recorded_checked": "2026-09-20",
+    "status": "index-reviewed",
+    "scope": "Nodes, edges, prompts, media, history, tools and timeline; individual lessons pending."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S31",
+    "title": "Buzz overview",
+    "url": "https://help.figma.com/hc/en-us/articles/31271566667543-Guide-to-Figma-Buzz",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Branded assets and controlled templates."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S32",
+    "title": "Buzz bulk create",
+    "url": "https://help.figma.com/hc/en-us/articles/31271824185623-Bulk-create-assets-in-Figma-Buzz",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "CSV/XLSX content mapping and generated assets."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S33",
+    "title": "Slides overview",
+    "url": "https://help.figma.com/hc/en-us/articles/24170630629911-Explore-Figma-Slides",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Collaborative decks, presenter notes and review use cases."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S34",
+    "title": "Slides live interactions",
+    "url": "https://help.figma.com/hc/en-us/articles/24246820870807-Add-live-interactions-to-slides",
+    "recorded_checked": "2026-09-20",
+    "status": "excerpt-reviewed",
+    "scope": "Live interactions require presentation rather than editor mode."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S35",
+    "title": "Static exports",
+    "url": "https://help.figma.com/hc/en-us/articles/360040028114-Export-static-designs-from-Figma",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Export scope, slices, file copies and permission restrictions."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S36",
+    "title": "Release notes",
+    "url": "https://www.figma.com/release-notes/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Recent September 2026 changes; not complete release history."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S37",
+    "title": "Component architecture",
+    "url": "https://www.figma.com/best-practices/component-architecture/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Modularity guidance includes explicitly outdated masking method; prefer current property/slot docs."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S38",
+    "title": "Components, styles and libraries",
+    "url": "https://www.figma.com/best-practices/components-styles-and-shared-libraries/",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Reuse and library organization; cross-check current entitlements."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S39",
+    "title": "Product overview",
+    "url": "https://help.figma.com/hc/en-us/articles/14563969806359-What-is-Figma",
+    "recorded_checked": "2026-09-20",
+    "status": "sections-reviewed",
+    "scope": "Product roles, including FigJam; not a full feature inventory."
+  },
+  {
+    "collection": "figma-draft",
+    "id": "S40",
+    "title": "Plugin API",
+    "url": "https://developers.figma.com/docs/plugins/",
+    "recorded_checked": "2026-09-20",
+    "status": "excerpt-reviewed",
+    "scope": "Editor read/write capability and distinction from other APIs; exact APIs require current docs."
+  }
+]

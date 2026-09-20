@@ -1,0 +1,492 @@
+[
+  {
+    "id": "39a792ca-0888-8073-9610-d40e2b90273b",
+    "title": "Remember to follow up on these",
+    "url": "https://app.notion.com/p/39a792ca088880739610d40e2b90273b?pvs=204",
+    "type": "page",
+    "highlight": "Actually read the **Figma** file before tomorrow's design review, don't just skim it",
+    "timestamp": "2026-07-11T02:05:00.000Z",
+    "path": "Notes",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "Figma",
+      "design"
+    ],
+    "disposition": "excluded: unrelated reminder or app-launch operations"
+  },
+  {
+    "id": "3e0792ca-0888-80d2-91a9-d14a52512cca",
+    "title": "Design Knowledge Base",
+    "url": "https://app.notion.com/p/3e0792ca088880d291a9d14a52512cca?pvs=204",
+    "type": "page",
+    "highlight": "**Design** Knowledge Base",
+    "timestamp": "2026-09-19T20:50:00.000Z",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "knowledge"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "39a792ca-0888-80d6-a869-f233022355b0",
+    "title": "Website Redesign",
+    "url": "https://app.notion.com/p/39a792ca088880d6a869f233022355b0?pvs=204",
+    "type": "page",
+    "highlight": "Visual **Design** Week 6–8 Hi-fi **designs**, **design** system components, motion spec --- Lead **Designer** Creative direction, visual **design**, **design** system --- Enable the team: Build on a...",
+    "timestamp": "2026-07-11T02:05:00.000Z",
+    "path": "Projects",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "research",
+      "accessibility",
+      "typography",
+      "motion"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3ba792ca-0888-8118-a79b-c42cada86660",
+    "title": "Claude instructions & skills — setup reference",
+    "url": "https://app.notion.com/p/3ba792ca08888118a79bc42cada86660?pvs=204",
+    "type": "page",
+    "highlight": "layer exists Persistent context comes from **design**-system import (brand colors, typography, components) and per-project attachments; /**design**-sync pulls a **design** --- Get started with...",
+    "timestamp": "2026-08-12T15:03:00.000Z",
+    "path": "Claude Governance",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "knowledge",
+      "typography"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3dc792ca-0888-818f-a6b3-f73c5333e802",
+    "title": "AugMind — Agnostic Delivery Methodology (Living Draft)",
+    "url": "https://app.notion.com/p/3dc792ca0888818fa6b3f73c5333e802?pvs=204",
+    "type": "page",
+    "highlight": "02 — **Design** and plan (measurement lock lives here)",
+    "timestamp": "2026-09-15T06:21:00.000Z",
+    "path": "Docs",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3dc792ca-0888-8192-b890-f5ebd273cfd9",
+    "title": "AugMind — Agnostic Delivery Methodology (Living Draft)",
+    "url": "https://app.notion.com/p/3dc792ca08888192b890f5ebd273cfd9?pvs=204",
+    "type": "page",
+    "highlight": "Stage 02 — **Design** and Plan --- 3.1 Detailed process **designs**",
+    "timestamp": "2026-09-15T07:02:00.000Z",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "research",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3ba792ca-0888-81d5-807d-e7b47a7d81bb",
+    "title": "Canonical instruction texts",
+    "url": "https://app.notion.com/p/3ba792ca088881d5807de7b47a7d81bb?pvs=204",
+    "type": "page",
+    "highlight": "Once a MindLeverX repo exists with a **design** system, /**design**-sync can pull it from Claude Code --- Claude **Design** n/a — no instruction layer **Design**-system checklist below — ---...",
+    "timestamp": "2026-08-13T03:28:00.000Z",
+    "path": "Claude Governance",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "MindLeverX",
+      "knowledge",
+      "accessibility",
+      "typography"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3ba792ca-0888-8127-869c-e85d9d3ccfc2",
+    "title": "Claude Governance",
+    "url": "https://app.notion.com/p/3ba792ca08888127869ce85d9d3ccfc2?pvs=204",
+    "type": "page",
+    "highlight": "Purpose : One home for how Claude is instructed across every surface I use — claude.ai claude.ai , Claude Code, Cowork, and Claude **Design** — and the canonical text of every instruction",
+    "timestamp": "2026-08-12T15:32:00.000Z",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "MindLeverX"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3ba792ca-0888-8152-a723-ca5a26e2cab4",
+    "title": "Models & prompting guide",
+    "url": "https://app.notion.com/p/3ba792ca08888152a723ca5a26e2cab4?pvs=204",
+    "type": "page",
+    "highlight": "Persistent **design** house style (cream backgrounds, serif display type, terracotta accents) — same fixes as Sonnet 5. --- Settles into a fixed visual style in **design** work — fix with a fully...",
+    "timestamp": "2026-08-12T15:33:00.000Z",
+    "path": "Claude Governance",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-8071-81fb-cc8276c2f23e",
+    "title": "Foundry Team Charter",
+    "url": "https://app.notion.com/p/3b2792ca0888807181fbcc8276c2f23e?pvs=204",
+    "type": "page",
+    "highlight": "**designer**/front-end engineer. Target knowledge profile: human-computer interaction or equivalent experience, WCAG 2.2 AA, Nielsen heuristics, responsive systems, and accessible component ---...",
+    "timestamp": "2026-08-04T19:35:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "research",
+      "knowledge",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "39a792ca-0888-80c0-8386-f8c412a1f6d9",
+    "title": "Brand Guidelines",
+    "url": "https://app.notion.com/p/39a792ca088880c08386f8c412a1f6d9?pvs=204",
+    "type": "page",
+    "highlight": "This document defines the visual identity standards for the Website Redesign. All **design** and marketing assets should adhere to these guidelines to ensure a consistent brand experience.",
+    "timestamp": "2026-07-11T02:05:00.000Z",
+    "path": "Docs",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "typography"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3bf792ca-0888-81d2-acdf-f20cb1698b42",
+    "title": "Anthropic source library",
+    "url": "https://app.notion.com/p/3bf792ca088881d2acdff20cb1698b42?pvs=204",
+    "type": "page",
+    "highlight": "support.claude.com support.claude.com — Cowork, Claude **Design**, account and admin",
+    "timestamp": "2026-08-17T06:36:00.000Z",
+    "path": "Claude Governance",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-818c-8b64-eeecc699223e",
+    "title": "Foundry Roadmap",
+    "url": "https://app.notion.com/p/3b2792ca0888818c8b64eeecc699223e?pvs=204",
+    "type": "page",
+    "highlight": "Integrate with Claude Code / Claude **Design** hand-off patterns",
+    "timestamp": "2026-08-04T21:48:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "knowledge"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3bf792ca-0888-8198-a89b-f3254997e7b6",
+    "title": "Daily reports",
+    "url": "https://app.notion.com/p/3bf792ca08888198a89bf3254997e7b6?pvs=204",
+    "type": "page",
+    "highlight": "github.com/anthropics/knowledge-work-plugins/tree/main/**design** is blocked by robots — the **design** plugin exists per the repo README but its skills are unverified. --- **Design** documentation...",
+    "timestamp": "2026-08-17T06:38:00.000Z",
+    "path": "Claude Governance / Anthropic source library",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "research",
+      "knowledge"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-810f-92e1-dc8eb3d2be6e",
+    "title": "Foundry Architecture",
+    "url": "https://app.notion.com/p/3b2792ca0888810f92e1dc8eb3d2be6e?pvs=204",
+    "type": "page",
+    "highlight": "Claude / Claude Code / Claude **Design** : Hand-off of Craft Briefs and prototypes. GitHub is the shared coordination surface. --- Larger projects (MindLever X) : Foundry is **designed** to be...",
+    "timestamp": "2026-08-04T23:07:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3bf792ca-0888-81c6-a7d8-fc70df2d28f4",
+    "title": "Source register",
+    "url": "https://app.notion.com/p/3bf792ca088881c6a7d8fc70df2d28f4?pvs=204",
+    "type": "page",
+    "highlight": "Claude **Design** (5) --- Introducing Claude **Design** by Anthropic Labs blog 2026-04-17 beta --- Get started with Claude **Design** support not stated beta --- Claude **Design** admin guide...",
+    "timestamp": "2026-08-17T06:37:00.000Z",
+    "path": "Claude Governance / Anthropic source library",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "knowledge",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b3792ca-0888-81b1-a008-c2573a270459",
+    "title": "Foundry Dry-Run Test Harness",
+    "url": "https://app.notion.com/p/3b3792ca088881b1a008c2573a270459?pvs=204",
+    "type": "page",
+    "highlight": "Status : **Design** complete. Brake-test suite → PASS. Happy-path dry-run executed 2026-08-05 → PASS . Phase 1 exit criteria met.",
+    "timestamp": "2026-08-05T05:14:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "knowledge",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "39a792ca-0888-803f-9581-dd0b8a48e549",
+    "title": "Website Redesign Kickoff",
+    "url": "https://app.notion.com/p/39a792ca0888803f9581dd0b8a48e549?pvs=204",
+    "type": "page",
+    "highlight": "Draft sitemap + top-nav proposal (**Design**)",
+    "timestamp": "2026-07-11T02:05:00.000Z",
+    "path": "Meetings",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "39a792ca-0888-8035-9af6-f557e4ba3661",
+    "title": "Mobile App Launch",
+    "url": "https://app.notion.com/p/39a792ca088880359af6f557e4ba3661?pvs=204",
+    "type": "page",
+    "highlight": "**Design** — UI approved; polish pass and accessibility review upcoming --- Oct 22 — Onboarding flow to use 3-step checklist pattern (approved by **design**). --- Stage: Planning — Engineering is...",
+    "timestamp": "2026-07-11T02:05:00.000Z",
+    "path": "Projects",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "accessibility"
+    ],
+    "disposition": "excluded: unrelated reminder or app-launch operations"
+  },
+  {
+    "id": "3bf792ca-0888-81d5-98ac-f453f743d399",
+    "title": "Change log",
+    "url": "https://app.notion.com/p/3bf792ca088881d598acf453f743d399?pvs=204",
+    "type": "page",
+    "highlight": "Added — Baseline register of 149 verified official sources across Claude Code & Agent SDK, Cowork, Claude **Design**, prompting, API/agents/MCP, and security & governance.",
+    "timestamp": "2026-08-17T06:38:00.000Z",
+    "path": "Claude Governance / Anthropic source library",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b3792ca-0888-8144-ac07-e77d96392a68",
+    "title": "Cycle 2026-08-05 – Dry-Run Harness",
+    "url": "https://app.notion.com/p/3b3792ca08888144ac07e77d96392a68?pvs=204",
+    "type": "page",
+    "highlight": "Marketing / documentation / **design** systems --- Full WCAG AAA or complete **design** systems --- Repeatable: Yes — **designed** for exactly that",
+    "timestamp": "2026-08-05T05:14:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design",
+      "UI UX",
+      "research",
+      "knowledge",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b3792ca-0888-81d7-9f2a-ed3119c67a15",
+    "title": "Cycle 2026-08-05 – Brake Tests",
+    "url": "https://app.notion.com/p/3b3792ca088881d79f2aed3119c67a15?pvs=204",
+    "type": "page",
+    "highlight": "All three brakes fired as **designed** after the Phase 1 polish. Locked rules are enforceable.",
+    "timestamp": "2026-08-05T05:03:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "design"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-81c6-ac5c-ec80baf17998",
+    "title": "CANCELED — MindLever Foundry",
+    "url": "https://app.notion.com/p/3b2792ca088881c6ac5cec80baf17998?pvs=204",
+    "type": "page",
+    "highlight": "Virtual team: Alex Rivera (Engineering), Sam Patel (**UX**), Casey Nguyen (Quality/Safety), Jordan Hale (Validation). Ahmed is consulted on demand. --- **UI**/Accessibility hard constraint (WCAG 2.2...",
+    "timestamp": "2026-08-12T15:31:00.000Z",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "UI UX",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-8148-8e15-df03248b69ac",
+    "title": "Foundry Governance Playbook",
+    "url": "https://app.notion.com/p/3b2792ca088881488e15df03248b69ac?pvs=204",
+    "type": "page",
+    "highlight": "Rules : Citations required for **UI**/Accessibility choices. Brief must be ready-to-use so a Craft sitting can start immediately. --- Manager and Interim Governance Steward), Alex Rivera (Product...",
+    "timestamp": "2026-08-04T19:30:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "UI UX",
+      "knowledge",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-8151-9d65-c42e1b758d25",
+    "title": "Foundry Governance Charter",
+    "url": "https://app.notion.com/p/3b2792ca088881519d65c42e1b758d25?pvs=204",
+    "type": "page",
+    "highlight": "Sam Patel — **UX** & Front-End Engineer --- **UI**/Accessibility is a hard constraint . WCAG 2.2 AA subset + selected Nielsen heuristics + ≤60s time-to-value + one primary path. Citations required...",
+    "timestamp": "2026-08-04T19:32:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "UI UX",
+      "knowledge",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-8101-ad98-dd643f4d18c4",
+    "title": "Polish 03-foundry-brief (full Craft Brief + UI/A11y)",
+    "url": "https://app.notion.com/p/3b2792ca08888101ad98dd643f4d18c4?pvs=204",
+    "type": "page",
+    "highlight": "Polish 03-foundry-brief (full Craft Brief + **UI**/A11y)",
+    "timestamp": "2026-08-04T23:15:00.000Z",
+    "path": "CANCELED — MindLever Foundry / Foundry Backlog",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "UI UX"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "3b2792ca-0888-81f4-9197-c3225247c763",
+    "title": "Foundry Onboarding",
+    "url": "https://app.notion.com/p/3b2792ca088881f49197c3225247c763?pvs=204",
+    "type": "page",
+    "highlight": "**UI**/Accessibility hard constraint (WCAG 2.2 AA subset + selected Nielsen + ≤60s + one primary path)",
+    "timestamp": "2026-08-04T23:16:00.000Z",
+    "path": "CANCELED — MindLever Foundry",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "UI UX",
+      "accessibility"
+    ],
+    "disposition": "import historical research"
+  },
+  {
+    "id": "39a792ca-0888-803a-81f1-c985f80767a9",
+    "title": "App Launch Go-to-Market Strategy",
+    "url": "https://app.notion.com/p/39a792ca0888803a81f1c985f80767a9?pvs=204",
+    "type": "page",
+    "highlight": "Primary keyword: [TBD based on **research**]",
+    "timestamp": "2026-07-11T02:05:00.000Z",
+    "path": "Docs",
+    "verification": {
+      "state": "unverified"
+    },
+    "queries": [
+      "research"
+    ],
+    "disposition": "excluded: unrelated reminder or app-launch operations"
+  }
+]

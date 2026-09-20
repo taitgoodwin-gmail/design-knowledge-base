@@ -1,0 +1,33 @@
+{
+  "presentation_id": "1C1go63EzNk0p7wTOB6BPbMRq_p2Thw1pHc-0RfXy6Jw",
+  "url": "https://docs.google.com/presentation/d/1C1go63EzNk0p7wTOB6BPbMRq_p2Thw1pHc-0RfXy6Jw/edit",
+  "date": "2026-09-08",
+  "slides": 56,
+  "nonempty_notes": 56,
+  "notes_words": 5421,
+  "reference_images": 16,
+  "editable_shapes": 500,
+  "linked_text_runs": 94,
+  "unique_expected_links": 45,
+  "missing_links": [],
+  "issue_checker_findings": 0,
+  "privacy": "owner only; shared false",
+  "native_pdf_pages": 56,
+  "site_changed": false,
+  "conversion": "Drive import connector failed missing source MIME; uploaded PPTX with explicit MIME and used Chrome File > Save as Google Slides",
+  "export": "standard reference response not materialized; bounded legacy helper compatibility succeeded",
+  "visual_qa": {
+    "coordinator": "slides 1\u20136",
+    "marketing_review": "slides 7\u201318",
+    "brand_review": "slides 19\u201334",
+    "ux_review": "slides 35\u201356",
+    "result": "All 56 native-render pages inspected individually; no unintended clipping, overlap or distortion observed.",
+    "known_limit": "Original screenshots and palette reference labels retain source-resolution limits."
+  },
+  "session_log": {
+    "sheet": "Session Log",
+    "range": "A21:G21",
+    "id": "S020",
+    "readback": "values and wrapped top-aligned format verified"
+  }
+}

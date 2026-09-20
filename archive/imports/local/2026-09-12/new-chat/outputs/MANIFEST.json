@@ -1,0 +1,70 @@
+{
+  "CODEX-NEXT-PROMPT.md": {
+    "bytes": 2240,
+    "sha256": "300bf7d05ec916f3a156a3f8582ff24b9227942a5f65e7c55ac04c6aba1f59e0"
+  },
+  "README.md": {
+    "bytes": 636,
+    "sha256": "73b8d4f6a01f6c0fed5721859d84631a18eadada73a49d9ee1bee5aa5455672d"
+  },
+  "checks/audit_static.py": {
+    "bytes": 2484,
+    "sha256": "8910f493ecc38b1314d42f0aa1d24e4f76d8fa96f0520fe83a8d8865dafc79d9"
+  },
+  "checks/form-audit.cjs": {
+    "bytes": 1896,
+    "sha256": "a660942d4199a0fa4df79d71b00c26ebf592bb696f18f34862ed2f5d814e4e6d"
+  },
+  "docs/CODEX-HANDOFF.md": {
+    "bytes": 17549,
+    "sha256": "1f3cf033f3223710914230c0d69fd697bf1852c180d5ad426ffd621342cccd77"
+  },
+  "docs/form-audit.json": {
+    "bytes": 4806,
+    "sha256": "0272c528fd8d1ccd3a18b69ebc762f94b430e16c71adb8989691a38cf954cc19"
+  },
+  "docs/responsive-audit.json": {
+    "bytes": 5942,
+    "sha256": "da6cd978fd8802e7c5e28bc8ffb12e6812278ce2437382ca15665a1211b40622"
+  },
+  "docs/static-audit.json": {
+    "bytes": 25423,
+    "sha256": "67bdd459614afc725ef39dc0e3063e7feda5b299eaf855f96289154229fb5e25"
+  },
+  "reference-build/site-v3.1/dist/about.html": {
+    "bytes": 34256,
+    "sha256": "239143a0220f32db288d265eb24b41f53404eecb81a05132d36597efc639610b"
+  },
+  "reference-build/site-v3.1/dist/answer-engine-index-q3-2026.html": {
+    "bytes": 32593,
+    "sha256": "b2b54b211d529d31182d7f3ca6e4c18c990063d17277c4fbcb2276b258971f0f"
+  },
+  "reference-build/site-v3.1/dist/case-study.html": {
+    "bytes": 35466,
+    "sha256": "e1963687a90e98d2d056967da1d00a3595bfd6327c908671469de10c619f176b"
+  },
+  "reference-build/site-v3.1/dist/index.html": {
+    "bytes": 44897,
+    "sha256": "fc014e1231b17d0a94306df7dda42fd1dcd465af4f9334cc3c1265d03f0af382"
+  },
+  "reference-build/site-v3.1/dist/llms.txt": {
+    "bytes": 2744,
+    "sha256": "de0336dccf4d1af969699f0f3dc7699e5e827932940476a3da3049ac45b95b76"
+  },
+  "reference-build/site-v3.1/dist/research-hub.html": {
+    "bytes": 29895,
+    "sha256": "f1d1fb397de1f83f3e34ec24a59aba0c76e7d42ee4eb4361e109a2da6713a5d6"
+  },
+  "reference-build/site-v3.1/dist/robots.txt": {
+    "bytes": 1582,
+    "sha256": "d6f306fabf625f2d75670b0892a123d7079b8e9814f070cf3c6753881bf25447"
+  },
+  "reference-build/site-v3.1/dist/sitemap.xml": {
+    "bytes": 1343,
+    "sha256": "a3971fbfb83bdc879f396d492221f983fbaf2aa8f49a83315929aa586c193123"
+  },
+  "reference-build/site-v3.1/dist/what-is-geo.html": {
+    "bytes": 47447,
+    "sha256": "590a7edc4d21389741ecc0053ff34870227dd7d07c939e92e04b4a671b9765c9"
+  }
+}

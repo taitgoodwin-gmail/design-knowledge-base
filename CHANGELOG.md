@@ -1,23 +1,13 @@
 # Changelog
 
-## 1.2 — 19 September 2026
+## 2.0.0 — 2026-09-20
 
-- Revised the storage recommendation to Notion after the user emphasized visual browsing and clipping.
-- Documented GitHub's formatted reading experience and Notion gallery previews. No upload or migration performed.
+- Consolidated 319 inventoried local artifacts, preserving their bytes, paths and hashes; retained baseline local Git history.
+- Copied 25 relevant Notion pages without changing originals; recorded 28 discovered candidates and three excluded operational/reminder pages.
+- Parsed the historical Anthropic source register into 149 rows and reconciled sources into 442 distinct URL records with independent provenance statuses.
+- Organized principles, learning, tools, integrations, project examples, source records and evidence.
+- Added Figma module navigation, the missing UI inspection narrative, documentation conflicts and explicit limits on the 18-exercise practice suite.
+- Added future-build instructions, a rationale template covering color/motion/accessibility, local search, integrity checks and a GitHub validation workflow.
+- Preserved the earlier organization proposal as historical evidence. Its pending/not-uploaded statements describe the pre-migration state.
 
-
-## 1.1 — 19 September 2026
-
-- Added a source-backed GitHub/Notion/Drive storage recommendation, explicitly pending destination selection and migration.
-- Separated current MindLeverX development feedback into a self-contained sibling handoff for the coding project.
-- Marked retained MindLeverX findings as historical case-study evidence rather than an active development backlog.
-- Re-read homepage text and verified the GEO paper abstract while preparing the handoff; previous visual/interaction checks remain dated prior evidence.
-
-## 1.0 — 19 September 2026
-
-- Consolidated the eight existing research/teaching documents and preserved their contents with SHA-256 import hashes.
-- Included a snapshot of the owner's official-source build practice.
-- Added a task-oriented index, source catalog, structured finding records, maintenance rules and reusable templates.
-- Added a proposal for future skill/plugin/wiki/retrieval packaging.
-- Kept earlier deliverables in place; this directory is the canonical organized edition for future maintenance.
-- No new site audit, source revalidation, installation or publication performed during organization.
+Earlier 1.x history is preserved in the original [archived changelog](archive/imports/local/2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/CHANGELOG.md).

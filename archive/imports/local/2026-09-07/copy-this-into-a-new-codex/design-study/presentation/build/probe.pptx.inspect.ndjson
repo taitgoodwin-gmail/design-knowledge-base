@@ -1,0 +1,6 @@
+{"kind":"deck","id":"pr/w74a9y","name":"Deck"}
+{"kind":"layout","layoutId":"fb0d81fa-8f70-4216-9e4b-1dc07cdc42fb","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"8842ed17-a613-4e54-aa59-287c9368b725","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/7dhd36","slide":1,"title":"Design field guide","textShapes":1}
+{"kind":"textbox","id":"sh/or2tcbip","slide":1,"text":"Design field guide","textPreview":"Design field guide","textChars":18,"textLines":1,"bbox":[50,50,1100,150]}
+{"kind":"notes","id":"nt/7dhd36","slide":1,"text":""}

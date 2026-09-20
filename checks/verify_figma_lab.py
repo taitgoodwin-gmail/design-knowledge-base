@@ -86,8 +86,36 @@ video = (LAB / 'e09-native-reveal.mp4').read_bytes()
 assert len(video) > 1000 and b'ftyp' in video[:40]
 observed = json.loads((LAB / '26-e09-browser-observation.json').read_text())
 assert [s['seconds'] for s in observed['samples']] == [0, .2, .6, 1.8]
+before = result('43-e04-before-main-update.json')['instances']
+after = result('44-e04-after-main-update.json')['after']
+assert after[0]['properties']['Question#57:10']['value'] == before[0]['properties']['Question#57:10']['value']
+assert after[1]['properties']['Question#57:10']['value'] != before[1]['properties']['Question#57:10']['value']
+assert after[0]['properties']['Show source#57:11']['value'] is False
+for instance in after:
+    assert next(n['text'] for n in instance['children'] if n['name'] == 'Explanation').startswith('Updated guidance:')
+slot_cases = result('46-e05-state-switches.json')['cases']
+assert [c['state'] for c in slot_cases] == ['Error', 'Default', 'Open']
+for case in slot_cases:
+    assert case['type'] == 'INSTANCE' and not case['slot']['limits']
+    assert [n['name'] for n in case['slot']['children']] == ['Source 3', 'Source 1', 'Source 2']
+    assert case['slot']['visible'] == (case['state'] == 'Open')
+for path in ['47-e06-boolean-binding.json', '52-e06-variant-binding.json']:
+    binding = result(path)
+    assert binding['events'][0]['accepted']
+    assert [(c['mode'], c['resolved']['value'], c['source']['visible']) for c in binding['cases']] == [('Light', True, True), ('Dark', False, False)]
+audit = result('54-component-final-compact.json')
+assert len(audit['records']) == 9 and not audit['issues']
+for root in audit['records']:
+    assert not root['missingFonts'] and not root['unboundTextFills']
+    assert {'fills','paddingLeft','paddingRight','paddingTop','paddingBottom','itemSpacing','topLeftRadius','topRightRadius','bottomLeftRadius','bottomRightRadius'} <= set(root['bindings'])
+contrast = json.loads((LAB / '56-component-contrast.json').read_text())
+assert len(contrast['pairs']) == 6 and all(p['ratio'] >= 4.5 for p in contrast['pairs'])
+original = result('17-original-page-check.json')['children']
+preserved = result('55-original-after-components.json')['topLevel']
+keys = ('id', 'name', 'x', 'y', 'width', 'height')
+assert [{k: n[k] for k in keys} for n in original] == [{k: n[k] for k in keys} for n in preserved]
 manifest = json.loads((LAB / 'export-manifest.json').read_text())
 for name, expected in manifest['files'].items():
     blob = (LAB / name).read_bytes()
     assert len(blob) == expected['bytes'] and hashlib.sha256(blob).hexdigest() == expected['sha256'], name
-print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'passed': True}, indent=2))
+print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'component_roots_checked': len(audit['records']), 'slot_state_switches': len(slot_cases), 'boolean_binding_routes': 2, 'contrast_pairs': len(contrast['pairs']), 'original_top_level_nodes_preserved': len(original), 'passed': True}, indent=2))

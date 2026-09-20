@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: in set_componentPropertyReferences: Property \"node.componentPropertyReferences.value\" failed validation: Expected object, received null\n    at set (<input>:75:11)\n    at <anonymous> (PLUGIN_3_SOURCE:1:512)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 81886d1c-ad05-4c6b-889a-48c374b784a1"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

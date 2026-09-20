@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"pageId\":\"57:8\",\"baseId\":\"57:9\",\"createdNodeIds\":[\"57:8\",\"57:9\",\"57:10\",\"57:11\",\"57:12\",\"57:13\",\"57:14\",\"57:15\"],\"properties\":{\"Source list#57:0\":{\"type\":\"SLOT\",\"description\":null,\"preferredValues\":[]},\"Question#57:1\":{\"type\":\"TEXT\",\"defaultValue\":\"Why did this answer cite this source?\"},\"Show source#57:2\":{\"type\":\"BOOLEAN\",\"defaultValue\":true}},\"slot\":{\"id\":\"57:14\",\"type\":\"SLOT\",\"refs\":{\"slotContentId\":\"Source list#57:0\"}},\"children\":[{\"id\":\"57:10\",\"name\":\"State label\",\"type\":\"TEXT\",\"visible\":true,\"width\":312,\"height\":24},{\"id\":\"57:11\",\"name\":\"Question\",\"type\":\"TEXT\",\"visible\":true,\"width\":312,\"height\":24},{\"id\":\"57:12\",\"name\":\"Explanation\",\"type\":\"TEXT\",\"visible\":true,\"width\":312,\"height\":48},{\"id\":\"57:13\",\"name\":\"Source indicator\",\"type\":\"TEXT\",\"visible\":true,\"width\":312,\"height\":24},{\"id\":\"57:14\",\"name\":\"Source list\",\"type\":\"SLOT\",\"visible\":false,\"width\":312,\"height\":100}],\"binding\":{\"itemSpacing\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:36\"},\"paddingLeft\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:35\"},\"paddingTop\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:35\"},\"paddingRight\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:35\"},\"paddingBottom\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:35\"},\"topLeftRadius\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:37\"},\"topRightRadius\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:37\"},\"bottomLeftRadius\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:37\"},\"bottomRightRadius\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:37\"},\"fills\":[{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:31\"}]}}"
+    }
+  ],
+  "isError": false
+}

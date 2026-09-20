@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: in editComponentProperty: Could not find a component property with name: 'Source list#57:0'\n    at <anonymous> (PLUGIN_7_SOURCE:1:782)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 372ca2a4-469e-4624-9257-a412c1ca8bab"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

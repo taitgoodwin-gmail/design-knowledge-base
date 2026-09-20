@@ -416,6 +416,14 @@
           "status": "linked-in-imported-research",
           "scope": "Inspect original evidence notes for claim scope and retrieval limits; not refreshed during migration.",
           "evidence": "projects/mindleverx/mindleverx-design-rationale.md"
+        },
+        {
+          "collection": "figma-lab",
+          "original_id": "WCAG-1.4.3",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Text/background threshold and calculation; six opaque lab token pairs checked, not full conformance.",
+          "evidence": "tools/figma/evidence/lab/components-and-variables.md"
         }
       ]
     },
@@ -879,6 +887,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab",
+          "original_id": "S09",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Text, boolean, instance swap, variant and slot properties; simplified-instance deprecation.",
+          "evidence": "tools/figma/evidence/lab/components-and-variables.md"
         }
       ]
     },
@@ -901,6 +917,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab",
+          "original_id": "S10",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Nested flexible instance content; restrictions and slot settings.",
+          "evidence": "tools/figma/evidence/lab/components-and-variables.md"
         }
       ]
     },
@@ -982,6 +1006,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma-lab",
+          "original_id": "S14",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed-and-applied",
+          "scope": "Mode-to-variant value matching; boolean property wording conflicts with S09.",
+          "evidence": "tools/figma/evidence/lab/components-and-variables.md"
         }
       ]
     },

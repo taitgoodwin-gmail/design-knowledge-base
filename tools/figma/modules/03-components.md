@@ -18,4 +18,4 @@ Sources: [S08: Guide to components](https://help.figma.com/hc/en-us/articles/360
 
 ## Practice and acceptance
 
-Run E04,E05 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+E04/E05 passed bounded [main/instance and native-slot checks](../evidence/lab/components-and-variables.md). Customized text and reordered variable-length slot rows survived state switches. Combining variants changed component-property IDs; read resulting set definitions before further edits. Instance-child IDs may remap after switching variants.

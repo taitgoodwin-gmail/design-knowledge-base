@@ -3,11 +3,12 @@
 ## 2.1.0 — 2026-09-20
 
 - Continued the full goal beyond migration: added an explicit requirement/evidence audit.
-- Built an editable Figma lab; verified E02, E03, E07, E09, E10 and a bounded E18 refresh, retaining actual responses, screenshots, scripts and a recorded tool rejection.
+- Built an editable Figma lab; verified E02–E07, E09, E10 and a bounded E18 refresh, retaining actual responses, screenshots, scripts and a recorded tool rejection.
 - Added a reproducible public Design-category inventory: 183 article bodies, two exhausted pagination pages, headings and hashes; substantive review remains separate.
 - Corrected the layout-guide/constraint nuance using official guidance and a controlled rerun.
 - Verified native motion export at four timestamps in Chrome, preserved a static alternative, and documented SVG reimport effect loss separately from browser export fidelity.
-- Added saved-observation checks to CI; 11 practice exercises still require work.
+- Verified main-component propagation, surviving overrides, reordered native slots, 19 lab variables and both boolean-binding routes; resolved X02 for the observed MCP/file context.
+- Added saved-observation checks to CI; 8 practice exercises still require work.
 
 ## 2.0.0 — 2026-09-20
 

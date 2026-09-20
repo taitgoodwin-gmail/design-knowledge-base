@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"57:53\",\"57:57\"],\"mutatedNodeIds\":[\"57:34\",\"I57:34;57:21\"],\"instanceId\":\"57:34\",\"type\":\"INSTANCE\",\"mainId\":\"57:16\",\"properties\":{\"Source list#57:9\":{\"type\":\"SLOT\",\"preferredValues\":[]},\"Show source#57:11\":{\"type\":\"BOOLEAN\",\"value\":false},\"Question#57:10\":{\"type\":\"TEXT\",\"value\":\"Which facts support this recommendation?\"},\"State\":{\"value\":\"Open\",\"type\":\"VARIANT\",\"boundVariables\":{}}},\"slot\":{\"id\":\"I57:34;57:21\",\"type\":\"SLOT\",\"width\":312,\"height\":168,\"limits\":[],\"children\":[{\"id\":\"57:57\",\"name\":\"Source 3\",\"text\":\"[3] Independent comparison source.\",\"width\":312,\"height\":24,\"x\":0,\"y\":0},{\"id\":\"I57:34;57:22\",\"name\":\"Source 1\",\"text\":\"[1] Example source — inspect the original.\",\"width\":312,\"height\":48,\"x\":0,\"y\":36},{\"id\":\"57:53\",\"name\":\"Source 2\",\"text\":\"[2] Longer example source with methodology, dates and limits that must wrap without covering the next item.\",\"width\":312,\"height\":72,\"x\":0,\"y\":96}]},\"instanceHeight\":372}"
+    }
+  ],
+  "isError": false
+}

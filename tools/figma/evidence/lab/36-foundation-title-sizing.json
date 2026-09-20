@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"55:10\",\"55:17\"],\"frames\":[{\"id\":\"55:9\",\"width\":500,\"height\":318,\"children\":[{\"id\":\"55:10\",\"width\":452,\"height\":42,\"y\":24,\"fontSize\":28,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:11\",\"width\":452,\"height\":48,\"y\":78,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:12\",\"width\":452,\"height\":24,\"y\":138,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:13\",\"width\":452,\"height\":24,\"y\":174,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:14\",\"width\":452,\"height\":24,\"y\":210,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:15\",\"width\":452,\"height\":48,\"y\":246,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"}]},{\"id\":\"55:16\",\"width\":500,\"height\":318,\"children\":[{\"id\":\"55:17\",\"width\":452,\"height\":42,\"y\":24,\"fontSize\":28,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:18\",\"width\":452,\"height\":48,\"y\":78,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:19\",\"width\":452,\"height\":24,\"y\":138,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:20\",\"width\":452,\"height\":24,\"y\":174,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:21\",\"width\":452,\"height\":24,\"y\":210,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"},{\"id\":\"55:22\",\"width\":452,\"height\":48,\"y\":246,\"fontSize\":16,\"textAutoResize\":\"HEIGHT\"}]}]}"
+    }
+  ],
+  "isError": false
+}

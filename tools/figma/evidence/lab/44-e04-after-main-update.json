@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"57:32\",\"57:12\",\"57:34\",\"57:41\"],\"after\":[{\"id\":\"57:34\",\"type\":\"INSTANCE\",\"mainId\":\"57:9\",\"properties\":{\"Source list#57:9\":{\"type\":\"SLOT\",\"preferredValues\":[]},\"Show source#57:11\":{\"type\":\"BOOLEAN\",\"value\":false},\"Question#57:10\":{\"type\":\"TEXT\",\"value\":\"Which facts support this recommendation?\"},\"State\":{\"value\":\"Default\",\"type\":\"VARIANT\",\"boundVariables\":{}}},\"children\":[{\"id\":\"I57:34;57:10\",\"name\":\"State label\",\"visible\":true,\"text\":\"Default\"},{\"id\":\"I57:34;57:11\",\"name\":\"Question\",\"visible\":true,\"text\":\"Which facts support this recommendation?\"},{\"id\":\"I57:34;57:12\",\"name\":\"Explanation\",\"visible\":true,\"text\":\"Updated guidance: open the original source and check its date.\"}],\"overrides\":[{\"id\":\"57:34\",\"overriddenFields\":[\"height\",\"name\",\"width\"]}]},{\"id\":\"57:41\",\"type\":\"INSTANCE\",\"mainId\":\"57:9\",\"properties\":{\"Source list#57:9\":{\"type\":\"SLOT\",\"preferredValues\":[]},\"Show source#57:11\":{\"type\":\"BOOLEAN\",\"value\":true},\"Question#57:10\":{\"type\":\"TEXT\",\"value\":\"What evidence supports this answer?\"},\"State\":{\"value\":\"Default\",\"type\":\"VARIANT\",\"boundVariables\":{}}},\"children\":[{\"id\":\"I57:41;57:10\",\"name\":\"State label\",\"visible\":true,\"text\":\"Default\"},{\"id\":\"I57:41;57:11\",\"name\":\"Question\",\"visible\":true,\"text\":\"What evidence supports this answer?\"},{\"id\":\"I57:41;57:12\",\"name\":\"Explanation\",\"visible\":true,\"text\":\"Updated guidance: open the original source and check its date.\"},{\"id\":\"I57:41;57:13\",\"name\":\"Source indicator\",\"visible\":true,\"text\":\"Source [1] available\"}],\"overrides\":[{\"id\":\"57:41\",\"overriddenFields\":[\"name\"]}]}]}"
+    }
+  ],
+  "isError": false
+}

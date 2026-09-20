@@ -2,7 +2,7 @@
   {
     "id": "E01",
     "title": "Context and navigation",
-    "procedure": "Open File, Variables, then return to File. Switch Design → Motion → Design without editing content.",
+    "procedure": "Open File, Variables, then return to File. Switch Design \u2192 Motion \u2192 Design without editing content.",
     "acceptance": "Panels match the requested modes and the original design selection returns.",
     "status": "passed-limited",
     "evidence": "evidence/2026-09-20-ui-inspection.md"
@@ -32,24 +32,30 @@
     "title": "Component state and overrides",
     "procedure": "Create default/open/error variants; customize an instance then update the main component.",
     "acceptance": "Expected changes propagate; deliberate overrides survive; state labels remain unambiguous.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/components-and-variables.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Actual main/instance changes, slot customization and mode bindings via MCP, with rendered inspection; bounded file/tool context"
   },
   {
     "id": "E05",
     "title": "Slot customization",
     "procedure": "Place a variable-length list inside a component slot, add/reorder items and change variants.",
     "acceptance": "Instance remains linked; content/constraints behave as specified.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/components-and-variables.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Actual main/instance changes, slot customization and mode bindings via MCP, with rendered inspection; bounded file/tool context"
   },
   {
     "id": "E06",
     "title": "Token and boolean conflict test",
     "procedure": "Create two appearance modes and aliases; test applying a boolean variable to a boolean property versus a variant property.",
     "acceptance": "Record exact accepted/rejected operations and resulting layer visibility; resolve X02 with evidence.",
-    "status": "not-run",
-    "evidence": null
+    "status": "passed-fixture",
+    "evidence": "evidence/lab/components-and-variables.md",
+    "checked": "2026-09-20",
+    "verification_scope": "Actual main/instance changes, slot customization and mode bindings via MCP, with rendered inspection; bounded file/tool context"
   },
   {
     "id": "E07",
@@ -140,7 +146,7 @@
   {
     "id": "E17",
     "title": "FigJam decision record",
-    "procedure": "Create an observation → assumption → decision map with linked sources and a disagreement path.",
+    "procedure": "Create an observation \u2192 assumption \u2192 decision map with linked sources and a disagreement path.",
     "acceptance": "A reader can distinguish evidence from interpretation and recover the source.",
     "status": "not-run",
     "evidence": null

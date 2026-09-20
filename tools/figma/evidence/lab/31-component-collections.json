@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"collections\":[{\"id\":\"VariableCollectionId:54:8\",\"name\":\"LAB / Primitives\",\"modes\":{\"Value\":\"54:0\"},\"created\":true},{\"id\":\"VariableCollectionId:54:9\",\"name\":\"LAB / Semantics\",\"modes\":{\"Light\":\"54:1\",\"Dark\":\"54:2\"},\"created\":true}],\"createdCollectionIds\":[\"VariableCollectionId:54:8\",\"VariableCollectionId:54:9\"]}"
+    }
+  ],
+  "isError": false
+}

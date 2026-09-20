@@ -78,7 +78,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Text, boolean, instance swap, variant and slot properties; simplified-instance deprecation.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official article sections via web, followed by bounded MCP fixture and render checks",
+    "evidence": "evidence/lab/components-and-variables.md"
   },
   {
     "id": "S10",
@@ -87,7 +88,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Nested flexible instance content; restrictions and slot settings.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official article sections via web, followed by bounded MCP fixture and render checks",
+    "evidence": "evidence/lab/components-and-variables.md"
   },
   {
     "id": "S11",
@@ -123,7 +125,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Mode-to-variant value matching; boolean property wording conflicts with S09.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official article sections via web, followed by bounded MCP fixture and render checks",
+    "evidence": "evidence/lab/components-and-variables.md"
   },
   {
     "id": "S15",

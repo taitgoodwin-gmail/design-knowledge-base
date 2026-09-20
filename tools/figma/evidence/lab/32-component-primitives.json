@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: in set_scopes: Invalid scope for this variable type\n    at <anonymous> (PLUGIN_3_SOURCE:1:887)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 313796d4-927c-409d-bbf0-daeca3239f61"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

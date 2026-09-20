@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"57:16\",\"57:17\",\"57:18\",\"57:19\",\"57:20\",\"57:21\",\"57:22\",\"57:23\",\"57:24\",\"57:25\",\"57:26\",\"57:27\",\"57:28\",\"57:29\"],\"variants\":[{\"id\":\"57:16\",\"name\":\"State=Open\",\"slotId\":\"57:21\",\"slotVisible\":true,\"properties\":{\"Source list#57:0\":{\"type\":\"SLOT\",\"description\":null,\"preferredValues\":[]},\"Question#57:1\":{\"type\":\"TEXT\",\"defaultValue\":\"Why did this answer cite this source?\"},\"Show source#57:2\":{\"type\":\"BOOLEAN\",\"defaultValue\":true}}},{\"id\":\"57:23\",\"name\":\"State=Error\",\"slotId\":\"57:28\",\"slotVisible\":false,\"properties\":{\"Source list#57:0\":{\"type\":\"SLOT\",\"description\":null,\"preferredValues\":[]},\"Question#57:1\":{\"type\":\"TEXT\",\"defaultValue\":\"Why did this answer cite this source?\"},\"Show source#57:2\":{\"type\":\"BOOLEAN\",\"defaultValue\":true}}}]}"
+    }
+  ],
+  "isError": false
+}

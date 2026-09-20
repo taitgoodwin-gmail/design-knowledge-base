@@ -16,6 +16,38 @@
     "e10-roundtrip.png": {
       "bytes": 16098,
       "sha256": "dd171664be4c03d74e5753caf7401ad7ca7ef40cb9b1d3db759370e707da2a6f"
+    },
+    "e06-variant-dark.png": {
+      "bytes": 9795,
+      "sha256": "1e35cd4aadf47abe999e44f62166a9a6c5d17355dca4b359131d61617ae110d3"
+    },
+    "e04-e05-e06-final.png": {
+      "bytes": 131859,
+      "sha256": "32796c9984794f10f65a86ec145717dc8e84f49ed640c054691833fa1e7f8a8e"
+    },
+    "e06-probe-family.png": {
+      "bytes": 14819,
+      "sha256": "6267c31d672fde061a687f0d2e52574279dcf6e1933ab49ae012d3815e14324d"
+    },
+    "e06-foundations-initial.png": {
+      "bytes": 58067,
+      "sha256": "d97f0bd52af4ae1c755937d62f24fea1090f0eeb21d09353d87a180fafdf4ec0"
+    },
+    "e06-boolean-dark.png": {
+      "bytes": 10921,
+      "sha256": "1e751270846f168e22c1f8670f3afc0e49ff0296e9a602eb4391c36baa69dc18"
+    },
+    "e06-foundations.png": {
+      "bytes": 58338,
+      "sha256": "ee9235043453a5a0e7eca48d8ab78b22ed153cdd8c092fb7194d9811a71e5457"
+    },
+    "e04-card-family.png": {
+      "bytes": 29313,
+      "sha256": "ed8c219ed4b21e8e9bc28640d7a4f7e03f4eccd81a9808585ea2a3adfb9c8b11"
+    },
+    "e05-slot-open.png": {
+      "bytes": 25407,
+      "sha256": "cf976d992dd31e125df6d74acfe5e437bfd98f336f3d4cde58de4410900bc3ea"
     }
   }
 }

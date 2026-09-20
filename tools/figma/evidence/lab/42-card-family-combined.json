@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"57:32\",\"57:33\"],\"mutatedNodeIds\":[\"57:9\",\"57:16\",\"57:23\",\"57:14\",\"57:21\",\"57:28\"],\"setId\":\"57:32\",\"properties\":{\"Source list#57:9\":{\"type\":\"SLOT\",\"description\":null,\"preferredValues\":[]},\"Question#57:10\":{\"type\":\"TEXT\",\"defaultValue\":\"Why did this answer cite this source?\"},\"Show source#57:11\":{\"type\":\"BOOLEAN\",\"defaultValue\":true},\"State\":{\"type\":\"VARIANT\",\"defaultValue\":\"Default\",\"variantOptions\":[\"Default\",\"Open\",\"Error\"]}},\"variants\":[{\"id\":\"57:9\",\"name\":\"State=Default\",\"width\":360,\"height\":204,\"slot\":\"57:14\"},{\"id\":\"57:16\",\"name\":\"State=Open\",\"width\":360,\"height\":264,\"slot\":\"57:21\"},{\"id\":\"57:23\",\"name\":\"State=Error\",\"width\":360,\"height\":204,\"slot\":\"57:28\"}]}"
+    }
+  ],
+  "isError": false
+}

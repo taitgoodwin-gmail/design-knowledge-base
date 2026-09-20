@@ -11,3 +11,9 @@ These are recorded, plain JavaScript Figma MCP scripts for the existing lab file
 Creation scripts are historical construction recipes and will create duplicates if rerun unchanged in this file. For a fresh sandbox, run the same procedure with newly returned page/node IDs and save a new run ledger. Never substitute guessed IDs. The test scripts intentionally leave their last test state; restore the documented presentation state after collecting results.
 
 `python3 checks/verify_figma_lab.py` checks the saved observations. It does not run Figma again or prove that later edits still match those observations.
+
+## Component wave
+
+See [the locked plan](../component-lab-plan.md) and [results](../../evidence/lab/components-and-variables.md). Run order is collections → corrected primitives → semantics → foundations → card base → variants → combined family → before-main-update → after-main-update → slot customization → state switches → boolean binding → corrected probe variants → probe family → variant binding → final audit. Scripts labeled corrected/combined follow earlier preserved failures. The original failing scripts are negative evidence, not recommended setup steps.
+
+The state ledger is [saved with evidence](../../evidence/lab/component-state-ledger.json). Actual IDs and existing objects must be inspected before reuse; scripts are not a blind idempotent installer.

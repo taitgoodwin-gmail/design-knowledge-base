@@ -1,0 +1,63 @@
+{
+  "runId": "component-lab-20260920",
+  "phase": "phase4",
+  "step": "publication",
+  "completedSteps": [
+    "P0.a",
+    "P0.b",
+    "P0.c",
+    "P0.d",
+    "P0.e",
+    "P1.a",
+    "P1.b",
+    "P1.c",
+    "P1.d",
+    "P2.a",
+    "P2.b",
+    "P2.c",
+    "P3.a",
+    "P3.b",
+    "P3.c",
+    "P3.d",
+    "P4.a",
+    "P4.b"
+  ],
+  "entities": {
+    "pages": {
+      "foundations": "55:8",
+      "components": "57:8"
+    },
+    "collections": {
+      "primitives": "VariableCollectionId:54:8",
+      "semantics": "VariableCollectionId:54:9"
+    },
+    "variables": {
+      "lab/paper:VariableID:54:20": "VariableID:54:20",
+      "lab/ink:VariableID:54:21": "VariableID:54:21",
+      "lab/blue:VariableID:54:22": "VariableID:54:22",
+      "lab/blue-light:VariableID:54:23": "VariableID:54:23",
+      "lab/error:VariableID:54:24": "VariableID:54:24",
+      "lab/error-light:VariableID:54:25": "VariableID:54:25",
+      "lab/padding:VariableID:54:26": "VariableID:54:26",
+      "lab/gap:VariableID:54:27": "VariableID:54:27",
+      "lab/radius:VariableID:54:28": "VariableID:54:28",
+      "lab/true:VariableID:54:29": "VariableID:54:29",
+      "lab/false:VariableID:54:30": "VariableID:54:30",
+      "lab/surface:VariableID:54:31": "VariableID:54:31",
+      "lab/text:VariableID:54:32": "VariableID:54:32",
+      "lab/accent:VariableID:54:33": "VariableID:54:33",
+      "lab/error:VariableID:54:34": "VariableID:54:34",
+      "lab/padding:VariableID:54:35": "VariableID:54:35",
+      "lab/gap:VariableID:54:36": "VariableID:54:36",
+      "lab/radius:VariableID:54:37": "VariableID:54:37",
+      "lab/show-source:VariableID:54:38": "VariableID:54:38"
+    },
+    "components": {
+      "evidence": "57:32",
+      "probe": "58:49"
+    }
+  },
+  "pendingValidations": [
+    "GitHub commit equality and CI"
+  ]
+}

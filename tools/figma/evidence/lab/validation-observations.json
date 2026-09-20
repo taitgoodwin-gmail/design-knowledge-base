@@ -10,5 +10,10 @@
   "editable_vector_nodes": 3,
   "native_video_bytes": 34383,
   "browser_sample_observations": 4,
+  "component_roots_checked": 9,
+  "slot_state_switches": 3,
+  "boolean_binding_routes": 2,
+  "contrast_pairs": 6,
+  "original_top_level_nodes_preserved": 9,
   "passed": true
 }

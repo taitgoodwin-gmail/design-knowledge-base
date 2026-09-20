@@ -2,7 +2,7 @@
 
 | ID | Issue | Treatment |
 |---|---|---|
-| X02 | Figma component-properties guidance S09 and variable-modes guidance S14 differ on applying boolean variables to boolean component properties | Retain both; exercise E06 must record actual permitted operations in a practice file. No resolved claim yet |
+| X02 | Figma component-properties guidance S09 and variable-modes guidance S14 differ on applying boolean variables to boolean component properties | E06 resolves the observed MCP/file context: both BOOLEAN and True/False VARIANT bindings were accepted and switched visibility correctly. Preserve conflicting documentation wording; [evidence](../tools/figma/evidence/lab/components-and-variables.md) |
 | X03 | Figma's dedicated ChatGPT help page describes FigJam/Slides while current MCP/plugin material and this runtime offer broader tools | Separate product/surface and observed tool access; do not generalize one route's limits to every host |
 | X04 | Figma write-to-canvas developer guide and newer Help summary differ on Dev-seat editing in drafts | Recheck exact seat, plan and file context when relevant; no account-wide entitlement conclusion |
 | X05 | Two Notion AugMind delivery drafts place some gates/deliverables differently | Preserve both as drafts, not a merged authoritative methodology |

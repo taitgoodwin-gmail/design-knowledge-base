@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"58:50\",\"I58:50;58:43\",\"I58:50;58:44\",\"I58:50;58:45\",\"I58:50;58:46\",\"I58:50;58:47\",\"I58:50;58:48\"],\"instanceId\":\"58:50\",\"events\":[{\"operation\":\"bind VARIANT component property\",\"accepted\":true}],\"cases\":[{\"mode\":\"Light\",\"resolved\":{\"value\":true,\"resolvedType\":\"BOOLEAN\"},\"mainId\":\"58:35\",\"properties\":{\"Visible\":{\"value\":\"True\",\"type\":\"VARIANT\",\"boundVariables\":{\"value\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:38\"}}}},\"source\":{\"id\":\"I58:50;58:39\",\"visible\":true},\"height\":204},{\"mode\":\"Dark\",\"resolved\":{\"value\":false,\"resolvedType\":\"BOOLEAN\"},\"mainId\":\"58:42\",\"properties\":{\"Visible\":{\"value\":\"False\",\"type\":\"VARIANT\",\"boundVariables\":{\"value\":{\"type\":\"VARIABLE_ALIAS\",\"id\":\"VariableID:54:38\"}}}},\"source\":{\"id\":\"I58:50;58:46\",\"visible\":false},\"height\":168}]}"
+    }
+  ],
+  "isError": false
+}

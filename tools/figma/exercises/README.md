@@ -32,7 +32,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Expected changes propagate; deliberate overrides survive; state labels remain unambiguous.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/components-and-variables.md)
 
 ## E05: Slot customization
 
@@ -40,7 +40,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Instance remains linked; content/constraints behave as specified.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/components-and-variables.md)
 
 ## E06: Token and boolean conflict test
 
@@ -48,7 +48,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Record exact accepted/rejected operations and resulting layer visibility; resolve X02 with evidence.
 
-**Result:** not-run. No run recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/components-and-variables.md)
 
 ## E07: Typography resilience
 
@@ -64,7 +64,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** State is predictable; explain the changed Smart Animate behavior; record reset behavior.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E09: Motion lab
 
@@ -88,7 +88,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Correct scope, usable editability, no unsupported claims; record failures and costs.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E12: Handoff fixture
 
@@ -96,7 +96,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Design-to-code mapping and rendered behavior are checked, not inferred from snippets.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E13: Sites breakpoint inheritance
 
@@ -104,7 +104,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Cascades and overrides are understood; no unrequested publishing.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E14: Weave repeatable workflow
 
@@ -112,7 +112,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Can reproduce process and account for output variation; assess fidelity and usage.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E15: Slides presentation behavior
 
@@ -120,7 +120,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Interaction works in intended view; notes are exposed only where intended.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E16: Buzz bulk fixture
 
@@ -128,7 +128,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Expected asset count, field mapping and exception handling; inspect every generated asset.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E17: FigJam decision record
 
@@ -136,7 +136,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** A reader can distinguish evidence from interpretation and recover the source.
 
-**Result:** not-run. No run recorded.
+**Result:** not-run. No execution evidence recorded.
 
 ## E18: Knowledge refresh
 

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"58:49\"],\"mutatedNodeIds\":[\"58:35\",\"58:42\"],\"setId\":\"58:49\",\"properties\":{\"Visible\":{\"type\":\"VARIANT\",\"defaultValue\":\"True\",\"variantOptions\":[\"True\",\"False\"]}},\"variants\":[{\"id\":\"58:35\",\"name\":\"Visible=True\"},{\"id\":\"58:42\",\"name\":\"Visible=False\"}]}"
+    }
+  ],
+  "isError": false
+}

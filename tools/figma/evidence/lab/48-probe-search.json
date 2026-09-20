@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"results\": [\n    {\n      \"entity\": \"component\",\n      \"query\": \"Boolean visibility probe\",\n      \"components\": []\n    }\n  ]\n}"
+    }
+  ],
+  "isError": false
+}

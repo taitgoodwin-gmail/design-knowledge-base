@@ -4,7 +4,7 @@ Checked 2026-09-20. Evidence: documentation synthesis; hands-on scope is separat
 
 ## Documented behavior
 
-Current documentation lists color, number, string, boolean, timing and easing variables. Collections organize variables and modes; modes supply contextual values. Variables can alias other variables of the same type. Styles combine properties, while variables provide reusable values and can support styles. Scopes narrow applicable properties. Timing and easing variables support Motion. Mode names do not themselves establish browser breakpoint behavior. A wording conflict about boolean variables and boolean component properties is logged for a sandbox check.
+Current documentation lists color, number, string, boolean, timing and easing variables. Collections organize variables and modes; modes supply contextual values. Variables can alias other variables of the same type. Styles combine properties, while variables provide reusable values and can support styles. Scopes narrow applicable properties. Timing and easing variables support Motion. Mode names do not themselves establish browser breakpoint behavior. A wording conflict about boolean variables and boolean component properties remains in the docs; E06 resolves actual behavior in the recorded MCP/file context.
 
 Sources: [S12: Variable types, collections and modes](https://help.figma.com/hc/en-us/articles/14506821864087-Overview-of-variables-collections-and-modes), [S13: Create variables and aliases](https://help.figma.com/hc/en-us/articles/15145852043927-Create-and-manage-variables), [S14: Variable modes](https://help.figma.com/hc/en-us/articles/15343816063383-Modes-for-variables).
 
@@ -17,4 +17,4 @@ Sources: [S12: Variable types, collections and modes](https://help.figma.com/hc/
 
 ## Practice and acceptance
 
-Run E06 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+E06 [passed in the isolated lab](../evidence/lab/components-and-variables.md): both BOOLEAN-property and True/False VARIANT-property aliases followed the variable in Light/Dark modes. Boolean scope assignment was rejected; do not apply color/number scope rules to BOOLEAN variables. This does not establish every UI host or account entitlement.

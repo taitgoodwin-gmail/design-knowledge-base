@@ -1,0 +1,17 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Error: in set_minHeight: minHeight cannot be set to 0, use null to unset\n    at set (<input>:75:11)\n    at <anonymous> (PLUGIN_5_SOURCE:1:681)\n"
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 7a0cf3ac-04b4-47dc-ab7f-54f676c34832"
+    }
+  ],
+  "structuredContent": {
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

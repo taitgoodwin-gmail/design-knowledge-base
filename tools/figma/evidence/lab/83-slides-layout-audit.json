@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"slideIds\":[\"3:2\",\"3:10\",\"3:18\"],\"issues\":[],\"notes\":[{\"id\":\"3:2\",\"notes\":\"- E15-NOTE-ONLY: explain that these are fixture checks, not a user study.\\n- Use the next slide to show the measured limits. No GEO or conversion outcome is established.\"},{\"id\":\"3:10\",\"notes\":\"- E15-NOTE-ONLY: source is E12 browser observations, commit dd81a55.\\n- The four width checks used one long/open/dark fixture.\\n- Do not claim WCAG conformance from this check.\"},{\"id\":\"3:18\",\"notes\":\"- E15-NOTE-ONLY: this is a synthetic workflow test, not a real team decision.\\n- Explain that the vote is retained as fixture evidence.\\n- Audience should see the poll, not these speaker notes.\"}],\"intentionalOverlaps\":\"Three rectangle segments form the title-slide bracket; no reading text overlaps.\"}"
+    }
+  ],
+  "isError": false
+}

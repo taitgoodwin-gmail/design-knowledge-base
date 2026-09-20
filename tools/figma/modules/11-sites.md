@@ -18,3 +18,7 @@ Sources: [S22: Sites breakpoints](https://help.figma.com/hc/en-us/articles/31242
 ## Practice and acceptance
 
 Run E13 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Inheritance detail and current access
+
+Primary changes propagate property by property. A modified secondary fill can remain independent while an unmodified height inherits. Reset all changes restores inheritance for reset properties. [Official editing guide](https://help.figma.com/hc/en-us/articles/31242788601879-Add-select-and-edit-objects-across-multiple-breakpoints), checked 20 September 2026. Exact boundary widths and real inheritance remain [pending the Sites terms screen](../evidence/lab/product-access-and-readiness.md).

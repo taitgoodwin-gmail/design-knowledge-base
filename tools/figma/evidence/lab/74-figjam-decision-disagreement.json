@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"4:2\",\"4:3\",\"4:4\",\"4:5\",\"4:6\",\"4:7\",\"4:8\",\"4:9\",\"4:10\",\"4:11\"],\"cards\":[{\"kind\":\"decision\",\"zoneId\":\"4:2\",\"bodyId\":\"4:5\",\"linkId\":\"4:6\",\"height\":506,\"link\":{\"type\":\"URL\",\"value\":\"https://github.com/taitgoodwin-gmail/design-knowledge-base/tree/dd81a55a646080b0a3c60b497601dbbfd61685b6/tools/figma/exercises/handoff\"}},{\"kind\":\"disagreement\",\"zoneId\":\"4:7\",\"bodyId\":\"4:10\",\"linkId\":\"4:11\",\"height\":506,\"link\":{\"type\":\"URL\",\"value\":\"https://help.figma.com/hc/en-us/articles/360039818874-Smart-animate-layers-between-frames\"}}]}"
+    }
+  ],
+  "isError": false
+}

@@ -14,6 +14,7 @@ def search(query,limit=8):
   if len(found)!=len(terms):continue
   score=sum(3+min(low.count(t),10)+8*(t in title.lower())+10*(t in rel.lower()) for t in found)
   score+=15*(query.lower() in title.lower())
+  score-=40*rel.startswith('tools/figma/reference-index/')
   matching=[l.strip() for l in text.splitlines() if any(t in l.lower() for t in terms) and l.strip()]
   out.append({'path':rel,'title':title,'score':score,'excerpt':' '.join(matching[:3])[:500]})
  return sorted(out,key=lambda r:(-r['score'],r['path']))[:limit]

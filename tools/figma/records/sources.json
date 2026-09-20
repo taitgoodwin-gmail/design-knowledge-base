@@ -209,7 +209,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Agent in design files versus Make; does not establish output quality.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled",
+    "evidence": "evidence/lab/ai-automation.md"
   },
   {
     "id": "S24",
@@ -218,7 +219,8 @@
     "checked": "2026-09-20",
     "review_status": "sections-reviewed",
     "scope": "Costs vary by action/model/context; check current entitlement before usage.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled",
+    "evidence": "evidence/lab/ai-automation.md"
   },
   {
     "id": "S25",
@@ -306,9 +308,10 @@
     "title": "Slides live interactions",
     "url": "https://help.figma.com/hc/en-us/articles/24246820870807-Add-live-interactions-to-slides",
     "checked": "2026-09-20",
-    "review_status": "excerpt-reviewed",
-    "scope": "Live interactions require presentation rather than editor mode.",
-    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled"
+    "review_status": "sections-reviewed",
+    "scope": "Editor versus presentation interaction, login/access requirements and result retention; E15 one synthetic self-vote",
+    "method": "Official documentation via web tool; selected article sections or indexed excerpts, as labeled",
+    "evidence": "evidence/lab/slides-review.md"
   },
   {
     "id": "S35",
@@ -402,5 +405,75 @@
     "review_status": "sections-reviewed",
     "scope": "BACK navigation and NODE transition/reset options; E08 acceptance and self-target rejection observed separately",
     "method": "Current official documentation and installed API typings; actual MCP/browser exercise"
+  },
+  {
+    "id": "S45",
+    "title": "Presenter notes and viewer access",
+    "url": "https://help.figma.com/hc/en-us/articles/24245848829847-Add-and-view-presenter-notes",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Notes authoring, presenter/audience views and can-view access to presenter view; E15 bounded test",
+    "method": "Official documentation via web plus live editor/presenter/audience views",
+    "evidence": "evidence/lab/slides-review.md"
+  },
+  {
+    "id": "S46",
+    "title": "Sites property inheritance",
+    "url": "https://help.figma.com/hc/en-us/articles/31242788601879-Add-select-and-edit-objects-across-multiple-breakpoints",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Primary changes propagate by property unless secondary value overridden; reset and secondary-layer restrictions.",
+    "method": "Current official documentation via web; product execution remains separately pending",
+    "evidence": "evidence/lab/product-access-and-readiness.md"
+  },
+  {
+    "id": "S47",
+    "title": "Weave prompt variables",
+    "url": "https://help.weavy.ai/en/articles/14047674-prompt-variables",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Prompt nodes accept connected text variables; references can be reused without reconnecting.",
+    "method": "Current official documentation via web; product execution remains separately pending",
+    "evidence": "evidence/lab/product-access-and-readiness.md"
+  },
+  {
+    "id": "S48",
+    "title": "Weave tools and versions",
+    "url": "https://help.weavy.ai/en/articles/12267755-tools",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Output node enables tool creation; exposed inputs and locks; tool sharing distinct from workflow; immutable past tool versions.",
+    "method": "Current official documentation via web; product execution remains separately pending",
+    "evidence": "evidence/lab/product-access-and-readiness.md"
+  },
+  {
+    "id": "S49",
+    "title": "Weave workflow version history",
+    "url": "https://help.weavy.ai/en/articles/16110597-version-history",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Saved workflow versions can be restored or duplicated; neither was exercised.",
+    "method": "Current official documentation via web; product execution remains separately pending",
+    "evidence": "evidence/lab/product-access-and-readiness.md"
+  },
+  {
+    "id": "S50",
+    "title": "Weave MCP workflow and limits",
+    "url": "https://help.weavy.ai/en/articles/16202764-running-weave-tools-from-external-agents-mcp",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Linked Figma account and active workspace required; list/inspect/run/poll/cancel; Weave credits; no workflow creation/editing through MCP.",
+    "method": "Current official documentation via web; product execution remains separately pending",
+    "evidence": "evidence/lab/product-access-and-readiness.md"
+  },
+  {
+    "id": "S51",
+    "title": "Weave Figma node synchronization",
+    "url": "https://help.weavy.ai/en/articles/16440592-figma-node",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Connected Weave changes push automatically to Figma; Figma edits require Update to pull. Text/image layer mapping requires edit access.",
+    "method": "Current official documentation via web; product execution remains separately pending",
+    "evidence": "evidence/lab/product-access-and-readiness.md"
   }
 ]

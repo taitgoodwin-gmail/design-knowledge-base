@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"5:2\",\"5:3\",\"5:4\",\"5:5\",\"5:6\",\"5:7\",\"5:8\",\"5:9\",\"5:10\",\"5:11\"],\"cards\":[{\"kind\":\"test\",\"zoneId\":\"5:2\",\"bodyId\":\"5:5\",\"linkId\":\"5:6\",\"height\":506,\"link\":{\"type\":\"URL\",\"value\":\"https://github.com/taitgoodwin-gmail/design-knowledge-base/blob/dd81a55a646080b0a3c60b497601dbbfd61685b6/tools/figma/evidence/lab/e12-browser-observations.json\"}},{\"kind\":\"revisit\",\"zoneId\":\"5:7\",\"bodyId\":\"5:10\",\"linkId\":\"5:11\",\"height\":542,\"link\":{\"type\":\"URL\",\"value\":\"https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/\"}}]}"
+    }
+  ],
+  "isError": false
+}

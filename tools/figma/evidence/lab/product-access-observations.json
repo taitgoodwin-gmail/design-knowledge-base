@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-20",
+  "sites": {
+    "file_key": "nXUpdS6kEV7nv9FwC2qZES",
+    "status": "pending-terms-confirmation",
+    "get_started_selected": false,
+    "terms": [
+      "https://www.figma.com/product-specific-terms/",
+      "https://www.figma.com/legal/aup/"
+    ]
+  },
+  "buzz": {
+    "file_key": "4XVJZX8jKUvLYkNm44KeSJ",
+    "status": "pending-terms-confirmation",
+    "get_started_selected": false,
+    "terms": [
+      "https://www.figma.com/product-specific-terms/"
+    ]
+  },
+  "weave": {
+    "status": "pending-account-link",
+    "tool": "weave_list_tools",
+    "response_record": "85-weave-access.json",
+    "runs_started": 0
+  },
+  "policy_basis": "Chrome control requires confirmation at action time before accepting legally binding terms; Weave connector reports missing account link",
+  "questions_sent": true,
+  "user_answer_received": false
+}

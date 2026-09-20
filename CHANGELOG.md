@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.3.0 — 2026-09-20
+
+- Verified E11 selected-frame AI rewriting, preserved native layer/style checks, and recorded actual beta credit usage.
+- Verified E15 native Slides poll and presenter/audience notes; retained popout and screenshot limitations and corrected the confidentiality interpretation of notes.
+- Completed E17 FigJam evidence/assumption/decision board with source recovery and a disagreement path.
+- Expanded public Help discovery to 887 articles across 14 categories, with reproducible pagination/hash records and readable title indexes. Retrieval remains separate from review.
+- Deepened Weave and Sites source notes; selected register now 51 records and source catalog 619 exact URLs.
+- Three exercises remain pending: Sites/Buzz require current terms acceptance; Weave requires account linking. Prepared procedures and actual prerequisites are retained.
+
 ## 2.2.0 — 2026-09-20
 
 - Verified E08 disclosure, error recovery, Back and presentation restart in Chrome; preserved the self-navigation rejection, naming comparison and reset limitations.

@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-20",
+  "file_key": "sSMlagZLamtpFKG3zwYABm",
+  "board_id": "2:2",
+  "method": "Chrome live board visual inspection and native hyperlink control",
+  "render_inspected": true,
+  "categories_readable": 6,
+  "source_recovery": {
+    "node_id": "5:11",
+    "field_value": "https://www.w3.org/WAI/ARIA/apg/patterns/disclosure/",
+    "opened_destination": false
+  },
+  "limitations": [
+    "No independent reader study",
+    "No collaboration or screen-reader audit",
+    "Other five hyperlinks verified by API readback, not browser clicks"
+  ],
+  "notion_modified": false
+}

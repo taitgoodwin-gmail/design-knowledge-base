@@ -23,3 +23,7 @@ The state ledger is [saved with evidence](../../evidence/lab/component-state-led
 E08 run order: create-prototype → add-controls → clone-states → wire-navigation-corrected → back-restart → slow matching comparison in presentation → rename-layer → unmatched comparison → restore-final-timing → clarify-reset. `e08-wire-navigation.js` preserves the rejected self-navigation attempt and must not be treated as a supported recipe. Inspect the saved response IDs and follow [the browser procedure and caveats](../../evidence/lab/prototype-and-handoff.md); do not rerun create scripts over the existing page.
 
 E12 is a separate [local browser fixture](../handoff/README.md), adapted from design context responses 67–69. Its README records token/state/keyboard mapping and the intentional differences from Figma.
+
+## AI, Slides and FigJam wave
+
+E11 setup makes an isolated copy, then the exact native-agent prompt and credit inspection are in [AI evidence](../../evidence/lab/ai-automation.md). E15's script builds three slides and notes; native poll insertion/positioning and view checks are recorded in [Slides evidence](../../evidence/lab/slides-review.md). E17 uses wrapper → observation/assumption → decision/disagreement → test/revisit → reflow → connect; inspect the [decision-board evidence](../../evidence/lab/figjam-decision-board.md). Use new file IDs for Slides/FigJam construction and load their editor-specific skills.

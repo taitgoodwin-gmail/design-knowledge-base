@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-09-20",
+  "file_key": "UgtCQvjyZpBQVOxhZAK4sk",
+  "page_id": "74:8",
+  "frame_id": "74:9",
+  "prompt": "E11 acceptance test. Edit only selected frame \"E11 / AI-scoped evidence card\" on page \"LAB / AI scope test / 2026-09-20\". Rewrite Question to at most 12 words and Answer to at most 35 words. Preserve: a citation is not a guarantee; inspect the original source, its date and context; distinguish evidence from interpretation and disclose uncertainty. Keep native editable text, 320px width, vertical auto layout, colors, typography, padding, button, disclosure disclaimer and following content. Let height hug the shorter content. Touch no other frames/pages; add no claims/components; do not publish or use outside sources. List exactly what changed.",
+  "selected_context_verified": true,
+  "ui_duration_seconds": 51,
+  "credit_balance_before": 3000,
+  "seat_credit_reset_label": "Oct 20",
+  "actual_prompt_credits": 0,
+  "cost_context": "UI said 0 while in beta; displayed post-beta usage 26 credits. Not a future pricing guarantee.",
+  "displayed_post_beta_credits": 26,
+  "agent_report": {
+    "question_words": 10,
+    "answer_words": 22,
+    "height_before": 640,
+    "height_after": 496
+  },
+  "visual_result": "Readable native text, unchanged source button/disclaimer/following content; no clipping seen",
+  "limitations": [
+    "One short rewrite in the current beta; not general generation quality",
+    "Original-page comparison is top-level IDs/geometry and the source frame, not every byte in the file",
+    "No independent full accessibility or conversion test"
+  ]
+}

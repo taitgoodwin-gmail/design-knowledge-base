@@ -18,3 +18,7 @@ Sources: [S31: Buzz overview](https://help.figma.com/hc/en-us/articles/312715666
 ## Practice and acceptance
 
 Run E15,E16,E17 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Recorded hands-on scope
+
+[E17 FigJam decision board](../evidence/lab/figjam-decision-board.md) now has six source-linked categories and a disagreement/revisit path. [E15 Slides fixture](../evidence/lab/slides-review.md) verifies a native poll and notes across three views, with popout-navigation/export limits. Buzz remains unrun. Notes are hidden in the audience surface, but [can-view users can open presenter view](https://help.figma.com/hc/en-us/articles/24245848829847-Add-and-view-presenter-notes); do not use notes as a confidentiality boundary.

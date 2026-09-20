@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"3:2\",\"3:3\",\"3:4\",\"3:5\",\"3:6\",\"3:7\",\"3:8\",\"3:9\",\"3:10\",\"3:11\"],\"cards\":[{\"kind\":\"observation\",\"zoneId\":\"3:2\",\"bodyId\":\"3:5\",\"linkId\":\"3:6\",\"height\":480,\"link\":{\"type\":\"URL\",\"value\":\"https://github.com/taitgoodwin-gmail/design-knowledge-base/blob/dd81a55a646080b0a3c60b497601dbbfd61685b6/tools/figma/evidence/lab/prototype-and-handoff.md\"}},{\"kind\":\"assumption\",\"zoneId\":\"3:7\",\"bodyId\":\"3:10\",\"linkId\":\"3:11\",\"height\":506,\"link\":{\"type\":\"URL\",\"value\":\"https://github.com/taitgoodwin-gmail/design-knowledge-base/blob/dd81a55a646080b0a3c60b497601dbbfd61685b6/governance/official-source-build-practice.md\"}}]}"
+    }
+  ],
+  "isError": false
+}

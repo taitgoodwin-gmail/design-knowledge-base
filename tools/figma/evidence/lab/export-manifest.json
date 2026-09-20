@@ -56,6 +56,14 @@
     "e12-default-reference.png": {
       "bytes": 12821,
       "sha256": "d2b89e82fbf9592993fcc280b8fc15b054371d2e29676f202391eed59fe8d783"
+    },
+    "e17-decision-board.png": {
+      "bytes": 238672,
+      "sha256": "0f3b4d5a0557ebf3962e744f9a5d55a081cbda597f3ef30db18376fb34793741"
+    },
+    "e11-ai-edited.png": {
+      "bytes": 32986,
+      "sha256": "8c884a2b93f71acc5b8a64fba31fcb6f3728f0d36d3c42f534419b51ff98751a"
     }
   }
 }

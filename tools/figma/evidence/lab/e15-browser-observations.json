@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-09-20",
+  "file_key": "8O9jPYugwpM8pt4OEJRi40",
+  "slide_ids": [
+    "3:2",
+    "3:10",
+    "3:18"
+  ],
+  "poll_node_id": "4:6",
+  "method": "Live Chrome editor, presenter and audience views under the same authenticated account",
+  "editor": {
+    "notes_visible": true,
+    "poll_question": "Practice vote: next evidence check?",
+    "choices": [
+      "Assistive technology",
+      "Real-user source finding"
+    ],
+    "poll_fields_editable": true,
+    "vote_controls_available": false,
+    "retained_practice_vote": "Assistive technology 100%; You voted"
+  },
+  "presenter": {
+    "notes_marker_visible": true,
+    "vote_synchronized": true,
+    "previous_without_popout": "3:18 -> 3:10",
+    "restart_without_popout": "3:10 -> 3:2"
+  },
+  "audience": {
+    "notes_marker_visible": false,
+    "poll_vote_available": true,
+    "voted_for": "Assistive technology",
+    "result": "100%; You voted",
+    "visual_inspection": "Poll legible in clear right column; no note block in audience screenshot"
+  },
+  "limitations": [
+    "One synthetic self-vote, not stakeholder research or multi-account collaboration",
+    "Initial audience popout was blocked; explicit Open audience view click succeeded without changing browser settings",
+    "Presenter Previous briefly changed URL then reverted while the audience popout was open; navigation passed after closing it. Cross-window synchronization is not certified",
+    "MCP slide PNG omitted the native poll; live audience screenshot was inspected separately",
+    "Can-view users may open presenter view per official docs; notes are not a confidentiality boundary",
+    "No screen-reader or full accessibility audit"
+  ]
+}

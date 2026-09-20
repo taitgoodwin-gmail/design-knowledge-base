@@ -145,8 +145,39 @@ font_dir = ROOT / 'tools/figma/exercises/handoff/assets'
 font_record = json.loads((font_dir / 'provenance.json').read_text())
 font_bytes = (font_dir / 'Inter-Regular.woff2').read_bytes()
 assert len(font_bytes) == font_record['bytes'] and hashlib.sha256(font_bytes).hexdigest() == font_record['font_sha256']
+figjam = result('79-figjam-final-audit.json')
+assert figjam['editorType'] == 'figjam' and figjam['nodeCount'] == 40
+assert not figjam['issues'] and not figjam['missingFonts']
+assert [h['text'].split(' / ')[1] for h in figjam['headings']] == ['Observation', 'Assumption', 'Decision', 'Disagreement', 'Test', 'Revisit']
+assert len(figjam['links']) == 6 and figjam['connectorCount'] == 7
+for item in figjam['links']:
+    assert item['hyperlink']['type'] == 'URL' and item['hyperlink']['value'].startswith('https://')
+    if 'github.com/' in item['hyperlink']['value']:
+        suffix = item['hyperlink']['value'].split('dd81a55a646080b0a3c60b497601dbbfd61685b6/')[1]
+        assert (ROOT / suffix).exists()
+recovery = json.loads((LAB / 'e17-browser-observations.json').read_text())
+assert recovery['source_recovery']['field_value'] == figjam['links'][-1]['hyperlink']['value']
+slides = result('84-slides-final-audit.json')
+assert slides['editorType'] == 'slides' and len(slides['slides']) == 3 and not slides['issues']
+assert all(s['speakerNotes'].startswith('- E15-NOTE-ONLY:') and not s['missingFonts'] for s in slides['slides'])
+polls = [n for s in slides['slides'] for n in s['nodes'] if n.get('interactiveType') == 'POLL']
+assert len(polls) == 1 and polls[0]['x'] == 1050 and polls[0]['y'] == 300
+slide_views = json.loads((LAB / 'e15-browser-observations.json').read_text())
+assert slide_views['presenter']['notes_marker_visible'] and not slide_views['audience']['notes_marker_visible']
+assert slide_views['audience']['result'] == '100%; You voted' and slide_views['limitations']
+ai_before = result('86-ai-fixture-before.json')
+ai_after = result('87-ai-fixture-after.json')
+ai_check = result('88-ai-style-scope-check.json')
+assert [n['id'] for n in ai_before['descendants']] == [n['id'] for n in ai_after['descendants']]
+assert ai_after['frame']['width'] == 320 and ai_after['frame']['height'] == 496
+assert ai_after['descendants'][0]['words'] <= 12 and ai_after['descendants'][1]['words'] <= 35
+assert [(n['name'],n.get('text')) for n in ai_before['descendants'][2:]] == [(n['name'],n.get('text')) for n in ai_after['descendants'][2:]]
+assert not ai_check['stylingDifferencesFromSource'] and not ai_check['layoutIssues']
+assert [{k:n[k] for k in keys} for n in original] == [{k:n[k] for k in keys} for n in ai_check['originalPage']]
+ai_browser = json.loads((LAB / 'e11-browser-observations.json').read_text())
+assert ai_browser['actual_prompt_credits'] == 0 and ai_browser['displayed_post_beta_credits'] == 26
 manifest = json.loads((LAB / 'export-manifest.json').read_text())
 for name, expected in manifest['files'].items():
     blob = (LAB / name).read_bytes()
     assert len(blob) == expected['bytes'] and hashlib.sha256(blob).hexdigest() == expected['sha256'], name
-print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'component_roots_checked': len(audit['records']), 'slot_state_switches': len(slot_cases), 'boolean_binding_routes': 2, 'contrast_pairs': len(contrast['pairs']), 'prototype_frames': len(prototype['records']), 'handoff_width_cases': len(handoff['width_cases']), 'handoff_keyboard_cases': len(handoff['keyboard']), 'original_top_level_nodes_preserved': len(original), 'passed': True}, indent=2))
+print(json.dumps({'scope': 'saved observations only; no live Figma or browser rerun', 'card_cases': card_count, 'layout_cases': len(grids), 'font_width_cases': len(fonts), 'guide_control_cases': len(control), 'expected_tool_rejection_preserved': True, 'motion_track_edit_verified': True, 'static_alternative_children': len(static), 'editable_vector_nodes': len(vector['sourceVectors']), 'native_video_bytes': len(video), 'browser_sample_observations': len(observed['samples']), 'component_roots_checked': len(audit['records']), 'slot_state_switches': len(slot_cases), 'boolean_binding_routes': 2, 'contrast_pairs': len(contrast['pairs']), 'ai_native_descendants': len(ai_after['descendants']), 'ai_prompt_credits_observed': ai_browser['actual_prompt_credits'], 'slides_views_checked': 3, 'slides_native_polls': len(polls), 'figjam_source_links': len(figjam['links']), 'figjam_connectors': figjam['connectorCount'], 'prototype_frames': len(prototype['records']), 'handoff_width_cases': len(handoff['width_cases']), 'handoff_keyboard_cases': len(handoff['keyboard']), 'original_top_level_nodes_preserved': len(original), 'passed': True}, indent=2))

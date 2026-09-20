@@ -88,7 +88,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Correct scope, usable editability, no unsupported claims; record failures and costs.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/ai-automation.md)
 
 ## E12: Handoff fixture
 
@@ -104,7 +104,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Cascades and overrides are understood; no unrequested publishing.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** pending-terms-confirmation. [Observed prerequisite and prepared check](../evidence/lab/product-access-and-readiness.md)
 
 ## E14: Weave repeatable workflow
 
@@ -112,7 +112,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Can reproduce process and account for output variation; assess fidelity and usage.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** pending-account-link. [Observed prerequisite and prepared check](../evidence/lab/product-access-and-readiness.md)
 
 ## E15: Slides presentation behavior
 
@@ -120,7 +120,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Interaction works in intended view; notes are exposed only where intended.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** passed-fixture with recorded popout limitation. [Evidence](../evidence/lab/slides-review.md)
 
 ## E16: Buzz bulk fixture
 
@@ -128,7 +128,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** Expected asset count, field mapping and exception handling; inspect every generated asset.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** pending-terms-confirmation. [Observed prerequisite and prepared check](../evidence/lab/product-access-and-readiness.md)
 
 ## E17: FigJam decision record
 
@@ -136,7 +136,7 @@ These are our acceptance exercises, not claims that Figma prescribes these exact
 
 **Acceptance:** A reader can distinguish evidence from interpretation and recover the source.
 
-**Result:** not-run. No execution evidence recorded.
+**Result:** passed-fixture. [Evidence](../evidence/lab/figjam-decision-board.md)
 
 ## E18: Knowledge refresh
 

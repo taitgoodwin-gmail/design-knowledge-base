@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"pageId\":\"74:8\",\"frameId\":\"74:9\",\"width\":320,\"height\":640,\"descendants\":[{\"id\":\"74:10\",\"type\":\"TEXT\",\"name\":\"Question\",\"text\":\"How can a team tell whether a generated answer is supported by a reliable, relevant and current source?\",\"x\":24,\"y\":24,\"width\":272,\"height\":180},{\"id\":\"74:11\",\"type\":\"TEXT\",\"name\":\"Answer\",\"text\":\"A citation is a starting point, not a guarantee. Open the original material, check the publication date, compare the quoted claim with its context, and record what the evidence supports. A useful answer should also disclose uncertainty and distinguish an observation from an interpretation.\",\"x\":24,\"y\":220,\"width\":272,\"height\":216},{\"id\":\"74:12\",\"type\":\"FRAME\",\"name\":\"Source button\",\"x\":24,\"y\":452,\"width\":272,\"height\":48},{\"id\":\"74:13\",\"type\":\"TEXT\",\"name\":\"Source label\",\"text\":\"Read source\",\"x\":16,\"y\":12,\"width\":240,\"height\":24},{\"id\":\"74:14\",\"type\":\"TEXT\",\"name\":\"Disclosure\",\"text\":\"This is an illustrative lab fixture. It is not a live AI answer or evidence of search performance.\",\"x\":24,\"y\":516,\"width\":272,\"height\":63},{\"id\":\"74:15\",\"type\":\"TEXT\",\"name\":\"Following content\",\"text\":\"Next: compare the evidence.\",\"x\":24,\"y\":595,\"width\":272,\"height\":21}],\"selection\":[\"74:9\"]}"
+    }
+  ],
+  "isError": false
+}

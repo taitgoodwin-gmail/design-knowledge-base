@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"5:12\",\"5:16\",\"5:20\",\"5:24\",\"5:28\",\"5:32\",\"5:36\"],\"relations\":[{\"id\":\"5:12\",\"start\":{\"endpointNodeId\":\"3:2\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"3:7\",\"magnet\":\"CENTER\"},\"label\":\"suggests\"},{\"id\":\"5:16\",\"start\":{\"endpointNodeId\":\"3:7\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"4:2\",\"magnet\":\"CENTER\"},\"label\":\"informs\"},{\"id\":\"5:20\",\"start\":{\"endpointNodeId\":\"3:2\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"4:7\",\"magnet\":\"CENTER\"},\"label\":\"challenge\"},{\"id\":\"5:24\",\"start\":{\"endpointNodeId\":\"3:7\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"5:2\",\"magnet\":\"CENTER\"},\"label\":\"test\"},{\"id\":\"5:28\",\"start\":{\"endpointNodeId\":\"4:7\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"5:2\",\"magnet\":\"CENTER\"},\"label\":\"resolve with\"},{\"id\":\"5:32\",\"start\":{\"endpointNodeId\":\"5:2\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"5:7\",\"magnet\":\"CENTER\"},\"label\":\"record result\"},{\"id\":\"5:36\",\"start\":{\"endpointNodeId\":\"5:7\",\"magnet\":\"CENTER\"},\"end\":{\"endpointNodeId\":\"4:2\",\"magnet\":\"CENTER\"},\"label\":\"reconsider\"}]}"
+    }
+  ],
+  "isError": false
+}

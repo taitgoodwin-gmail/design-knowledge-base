@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"fixtureId\":\"74:9\",\"stylingDifferencesFromSource\":[],\"layoutIssues\":[],\"originalPage\":[{\"id\":\"2:129\",\"name\":\"01 / Homepage / Desktop\",\"x\":200,\"y\":200,\"width\":1440,\"height\":2834},{\"id\":\"2:130\",\"name\":\"02 / Homepage / Mobile\",\"x\":1760,\"y\":200,\"width\":390,\"height\":100},{\"id\":\"4:8\",\"name\":\"Main Content (MindLeverX — Reimagined concept)\",\"x\":2190,\"y\":200,\"width\":390,\"height\":4463.875},{\"id\":\"5:8\",\"name\":\"Container (MindLeverX — Reimagined concept)\",\"x\":2620,\"y\":200,\"width\":1440,\"height\":624.2890625},{\"id\":\"9:20\",\"name\":\"mindleverx-dark-editorial\",\"x\":4100,\"y\":200,\"width\":390,\"height\":3400},{\"id\":\"9:63\",\"name\":\"mindleverx-bright-playful\",\"x\":4530,\"y\":200,\"width\":390,\"height\":3400},{\"id\":\"9:115\",\"name\":\"mindleverx-muted-minimal\",\"x\":4960,\"y\":200,\"width\":390,\"height\":3400},{\"id\":\"15:710\",\"name\":\"LIVE SITE / 01 Home / desktop + mobile / 2026-09-20\",\"x\":12000,\"y\":0,\"width\":2130,\"height\":10794.8095703125},{\"id\":\"15:1505\",\"name\":\"mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 2:22:12 GMT-4\",\"x\":12345.5859375,\"y\":5911.5283203125,\"width\":2130,\"height\":10794.8095703125}],\"scope\":\"Fixture/source comparison and original top-level IDs/geometry only, not a byte-level entire-file comparison\"}"
+    }
+  ],
+  "isError": false
+}

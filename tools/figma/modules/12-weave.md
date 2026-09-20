@@ -18,3 +18,9 @@ Sources: [S29: Weave knowledge center](https://help.weavy.ai/en/), [S30: Weave e
 ## Practice and acceptance
 
 Run E14 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Deeper source review and actual access
+
+The [prepared workflow record](../evidence/lab/product-access-and-readiness.md) now covers prompt variables, published tools versus workflows, history, MCP and the Figma node. Current MCP supports tool discovery/input inspection/running/status/cancellation, not workflow creation or editing. Runs consume Weave credits, separate from Figma AI credits. The actual connector returned **account not linked**; no generation was performed.
+
+After a Figma node is connected, changes from Weave push automatically to Figma. Direct Figma edits require Update in Weave to pull them back. Treat that directionality as part of the workflow, not a claim of automatic two-way sync. Sources S47–S51, checked 20 September 2026.

@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"mutatedNodeIds\":[\"3:2\",\"3:7\",\"4:2\",\"4:7\",\"5:2\",\"5:7\",\"2:2\"],\"topHeight\":512,\"bottomHeight\":544,\"board\":{\"width\":2200,\"height\":1664}}"
+    }
+  ],
+  "isError": false
+}

@@ -10211,6 +10211,111 @@
           "evidence": "tools/figma/evidence/lab/prototype-and-handoff.md"
         }
       ]
+    },
+    {
+      "id": "REF-68b469637faa",
+      "title": "Presenter notes and viewer access",
+      "url": "https://help.figma.com/hc/en-us/articles/24245848829847-Add-and-view-presenter-notes",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S45",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Notes authoring, presenter/audience views and can-view access to presenter view; E15 bounded test",
+          "evidence": "tools/figma/evidence/lab/slides-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-15dc51d4ccf4",
+      "title": "Sites property inheritance",
+      "url": "https://help.figma.com/hc/en-us/articles/31242788601879-Add-select-and-edit-objects-across-multiple-breakpoints",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S46",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Primary changes propagate by property unless secondary value overridden; reset and secondary-layer restrictions.",
+          "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-d68a0066f7f7",
+      "title": "Weave prompt variables",
+      "url": "https://help.weavy.ai/en/articles/14047674-prompt-variables",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S47",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Prompt nodes accept connected text variables; references can be reused without reconnecting.",
+          "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-268f0e2dfa7f",
+      "title": "Weave tools and versions",
+      "url": "https://help.weavy.ai/en/articles/12267755-tools",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S48",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Output node enables tool creation; exposed inputs and locks; tool sharing distinct from workflow; immutable past tool versions.",
+          "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-944075228b60",
+      "title": "Weave workflow version history",
+      "url": "https://help.weavy.ai/en/articles/16110597-version-history",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S49",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Saved workflow versions can be restored or duplicated; neither was exercised.",
+          "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-c2088f5f1417",
+      "title": "Weave MCP workflow and limits",
+      "url": "https://help.weavy.ai/en/articles/16202764-running-weave-tools-from-external-agents-mcp",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S50",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Linked Figma account and active workspace required; list/inspect/run/poll/cancel; Weave credits; no workflow creation/editing through MCP.",
+          "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-5721f95245b0",
+      "title": "Weave Figma node synchronization",
+      "url": "https://help.weavy.ai/en/articles/16440592-figma-node",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S51",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Connected Weave changes push automatically to Figma; Figma edits require Update to pull. Text/image layer mapping requires edit access.",
+          "evidence": "tools/figma/evidence/lab/product-access-and-readiness.md"
+        }
+      ]
     }
   ],
   "updated_at": "2026-09-20"

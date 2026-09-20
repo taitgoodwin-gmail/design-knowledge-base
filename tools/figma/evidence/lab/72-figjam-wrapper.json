@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"createdNodeIds\":[\"2:2\",\"2:3\",\"2:4\"],\"boardId\":\"2:2\",\"editorType\":\"figjam\",\"children\":[{\"id\":\"2:3\",\"name\":\"Board title\",\"x\":80,\"y\":64,\"width\":2000,\"height\":77},{\"id\":\"2:4\",\"name\":\"Board instructions\",\"x\":80,\"y\":168,\"width\":1800,\"height\":68}]}"
+    }
+  ],
+  "isError": false
+}

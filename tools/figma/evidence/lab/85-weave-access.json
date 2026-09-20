@@ -1,0 +1,9 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "You haven't linked your Figma account to Weave yet. Open https://app.weavy.ai/settings?section=profile, sign in to Weave, go to your profile settings and link your Figma account, then try again."
+    }
+  ],
+  "isError": false
+}

@@ -19,3 +19,7 @@ Sources: [S23: Figma agent](https://help.figma.com/hc/en-us/articles/37998629035
 ## Practice and acceptance
 
 Run E11 in the [exercise suite](../exercises/README.md). Record actual results before marking a capability practiced or verified.
+
+## Recorded fixture
+
+[E11 selected-frame rewrite](../evidence/lab/ai-automation.md) passed its word limits and structure/style checks. Current UI reported 0 credits during beta, with 26 displayed for after beta. This is a dated observation, not a lasting price or a claim about arbitrary generation quality.

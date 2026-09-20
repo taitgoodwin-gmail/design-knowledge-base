@@ -1,0 +1,256 @@
+{
+  "checked_at": "2026-09-20",
+  "artifact": "projects/mindleverx/previews/motion-color-lab.html",
+  "sha256": "3228a257deb36f0221770ce951bd65185ac7dd1d5f58e24f8d9c7300b279a823",
+  "browser": "Chrome via connected extension",
+  "layout_checks": [
+    {
+      "width": 320,
+      "direction": "observatory",
+      "scroll_width": 320,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 320,
+      "direction": "human",
+      "scroll_width": 320,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 320,
+      "direction": "proof",
+      "scroll_width": 320,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 390,
+      "direction": "observatory",
+      "scroll_width": 390,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 390,
+      "direction": "human",
+      "scroll_width": 390,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 390,
+      "direction": "proof",
+      "scroll_width": 390,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 1440,
+      "direction": "observatory",
+      "scroll_width": 1440,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 1440,
+      "direction": "human",
+      "scroll_width": 1440,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    },
+    {
+      "width": 1440,
+      "direction": "proof",
+      "scroll_width": 1440,
+      "one_selected_direction": true,
+      "minimum_button_height_px": 44.796875,
+      "static_on_selection": true
+    }
+  ],
+  "behavior_checks": {
+    "initial_static": true,
+    "replay_one_sequence": true,
+    "keyboard_enter_replay": true,
+    "playing_path_offset_observed": "0.893886px",
+    "completed_path_offset": "0px",
+    "completed_state": "Complete. All evidence remains visible.",
+    "stop_restores_static": true,
+    "manual_reduced_motion": true,
+    "os_reduced_motion_emulated": true,
+    "os_reduce_with_manual_unchecked": "No running class, animation-name none, complete static connection",
+    "summary_space_open_close": true,
+    "temporary_emulation_and_viewport_reset": true
+  },
+  "visual_checks": [
+    "Signal Observatory desktop opening",
+    "Human Current 390px opening and controls",
+    "Proof Studio 1440px hero, evidence diagram and visible keyboard focus"
+  ],
+  "contrast_checks": [
+    {
+      "theme": "observatory",
+      "foreground": "f4f6ff",
+      "background": "07132b",
+      "ratio": 17.13,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "observatory",
+      "foreground": "f4f6ff",
+      "background": "10213d",
+      "ratio": 14.9,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "observatory",
+      "foreground": "f4f6ff",
+      "background": "1a3e84",
+      "ratio": 9.42,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "observatory",
+      "foreground": "c0cbe1",
+      "background": "07132b",
+      "ratio": 11.32,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "observatory",
+      "foreground": "c0cbe1",
+      "background": "10213d",
+      "ratio": 9.85,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "observatory",
+      "foreground": "c0cbe1",
+      "background": "1a3e84",
+      "ratio": 6.23,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "observatory",
+      "foreground": "ffffff",
+      "background": "3658df",
+      "ratio": 5.8,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "20322e",
+      "background": "f5f2e9",
+      "ratio": 12.05,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "20322e",
+      "background": "fffdf8",
+      "ratio": 13.27,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "20322e",
+      "background": "d7e7d5",
+      "ratio": 10.46,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "4a5d54",
+      "background": "f5f2e9",
+      "ratio": 6.28,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "4a5d54",
+      "background": "fffdf8",
+      "ratio": 6.92,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "4a5d54",
+      "background": "d7e7d5",
+      "ratio": 5.45,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "human",
+      "foreground": "ffffff",
+      "background": "315c49",
+      "ratio": 7.62,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "171b33",
+      "background": "f1f2f6",
+      "ratio": 15.13,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "171b33",
+      "background": "ffffff",
+      "ratio": 16.92,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "171b33",
+      "background": "d8e3ff",
+      "ratio": 13.18,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "505971",
+      "background": "f1f2f6",
+      "ratio": 6.24,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "505971",
+      "background": "ffffff",
+      "ratio": 6.98,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "505971",
+      "background": "d8e3ff",
+      "ratio": 5.44,
+      "normal_text_4_5": true
+    },
+    {
+      "theme": "proof",
+      "foreground": "ffffff",
+      "background": "163ac7",
+      "ratio": 8.52,
+      "normal_text_4_5": true
+    }
+  ],
+  "contrast_scope": "Authored opaque foreground/background and gradient endpoint token pairs. Does not establish full conformance, all blended pixels or operating-system rendering.",
+  "limitations": [
+    "No screen-reader, other browser or representative-user study",
+    "No real AI backend or performance/conversion claim",
+    "Native Figma animation is a separate artifact; this is standalone web behavior",
+    "Automation role lookup for summary failed; actual Space operation succeeded using its visible text locator"
+  ],
+  "source_review": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+}

@@ -10,3 +10,5 @@
 - [Concept preview](previews/mindleverx-directions.html): open locally; three directions checked in Chrome at desktop and 390px, with disclosure toggling. [Review evidence](browser-review-2026-09-20.json).
 
 This folder contains research/case-study material. Active build truth and code belong in the [MindLeverX product repository](https://github.com/taitgoodwin-gmail/MindLeverX). Do not turn these dated findings into a second active backlog or assume imported site frames cover every route/state.
+
+[Complete seven-route Figma baseline inventory](mindleverx-site-inventory.md) · [Motion and color comparison](previews/motion-color-lab.html) · [Prototype verification](motion-color-review-2026-09-20.json).

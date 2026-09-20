@@ -424,6 +424,13 @@
           "status": "sections-reviewed-and-applied",
           "scope": "Text/background threshold and calculation; six opaque lab token pairs checked, not full conformance.",
           "evidence": "tools/figma/evidence/lab/components-and-variables.md"
+        },
+        {
+          "collection": "motion-color-review",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Criteria levels and relevant motion/color requirements; no conformance claim.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -453,6 +460,13 @@
           "status": "linked-in-imported-research",
           "scope": "Inspect original evidence notes for claim scope and retrieval limits; not refreshed during migration.",
           "evidence": "projects/mindleverx/mindleverx-design-rationale.md"
+        },
+        {
+          "collection": "motion-color-review",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Criteria levels and relevant motion/color requirements; no conformance claim.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -3135,6 +3149,13 @@
           "status": "linked-in-imported-research",
           "scope": "Inspect original evidence notes for claim scope and retrieval limits; not refreshed during migration.",
           "evidence": "projects/mindleverx/mindleverx-design-rationale.md"
+        },
+        {
+          "collection": "motion-color-review",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Criteria levels and relevant motion/color requirements; no conformance claim.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -3653,6 +3674,13 @@
           "status": "linked-in-imported-research",
           "scope": "Inspect original evidence notes for claim scope and retrieval limits; not refreshed during migration.",
           "evidence": "projects/mindleverx/mindleverx-design-rationale.md"
+        },
+        {
+          "collection": "motion-color-review",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Criteria levels and relevant motion/color requirements; no conformance claim.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -7854,6 +7882,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma",
+          "original_id": "S68",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Top-level frame export, formats and resolution/frame-rate plan gates.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -8498,6 +8534,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma",
+          "original_id": "S69",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Gradient types, stops and styles; legacy embedded-video caveat.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -9556,6 +9600,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma",
+          "original_id": "S70",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Selected glass, noise, texture, blur and rendering-order sections; not all shadow details.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -9864,6 +9916,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma",
+          "original_id": "S67",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Animated main components and instance timing/property limits.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -9948,6 +10008,14 @@
           "status": "body-retrieved-not-reviewed",
           "scope": "Public English Design category API body and heading retrieval. Not a substantive article review.",
           "evidence": "sources/figma-design-article-inventory.json"
+        },
+        {
+          "collection": "figma",
+          "original_id": "S71",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Color-model notation and profile distinction, from retrieved official Help body.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     },
@@ -10434,6 +10502,126 @@
           "status": "sections-reviewed",
           "scope": "Settings, region navigation, selection and annotation limits; no assistive-technology test.",
           "evidence": "tools/figma/evidence/2026-09-20-make-handoff-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-ff281af2e0d6",
+      "title": "Explore Figma Motion",
+      "url": "https://help.figma.com/hc/en-us/articles/41274629073303-Explore-Figma-Motion",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S60",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Motion access, mode and code handoff; documentation-only for newly reviewed capabilities.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-98776128ba3a",
+      "title": "Quickly add motion with preset animation styles",
+      "url": "https://help.figma.com/hc/en-us/articles/41307886266135-Quickly-add-motion-with-preset-animation-styles",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S61",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Preset start time, duration, composite tracks and editing.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-0b68b8c35799",
+      "title": "Add, select, and delete keyframes",
+      "url": "https://help.figma.com/hc/en-us/articles/41307938657559-Add-select-and-delete-keyframes",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S62",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Property keyframes, auto-key recording, selection and snapping.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-49e6eccf00fa",
+      "title": "Adjust an animation's easing",
+      "url": "https://help.figma.com/hc/en-us/articles/41414048690839-Adjust-an-animation-s-easing",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S63",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Easing choices, curves and springs; Hold behavior requires a dedicated test.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-848efd0ae404",
+      "title": "Move a layer’s anchor point",
+      "url": "https://help.figma.com/hc/en-us/articles/41352588622615-Move-a-layer-s-anchor-point",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S64",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Anchor point, rotation/scale origin and Motion versus Design position coordinates.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-6a073f20d028",
+      "title": "Edit an object's motion path",
+      "url": "https://help.figma.com/hc/en-us/articles/41780233501591-Edit-an-object-s-motion-path",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S65",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Position paths, keyframe markers, easing dots and curve handles.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-5a206dc13540",
+      "title": "Animate strokes with path trim",
+      "url": "https://help.figma.com/hc/en-us/articles/42200302811927-Animate-strokes-with-path-trim",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S66",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "Center-stroke restriction, open-path preset and manual open/closed path trim.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
+        }
+      ]
+    },
+    {
+      "id": "REF-5470ac788529",
+      "title": "Manage color profiles in design files",
+      "url": "https://help.figma.com/hc/en-us/articles/360039825114-Manage-color-profiles-in-design-files",
+      "records": [
+        {
+          "collection": "figma",
+          "original_id": "S72",
+          "recorded_checked_at": "2026-09-20",
+          "status": "sections-reviewed",
+          "scope": "sRGB/P3, Assign versus Convert, token exceptions, history and export profiles.",
+          "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
     }

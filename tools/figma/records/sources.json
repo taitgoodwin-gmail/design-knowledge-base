@@ -555,5 +555,135 @@
     "scope": "Settings, region navigation, selection and annotation limits; no assistive-technology test.",
     "method": "Official Help pages via web and dated public Help API bodies; selected relevant sections, no product execution",
     "evidence": "evidence/2026-09-20-make-handoff-review.md"
+  },
+  {
+    "id": "S60",
+    "title": "Explore Figma Motion",
+    "url": "https://help.figma.com/hc/en-us/articles/41274629073303-Explore-Figma-Motion",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Motion access, mode and code handoff; documentation-only for newly reviewed capabilities.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S61",
+    "title": "Quickly add motion with preset animation styles",
+    "url": "https://help.figma.com/hc/en-us/articles/41307886266135-Quickly-add-motion-with-preset-animation-styles",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Preset start time, duration, composite tracks and editing.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S62",
+    "title": "Add, select, and delete keyframes",
+    "url": "https://help.figma.com/hc/en-us/articles/41307938657559-Add-select-and-delete-keyframes",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Property keyframes, auto-key recording, selection and snapping.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S63",
+    "title": "Adjust an animation's easing",
+    "url": "https://help.figma.com/hc/en-us/articles/41414048690839-Adjust-an-animation-s-easing",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Easing choices, curves and springs; Hold behavior requires a dedicated test.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S64",
+    "title": "Move a layer’s anchor point",
+    "url": "https://help.figma.com/hc/en-us/articles/41352588622615-Move-a-layer-s-anchor-point",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Anchor point, rotation/scale origin and Motion versus Design position coordinates.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S65",
+    "title": "Edit an object's motion path",
+    "url": "https://help.figma.com/hc/en-us/articles/41780233501591-Edit-an-object-s-motion-path",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Position paths, keyframe markers, easing dots and curve handles.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S66",
+    "title": "Animate strokes with path trim",
+    "url": "https://help.figma.com/hc/en-us/articles/42200302811927-Animate-strokes-with-path-trim",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Center-stroke restriction, open-path preset and manual open/closed path trim.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S67",
+    "title": "Create and use animated components",
+    "url": "https://help.figma.com/hc/en-us/articles/41307940738967-Create-and-use-animated-components",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Animated main components and instance timing/property limits.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S68",
+    "title": "Export animations from Figma",
+    "url": "https://help.figma.com/hc/en-us/articles/41307983648407-Export-animations-from-Figma",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Top-level frame export, formats and resolution/frame-rate plan gates.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S69",
+    "title": "Use gradients as a fill or stroke",
+    "url": "https://help.figma.com/hc/en-us/articles/34208860210199-Use-gradients-as-a-fill-or-stroke",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Gradient types, stops and styles; legacy embedded-video caveat.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S70",
+    "title": "Apply effects to layers",
+    "url": "https://help.figma.com/hc/en-us/articles/360041488473-Apply-effects-to-layers",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Selected glass, noise, texture, blur and rendering-order sections; not all shadow details.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S71",
+    "title": "About color models",
+    "url": "https://help.figma.com/hc/en-us/articles/360043042113-About-color-models",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "Color-model notation and profile distinction, from retrieved official Help body.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
+  },
+  {
+    "id": "S72",
+    "title": "Manage color profiles in design files",
+    "url": "https://help.figma.com/hc/en-us/articles/360039825114-Manage-color-profiles-in-design-files",
+    "checked": "2026-09-20",
+    "review_status": "sections-reviewed",
+    "scope": "sRGB/P3, Assign versus Convert, token exceptions, history and export profiles.",
+    "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+    "evidence": "evidence/2026-09-20-motion-color-review.md"
   }
 ]

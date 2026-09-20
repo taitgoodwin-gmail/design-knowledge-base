@@ -1,0 +1,980 @@
+{
+  "checked_at": "2026-09-20",
+  "file_key": "UgtCQvjyZpBQVOxhZAK4sk",
+  "page_id": "82:8",
+  "page_name": "LIVE SITE / Seven pages / Desktop + mobile",
+  "capture_method": "Existing html.to.design plugin; light theme, English-US, 1440px and 390px; auto-layout disabled, hyperlinks enabled; no purchase",
+  "new_route_count": 6,
+  "total_route_count": 7,
+  "baseline_frame_count": 14,
+  "existing_home_copy": {
+    "source_section": "15:1505",
+    "new_section": "85:8",
+    "desktop_frame": "85:9",
+    "mobile_frame": "85:280",
+    "original_capture_time": "2026-09-20 02:22:12 GMT-4",
+    "source_headings_rechecked": "2026-09-20"
+  },
+  "additional_routes": [
+    {
+      "id": "81:121",
+      "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 17:11:50 GMT-4",
+      "x": -720.5,
+      "y": 100,
+      "width": 2130,
+      "height": 4448.77978515625,
+      "frames": [
+        {
+          "id": "81:12",
+          "name": "1440w light",
+          "width": 1440,
+          "height": 2742.52001953125,
+          "textCount": 65,
+          "missingFonts": 0,
+          "headings": [
+            "Seven stages. Evidence\nat every step.",
+            "Readiness request",
+            "Agree what is measured",
+            "Lock the panel and preserve a baseline",
+            "Walk through the findings",
+            "Choose what gets fixed",
+            "Draft and verify the fixes",
+            "Measure again"
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:13",
+              "name": "Main",
+              "y": 150.97999572753906,
+              "height": 2160.780029296875
+            },
+            {
+              "id": "81:75",
+              "name": "Footer",
+              "y": 2311.77001953125,
+              "height": 430.75
+            },
+            {
+              "id": "81:109",
+              "name": "Header",
+              "y": 87.9800033569336,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "id": "81:124",
+          "name": "390w light",
+          "width": 390,
+          "height": 4248.77978515625,
+          "textCount": 61,
+          "missingFonts": 0,
+          "headings": [
+            "Seven stages.\nEvidence at every\nstep.",
+            "Readiness request",
+            "Agree what is measured",
+            "Lock the panel and\npreserve a baseline",
+            "Walk through the findings",
+            "Choose what gets fixed",
+            "Draft and verify the fixes",
+            "Measure again"
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:125",
+              "name": "Main",
+              "y": 307.7799987792969,
+              "height": 3207.699951171875
+            },
+            {
+              "id": "81:176",
+              "name": "Footer",
+              "y": 3515.47998046875,
+              "height": 733.2999877929688
+            },
+            {
+              "id": "81:208",
+              "name": "Header",
+              "y": 244.77999877929688,
+              "height": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81:573",
+      "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 17:12:34 GMT-4",
+      "x": 1509.5,
+      "y": 100,
+      "width": 2130,
+      "height": 10205.83984375,
+      "frames": [
+        {
+          "id": "81:220",
+          "name": "1440w light",
+          "width": 1440,
+          "height": 6911,
+          "textCount": 173,
+          "missingFonts": 0,
+          "headings": [
+            "What is Generative\nEngine\nOptimization?",
+            "Search changed.\nOptimization had to follow.",
+            "GEO vs. SEO — same\nfoundations, different finish\nline.",
+            "Why it matters now.",
+            "Areas for evidence-led\nreview.",
+            "A quotable, self-contained answer",
+            "Machine-readable structure",
+            "Fresh, dated, sourced claims",
+            "Corroboration off your own site",
+            "Questions buyers ask",
+            "Frequently asked.",
+            "See if the answer\nengines cite you."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:231",
+              "name": "Main",
+              "y": 150.97999572753906,
+              "height": 6329.27001953125
+            },
+            {
+              "id": "81:533",
+              "name": "Footer",
+              "y": 6480.25,
+              "height": 430.75
+            },
+            {
+              "id": "81:556",
+              "name": "Header",
+              "y": 87.9800033569336,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "id": "81:576",
+          "name": "390w light",
+          "width": 390,
+          "height": 10005.83984375,
+          "textCount": 166,
+          "missingFonts": 0,
+          "headings": [
+            "What is\nGenerative\nEngine\nOptimization?",
+            "Search changed.\nOptimization had to follow.",
+            "GEO vs. SEO — same\nfoundations, different finish\nline.",
+            "Why it matters now.",
+            "Areas for evidence-led\nreview.",
+            "A quotable, self-contained\nanswer",
+            "Machine-readable structure",
+            "Fresh, dated, sourced claims",
+            "Corroboration off your own site",
+            "Questions buyers ask",
+            "Frequently asked.",
+            "See if the answer\nengines cite you."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:587",
+              "name": "Main",
+              "y": 307.7799987792969,
+              "height": 8964.76953125
+            },
+            {
+              "id": "81:842",
+              "name": "Footer",
+              "y": 9272.5498046875,
+              "height": 733.2999877929688
+            },
+            {
+              "id": "81:865",
+              "name": "Header",
+              "y": 244.77999877929688,
+              "height": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81:1027",
+      "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 17:14:46 GMT-4",
+      "x": 3739.5,
+      "y": 100,
+      "width": 2130,
+      "height": 4371.22021484375,
+      "frames": [
+        {
+          "id": "81:882",
+          "name": "1440w light",
+          "width": 1440,
+          "height": 2916.050048828125,
+          "textCount": 80,
+          "missingFonts": 0,
+          "headings": [
+            "The evidence base\nfor generative\nsearch.",
+            "Answer Engine\nIndex: Q3 2026.",
+            "Reference pages and sample\nreports.",
+            "Answer Engine Index: Q3\n2026",
+            "We run the method on\nourselves",
+            "The research, before\nit's conventional\nwisdom."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:883",
+              "name": "Main",
+              "y": 150.97999572753906,
+              "height": 2334.31005859375
+            },
+            {
+              "id": "81:979",
+              "name": "Footer",
+              "y": 2485.300048828125,
+              "height": 430.75
+            },
+            {
+              "id": "81:1013",
+              "name": "Header",
+              "y": 87.9800033569336,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "id": "81:1034",
+          "name": "390w light",
+          "width": 390,
+          "height": 4171.22021484375,
+          "textCount": 78,
+          "missingFonts": 0,
+          "headings": [
+            "The evidence base\nfor generative\nsearch.",
+            "Answer Engine\nIndex: Q3 2026.",
+            "Reference pages and sample\nreports.",
+            "Answer Engine Index: Q3\n2026",
+            "We run the method on\nourselves",
+            "The research, before\nit's conventional\nwisdom."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:1035",
+              "name": "Main",
+              "y": 307.7799987792969,
+              "height": 3130.139892578125
+            },
+            {
+              "id": "81:1115",
+              "name": "Footer",
+              "y": 3437.919921875,
+              "height": 733.2999877929688
+            },
+            {
+              "id": "81:1149",
+              "name": "Header",
+              "y": 244.77999877929688,
+              "height": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81:1557",
+      "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 17:16:06 GMT-4",
+      "x": 5969.5,
+      "y": 100,
+      "width": 2130,
+      "height": 11470.9501953125,
+      "frames": [
+        {
+          "id": "81:1165",
+          "name": "1440w light",
+          "width": 1440,
+          "height": 8233.33984375,
+          "textCount": 192,
+          "missingFonts": 0,
+          "headings": [
+            "We run the method on\nourselves.",
+            "The panel is not locked yet\n— so it is not published yet.",
+            "Four dimensions. Two\nreadings. No composite.",
+            "Heading levels skipped",
+            "Nothing has moved yet,\nbecause there is no history.",
+            "How these numbers were\ntaken.",
+            "The same reading,\ntaken on your\ndomain."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:1176",
+              "name": "Main",
+              "y": 150.97999572753906,
+              "height": 7651.60986328125
+            },
+            {
+              "id": "81:1517",
+              "name": "Footer",
+              "y": 7802.58984375,
+              "height": 430.75
+            },
+            {
+              "id": "81:1542",
+              "name": "Header",
+              "y": 87.9800033569336,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "id": "81:1563",
+          "name": "390w light",
+          "width": 390,
+          "height": 11270.9501953125,
+          "textCount": 194,
+          "missingFonts": 0,
+          "headings": [
+            "We run the\nmethod on\nourselves.",
+            "The panel is not locked yet\n— so it is not published yet.",
+            "Four dimensions. Two\nreadings. No composite.",
+            "Heading\nlevels\nskipped",
+            "Nothing has moved yet,\nbecause there is no history.",
+            "How these numbers were\ntaken.",
+            "The same reading,\ntaken on your\ndomain."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:1574",
+              "name": "Main",
+              "y": 307.7799987792969,
+              "height": 10229.8798828125
+            },
+            {
+              "id": "81:1912",
+              "name": "Footer",
+              "y": 10537.66015625,
+              "height": 733.2999877929688
+            },
+            {
+              "id": "81:1937",
+              "name": "Header",
+              "y": 244.77999877929688,
+              "height": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81:2191",
+      "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 17:18:42 GMT-4",
+      "x": 8199.5,
+      "y": 100,
+      "width": 2130,
+      "height": 8529.080078125,
+      "frames": [
+        {
+          "id": "81:1954",
+          "name": "1440w light",
+          "width": 1440,
+          "height": 5327.25,
+          "textCount": 142,
+          "missingFonts": 0,
+          "headings": [
+            "A measurement\npractice, not an\nagency.",
+            "Small, and specific about it.",
+            "Four areas of evidence, with\nexplicit gaps.",
+            "Technical access",
+            "Content quotability",
+            "Off-site authority",
+            "Measured visibility",
+            "A number without a label is\na claim.",
+            "How to reach the practice.",
+            "Start with your own\nnumbers."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:1965",
+              "name": "Main",
+              "y": 150.97999572753906,
+              "height": 4745.52001953125
+            },
+            {
+              "id": "81:2145",
+              "name": "Footer",
+              "y": 4896.5,
+              "height": 430.75
+            },
+            {
+              "id": "81:2171",
+              "name": "Header",
+              "y": 87.9800033569336,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "id": "81:2197",
+          "name": "390w light",
+          "width": 390,
+          "height": 8329.080078125,
+          "textCount": 135,
+          "missingFonts": 0,
+          "headings": [
+            "A measurement\npractice, not an\nagency.",
+            "Small, and specific about it.",
+            "Four areas of evidence, with\nexplicit gaps.",
+            "Technical access",
+            "Content quotability",
+            "Off-site authority",
+            "Measured visibility",
+            "A number without a label is\na claim.",
+            "How to reach the practice.",
+            "Start with your own\nnumbers."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:2208",
+              "name": "Main",
+              "y": 307.7799987792969,
+              "height": 7288
+            },
+            {
+              "id": "81:2379",
+              "name": "Footer",
+              "y": 7595.77978515625,
+              "height": 733.2999877929688
+            },
+            {
+              "id": "81:2405",
+              "name": "Header",
+              "y": 244.77999877929688,
+              "height": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "81:2609",
+      "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 17:20:06 GMT-4",
+      "x": 10429.5,
+      "y": 100,
+      "width": 2130,
+      "height": 7007.2001953125,
+      "frames": [
+        {
+          "id": "81:2427",
+          "name": "1440w light",
+          "width": 1440,
+          "height": 5028.83984375,
+          "textCount": 102,
+          "missingFonts": 0,
+          "headings": [
+            "Sample Answer Engine\nIndex: Q3 2026.",
+            "A hypothetical quarter,\nshown four ways.",
+            "What a narrower source\npool might look like.",
+            "Four characteristics a study\ncould examine.",
+            "How to read these numbers.",
+            "Explore the method\nbehind a future\nbenchmark."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:2438",
+              "name": "Main",
+              "y": 150.97999572753906,
+              "height": 4447.10986328125
+            },
+            {
+              "id": "81:2567",
+              "name": "Footer",
+              "y": 4598.08984375,
+              "height": 430.75
+            },
+            {
+              "id": "81:2594",
+              "name": "Header",
+              "y": 87.9800033569336,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "id": "81:2612",
+          "name": "390w light",
+          "width": 390,
+          "height": 6807.2001953125,
+          "textCount": 110,
+          "missingFonts": 0,
+          "headings": [
+            "Sample Answer\nEngine Index:\nQ3 2026.",
+            "A hypothetical quarter,\nshown four ways.",
+            "What a narrower source\npool might look like.",
+            "Four characteristics a study\ncould examine.",
+            "How to read these numbers.",
+            "Explore the method\nbehind a future\nbenchmark."
+          ],
+          "footer": [
+            "© 2026 MindLeverX"
+          ],
+          "regions": [
+            {
+              "id": "81:2623",
+              "name": "Main",
+              "y": 307.7799987792969,
+              "height": 5766.1298828125
+            },
+            {
+              "id": "81:2766",
+              "name": "Footer",
+              "y": 6073.91015625,
+              "height": 733.2999877929688
+            },
+            {
+              "id": "81:2793",
+              "name": "Header",
+              "y": 244.77999877929688,
+              "height": 63
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "home_source": {
+    "id": "15:1505",
+    "name": "mindleverx.com (English-US) by html.to.design ❤️ FREE version - 20/09/2026, 2:22:12 GMT-4",
+    "x": 12345.5859375,
+    "y": 5911.5283203125,
+    "width": 2130,
+    "height": 10794.8095703125,
+    "frames": [
+      {
+        "id": "15:1221",
+        "name": "1440w light",
+        "width": 1440,
+        "height": 6722.77978515625,
+        "textCount": 178,
+        "missingFonts": 0,
+        "headings": [
+          "Own the answer.",
+          "AI answers are changing\nhow buyers discover\ncompanies.",
+          "A clear workflow, from\nevidence to review.",
+          "Solutioning",
+          "Monitoring",
+          "Reporting",
+          "Review workspace",
+          "Five areas we review.",
+          "Definitional pillar",
+          "Technical access",
+          "Answer-first copy",
+          "Off-site citations",
+          "Demonstrate",
+          "What a readiness\nscorecard could show.",
+          "Watch the citations land.",
+          "Start with a request. Build\nfrom evidence.",
+          "Free GEO audit",
+          "Monitoring + the fix path",
+          "Human deep-audit",
+          "Find out if AI is\nrecommending you."
+        ],
+        "footer": [
+          "© 2026 MindLeverX"
+        ],
+        "regions": [
+          {
+            "id": "15:1224",
+            "name": "Main",
+            "y": 192.77999877929688,
+            "height": 6110.85986328125
+          },
+          {
+            "id": "15:1459",
+            "name": "Footer",
+            "y": 6303.64013671875,
+            "height": 419.1400146484375
+          },
+          {
+            "id": "15:1490",
+            "name": "Header",
+            "y": 129.77999877929688,
+            "height": 63
+          }
+        ]
+      },
+      {
+        "id": "15:1506",
+        "name": "390w light",
+        "width": 390,
+        "height": 10594.8095703125,
+        "textCount": 174,
+        "missingFonts": 0,
+        "headings": [
+          "Own the answer.",
+          "AI answers are changing\nhow buyers discover\ncompanies.",
+          "A clear workflow, from\nevidence to review.",
+          "Solutioning",
+          "Monitoring",
+          "Reporting",
+          "Review workspace",
+          "Five areas we review.",
+          "Definitional pillar",
+          "Technical access",
+          "Answer-first copy",
+          "Off-site citations",
+          "Demonstrate",
+          "What a readiness\nscorecard could show.",
+          "Watch the citations land.",
+          "Start with a request. Build\nfrom evidence.",
+          "Free GEO audit",
+          "Monitoring + the fix path",
+          "Human deep-audit",
+          "Find out if AI is\nrecommending you."
+        ],
+        "footer": [
+          "© 2026 MindLeverX"
+        ],
+        "regions": [
+          {
+            "id": "15:1509",
+            "name": "Main",
+            "y": 349.5799865722656,
+            "height": 9556.9404296875
+          },
+          {
+            "id": "15:1739",
+            "name": "Footer",
+            "y": 9906.51953125,
+            "height": 688.2999877929688
+          },
+          {
+            "id": "15:1769",
+            "name": "Header",
+            "y": 286.5799865722656,
+            "height": 63
+          }
+        ]
+      }
+    ]
+  },
+  "organized_sections": [
+    {
+      "id": "81:121",
+      "name": "LIVE SITE / 02 Method / 1440 + 390 / baseline",
+      "frameIds": [
+        "81:12",
+        "81:124"
+      ]
+    },
+    {
+      "id": "81:573",
+      "name": "LIVE SITE / 03 What is GEO / 1440 + 390 / baseline",
+      "frameIds": [
+        "81:220",
+        "81:576"
+      ]
+    },
+    {
+      "id": "81:1027",
+      "name": "LIVE SITE / 04 Research / 1440 + 390 / baseline",
+      "frameIds": [
+        "81:882",
+        "81:1034"
+      ]
+    },
+    {
+      "id": "81:1557",
+      "name": "LIVE SITE / 05 Case Study / 1440 + 390 / baseline",
+      "frameIds": [
+        "81:1165",
+        "81:1563"
+      ]
+    },
+    {
+      "id": "81:2191",
+      "name": "LIVE SITE / 06 About and Contact / 1440 + 390 / baseline",
+      "frameIds": [
+        "81:1954",
+        "81:2197"
+      ]
+    },
+    {
+      "id": "81:2609",
+      "name": "LIVE SITE / 07 Sample Index / 1440 + 390 / baseline",
+      "frameIds": [
+        "81:2427",
+        "81:2612"
+      ]
+    },
+    {
+      "id": "85:8",
+      "name": "LIVE SITE / 01 Home / 1440 + 390 / baseline",
+      "frameIds": [
+        "85:9",
+        "85:280"
+      ]
+    }
+  ],
+  "limitations": [
+    "Ticker is static and wraps taller than the live clipped moving strip",
+    "Expanded navigation, alternate dark theme, ticker pause and expanded FAQ/topic explanations are not represented as complete interactive states",
+    "No complete pixel-perfect, cross-browser or assistive-technology conformance claim",
+    "Original Page 1 content preserved; copied homepage adds a consolidated baseline without replacing historical imports",
+    "html.to.design completion and native text structure are verified; no full application behavior is created",
+    "MCP screenshot included the off-canvas skip-link region; static export bounds differ from the website viewport."
+  ],
+  "live_comparison": {
+    "method": "Fresh Chrome DOM headings and main/header/footer geometry at 1440px and 390px; sampled Method screenshots, native Method desktop/mobile renders; not all pixels compared",
+    "checked_at": "2026-09-20",
+    "routes": [
+      {
+        "name": "Home",
+        "url": "https://mindleverx.com/",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 85.796875,
+            "live_main_height": 6111.6796875,
+            "live_footer_height": 419.1796875,
+            "captured_main_height": 6110.85986328125,
+            "captured_footer_height": 419.1400146484375,
+            "captured_header_y": 129.77999877929688,
+            "main_height_delta_px": -0.82,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 121.796875,
+            "live_main_height": 9557.4921875,
+            "live_footer_height": 688.3671875,
+            "captured_main_height": 9556.9404296875,
+            "captured_footer_height": 688.2999877929688,
+            "captured_header_y": 286.5799865722656,
+            "main_height_delta_px": -0.552,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      },
+      {
+        "name": "Method",
+        "url": "https://mindleverx.com/method.html",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 44,
+            "live_main_height": 2160.96875,
+            "live_footer_height": 430.78125,
+            "captured_main_height": 2160.780029296875,
+            "captured_footer_height": 430.75,
+            "captured_header_y": 87.9800033569336,
+            "main_height_delta_px": -0.189,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 80,
+            "live_main_height": 3208.1015625,
+            "live_footer_height": 733.3671875,
+            "captured_main_height": 3207.699951171875,
+            "captured_footer_height": 733.2999877929688,
+            "captured_header_y": 244.77999877929688,
+            "main_height_delta_px": -0.402,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      },
+      {
+        "name": "GEO",
+        "url": "https://mindleverx.com/what-is-geo.html",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 44,
+            "live_main_height": 6332.6640625,
+            "live_footer_height": 430.78125,
+            "captured_main_height": 6329.27001953125,
+            "captured_footer_height": 430.75,
+            "captured_header_y": 87.9800033569336,
+            "main_height_delta_px": -3.394,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 80,
+            "live_main_height": 8968.3671875,
+            "live_footer_height": 733.3671875,
+            "captured_main_height": 8964.76953125,
+            "captured_footer_height": 733.2999877929688,
+            "captured_header_y": 244.77999877929688,
+            "main_height_delta_px": -3.598,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      },
+      {
+        "name": "Research",
+        "url": "https://mindleverx.com/research-hub.html",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 44,
+            "live_main_height": 2335.015625,
+            "live_footer_height": 430.78125,
+            "captured_main_height": 2334.31005859375,
+            "captured_footer_height": 430.75,
+            "captured_header_y": 87.9800033569336,
+            "main_height_delta_px": -0.706,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 80,
+            "live_main_height": 3130.921875,
+            "live_footer_height": 733.3671875,
+            "captured_main_height": 3130.139892578125,
+            "captured_footer_height": 733.2999877929688,
+            "captured_header_y": 244.77999877929688,
+            "main_height_delta_px": -0.782,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      },
+      {
+        "name": "Case Study",
+        "url": "https://mindleverx.com/case-study.html",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 44,
+            "live_main_height": 7651.7734375,
+            "live_footer_height": 430.78125,
+            "captured_main_height": 7651.60986328125,
+            "captured_footer_height": 430.75,
+            "captured_header_y": 87.9800033569336,
+            "main_height_delta_px": -0.164,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 80,
+            "live_main_height": 10230.1171875,
+            "live_footer_height": 733.3671875,
+            "captured_main_height": 10229.8798828125,
+            "captured_footer_height": 733.2999877929688,
+            "captured_header_y": 244.77999877929688,
+            "main_height_delta_px": -0.237,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      },
+      {
+        "name": "About",
+        "url": "https://mindleverx.com/about.html",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 44,
+            "live_main_height": 4748.28125,
+            "live_footer_height": 430.78125,
+            "captured_main_height": 4745.52001953125,
+            "captured_footer_height": 430.75,
+            "captured_header_y": 87.9800033569336,
+            "main_height_delta_px": -2.761,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 80,
+            "live_main_height": 7291.2578125,
+            "live_footer_height": 733.3671875,
+            "captured_main_height": 7288,
+            "captured_footer_height": 733.2999877929688,
+            "captured_header_y": 244.77999877929688,
+            "main_height_delta_px": -3.258,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      },
+      {
+        "name": "Sample Index",
+        "url": "https://mindleverx.com/answer-engine-index-q3-2026.html",
+        "viewports": [
+          {
+            "width": 1440,
+            "live_header_y": 44,
+            "live_main_height": 4446.671875,
+            "live_footer_height": 430.78125,
+            "captured_main_height": 4447.10986328125,
+            "captured_footer_height": 430.75,
+            "captured_header_y": 87.9800033569336,
+            "main_height_delta_px": 0.438,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          },
+          {
+            "width": 390,
+            "live_header_y": 80,
+            "live_main_height": 5765.828125,
+            "live_footer_height": 733.3671875,
+            "captured_main_height": 5766.1298828125,
+            "captured_footer_height": 733.2999877929688,
+            "captured_header_y": 244.77999877929688,
+            "main_height_delta_px": 0.302,
+            "footer_after_main": true,
+            "primary_and_section_headings_present": true
+          }
+        ]
+      }
+    ]
+  },
+  "native_text_node_count": 1850,
+  "visual_observation": "Method desktop/mobile captures show opening, seven stages and footer; ticker wrapping differs and an off-canvas skip link appears in the MCP export bounds.",
+  "interaction_inventory": {
+    "mobile_menu": "Opened on sample-index page at 390px: Services, Method, Example scorecard, What is GEO, Research, Audit availability, Use dark theme. Baseline imports show the closed state.",
+    "geo_faq": "Five details; first open, remaining four closed in default live view at both widths. Expanded alternatives not captured.",
+    "home_topic_explanation": "Closed details in default live view; expanded content not represented as a separate state.",
+    "ticker": "Live pause control and moving clipped strip; import is static and wrapped."
+  }
+}

@@ -26,6 +26,10 @@ All three are visual hypotheses for review. None has been validated for conversi
 
 The interactive hero-and-evidence comparison is now a standalone HTML document with UTF-8, viewport and title metadata. All three directions were rendered in Chrome at desktop and 390px; direction switching and click/Space disclosure toggling were checked. The expanded Human Current card did not overlap its next section. [Browser observation record](browser-review-2026-09-20.json). It is not yet added to Figma and is not a full accessibility or cross-browser audit.
 
-## Import state carried forward
+## Current live-site baseline
 
-The homepage was imported twice at 1440px and 390px. The first import used auto-layout and visibly displaced the footer. A second import used auto-layout disabled; import completion and no missing fonts were reported, but complete visual fidelity was not verified before the user switched to variations. The other six inventoried pages have not been imported in this session. Existing concept frames remain in Figma.
+All seven inventoried public routes now have desktop/mobile baseline captures on a separate consolidated Figma page. The original concepts remain intact. See the [current import inventory](mindleverx-site-inventory.md) for all fourteen frame links and representation limits, including the static wrapped ticker and unrepresented interaction states.
+
+## Additional motion/color comparison
+
+The [motion and color lab](previews/motion-color-lab.html) holds copy and evidence structure constant across three further palette/type treatments: blue atmospheric, warm editorial and cobalt/paper. These are additional controlled explorations of the direction names, not exact restatements of the earlier palettes. Replay, Stop, a static endpoint and both manual/OS reduced-motion support make the proposed citation relationship tangible. The example is explicitly simulated and has no AI backend. [Verification record](motion-color-review-2026-09-20.json). It remains a standalone web study, separate from native Figma motion.

@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.4.0 — 2026-09-20
+
+- Filled the six-route MindLeverX Figma import gap and organized seven public pages as fourteen desktop/mobile baselines; preserved original concepts and captures. Recorded 1,850 native text nodes, no missing fonts, source comparisons and import/state limitations.
+- Added thirteen selected Figma source reviews on motion, gradients, effects and profiles, plus rechecked relevant W3C guidance. Register: 72 records; catalog: 635 exact URLs.
+- Added and browser-checked a three-treatment motion/color comparison with Replay, Stop, static endpoints and manual/OS reduced-motion support at 320px, 390px and 1440px. No real AI measurements or production publication.
+- Sites/Buzz terms acceptance and Weave account linking remain pending; no access-gated exercise was marked passed.
+
 ## 2.3.1 — 2026-09-20
 
 - Reconciled the product map and machine-readable E11/E13–E17 records with existing exercise evidence; added validation against the readable exercise suite to catch future status drift.

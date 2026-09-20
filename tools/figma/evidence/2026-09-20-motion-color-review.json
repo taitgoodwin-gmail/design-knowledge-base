@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-09-20",
+  "status": "sections-reviewed",
+  "method": "Official Help pages via web and dated public Help API bodies; selected sections, no new feature execution",
+  "source_inventory": "sources/figma-help-article-inventory.json",
+  "articles": [
+    {
+      "source_id": "S60",
+      "article_id": 41274629073303,
+      "url": "https://help.figma.com/hc/en-us/articles/41274629073303-Explore-Figma-Motion",
+      "body_sha256": "b2b89b8f2774d3bb99f474f2b601ffdbc234a07b5eae97d4695575c147a1965d",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Motion access, mode and code handoff; documentation-only for newly reviewed capabilities."
+    },
+    {
+      "source_id": "S61",
+      "article_id": 41307886266135,
+      "url": "https://help.figma.com/hc/en-us/articles/41307886266135-Quickly-add-motion-with-preset-animation-styles",
+      "body_sha256": "decc08fea268f888b018e49e12b84f6fbcdea4262f5a59a6bf1032eb9fc45700",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Preset start time, duration, composite tracks and editing."
+    },
+    {
+      "source_id": "S62",
+      "article_id": 41307938657559,
+      "url": "https://help.figma.com/hc/en-us/articles/41307938657559-Add-select-and-delete-keyframes",
+      "body_sha256": "729a836875639e7d442b1f6d4d177fd6fef3228a69c3b9b926cd3648b644374b",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Property keyframes, auto-key recording, selection and snapping."
+    },
+    {
+      "source_id": "S63",
+      "article_id": 41414048690839,
+      "url": "https://help.figma.com/hc/en-us/articles/41414048690839-Adjust-an-animation-s-easing",
+      "body_sha256": "e4ff772a616eec5c4379495cfbd93bf3d14b1e0c7868a9ae713d77a03892c6cb",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Easing choices, curves and springs; Hold behavior requires a dedicated test."
+    },
+    {
+      "source_id": "S64",
+      "article_id": 41352588622615,
+      "url": "https://help.figma.com/hc/en-us/articles/41352588622615-Move-a-layer-s-anchor-point",
+      "body_sha256": "f14888b1d86a3d27a8e6442e2d7a413fac4efb8240dfe0838824905d4f453fa1",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Anchor point, rotation/scale origin and Motion versus Design position coordinates."
+    },
+    {
+      "source_id": "S65",
+      "article_id": 41780233501591,
+      "url": "https://help.figma.com/hc/en-us/articles/41780233501591-Edit-an-object-s-motion-path",
+      "body_sha256": "83541193d7a7878520c7d02d1717db35f77c9bae585c8c110c609a4eac55fd7d",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Position paths, keyframe markers, easing dots and curve handles."
+    },
+    {
+      "source_id": "S66",
+      "article_id": 42200302811927,
+      "url": "https://help.figma.com/hc/en-us/articles/42200302811927-Animate-strokes-with-path-trim",
+      "body_sha256": "8c0c6373de34a3f22aef0e88bf1eb94c75fc71f40b432790a20a3c560ec0dfdb",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Center-stroke restriction, open-path preset and manual open/closed path trim."
+    },
+    {
+      "source_id": "S67",
+      "article_id": 41307940738967,
+      "url": "https://help.figma.com/hc/en-us/articles/41307940738967-Create-and-use-animated-components",
+      "body_sha256": "4b5e7b90111c7995a09253965d06ac2aa30891f110d075853eaf7b826b46d11f",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Animated main components and instance timing/property limits."
+    },
+    {
+      "source_id": "S68",
+      "article_id": 41307983648407,
+      "url": "https://help.figma.com/hc/en-us/articles/41307983648407-Export-animations-from-Figma",
+      "body_sha256": "c15d36a842208fdfbdf63eeea1ab7d197b924d9b7914ff41fc0c9b60a8c26bdd",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Top-level frame export, formats and resolution/frame-rate plan gates."
+    },
+    {
+      "source_id": "S69",
+      "article_id": 34208860210199,
+      "url": "https://help.figma.com/hc/en-us/articles/34208860210199-Use-gradients-as-a-fill-or-stroke",
+      "body_sha256": "f22c62541ad0dc1dd48014215b4aee271f2d546e50aec386217829e289bc9a34",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Gradient types, stops and styles; legacy embedded-video caveat."
+    },
+    {
+      "source_id": "S70",
+      "article_id": 360041488473,
+      "url": "https://help.figma.com/hc/en-us/articles/360041488473-Apply-effects-to-layers",
+      "body_sha256": "61a244f4e32bae74364c35d532fb996acd09546e7b181290337c5660eca0421c",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Selected glass, noise, texture, blur and rendering-order sections; not all shadow details."
+    },
+    {
+      "source_id": "S71",
+      "article_id": 360043042113,
+      "url": "https://help.figma.com/hc/en-us/articles/360043042113-About-color-models",
+      "body_sha256": "88bf1cc7b0a6c80a9dfb5680a70e2f473242ae95f139cbaa7f33149e19a828a8",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "Color-model notation and profile distinction, from retrieved official Help body."
+    },
+    {
+      "source_id": "S72",
+      "article_id": 360039825114,
+      "url": "https://help.figma.com/hc/en-us/articles/360039825114-Manage-color-profiles-in-design-files",
+      "body_sha256": "33d9bbd98be5a44ad4e9fc0fc8339cee9f814ddb5c604f024757343b0e7026e8",
+      "retrieved_at": "2026-09-20T20:25:48.366802+00:00",
+      "reviewed_scope": "sRGB/P3, Assign versus Convert, token exceptions, history and export profiles."
+    }
+  ],
+  "new_exercises_passed": 0,
+  "limitations": [
+    "No new native path-trim, preset, anchor, animated-component or profile conversion exercise",
+    "Effects review is selected sections, not the complete article",
+    "Existing E09 manual reveal/export evidence has its original bounded scope"
+  ]
+}

@@ -18,3 +18,7 @@ Sources: [S20: Motion timeline](https://help.figma.com/hc/en-us/articles/4140590
 ## Practice and acceptance
 
 E09 has [keyframe, easing, static-alternative and native-export evidence](../evidence/lab/motion-and-vector.md). Chrome checks at four timestamps confirmed the reveal and held final state. A Figma static alternative is not automatic operating-system reduced-motion support in a deployed site.
+
+## Detailed choices and limits
+
+See the [motion/color review](../evidence/2026-09-20-motion-color-review.md) for presets, keyframes, easing, anchors, paths, stroke trim, animated components, exports, gradients, effects and color profiles. It separates documented restrictions from our proposed MindLeverX applications.

@@ -433,15 +433,18 @@ projects/levarum/squarespace-design-and-build-guide.md
 projects/mindleverx/README.md
 projects/mindleverx/browser-review-2026-09-20.json
 projects/mindleverx/figma-file.md
+projects/mindleverx/figma-import-audit-2026-09-20.json
 projects/mindleverx/historical-findings.json
 projects/mindleverx/historical-findings.md
 projects/mindleverx/mindleverx-contrast-checks.json
 projects/mindleverx/mindleverx-design-directions.md
 projects/mindleverx/mindleverx-design-rationale.md
 projects/mindleverx/mindleverx-site-inventory.md
+projects/mindleverx/motion-color-review-2026-09-20.json
 projects/mindleverx/previews/mindleverx-directions.html
 projects/mindleverx/previews/mindleverx-directions.js
 projects/mindleverx/previews/mindleverx-preview.html
+projects/mindleverx/previews/motion-color-lab.html
 projects/mindleverx/production-assessment-2026-09-12.md
 reference-library/README.md
 reference-library/notion/README.md
@@ -495,6 +498,8 @@ tools/figma/SCOPE-COVERAGE.md
 tools/figma/SOURCES.md
 tools/figma/evidence/2026-09-20-make-handoff-review.json
 tools/figma/evidence/2026-09-20-make-handoff-review.md
+tools/figma/evidence/2026-09-20-motion-color-review.json
+tools/figma/evidence/2026-09-20-motion-color-review.md
 tools/figma/evidence/2026-09-20-ui-inspection.md
 tools/figma/evidence/lab/00-create-page.json
 tools/figma/evidence/lab/01-e02-create.json

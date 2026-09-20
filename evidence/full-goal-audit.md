@@ -13,7 +13,7 @@ Checked 2026-09-20. The user's instruction is to finish the full work autonomous
 | Deep, repeatable Figma capability knowledge, including all supplied product areas | Article/feature/context inventory, source review notes, reproducible exercises with actual evidence and access limits | In progress. Public Help pagination now yields 887 articles across 14 categories; external Weave, videos, all UI contexts and full article review remain separate |
 | Complete the recorded 18-exercise practice plan | Each exact procedure and acceptance condition verified in its relevant product | In progress. Records are updated only when the corresponding evidence exists; no substitutions for unrun products |
 | State whether every detail of every site was scraped | Defined scope, pagination/fetch coverage, review and visual/interactive limits | Exhaustive coverage not proven. Retrieval, review, visual observation and hands-on use remain separate |
-| Push and verify the final collection | Remote commit equality, private visibility, fresh retrieval and CI pass covering final changes | v2.3.0 content checkpoint 34e16b6 verified in a fresh clone, private remote and successful CI 35535994552; [publication receipt](publication-2.3.0.json) |
+| Push and verify the final collection | Remote commit equality, private visibility, fresh retrieval and CI pass covering final changes | v2.3.1 content checkpoint 24dd412 verified in a fresh clone, private remote and successful CI 35537091731; [publication receipt](publication-2.3.1.json) |
 
 ## Current next work
 
@@ -32,3 +32,5 @@ Publication checkpoint: [v2.3.0 receipt](publication-2.3.0.json) records all thr
 The next continuation made independent progress: it corrected stale product-map and machine-readable exercise statuses against existing evidence, added a [63-URL coverage table](../tools/figma/SCOPE-COVERAGE.md), and reviewed eight additional official sources. The maintained [Make/handoff notes](../tools/figma/evidence/2026-09-20-make-handoff-review.md) distinguish documented integration routes and their limits. The register now has 59 records and the catalog 627 exact URLs. This is source review and evidence reconciliation, not a new exercise pass.
 
 Sites and Buzz still displayed their Get started terms screens; Weave's read-only tool listing again reported an unlinked Figma account. Neither pending question has an answer. No terms were accepted. This continuation is classified as progress; it does not claim the full goal complete or mark the access-gated exercises passed.
+
+Latest publication: [v2.3.1 receipt](publication-2.3.1.json) records the private remote, passing CI and all three checks from a fresh clone of 24dd412. The three access-gated exercises remain pending.

@@ -15,3 +15,7 @@ Run `python3 checks/validate.py` for preservation, record and maintained-link ch
 ## Remaining research work
 
 The seventeen unrun Figma exercises, source conflicts, full reference-site interactions, original asset attributions, external Drive links and unsaved past conversations remain identified gaps. They do not prevent preserving and using this bounded collection, but they constrain claims made from it.
+
+## Existing GitHub history reconciled
+
+An independent publication of the in-progress local collection was found at `c82cff3407b8df523ace706c88e3ddb04b87d639`. Its [initial import receipt](github-import-2026-09-20.md) and manifest remain historical records of that snapshot. This edition merges that history with the original local baseline and completes the missing navigation/evidence/checks. Initial-import hashes describe the initial commit, not subsequently revised maintained files.

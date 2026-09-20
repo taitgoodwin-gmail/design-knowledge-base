@@ -1,5 +1,6 @@
 # MindLeverX case study
 
+- [Editable Figma location and storage boundaries](figma-file.md).
 - [Three visual directions](mindleverx-design-directions.md): Signal Observatory, Human Current and Proof Studio.
 - [45-element rationale](mindleverx-design-rationale.md): recognized principles, why/color/motion, proposed AI features and limitations.
 - [Contrast calculations](mindleverx-contrast-checks.json): specified CSS pairs, not a full rendered audit.

@@ -31,4 +31,4 @@ python3 checks/query.py "reduced motion"
 git rev-parse HEAD
 ```
 
-Use [CATALOG.md](CATALOG.md) for a complete reading map. Keep active product code/backlogs in the product repositories. Add new findings using [templates](templates/README.md) and follow [maintenance rules](governance/maintenance.md). Preserve dates and evidence limitations. [Changelog](CHANGELOG.md) · [rights and source use](governance/source-use.md).
+Use [CATALOG.md](CATALOG.md) for a reading map and [TREE.md](TREE.md) for the complete file tree. Keep active product code/backlogs in the product repositories. Add new findings using [templates](templates/README.md) and follow [maintenance rules](governance/maintenance.md). Preserve dates and evidence limitations. [Changelog](CHANGELOG.md) · [rights and source use](governance/source-use.md).

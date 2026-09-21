@@ -1,5 +1,6 @@
 # MindLeverX case study
 
+- [Fresh reimagining and Levarum naming exploration, September 21](reimagining-and-naming-2026-09-21.md): current owner direction, GEO scope, owner-reported levarum.com ownership, eleven concept proposals, and unresolved naming decisions. Start here for the new exploration.
 - [Editable Figma location and storage boundaries](figma-file.md).
 - [Three visual directions](mindleverx-design-directions.md): Signal Observatory, Human Current and Proof Studio.
 - [45-element rationale](mindleverx-design-rationale.md): recognized principles, why/color/motion, proposed AI features and limitations.

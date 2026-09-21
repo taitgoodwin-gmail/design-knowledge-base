@@ -13,6 +13,7 @@ Private reusable research for MindLeverX, Levarum, and future business/customer 
 | Connect Figma with ChatGPT/Codex and implementation | [Integration guide](integrations/figma-chatgpt-codex.md) |
 | Browse visual references and study materials | [Reference library](reference-library/README.md) and [learning library](learning/README.md) |
 | Review MindLeverX concepts and evidence | [MindLeverX case study](projects/mindleverx/README.md) |
+| Resume the fresh MindLeverX / Levarum exploration | [Current brief, concepts, naming, and domain record](projects/mindleverx/reimagining-and-naming-2026-09-21.md) |
 | Find the copied Notion research | [Notion import index](reference-library/notion/README.md) |
 | Check sources, coverage or contradictions | [Source catalog guide](sources/README.md) and [conflicts](sources/conflicts.md) |
 | Verify migration and preservation | [Migration evidence](evidence/migration.md) |

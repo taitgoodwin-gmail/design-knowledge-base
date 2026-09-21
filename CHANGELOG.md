@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-21 — Fresh reimagining and naming record
+
+- Captured the recent conversation's eleven concept proposals, clean-slate direction, and explicitly selected wide-range exploration and GEO-specialist scope.
+- Recorded the owner's statement that they own levarum.com only; kept ownership reporting distinct from technical verification and naming clearance.
+- Kept Levarum as an unselected naming candidate, separated the older automation guide from the new GEO exploration, and linked the record from both project indexes and the main reading maps.
+
 ## 2.4.0 — 2026-09-20
 
 - Filled the six-route MindLeverX Figma import gap and organized seven public pages as fourteen desktop/mobile baselines; preserved original concepts and captures. Recorded 1,850 native text nodes, no missing fonts, source comparisons and import/state limitations.

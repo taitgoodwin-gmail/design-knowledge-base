@@ -447,6 +447,7 @@ projects/mindleverx/previews/mindleverx-directions.js
 projects/mindleverx/previews/mindleverx-preview.html
 projects/mindleverx/previews/motion-color-lab.html
 projects/mindleverx/production-assessment-2026-09-12.md
+projects/mindleverx/reimagining-and-naming-2026-09-21.md
 reference-library/README.md
 reference-library/notion/README.md
 reference-library/notion/anthropic-source-library-3bf792ca.md

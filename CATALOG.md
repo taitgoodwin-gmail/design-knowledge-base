@@ -16,6 +16,7 @@
 | Dirtverse, Brim, Future Human, Jowinski, Amit Goyani | [Visual references](reference-library/README.md) |
 | Notion research and older operating guidance | [Notion index](reference-library/notion/README.md) |
 | MindLeverX design directions and 45-element rationale | [Case study](projects/mindleverx/README.md) |
+| Fresh GEO reimagining, Levarum naming, and owner-reported domain | [September 21 conversation and decision record](projects/mindleverx/reimagining-and-naming-2026-09-21.md) |
 | Levarum/Squarespace | [Levarum](projects/levarum/README.md) |
 | Sources and review coverage | [Source records](sources/README.md) |
 | Every supplied Figma URL and its actual review status | [Scope coverage](tools/figma/SCOPE-COVERAGE.md) |

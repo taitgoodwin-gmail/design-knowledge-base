@@ -483,6 +483,7 @@ sources/conflicts.md
 sources/coverage.csv
 sources/figma-design-article-inventory.json
 sources/figma-help-article-inventory.json
+sources/google-web-quality-2026-09-23.json
 sources/imported-uiux-sources.json
 sources/notion-discovery.json
 sources/notion-import-manifest.json
@@ -750,6 +751,16 @@ tools/figma/reference-index/figma-slides.md
 tools/figma/reference-index/get-started.md
 tools/figma/reference-index/help.md
 tools/figma/reference-index/work-across-figma.md
+tools/google-web-quality/README.md
+tools/google-web-quality/extract_inventory.py
+tools/google-web-quality/google-seo-foundations.md
+tools/google-web-quality/history/lighthouse-initial-overview-2026-09-23.md
+tools/google-web-quality/lighthouse-audit-inventory.json
+tools/google-web-quality/lighthouse-audit-inventory.md
+tools/google-web-quality/lighthouse-audit-playbook.md
+tools/google-web-quality/lighthouse-evidence-spec.md
+tools/google-web-quality/lighthouse-source-register.md
+tools/google-web-quality/research-verification.json
 tools/squarespace/design-system.md
 workflows/ai-and-motion.md
 workflows/design-review.md

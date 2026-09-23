@@ -1,0 +1,469 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-09-23",
+  "scope": "Lighthouse, field performance, foundational Google SEO and audit reporting",
+  "lighthouse_version": "13.5.0",
+  "lighthouse_commit": "cb853a38a6410617518b363590c967b3fe211949",
+  "sources": [
+    {
+      "id": "REF-6ebd51fc204d",
+      "title": "Lighthouse overview",
+      "url": "https://developer.chrome.com/docs/lighthouse/overview",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Available collection paths and page-audit scope",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-26bf3bacc401",
+      "title": "DevTools Lighthouse",
+      "url": "https://developer.chrome.com/docs/devtools/lighthouse",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Modes and performance-debugging workflow",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-d0ebf6fbc20d",
+      "title": "Performance scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/performance-scoring",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Score interpretation and variability",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-9207a20ae1aa",
+      "title": "Accessibility scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/scoring",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Weighted automated checks; manual review separate",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-5ef9b113fd32",
+      "title": "Agentic browsing scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Experimental status and prerequisites; runtime availability untested",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-9e01f0ace364",
+      "title": "PSI interpretation",
+      "url": "https://developers.google.com/speed/docs/insights/v5/about",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Lab versus field, thresholds, missing data and assessment",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-5bea86da45f8",
+      "title": "PSI API guide",
+      "url": "https://developers.google.com/speed/docs/insights/v5/get-started",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Planned removal of bundled CrUX; use separate adapter",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-2b7961629c90",
+      "title": "PSI API reference",
+      "url": "https://developers.google.com/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Desktop/performance defaults; explicitly request categories and device",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-c4356c56a04d",
+      "title": "CrUX API",
+      "url": "https://developer.chrome.com/docs/crux/api",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "URL/origin query, metrics, period, quota; no live API request",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-ad4709d3a749",
+      "title": "CrUX History API",
+      "url": "https://developer.chrome.com/docs/crux/history-api",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Up to 40 overlapping periods and missing values",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-35f5625620db",
+      "title": "CrUX methodology",
+      "url": "https://developer.chrome.com/docs/crux/methodology",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Eligibility, sample coverage, URL normalization and attribution",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-74bf827a2002",
+      "title": "CrUX BigQuery",
+      "url": "https://developer.chrome.com/docs/crux/bigquery",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Monthly history and optional broader benchmarking",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-35ef629bf731",
+      "title": "CrUX Vis",
+      "url": "https://developer.chrome.com/docs/crux/vis",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Existing historical dashboard and scope limits",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-93d5c4474009",
+      "title": "Web Vitals library",
+      "url": "https://github.com/GoogleChrome/web-vitals",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "RUM and attribution option; not installed",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-62c18319cdd3",
+      "title": "Lighthouse CI getting started",
+      "url": "https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Gradual CI adoption and artifact storage",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-de2882326300",
+      "title": "Lighthouse CI configuration",
+      "url": "https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Optimistic default, explicit aggregation, assertions and storage",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-f1d657ab28c1",
+      "title": "Lighthouse 13.5.0 release",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed release metadata",
+      "scope": "Published September 18; channel rollout expectation is not runtime verification",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-cc224bed75fe",
+      "title": "Google Search Essentials",
+      "url": "https://developers.google.com/search/docs/essentials",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Eligibility and content/navigation guidance; no ranking guarantee",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-0a1c82c044ac",
+      "title": "Google spam policies",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed relevant policy sections",
+      "scope": "Search manipulation and scaled-content limits; not an exhaustive policy audit",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-d76e3db85ca0",
+      "title": "Structured-data policies",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed relevant policy sections",
+      "scope": "Visible-content accuracy and eligibility; no rich-result guarantee",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-6fe2317039f5",
+      "title": "Google generative AI Search guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Search guidance and llms.txt claim boundary; not evidence about other AI products",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-ef7e77b36286",
+      "title": "Core Web Vitals and Search",
+      "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Recommended field metrics and search claim limits",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-3c7581b70ad6",
+      "title": "Search Console guide",
+      "url": "https://developers.google.com/search/docs/monitor-debug/search-console-start",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Separate indexing/performance evidence",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-c6f932c89131",
+      "title": "W3C evaluation tools",
+      "url": "https://www.w3.org/WAI/test-evaluate/tools/selecting/",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed documentation",
+      "scope": "Human review needed; automated tools cannot establish accessibility",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-784435bb1b94",
+      "title": "WCAG overview",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed overview",
+      "scope": "Standards context; this research is not a criterion-by-criterion conformance review",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-7eb820e1e53b",
+      "title": "OWASP SSRF prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "checked_at": "2026-09-23",
+      "status": "Reviewed relevant guidance",
+      "scope": "Future untrusted-URL scanner isolation and request validation",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-962af928dfaa",
+      "title": "Lighthouse package",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/package.json",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Version, Node engine and license metadata",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-1f7dc78601d8",
+      "title": "Default configuration",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/config/default-config.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Extracted all category references and weights; not runtime execution",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-04fbf88226ca",
+      "title": "Agentic configuration",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/config/agentic-browsing-config.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Seven references and fraction display",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-8aca5bf16fb5",
+      "title": "LHR types",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/types/lhr/lhr.d.ts",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Metadata, category and environment fields",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-ebdc4aba3aa9",
+      "title": "Audit result types",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/types/lhr/audit-result.d.ts",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Score modes and per-audit fields",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-1c6eecb4daaf",
+      "title": "Audit detail types",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/types/lhr/audit-details.d.ts",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Typed details and estimated savings representation",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-627df4cbbea0",
+      "title": "INP audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/metrics/interaction-to-next-paint.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Timespan and non-simulated restrictions",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-a67418871c85",
+      "title": "llms.txt audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/agentic/llms-txt.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Missing-file N/A and basic validation",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-a0ef2e44df11",
+      "title": "ARD audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/agentic/ard-schema.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Discovery signals, absence and validation behavior",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-45c2617f9ac6",
+      "title": "Agent accessibility audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/agentic/agent-accessibility-tree.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Subset of axe rules and evidence limits",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-2dd047497063",
+      "title": "WebMCP form coverage",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/webmcp-form-coverage.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Conditional pass, informative and N/A states",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-4197a91c0b05",
+      "title": "WebMCP tools",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/webmcp-registered-tools.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Informative inventory and tool-count warning",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-b0ff8e28184c",
+      "title": "WebMCP schema audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/webmcp-schema-validity.js",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Browser support, errors and warnings",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-b466a0abc72a",
+      "title": "Run variability",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/variability.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Repeated controlled runs; worker contention",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-1e393eb392a6",
+      "title": "Throttling",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/throttling.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Simulation versus applied trace measurements",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-7f5e04e2154f",
+      "title": "User flows",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/user-flows.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Navigation, timespan and snapshot scope",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-53d29cb88df5",
+      "title": "Authenticated pages",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/authenticated-pages.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Local/authenticated collection patterns",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-e274c29a4dbe",
+      "title": "Understanding results",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/understanding-results.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Artifacts and report structure",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-03d5b8cd3c0f",
+      "title": "Plugin handbook",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/plugins.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "Extension capabilities and limits",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    },
+    {
+      "id": "REF-ba2c7577e026",
+      "title": "Lighthouse CLI",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/readme.md",
+      "checked_at": "2026-09-23",
+      "status": "Inspected pinned source/docs",
+      "scope": "CLI reports/assets; category help can lag implementation",
+      "verification": "Documentation/source review only; no website audit or integration execution",
+      "evidence": "tools/google-web-quality/lighthouse-source-register.md"
+    }
+  ]
+}

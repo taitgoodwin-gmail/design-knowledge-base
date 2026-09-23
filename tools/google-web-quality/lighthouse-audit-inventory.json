@@ -1,0 +1,1669 @@
+{
+  "checked_date": "2026-09-23",
+  "lighthouse_version": "13.5.0",
+  "source_commit": "cb853a38a6410617518b363590c967b3fe211949",
+  "method": "Static extraction of every auditRef in default-config.js; each ID resolved to an existing audit source file. Not runtime audit results.",
+  "scope_note": "References can be shared by categories and include manual, hidden, informative and mode-dependent checks. Counts do not represent independent failures or checks run on a page. Configured weights are not normalized runtime weights.",
+  "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/config/default-config.js",
+  "category_reference_counts": {
+    "performance": 50,
+    "accessibility": 76,
+    "best-practices": 21,
+    "seo": 11,
+    "agentic-browsing": 7
+  },
+  "reference_count": 165,
+  "unique_audit_id_count": 162,
+  "references": [
+    {
+      "category": "performance",
+      "audit_id": "first-contentful-paint",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "metrics",
+      "role": "weighted reference",
+      "source_path": "core/audits/metrics/first-contentful-paint.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/first-contentful-paint.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "largest-contentful-paint",
+      "configured_weight_expression": "25",
+      "configured_weight": 25.0,
+      "group": "metrics",
+      "role": "weighted reference",
+      "source_path": "core/audits/metrics/largest-contentful-paint.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/largest-contentful-paint.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "total-blocking-time",
+      "configured_weight_expression": "30",
+      "configured_weight": 30.0,
+      "group": "metrics",
+      "role": "weighted reference",
+      "source_path": "core/audits/metrics/total-blocking-time.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/total-blocking-time.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "cumulative-layout-shift",
+      "configured_weight_expression": "25",
+      "configured_weight": 25.0,
+      "group": "metrics",
+      "role": "weighted reference",
+      "source_path": "core/audits/metrics/cumulative-layout-shift.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/cumulative-layout-shift.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "speed-index",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "metrics",
+      "role": "weighted reference",
+      "source_path": "core/audits/metrics/speed-index.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/speed-index.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "interaction-to-next-paint",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "metrics",
+      "role": "unscored reference",
+      "source_path": "core/audits/metrics/interaction-to-next-paint.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/interaction-to-next-paint.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "cache-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/cache-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/cache-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "cls-culprits-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/cls-culprits-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/cls-culprits-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "document-latency-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/document-latency-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/document-latency-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "dom-size-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/dom-size-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/dom-size-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "duplicated-javascript-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/duplicated-javascript-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/duplicated-javascript-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "font-display-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/font-display-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/font-display-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "forced-reflow-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/forced-reflow-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/forced-reflow-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "image-delivery-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/image-delivery-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/image-delivery-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "inp-breakdown-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/inp-breakdown-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/inp-breakdown-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "lcp-breakdown-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/lcp-breakdown-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/lcp-breakdown-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "lcp-discovery-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/lcp-discovery-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/lcp-discovery-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "legacy-javascript-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/legacy-javascript-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/legacy-javascript-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "modern-http-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/modern-http-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/modern-http-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "network-dependency-tree-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/network-dependency-tree-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/network-dependency-tree-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "render-blocking-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/render-blocking-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/render-blocking-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "third-parties-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/third-parties-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/third-parties-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "viewport-insight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "insights",
+      "role": "unscored reference",
+      "source_path": "core/audits/insights/viewport-insight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/insights/viewport-insight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "interactive",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/metrics/interactive.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/interactive.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "max-potential-fid",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/metrics/max-potential-fid.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/max-potential-fid.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "unminified-css",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/byte-efficiency/unminified-css.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/byte-efficiency/unminified-css.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "unminified-javascript",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/byte-efficiency/unminified-javascript.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/byte-efficiency/unminified-javascript.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "unused-css-rules",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/byte-efficiency/unused-css-rules.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/byte-efficiency/unused-css-rules.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "unused-javascript",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/byte-efficiency/unused-javascript.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/byte-efficiency/unused-javascript.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "total-byte-weight",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/byte-efficiency/total-byte-weight.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/byte-efficiency/total-byte-weight.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "user-timings",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/user-timings.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/user-timings.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "bootup-time",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/bootup-time.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/bootup-time.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "mainthread-work-breakdown",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/mainthread-work-breakdown.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/mainthread-work-breakdown.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "long-tasks",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/long-tasks.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/long-tasks.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "non-composited-animations",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/non-composited-animations.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/non-composited-animations.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "unsized-images",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/unsized-images.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/unsized-images.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "bf-cache",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "diagnostics",
+      "role": "unscored reference",
+      "source_path": "core/audits/bf-cache.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/bf-cache.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "network-requests",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/network-requests.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/network-requests.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "network-rtt",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/network-rtt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/network-rtt.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "network-server-latency",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/network-server-latency.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/network-server-latency.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "main-thread-tasks",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/main-thread-tasks.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/main-thread-tasks.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "diagnostics",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/diagnostics.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/diagnostics.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "metrics",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/metrics.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "screenshot-thumbnails",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/screenshot-thumbnails.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/screenshot-thumbnails.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "final-screenshot",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/final-screenshot.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/final-screenshot.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "script-treemap-data",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/script-treemap-data.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/script-treemap-data.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "resource-summary",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/resource-summary.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/resource-summary.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "redirects",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/redirects.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/redirects.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "server-response-time",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/server-response-time.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/server-response-time.js"
+    },
+    {
+      "category": "performance",
+      "audit_id": "layout-shifts",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/layout-shifts.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/layout-shifts.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "accesskeys",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-navigation",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/accesskeys.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/accesskeys.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-allowed-attr",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-allowed-attr.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-allowed-attr.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-command-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-command-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-command-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-conditional-attr",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-conditional-attr.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-conditional-attr.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-deprecated-role",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-deprecated-role.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-deprecated-role.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-dialog-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-dialog-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-dialog-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-hidden-body",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-hidden-body.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-hidden-body.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-hidden-focus",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-hidden-focus.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-hidden-focus.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-input-field-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-input-field-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-input-field-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-meter-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-meter-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-meter-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-progressbar-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-progressbar-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-progressbar-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-prohibited-attr",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-prohibited-attr.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-prohibited-attr.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-required-attr",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-required-attr.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-required-attr.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-required-children",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-required-children.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-required-children.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-required-parent",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-required-parent.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-required-parent.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-roles",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-roles.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-roles.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-text",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-text.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-text.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-toggle-field-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-toggle-field-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-toggle-field-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-tooltip-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-tooltip-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-tooltip-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-treeitem-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-treeitem-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-treeitem-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-valid-attr-value",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-valid-attr-value.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-valid-attr-value.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-valid-attr",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/aria-valid-attr.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-valid-attr.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "button-name",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/button-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/button-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "bypass",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-navigation",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/bypass.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/bypass.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "color-contrast",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-color-contrast",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/color-contrast.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/color-contrast.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "definition-list",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-tables-lists",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/definition-list.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/definition-list.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "dlitem",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-tables-lists",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/dlitem.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/dlitem.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "document-title",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/document-title.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/document-title.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "duplicate-id-aria",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-aria",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/duplicate-id-aria.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/duplicate-id-aria.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "form-field-multiple-labels",
+      "configured_weight_expression": "3",
+      "configured_weight": 3.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/form-field-multiple-labels.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/form-field-multiple-labels.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "frame-title",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/frame-title.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/frame-title.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "heading-order",
+      "configured_weight_expression": "3",
+      "configured_weight": 3.0,
+      "group": "a11y-navigation",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/heading-order.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/heading-order.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "html-has-lang",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-language",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/html-has-lang.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/html-has-lang.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "html-lang-valid",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-language",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/html-lang-valid.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/html-lang-valid.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "html-xml-lang-mismatch",
+      "configured_weight_expression": "3",
+      "configured_weight": 3.0,
+      "group": "a11y-language",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/html-xml-lang-mismatch.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/html-xml-lang-mismatch.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "image-alt",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/image-alt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/image-alt.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "input-button-name",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/input-button-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/input-button-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "input-image-alt",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/input-image-alt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/input-image-alt.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "label",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/label.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/label.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "link-in-text-block",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-color-contrast",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/link-in-text-block.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/link-in-text-block.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "link-name",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/link-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/link-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "list",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-tables-lists",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/list.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/list.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "listitem",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-tables-lists",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/listitem.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/listitem.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "meta-refresh",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/meta-refresh.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/meta-refresh.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "meta-viewport",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/meta-viewport.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/meta-viewport.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "object-alt",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/object-alt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/object-alt.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "select-name",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/select-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/select-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "skip-link",
+      "configured_weight_expression": "3",
+      "configured_weight": 3.0,
+      "group": "a11y-names-labels",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/skip-link.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/skip-link.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "tabindex",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-navigation",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/tabindex.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/tabindex.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "target-size",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/target-size.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/target-size.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "td-headers-attr",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-tables-lists",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/td-headers-attr.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/td-headers-attr.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "th-has-data-cells",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-tables-lists",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/th-has-data-cells.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/th-has-data-cells.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "valid-lang",
+      "configured_weight_expression": "7",
+      "configured_weight": 7.0,
+      "group": "a11y-language",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/valid-lang.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/valid-lang.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "video-caption",
+      "configured_weight_expression": "10",
+      "configured_weight": 10.0,
+      "group": "a11y-audio-video",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/video-caption.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/video-caption.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "landmark-one-main",
+      "configured_weight_expression": "3",
+      "configured_weight": 3.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/landmark-one-main.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/landmark-one-main.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "autocomplete-valid",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/autocomplete-valid.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/autocomplete-valid.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "presentation-role-conflict",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/presentation-role-conflict.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/presentation-role-conflict.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "svg-img-alt",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "a11y-best-practices",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/svg-img-alt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/svg-img-alt.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "focusable-controls",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/focusable-controls.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/focusable-controls.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "interactive-element-affordance",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/interactive-element-affordance.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/interactive-element-affordance.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "logical-tab-order",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/logical-tab-order.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/logical-tab-order.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "visual-order-follows-dom",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/visual-order-follows-dom.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/visual-order-follows-dom.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "focus-traps",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/focus-traps.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/focus-traps.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "managed-focus",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/managed-focus.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/managed-focus.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "use-landmarks",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/use-landmarks.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/use-landmarks.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "offscreen-content-hidden",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/offscreen-content-hidden.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/offscreen-content-hidden.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "custom-controls-labels",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/custom-controls-labels.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/custom-controls-labels.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "custom-controls-roles",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/accessibility/manual/custom-controls-roles.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/manual/custom-controls-roles.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "table-duplicate-name",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "a11y-best-practices",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/table-duplicate-name.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/table-duplicate-name.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "empty-heading",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "a11y-best-practices",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/empty-heading.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/empty-heading.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "aria-allowed-role",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "a11y-best-practices",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/aria-allowed-role.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/aria-allowed-role.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "image-redundant-alt",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "a11y-names-labels",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/image-redundant-alt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/image-redundant-alt.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "identical-links-same-purpose",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "a11y-best-practices",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/identical-links-same-purpose.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/identical-links-same-purpose.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "label-content-name-mismatch",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/label-content-name-mismatch.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/label-content-name-mismatch.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "table-fake-caption",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/table-fake-caption.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/table-fake-caption.js"
+    },
+    {
+      "category": "accessibility",
+      "audit_id": "td-has-header",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "hidden",
+      "role": "unscored reference",
+      "source_path": "core/audits/accessibility/td-has-header.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/td-has-header.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "is-on-https",
+      "configured_weight_expression": "5",
+      "configured_weight": 5.0,
+      "group": "best-practices-trust-safety",
+      "role": "weighted reference",
+      "source_path": "core/audits/is-on-https.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/is-on-https.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "redirects-http",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-trust-safety",
+      "role": "weighted reference",
+      "source_path": "core/audits/redirects-http.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/redirects-http.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "geolocation-on-start",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-trust-safety",
+      "role": "weighted reference",
+      "source_path": "core/audits/dobetterweb/geolocation-on-start.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/geolocation-on-start.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "notification-on-start",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-trust-safety",
+      "role": "weighted reference",
+      "source_path": "core/audits/dobetterweb/notification-on-start.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/notification-on-start.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "csp-xss",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-trust-safety",
+      "role": "unscored reference",
+      "source_path": "core/audits/csp-xss.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/csp-xss.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "has-hsts",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-trust-safety",
+      "role": "unscored reference",
+      "source_path": "core/audits/has-hsts.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/has-hsts.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "origin-isolation",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-trust-safety",
+      "role": "unscored reference",
+      "source_path": "core/audits/origin-isolation.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/origin-isolation.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "clickjacking-mitigation",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-trust-safety",
+      "role": "unscored reference",
+      "source_path": "core/audits/clickjacking-mitigation.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/clickjacking-mitigation.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "trusted-types-xss",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-trust-safety",
+      "role": "unscored reference",
+      "source_path": "core/audits/trusted-types-xss.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/trusted-types-xss.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "paste-preventing-inputs",
+      "configured_weight_expression": "3",
+      "configured_weight": 3.0,
+      "group": "best-practices-ux",
+      "role": "weighted reference",
+      "source_path": "core/audits/dobetterweb/paste-preventing-inputs.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/paste-preventing-inputs.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "image-aspect-ratio",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-ux",
+      "role": "weighted reference",
+      "source_path": "core/audits/image-aspect-ratio.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/image-aspect-ratio.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "image-size-responsive",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-ux",
+      "role": "weighted reference",
+      "source_path": "core/audits/image-size-responsive.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/image-size-responsive.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "doctype",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-browser-compat",
+      "role": "weighted reference",
+      "source_path": "core/audits/dobetterweb/doctype.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/doctype.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "charset",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-browser-compat",
+      "role": "weighted reference",
+      "source_path": "core/audits/dobetterweb/charset.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/charset.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "baseline",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-browser-compat",
+      "role": "unscored reference",
+      "source_path": "core/audits/baseline.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/baseline.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "js-libraries",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-general",
+      "role": "unscored reference",
+      "source_path": "core/audits/dobetterweb/js-libraries.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/js-libraries.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "deprecations",
+      "configured_weight_expression": "5",
+      "configured_weight": 5.0,
+      "group": "best-practices-general",
+      "role": "weighted reference",
+      "source_path": "core/audits/deprecations.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/deprecations.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "third-party-cookies",
+      "configured_weight_expression": "5",
+      "configured_weight": 5.0,
+      "group": "best-practices-general",
+      "role": "weighted reference",
+      "source_path": "core/audits/third-party-cookies.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/third-party-cookies.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "errors-in-console",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-general",
+      "role": "weighted reference",
+      "source_path": "core/audits/errors-in-console.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/errors-in-console.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "valid-source-maps",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": "best-practices-general",
+      "role": "unscored reference",
+      "source_path": "core/audits/valid-source-maps.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/valid-source-maps.js"
+    },
+    {
+      "category": "best-practices",
+      "audit_id": "inspector-issues",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "best-practices-general",
+      "role": "weighted reference",
+      "source_path": "core/audits/dobetterweb/inspector-issues.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/dobetterweb/inspector-issues.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "is-crawlable",
+      "configured_weight_expression": "93 / 23",
+      "configured_weight": 4.043478260869565,
+      "group": "seo-crawl",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/is-crawlable.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/is-crawlable.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "document-title",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-content",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/document-title.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/document-title.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "meta-description",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-content",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/meta-description.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/meta-description.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "http-status-code",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-crawl",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/http-status-code.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/http-status-code.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "link-text",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-content",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/link-text.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/link-text.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "crawlable-anchors",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-crawl",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/crawlable-anchors.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/crawlable-anchors.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "robots-txt",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-crawl",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/robots-txt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/robots-txt.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "image-alt",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-content",
+      "role": "weighted reference",
+      "source_path": "core/audits/accessibility/image-alt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/accessibility/image-alt.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "hreflang",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-content",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/hreflang.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/hreflang.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "canonical",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "seo-content",
+      "role": "weighted reference",
+      "source_path": "core/audits/seo/canonical.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/canonical.js"
+    },
+    {
+      "category": "seo",
+      "audit_id": "structured-data",
+      "configured_weight_expression": "0",
+      "configured_weight": 0.0,
+      "group": null,
+      "role": "manual review",
+      "source_path": "core/audits/seo/manual/structured-data.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/seo/manual/structured-data.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "agent-accessibility-tree",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "agent-accessibility",
+      "role": "weighted reference",
+      "source_path": "core/audits/agentic/agent-accessibility-tree.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/agentic/agent-accessibility-tree.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "webmcp-form-coverage",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "webmcp",
+      "role": "weighted reference",
+      "source_path": "core/audits/webmcp-form-coverage.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/webmcp-form-coverage.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "webmcp-registered-tools",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "webmcp",
+      "role": "weighted reference",
+      "source_path": "core/audits/webmcp-registered-tools.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/webmcp-registered-tools.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "webmcp-schema-validity",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "webmcp",
+      "role": "weighted reference",
+      "source_path": "core/audits/webmcp-schema-validity.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/webmcp-schema-validity.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "cumulative-layout-shift",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": null,
+      "role": "weighted reference",
+      "source_path": "core/audits/metrics/cumulative-layout-shift.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/metrics/cumulative-layout-shift.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "llms-txt",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "agent-discoverability",
+      "role": "weighted reference",
+      "source_path": "core/audits/agentic/llms-txt.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/agentic/llms-txt.js"
+    },
+    {
+      "category": "agentic-browsing",
+      "audit_id": "ard-schema",
+      "configured_weight_expression": "1",
+      "configured_weight": 1.0,
+      "group": "agent-discoverability",
+      "role": "weighted reference",
+      "source_path": "core/audits/agentic/ard-schema.js",
+      "source_url": "https://github.com/GoogleChrome/lighthouse/blob/cb853a38a6410617518b363590c967b3fe211949/core/audits/agentic/ard-schema.js"
+    }
+  ]
+}

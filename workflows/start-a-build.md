@@ -28,3 +28,7 @@ unresolved_gaps: []
 ```
 
 A fresh checkout retrieval check is recorded in [migration evidence](../evidence/migration.md). It demonstrates access/navigation/integrity, not every possible future agent's behavior.
+
+## Website quality and search work
+
+Read [Google web quality and SEO](../tools/google-web-quality/README.md), select the relevant method and record the exact library commit in the project. Keep project-specific baselines, customer evidence and accepted thresholds in the project repository or appropriate private evidence store. This shared library holds reusable source guidance and methods.

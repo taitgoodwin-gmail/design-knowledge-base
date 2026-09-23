@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-09-23",
+  "research_only": true,
+  "lighthouse_version": "13.5.0",
+  "source_commit": "cb853a38a6410617518b363590c967b3fe211949",
+  "inventory_reproduction": "Identical Markdown and JSON from the reusable extractor",
+  "references": 165,
+  "unique_audit_ids": 162,
+  "source_reviews": 46,
+  "library_validation": {
+    "local_archives": 319,
+    "notion_snapshots": 25,
+    "source_urls": 681,
+    "valid_json_files": 204,
+    "maintained_links_checked": 605,
+    "errors": []
+  },
+  "validation_scope": "Validation output before addition of this receipt and tree refresh; not a live website audit",
+  "artifacts": {
+    "google-seo-foundations.md": "5792d7deb1b344293d74454aecc0684f76c5903b889d23efe61316d042b7b583",
+    "extract_inventory.py": "47650786db0c4b091dffc2f8b5092809d2f321fe4b781683787325b9f430beaa",
+    "lighthouse-audit-inventory.md": "13c5b528637c1ce0c9ad652754fa041d2f4e258dc3480db0bcc3a7a25fdf22a4",
+    "lighthouse-audit-inventory.json": "7ab1418e78ad80871eb89fd58131e56fcf93c98924bb8db5bf033c5fb8f869df",
+    "lighthouse-evidence-spec.md": "5659c9e1569fe8e6acd02d2c025cbaecf5d49e2214428a296946510c7aa7fab8",
+    "README.md": "048f90c72002d7b61698e145406728122cc7e258e7abb6eeda165babfc6b36a8",
+    "lighthouse-source-register.md": "6f400f4e120c148f597424889f5b2b705f43d2c01dd7ad9c0e82ee09af1b45bc",
+    "lighthouse-audit-playbook.md": "9d4f49768d5344251808d2dc39f74926cf72cd1a6bf6a696979498f2c0a888b1"
+  }
+}

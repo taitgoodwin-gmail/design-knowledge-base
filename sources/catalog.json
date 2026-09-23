@@ -10624,7 +10624,697 @@
           "evidence": "tools/figma/evidence/2026-09-20-motion-color-review.md"
         }
       ]
+    },
+    {
+      "id": "REF-6ebd51fc204d",
+      "title": "Lighthouse overview",
+      "url": "https://developer.chrome.com/docs/lighthouse/overview",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-6ebd51fc204d",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Available collection paths and page-audit scope",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-26bf3bacc401",
+      "title": "DevTools Lighthouse",
+      "url": "https://developer.chrome.com/docs/devtools/lighthouse",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-26bf3bacc401",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Modes and performance-debugging workflow",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-d0ebf6fbc20d",
+      "title": "Performance scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/performance/performance-scoring",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-d0ebf6fbc20d",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Score interpretation and variability",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-9207a20ae1aa",
+      "title": "Accessibility scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/accessibility/scoring",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-9207a20ae1aa",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Weighted automated checks; manual review separate",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5ef9b113fd32",
+      "title": "Agentic browsing scoring",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-5ef9b113fd32",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Experimental status and prerequisites; runtime availability untested",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-9e01f0ace364",
+      "title": "PSI interpretation",
+      "url": "https://developers.google.com/speed/docs/insights/v5/about",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-9e01f0ace364",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Lab versus field, thresholds, missing data and assessment",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-5bea86da45f8",
+      "title": "PSI API guide",
+      "url": "https://developers.google.com/speed/docs/insights/v5/get-started",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-5bea86da45f8",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Planned removal of bundled CrUX; use separate adapter",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2b7961629c90",
+      "title": "PSI API reference",
+      "url": "https://developers.google.com/speed/docs/insights/v5/reference/pagespeedapi/runpagespeed",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-2b7961629c90",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Desktop/performance defaults; explicitly request categories and device",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c4356c56a04d",
+      "title": "CrUX API",
+      "url": "https://developer.chrome.com/docs/crux/api",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-c4356c56a04d",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "URL/origin query, metrics, period, quota; no live API request",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ad4709d3a749",
+      "title": "CrUX History API",
+      "url": "https://developer.chrome.com/docs/crux/history-api",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-ad4709d3a749",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Up to 40 overlapping periods and missing values",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-35f5625620db",
+      "title": "CrUX methodology",
+      "url": "https://developer.chrome.com/docs/crux/methodology",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-35f5625620db",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Eligibility, sample coverage, URL normalization and attribution",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-74bf827a2002",
+      "title": "CrUX BigQuery",
+      "url": "https://developer.chrome.com/docs/crux/bigquery",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-74bf827a2002",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Monthly history and optional broader benchmarking",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-35ef629bf731",
+      "title": "CrUX Vis",
+      "url": "https://developer.chrome.com/docs/crux/vis",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-35ef629bf731",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Existing historical dashboard and scope limits",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-93d5c4474009",
+      "title": "Web Vitals library",
+      "url": "https://github.com/GoogleChrome/web-vitals",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-93d5c4474009",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "RUM and attribution option; not installed",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-62c18319cdd3",
+      "title": "Lighthouse CI getting started",
+      "url": "https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/getting-started.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-62c18319cdd3",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Gradual CI adoption and artifact storage",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-de2882326300",
+      "title": "Lighthouse CI configuration",
+      "url": "https://github.com/GoogleChrome/lighthouse-ci/blob/main/docs/configuration.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-de2882326300",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Optimistic default, explicit aggregation, assertions and storage",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-f1d657ab28c1",
+      "title": "Lighthouse 13.5.0 release",
+      "url": "https://github.com/GoogleChrome/lighthouse/releases/tag/v13.5.0",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-f1d657ab28c1",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed release metadata",
+          "scope": "Published September 18; channel rollout expectation is not runtime verification",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-cc224bed75fe",
+      "title": "Google Search Essentials",
+      "url": "https://developers.google.com/search/docs/essentials",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-cc224bed75fe",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Eligibility and content/navigation guidance; no ranking guarantee",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-0a1c82c044ac",
+      "title": "Google spam policies",
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-0a1c82c044ac",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed relevant policy sections",
+          "scope": "Search manipulation and scaled-content limits; not an exhaustive policy audit",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-d76e3db85ca0",
+      "title": "Structured-data policies",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-d76e3db85ca0",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed relevant policy sections",
+          "scope": "Visible-content accuracy and eligibility; no rich-result guarantee",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-6fe2317039f5",
+      "title": "Google generative AI Search guide",
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-6fe2317039f5",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Search guidance and llms.txt claim boundary; not evidence about other AI products",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ef7e77b36286",
+      "title": "Core Web Vitals and Search",
+      "url": "https://developers.google.com/search/docs/appearance/core-web-vitals",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-ef7e77b36286",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Recommended field metrics and search claim limits",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-3c7581b70ad6",
+      "title": "Search Console guide",
+      "url": "https://developers.google.com/search/docs/monitor-debug/search-console-start",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-3c7581b70ad6",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Separate indexing/performance evidence",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-c6f932c89131",
+      "title": "W3C evaluation tools",
+      "url": "https://www.w3.org/WAI/test-evaluate/tools/selecting/",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-c6f932c89131",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed documentation",
+          "scope": "Human review needed; automated tools cannot establish accessibility",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-784435bb1b94",
+      "title": "WCAG overview",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-784435bb1b94",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed overview",
+          "scope": "Standards context; this research is not a criterion-by-criterion conformance review",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-7eb820e1e53b",
+      "title": "OWASP SSRF prevention",
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-7eb820e1e53b",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Reviewed relevant guidance",
+          "scope": "Future untrusted-URL scanner isolation and request validation",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-962af928dfaa",
+      "title": "Lighthouse package",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/package.json",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-962af928dfaa",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Version, Node engine and license metadata",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-1f7dc78601d8",
+      "title": "Default configuration",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/config/default-config.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-1f7dc78601d8",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Extracted all category references and weights; not runtime execution",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-04fbf88226ca",
+      "title": "Agentic configuration",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/config/agentic-browsing-config.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-04fbf88226ca",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Seven references and fraction display",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-8aca5bf16fb5",
+      "title": "LHR types",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/types/lhr/lhr.d.ts",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-8aca5bf16fb5",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Metadata, category and environment fields",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ebdc4aba3aa9",
+      "title": "Audit result types",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/types/lhr/audit-result.d.ts",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-ebdc4aba3aa9",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Score modes and per-audit fields",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-1c6eecb4daaf",
+      "title": "Audit detail types",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/types/lhr/audit-details.d.ts",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-1c6eecb4daaf",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Typed details and estimated savings representation",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-627df4cbbea0",
+      "title": "INP audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/metrics/interaction-to-next-paint.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-627df4cbbea0",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Timespan and non-simulated restrictions",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a67418871c85",
+      "title": "llms.txt audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/agentic/llms-txt.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-a67418871c85",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Missing-file N/A and basic validation",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-a0ef2e44df11",
+      "title": "ARD audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/agentic/ard-schema.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-a0ef2e44df11",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Discovery signals, absence and validation behavior",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-45c2617f9ac6",
+      "title": "Agent accessibility audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/agentic/agent-accessibility-tree.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-45c2617f9ac6",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Subset of axe rules and evidence limits",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-2dd047497063",
+      "title": "WebMCP form coverage",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/webmcp-form-coverage.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-2dd047497063",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Conditional pass, informative and N/A states",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-4197a91c0b05",
+      "title": "WebMCP tools",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/webmcp-registered-tools.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-4197a91c0b05",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Informative inventory and tool-count warning",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-b0ff8e28184c",
+      "title": "WebMCP schema audit",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/core/audits/webmcp-schema-validity.js",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-b0ff8e28184c",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Browser support, errors and warnings",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-b466a0abc72a",
+      "title": "Run variability",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/variability.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-b466a0abc72a",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Repeated controlled runs; worker contention",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-1e393eb392a6",
+      "title": "Throttling",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/throttling.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-1e393eb392a6",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Simulation versus applied trace measurements",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-7f5e04e2154f",
+      "title": "User flows",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/user-flows.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-7f5e04e2154f",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Navigation, timespan and snapshot scope",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-53d29cb88df5",
+      "title": "Authenticated pages",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/authenticated-pages.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-53d29cb88df5",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Local/authenticated collection patterns",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-e274c29a4dbe",
+      "title": "Understanding results",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/understanding-results.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-e274c29a4dbe",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Artifacts and report structure",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-03d5b8cd3c0f",
+      "title": "Plugin handbook",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/docs/plugins.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-03d5b8cd3c0f",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "Extension capabilities and limits",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
+    },
+    {
+      "id": "REF-ba2c7577e026",
+      "title": "Lighthouse CLI",
+      "url": "https://github.com/GoogleChrome/lighthouse/blob/v13.5.0/readme.md",
+      "records": [
+        {
+          "collection": "google-web-quality",
+          "original_id": "REF-ba2c7577e026",
+          "recorded_checked_at": "2026-09-23",
+          "status": "Inspected pinned source/docs",
+          "scope": "CLI reports/assets; category help can lag implementation",
+          "evidence": "sources/google-web-quality-2026-09-23.json"
+        }
+      ]
     }
   ],
-  "updated_at": "2026-09-20"
+  "updated_at": "2026-09-23"
 }

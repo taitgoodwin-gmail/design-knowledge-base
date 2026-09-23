@@ -6,6 +6,7 @@
 | Figma Design, layout, components, variables, typography | [Figma](tools/figma/README.md) |
 | Motion, Draw, Make, Weave, Sites, Slides/Buzz/FigJam | [Figma product map](tools/figma/PRODUCT-MAP.md) |
 | Tool controls and practice outcomes | [Controls](tools/figma/CONTROLS.md), [exercises](tools/figma/exercises/README.md) |
+| Lighthouse, PageSpeed Insights, CrUX, Core Web Vitals and Google SEO | [Google web quality and SEO library](tools/google-web-quality/README.md) |
 | Squarespace visual-system practice | [Design-system guide](tools/squarespace/design-system.md) |
 | Figma/ChatGPT/Codex | [Integration](integrations/figma-chatgpt-codex.md) |
 | Component mapping | [Code Connect workflow](integrations/code-connect.md) |

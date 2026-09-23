@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased — 2026-09-23
+
+- Added the Google web quality and SEO reference module for reuse across MindLeverX, Levarum and customer builds.
+- Preserved the initial Lighthouse overview; added the deeper audit playbook, evidence/report specification, 162-ID source inventory and 46 dated source reviews.
+- Recorded experimental agentic behavior, PSI/CrUX separation and CI aggregation semantics with explicit runtime verification limits.
+- Linked the module from README, reading map and fresh-build workflow; source catalog now contains 681 exact URLs.
+
+
 ## 2026-09-21 — Fresh reimagining and naming record
 
 - Captured the recent conversation's eleven concept proposals, clean-slate direction, and explicitly selected wide-range exploration and GEO-specialist scope.

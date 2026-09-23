@@ -9,6 +9,7 @@ Private reusable research for MindLeverX, Levarum, and future business/customer 
 | Use this knowledge in a new build | [Build handoff](workflows/start-a-build.md) |
 | Understand design principles | [Principles guide](principles/README.md) and [UI/UX playbook](principles/uiux-design-playbook.md) |
 | Explain a design choice, including color and movement | [Element rationale template](templates/element-rationale.md) |
+| Audit website quality, Lighthouse, Core Web Vitals and Google SEO | [Google web quality and SEO](tools/google-web-quality/README.md) |
 | Work in Figma | [Figma capability map and practice](tools/figma/README.md) |
 | Connect Figma with ChatGPT/Codex and implementation | [Integration guide](integrations/figma-chatgpt-codex.md) |
 | Browse visual references and study materials | [Reference library](reference-library/README.md) and [learning library](learning/README.md) |
@@ -18,7 +19,7 @@ Private reusable research for MindLeverX, Levarum, and future business/customer 
 | Check sources, coverage or contradictions | [Source catalog guide](sources/README.md) and [conflicts](sources/conflicts.md) |
 | Verify migration and preservation | [Migration evidence](evidence/migration.md) |
 
-The collection accounts for **319 original local files**, **25 Notion page snapshots**, and **635 distinct catalog URLs**. URLs include partial reviews, historical register entries, scope seeds, and links not fetched. These counts are not a claim of exhaustive research or verified mastery. Fifty exact-duplicate groups are tracked by hash; Git stores identical content once while original archive paths remain intact.
+The collection accounts for **319 original local files**, **25 Notion page snapshots**, and **681 distinct catalog URLs**. URLs include partial reviews, historical register entries, scope seeds, and links not fetched. These counts are not a claim of exhaustive research or verified mastery. Fifty exact-duplicate groups are tracked by hash; Git stores identical content once while original archive paths remain intact.
 
 The Figma draft includes 14 modules, 138 observed controls, and 18 exercises. One navigation exercise has a limited recorded pass; fourteen more have measured fixture results (E02–E12, E15, E17, E18), and 3 remain pending. The public Help inventory now contains 887 retrieved articles across 14 categories, including 183 Design articles; retrieval is not review. Notion's Design Knowledge Base page was empty; substantive material came from its other research and governance pages. See [known gaps](tools/figma/known-gaps.md) and [the public Help index](tools/figma/HELP-INVENTORY.md).
 

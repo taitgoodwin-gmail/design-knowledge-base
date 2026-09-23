@@ -1,0 +1,5323 @@
+{
+  "page": {
+    "id": "0:1",
+    "name": "01 · Homepage exploration",
+    "flowStartingPoints": [
+      {
+        "nodeId": "13:167",
+        "name": "MindLeverX Desktop"
+      },
+      {
+        "nodeId": "13:322",
+        "name": "MindLeverX Mobile"
+      }
+    ]
+  },
+  "root": "14:403",
+  "offset": 0,
+  "total": 84,
+  "nodes": [
+    {
+      "id": "14:403",
+      "p": "0:1",
+      "t": "FRAME",
+      "n": "MindLeverX — What is GEO / Mobile",
+      "g": [
+        10200,
+        876,
+        390,
+        4384
+      ],
+      "a": {
+        "x": 10200,
+        "y": 876,
+        "width": 390,
+        "height": 4384
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:404",
+      "p": "14:403",
+      "t": "FRAME",
+      "n": "Mobile Status Bar Simulator",
+      "g": [
+        0,
+        0,
+        390,
+        34
+      ],
+      "a": {
+        "x": 10200,
+        "y": 876,
+        "width": 390,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        12,
+        24,
+        4,
+        24,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:405",
+      "p": "14:404",
+      "t": "TEXT",
+      "n": "9:41",
+      "g": [
+        24,
+        12,
+        27,
+        18
+      ],
+      "a": {
+        "x": 10224,
+        "y": 888,
+        "width": 27,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "9:41",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 700,
+        "line": {
+          "unit": "AUTO"
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:406",
+      "p": "14:404",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        297,
+        12,
+        69,
+        11
+      ],
+      "a": {
+        "x": 10497,
+        "y": 888,
+        "width": 69,
+        "height": 11
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        6,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:407",
+      "p": "14:406",
+      "t": "FRAME",
+      "n": "ios-signal",
+      "g": [
+        0,
+        0,
+        17,
+        11
+      ],
+      "a": {
+        "x": 10497,
+        "y": 888,
+        "width": 17,
+        "height": 11
+      },
+      "l": [
+        "NONE",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:408",
+      "p": "14:407",
+      "t": "VECTOR",
+      "n": "Vector",
+      "g": [
+        0,
+        2.4123001098632812,
+        16.31999969482422,
+        6.725399971008301
+      ],
+      "a": {
+        "x": 10497,
+        "y": 890.4122924804688,
+        "width": 16.31999969482422,
+        "height": 6.725399971008301
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:409",
+      "p": "14:406",
+      "t": "FRAME",
+      "n": "ios-wifi-signal",
+      "g": [
+        23,
+        0,
+        15,
+        11
+      ],
+      "a": {
+        "x": 10520,
+        "y": 888,
+        "width": 15,
+        "height": 11
+      },
+      "l": [
+        "NONE",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:410",
+      "p": "14:409",
+      "t": "VECTOR",
+      "n": "Vector",
+      "g": [
+        0.75,
+        1.8348000049591064,
+        12.856277465820312,
+        6.780544281005859
+      ],
+      "a": {
+        "x": 10520.75,
+        "y": 889.8347778320312,
+        "width": 12.856277465820312,
+        "height": 6.780544281005859
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:411",
+      "p": "14:406",
+      "t": "FRAME",
+      "n": "ios-battery-full",
+      "g": [
+        44,
+        0,
+        25,
+        11
+      ],
+      "a": {
+        "x": 10541,
+        "y": 888,
+        "width": 25,
+        "height": 11
+      },
+      "l": [
+        "NONE",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:412",
+      "p": "14:411",
+      "t": "VECTOR",
+      "n": "Vector",
+      "g": [
+        0,
+        2.200000047683716,
+        24.400089263916016,
+        7.150000095367432
+      ],
+      "a": {
+        "x": 10541,
+        "y": 890.2000122070312,
+        "width": 24.400089263916016,
+        "height": 7.150000095367432
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:413",
+      "p": "14:403",
+      "t": "INSTANCE",
+      "n": "Header / Mobile",
+      "g": [
+        0,
+        34,
+        390,
+        62
+      ],
+      "a": {
+        "x": 10200,
+        "y": 910,
+        "width": 390,
+        "height": 62
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        16,
+        24,
+        16,
+        24,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "cp": {}
+    },
+    {
+      "id": "I14:413;13:330",
+      "p": "14:413",
+      "t": "FRAME",
+      "n": "Brand Identity",
+      "g": [
+        24,
+        17,
+        146,
+        28
+      ],
+      "a": {
+        "x": 10224,
+        "y": 927,
+        "width": 146,
+        "height": 28
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        10,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I14:413;13:331",
+      "p": "I14:413;13:330",
+      "t": "FRAME",
+      "n": "Logo Mark",
+      "g": [
+        0,
+        0,
+        28,
+        28
+      ],
+      "a": {
+        "x": 10224,
+        "y": 927,
+        "width": 28,
+        "height": 28
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            107,
+            74
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I14:413;13:332",
+      "p": "I14:413;13:331",
+      "t": "FRAME",
+      "n": "cross",
+      "g": [
+        6,
+        5,
+        16,
+        18
+      ],
+      "a": {
+        "x": 10230,
+        "y": 932,
+        "width": 16,
+        "height": 18
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I14:413;13:333",
+      "p": "I14:413;13:332",
+      "t": "VECTOR",
+      "n": "Vector",
+      "g": [
+        2,
+        3,
+        12,
+        12
+      ],
+      "a": {
+        "x": 10232,
+        "y": 935,
+        "width": 12,
+        "height": 12
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "I14:413;13:334",
+      "p": "I14:413;13:330",
+      "t": "TEXT",
+      "n": "Wordmark",
+      "g": [
+        38,
+        3,
+        108,
+        22
+      ],
+      "a": {
+        "x": 10262,
+        "y": 930,
+        "width": 108,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "MIND LEVER X",
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        },
+        "size": 16,
+        "weight": 800,
+        "line": {
+          "unit": "AUTO"
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:413;13:335",
+      "p": "14:413",
+      "t": "FRAME",
+      "n": "Menu Control",
+      "g": [
+        307,
+        16,
+        59,
+        30
+      ],
+      "a": {
+        "x": 10507,
+        "y": 926,
+        "width": 59,
+        "height": 30
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        6,
+        12,
+        6,
+        12,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:873",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:873",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:413;13:336",
+      "p": "I14:413;13:335",
+      "t": "TEXT",
+      "n": "MENU",
+      "g": [
+        12,
+        6,
+        35,
+        18
+      ],
+      "a": {
+        "x": 10519,
+        "y": 932,
+        "width": 35,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "MENU",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:421",
+      "p": "14:403",
+      "t": "FRAME",
+      "n": "Hero Section",
+      "g": [
+        0,
+        96,
+        390,
+        579
+      ],
+      "a": {
+        "x": 10200,
+        "y": 972,
+        "width": 390,
+        "height": 579
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        48,
+        24,
+        48,
+        24,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        }
+      }
+    },
+    {
+      "id": "14:422",
+      "p": "14:421",
+      "t": "TEXT",
+      "n": "PLAIN-LANGUAGE EDUCATION",
+      "g": [
+        24,
+        48,
+        342,
+        18
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1020,
+        "width": 342,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "PLAIN-LANGUAGE EDUCATION",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:423",
+      "p": "14:421",
+      "t": "TEXT",
+      "n": "What is Generative Engine Optimization?",
+      "g": [
+        24,
+        90,
+        342,
+        80
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1062,
+        "width": 342,
+        "height": 80
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "What is Generative Engine Optimization?",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 32,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 40
+        },
+        "style": "S:721412fe0b9d9745146f3603a57d261d369416c2,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:424",
+      "p": "14:421",
+      "t": "TEXT",
+      "n": "Generative Engine Optimization (GEO) is the systematic work of helping your brand’s original insights, technical data, and platform offerings remain clear, accessible, and correctly indexable as search patterns transition toward AI-driven answer retrieval.",
+      "g": [
+        24,
+        194,
+        342,
+        203
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1166,
+        "width": 342,
+        "height": 203
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Generative Engine Optimization (GEO) is the systematic work of helping your brand’s original insights, technical data, and platform offerings remain clear, accessible, and correctly indexable as search patterns transition toward AI-driven answer retrieval.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:425",
+      "p": "14:421",
+      "t": "TEXT",
+      "n": "It focuses on structuring helpful, original business information to be understandable when search and AI systems retrieve or summarize it. It does not imply manipulating systems or using unprovable shortcuts.",
+      "g": [
+        24,
+        421,
+        342,
+        110
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1393,
+        "width": 342,
+        "height": 110
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "It focuses on structuring helpful, original business information to be understandable when search and AI systems retrieve or summarize it. It does not imply manipulating systems or using unprovable shortcuts.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:426",
+      "p": "14:403",
+      "t": "FRAME",
+      "n": "Questions Section",
+      "g": [
+        0,
+        675,
+        390,
+        1935
+      ],
+      "a": {
+        "x": 10200,
+        "y": 1551,
+        "width": 390,
+        "height": 1935
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            14,
+            29,
+            49
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        48,
+        24,
+        48,
+        24,
+        32,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:4"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:427",
+      "p": "14:426",
+      "t": "TEXT",
+      "n": "FREQUENTLY EXAMINED CORE IDEAS",
+      "g": [
+        24,
+        48,
+        342,
+        18
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1599,
+        "width": 342,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "FREQUENTLY EXAMINED CORE IDEAS",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:428",
+      "p": "14:426",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        98,
+        342,
+        1789
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1649,
+        "width": 342,
+        "height": 1789
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:429",
+      "p": "14:428",
+      "t": "INSTANCE",
+      "n": "Card / Audit area",
+      "g": [
+        0,
+        0,
+        342,
+        468
+      ],
+      "a": {
+        "x": 10224,
+        "y": 1649,
+        "width": 342,
+        "height": 468
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            14,
+            29,
+            49
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        32,
+        32,
+        32,
+        32,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:4"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "cp": {
+        "Body#3:3": {
+          "type": "TEXT",
+          "value": "GEO overlaps heavily with strong SEO foundations — helpful original content, crawlable structure, and clear factual copy. However, while SEO optimizes for page rank, GEO focuses on how language models represent your brand, summarize claims, and reference sources in downstream answers."
+        },
+        "Title#3:2": {
+          "type": "TEXT",
+          "value": "How is GEO different from traditional SEO?"
+        },
+        "Index#3:1": {
+          "type": "TEXT",
+          "value": "01 / RELATION TO SEO"
+        }
+      }
+    },
+    {
+      "id": "I14:429;3:10",
+      "p": "14:429",
+      "t": "TEXT",
+      "n": "Index",
+      "g": [
+        33,
+        33,
+        276,
+        18
+      ],
+      "a": {
+        "x": 10257,
+        "y": 1682,
+        "width": 276,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "01 / RELATION TO SEO",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:429;3:11",
+      "p": "14:429",
+      "t": "TEXT",
+      "n": "Title",
+      "g": [
+        33,
+        67,
+        276,
+        62
+      ],
+      "a": {
+        "x": 10257,
+        "y": 1716,
+        "width": 276,
+        "height": 62
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "How is GEO different from traditional SEO?",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:429;3:12",
+      "p": "14:429",
+      "t": "TEXT",
+      "n": "Body",
+      "g": [
+        33,
+        145,
+        276,
+        290
+      ],
+      "a": {
+        "x": 10257,
+        "y": 1794,
+        "width": 276,
+        "height": 290
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "GEO overlaps heavily with strong SEO foundations — helpful original content, crawlable structure, and clear factual copy. However, while SEO optimizes for page rank, GEO focuses on how language models represent your brand, summarize claims, and reference sources in downstream answers.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:433",
+      "p": "14:428",
+      "t": "INSTANCE",
+      "n": "Card / Audit area",
+      "g": [
+        0,
+        488,
+        342,
+        410
+      ],
+      "a": {
+        "x": 10224,
+        "y": 2137,
+        "width": 342,
+        "height": 410
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            14,
+            29,
+            49
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        32,
+        32,
+        32,
+        32,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:4"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "cp": {
+        "Body#3:3": {
+          "type": "TEXT",
+          "value": "No. Google’s AI features operate within Google Search indexing and retrieval. Consumer ChatGPT is a separate product and observation context. Behavior seen in one system is an isolated test; do not generalize it to every AI engine."
+        },
+        "Title#3:2": {
+          "type": "TEXT",
+          "value": "Are search AI features the same as ChatGPT?"
+        },
+        "Index#3:1": {
+          "type": "TEXT",
+          "value": "02 / ENGINE SYSTEMS"
+        }
+      }
+    },
+    {
+      "id": "I14:433;3:10",
+      "p": "14:433",
+      "t": "TEXT",
+      "n": "Index",
+      "g": [
+        33,
+        33,
+        276,
+        18
+      ],
+      "a": {
+        "x": 10257,
+        "y": 2170,
+        "width": 276,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "02 / ENGINE SYSTEMS",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:433;3:11",
+      "p": "14:433",
+      "t": "TEXT",
+      "n": "Title",
+      "g": [
+        33,
+        67,
+        276,
+        62
+      ],
+      "a": {
+        "x": 10257,
+        "y": 2204,
+        "width": 276,
+        "height": 62
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Are search AI features the same as ChatGPT?",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:433;3:12",
+      "p": "14:433",
+      "t": "TEXT",
+      "n": "Body",
+      "g": [
+        33,
+        145,
+        276,
+        232
+      ],
+      "a": {
+        "x": 10257,
+        "y": 2282,
+        "width": 276,
+        "height": 232
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "No. Google’s AI features operate within Google Search indexing and retrieval. Consumer ChatGPT is a separate product and observation context. Behavior seen in one system is an isolated test; do not generalize it to every AI engine.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:437",
+      "p": "14:428",
+      "t": "INSTANCE",
+      "n": "Card / Audit area",
+      "g": [
+        0,
+        918,
+        342,
+        441
+      ],
+      "a": {
+        "x": 10224,
+        "y": 2567,
+        "width": 342,
+        "height": 441
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            14,
+            29,
+            49
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        32,
+        32,
+        32,
+        32,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:4"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "cp": {
+        "Body#3:3": {
+          "type": "TEXT",
+          "value": "No. Google's current official guidance states that no specialized AI-specific schema or llms.txt protocol is required for standard search retrieval. Normal Search technical requirements and helpful content practices still apply."
+        },
+        "Title#3:2": {
+          "type": "TEXT",
+          "value": "Does Google require special AI markup or llms.txt?"
+        },
+        "Index#3:1": {
+          "type": "TEXT",
+          "value": "03 / GOOGLE SEARCH GUIDANCE"
+        }
+      }
+    },
+    {
+      "id": "I14:437;3:10",
+      "p": "14:437",
+      "t": "TEXT",
+      "n": "Index",
+      "g": [
+        33,
+        33,
+        276,
+        18
+      ],
+      "a": {
+        "x": 10257,
+        "y": 2600,
+        "width": 276,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "03 / GOOGLE SEARCH GUIDANCE",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:437;3:11",
+      "p": "14:437",
+      "t": "TEXT",
+      "n": "Title",
+      "g": [
+        33,
+        67,
+        276,
+        93
+      ],
+      "a": {
+        "x": 10257,
+        "y": 2634,
+        "width": 276,
+        "height": 93
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Does Google require special AI markup or llms.txt?",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:437;3:12",
+      "p": "14:437",
+      "t": "TEXT",
+      "n": "Body",
+      "g": [
+        33,
+        176,
+        276,
+        232
+      ],
+      "a": {
+        "x": 10257,
+        "y": 2743,
+        "width": 276,
+        "height": 232
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "No. Google's current official guidance states that no specialized AI-specific schema or llms.txt protocol is required for standard search retrieval. Normal Search technical requirements and helpful content practices still apply.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:441",
+      "p": "14:428",
+      "t": "INSTANCE",
+      "n": "Card / Audit area",
+      "g": [
+        0,
+        1379,
+        342,
+        410
+      ],
+      "a": {
+        "x": 10224,
+        "y": 3028,
+        "width": 342,
+        "height": 410
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            14,
+            29,
+            49
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        32,
+        32,
+        32,
+        32,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:4"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "cp": {
+        "Body#3:3": {
+          "type": "TEXT",
+          "value": "Absolutely not. Any promise of guaranteed AI rankings, automated citation placement, or magic visibility lift is unprovable. Generative models utilize complex parameters that render single-outcome hacks ineffective."
+        },
+        "Title#3:2": {
+          "type": "TEXT",
+          "value": "Can anyone guarantee an AI recommendation?"
+        },
+        "Index#3:1": {
+          "type": "TEXT",
+          "value": "04 / GUARANTEES"
+        }
+      }
+    },
+    {
+      "id": "I14:441;3:10",
+      "p": "14:441",
+      "t": "TEXT",
+      "n": "Index",
+      "g": [
+        33,
+        33,
+        276,
+        18
+      ],
+      "a": {
+        "x": 10257,
+        "y": 3061,
+        "width": 276,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "04 / GUARANTEES",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:441;3:11",
+      "p": "14:441",
+      "t": "TEXT",
+      "n": "Title",
+      "g": [
+        33,
+        67,
+        276,
+        62
+      ],
+      "a": {
+        "x": 10257,
+        "y": 3095,
+        "width": 276,
+        "height": 62
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Can anyone guarantee an AI recommendation?",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:441;3:12",
+      "p": "14:441",
+      "t": "TEXT",
+      "n": "Body",
+      "g": [
+        33,
+        145,
+        276,
+        232
+      ],
+      "a": {
+        "x": 10257,
+        "y": 3173,
+        "width": 276,
+        "height": 232
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Absolutely not. Any promise of guaranteed AI rankings, automated citation placement, or magic visibility lift is unprovable. Generative models utilize complex parameters that render single-outcome hacks ineffective.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:445",
+      "p": "14:403",
+      "t": "FRAME",
+      "n": "Conceptual Flow Section",
+      "g": [
+        0,
+        2610,
+        390,
+        882
+      ],
+      "a": {
+        "x": 10200,
+        "y": 3486,
+        "width": 390,
+        "height": 882
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        48,
+        24,
+        48,
+        24,
+        32,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        }
+      }
+    },
+    {
+      "id": "14:446",
+      "p": "14:445",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        48,
+        342,
+        110
+      ],
+      "a": {
+        "x": 10224,
+        "y": 3534,
+        "width": 342,
+        "height": 110
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:447",
+      "p": "14:446",
+      "t": "TEXT",
+      "n": "CONCEPTUAL ARCHITECTURE",
+      "g": [
+        0,
+        0,
+        342,
+        18
+      ],
+      "a": {
+        "x": 10224,
+        "y": 3534,
+        "width": 342,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "CONCEPTUAL ARCHITECTURE",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:448",
+      "p": "14:446",
+      "t": "TEXT",
+      "n": "Proposed Information Flow Model",
+      "g": [
+        0,
+        30,
+        342,
+        80
+      ],
+      "a": {
+        "x": 10224,
+        "y": 3564,
+        "width": 342,
+        "height": 80
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Proposed Information Flow Model",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 32,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 40
+        },
+        "style": "S:721412fe0b9d9745146f3603a57d261d369416c2,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:449",
+      "p": "14:445",
+      "t": "FRAME",
+      "n": "Diagram Sequence",
+      "g": [
+        24,
+        190,
+        342,
+        546
+      ],
+      "a": {
+        "x": 10224,
+        "y": 3676,
+        "width": 342,
+        "height": 546
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        24,
+        24,
+        24,
+        24,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:450",
+      "p": "14:449",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        24,
+        294,
+        109
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3700,
+        "width": 294,
+        "height": 109
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:451",
+      "p": "14:450",
+      "t": "TEXT",
+      "n": "PHASE 01",
+      "g": [
+        0,
+        0,
+        294,
+        18
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3700,
+        "width": 294,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "PHASE 01",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:452",
+      "p": "14:450",
+      "t": "TEXT",
+      "n": "SEO Foundations",
+      "g": [
+        0,
+        26,
+        294,
+        31
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3726,
+        "width": 294,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "SEO Foundations",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:453",
+      "p": "14:450",
+      "t": "TEXT",
+      "n": "Technical crawlability, clean schema structure, and high site-accessibility metrics.",
+      "g": [
+        0,
+        65,
+        294,
+        44
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3765,
+        "width": 294,
+        "height": 44
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Technical crawlability, clean schema structure, and high site-accessibility metrics.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:454",
+      "p": "14:449",
+      "t": "LINE",
+      "n": "Line",
+      "g": [
+        24,
+        157,
+        294,
+        0
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3833,
+        "width": 294,
+        "height": 0
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "b": {
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:455",
+      "p": "14:449",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        181,
+        294,
+        131
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3857,
+        "width": 294,
+        "height": 131
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:456",
+      "p": "14:455",
+      "t": "TEXT",
+      "n": "PHASE 02",
+      "g": [
+        0,
+        0,
+        294,
+        18
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3857,
+        "width": 294,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "PHASE 02",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:457",
+      "p": "14:455",
+      "t": "TEXT",
+      "n": "Clear Source Content",
+      "g": [
+        0,
+        26,
+        294,
+        31
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3883,
+        "width": 294,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Clear Source Content",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:458",
+      "p": "14:455",
+      "t": "TEXT",
+      "n": "Factual, authoritative brand copy, documented claims, and clear structural relationships.",
+      "g": [
+        0,
+        65,
+        294,
+        66
+      ],
+      "a": {
+        "x": 10248,
+        "y": 3922,
+        "width": 294,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Factual, authoritative brand copy, documented claims, and clear structural relationships.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:459",
+      "p": "14:449",
+      "t": "LINE",
+      "n": "Line",
+      "g": [
+        24,
+        336,
+        294,
+        0
+      ],
+      "a": {
+        "x": 10248,
+        "y": 4012,
+        "width": 294,
+        "height": 0
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "b": {
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:460",
+      "p": "14:449",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        360,
+        294,
+        162
+      ],
+      "a": {
+        "x": 10248,
+        "y": 4036,
+        "width": 294,
+        "height": 162
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:461",
+      "p": "14:460",
+      "t": "TEXT",
+      "n": "PHASE 03",
+      "g": [
+        0,
+        0,
+        294,
+        18
+      ],
+      "a": {
+        "x": 10248,
+        "y": 4036,
+        "width": 294,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            107,
+            74
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "PHASE 03",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "14:462",
+      "p": "14:460",
+      "t": "TEXT",
+      "n": "System-Specific Observation",
+      "g": [
+        0,
+        26,
+        294,
+        62
+      ],
+      "a": {
+        "x": 10248,
+        "y": 4062,
+        "width": 294,
+        "height": 62
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "System-Specific Observation",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:463",
+      "p": "14:460",
+      "t": "TEXT",
+      "n": "Documenting actual engine responses, capturing prompt variables, and preserving context over time.",
+      "g": [
+        0,
+        96,
+        294,
+        66
+      ],
+      "a": {
+        "x": 10248,
+        "y": 4132,
+        "width": 294,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Documenting actual engine responses, capturing prompt variables, and preserving context over time.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:464",
+      "p": "14:445",
+      "t": "TEXT",
+      "n": "Note: This diagram is a conceptual framework for proposed service tracking and education; it is not a representation of any private ranking formula.",
+      "g": [
+        24,
+        768,
+        342,
+        66
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4254,
+        "width": 342,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Note: This diagram is a conceptual framework for proposed service tracking and education; it is not a representation of any private ranking formula.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:465",
+      "p": "14:403",
+      "t": "FRAME",
+      "n": "Action Area",
+      "g": [
+        0,
+        3492,
+        390,
+        302
+      ],
+      "a": {
+        "x": 10200,
+        "y": 4368,
+        "width": 390,
+        "height": 302
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        48,
+        24,
+        48,
+        24,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:466",
+      "p": "14:465",
+      "t": "TEXT",
+      "n": "Continue exploring the proposed framework",
+      "g": [
+        24,
+        48,
+        342,
+        62
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4416,
+        "width": 342,
+        "height": 62
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Continue exploring the proposed framework",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:467",
+      "p": "14:465",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        134,
+        342,
+        120
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4502,
+        "width": 342,
+        "height": 120
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:468",
+      "p": "14:467",
+      "t": "INSTANCE",
+      "n": "Button / Primary",
+      "g": [
+        0,
+        0,
+        342,
+        54
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4502,
+        "width": 342,
+        "height": 54
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            77,
+            163,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:9"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        16,
+        16,
+        16,
+        16,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:9"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:266",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:266",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "cp": {
+        "Label#3:0": {
+          "type": "TEXT",
+          "value": "Explore the Method  →"
+        }
+      }
+    },
+    {
+      "id": "I14:468;3:8",
+      "p": "14:468",
+      "t": "TEXT",
+      "n": "Label",
+      "g": [
+        16,
+        16,
+        310,
+        22
+      ],
+      "a": {
+        "x": 10240,
+        "y": 4518,
+        "width": 310,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Explore the Method  →",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "CENTER",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:470",
+      "p": "14:467",
+      "t": "FRAME",
+      "n": "Research / Evidence Route",
+      "g": [
+        0,
+        70,
+        342,
+        50
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4572,
+        "width": 342,
+        "height": 50
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        16,
+        16,
+        16,
+        16,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:592",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:592",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "14:471",
+      "p": "14:470",
+      "t": "TEXT",
+      "n": "Research / Evidence (Concept Page)",
+      "g": [
+        64,
+        16,
+        214,
+        18
+      ],
+      "a": {
+        "x": 10288,
+        "y": 4588,
+        "width": 214,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Research / Evidence (Concept Page)",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:472",
+      "p": "14:403",
+      "t": "INSTANCE",
+      "n": "Footer / Mobile",
+      "g": [
+        0,
+        3794,
+        390,
+        557
+      ],
+      "a": {
+        "x": 10200,
+        "y": 4670,
+        "width": 390,
+        "height": 557
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        48,
+        24,
+        48,
+        24,
+        32,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      },
+      "cp": {}
+    },
+    {
+      "id": "I14:472;13:451",
+      "p": "14:472",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        48,
+        342,
+        86
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4718,
+        "width": 342,
+        "height": 86
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I14:472;13:452",
+      "p": "I14:472;13:451",
+      "t": "TEXT",
+      "n": "MindLeverX.",
+      "g": [
+        0,
+        0,
+        135,
+        30
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4718,
+        "width": 135,
+        "height": 30
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "MindLeverX.",
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        },
+        "size": 22,
+        "weight": 800,
+        "line": {
+          "unit": "AUTO"
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:472;13:453",
+      "p": "I14:472;13:451",
+      "t": "TEXT",
+      "n": "A proposed evidence-led Generative Engine Optimization review concept.",
+      "g": [
+        0,
+        42,
+        342,
+        44
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4760,
+        "width": 342,
+        "height": 44
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "A proposed evidence-led Generative Engine Optimization review concept.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:472;13:454",
+      "p": "14:472",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        24,
+        166,
+        342,
+        212
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4836,
+        "width": 342,
+        "height": 212
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I14:472;13:455",
+      "p": "I14:472;13:454",
+      "t": "TEXT",
+      "n": "Home",
+      "g": [
+        0,
+        0,
+        39,
+        22
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4836,
+        "width": 39,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Home",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:322",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:322",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:472;13:456",
+      "p": "I14:472;13:454",
+      "t": "TEXT",
+      "n": "Method",
+      "g": [
+        0,
+        38,
+        51,
+        22
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4874,
+        "width": 51,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Method",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:266",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:266",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:472;13:457",
+      "p": "I14:472;13:454",
+      "t": "TEXT",
+      "n": "What is GEO",
+      "g": [
+        0,
+        76,
+        82,
+        22
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4912,
+        "width": 82,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "What is GEO",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:403",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:403",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:472;13:458",
+      "p": "I14:472;13:454",
+      "t": "TEXT",
+      "n": "Example Report",
+      "g": [
+        0,
+        114,
+        103,
+        22
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4950,
+        "width": 103,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Example Report",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:489",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:489",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:472;13:459",
+      "p": "I14:472;13:454",
+      "t": "TEXT",
+      "n": "About",
+      "g": [
+        0,
+        152,
+        40,
+        22
+      ],
+      "a": {
+        "x": 10224,
+        "y": 4988,
+        "width": 40,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "About",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:701",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:701",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:472;13:460",
+      "p": "I14:472;13:454",
+      "t": "TEXT",
+      "n": "Availability",
+      "g": [
+        0,
+        190,
+        70,
+        22
+      ],
+      "a": {
+        "x": 10224,
+        "y": 5026,
+        "width": 70,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Availability",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "14:785",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "14:785",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I14:472;13:461",
+      "p": "14:472",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        24,
+        410,
+        342,
+        1
+      ],
+      "a": {
+        "x": 10224,
+        "y": 5080,
+        "width": 342,
+        "height": 1
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "I14:472;13:462",
+      "p": "14:472",
+      "t": "TEXT",
+      "n": "DESIGN CONCEPT · SEP 2026 — Offer, pricing, timing, collection, delivery, and availability remain subject to owner decisions.",
+      "g": [
+        24,
+        443,
+        342,
+        66
+      ],
+      "a": {
+        "x": 10224,
+        "y": 5113,
+        "width": 342,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "DESIGN CONCEPT · SEP 2026 — Offer, pricing, timing, collection, delivery, and availability remain subject to owner decisions.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "14:485",
+      "p": "14:403",
+      "t": "FRAME",
+      "n": "Home Indicator Bar",
+      "g": [
+        0,
+        4351,
+        390,
+        33
+      ],
+      "a": {
+        "x": 10200,
+        "y": 5227,
+        "width": 390,
+        "height": 33
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        20,
+        0,
+        8,
+        0,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "14:486",
+      "p": "14:485",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        125,
+        20,
+        140,
+        5
+      ],
+      "a": {
+        "x": 10325,
+        "y": 5247,
+        "width": 140,
+        "height": 5
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    }
+  ],
+  "next": null,
+  "errors": []
+}

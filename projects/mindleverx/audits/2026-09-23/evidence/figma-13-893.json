@@ -1,0 +1,4408 @@
+{
+  "page": {
+    "id": "0:1",
+    "name": "01 · Homepage exploration",
+    "flowStartingPoints": [
+      {
+        "nodeId": "13:167",
+        "name": "MindLeverX Desktop"
+      },
+      {
+        "nodeId": "13:322",
+        "name": "MindLeverX Mobile"
+      }
+    ]
+  },
+  "root": "13:893",
+  "offset": 0,
+  "total": 72,
+  "nodes": [
+    {
+      "id": "13:893",
+      "p": "0:1",
+      "t": "FRAME",
+      "n": "MindLeverX — About",
+      "g": [
+        14730,
+        876,
+        1440,
+        2451
+      ],
+      "a": {
+        "x": 14730,
+        "y": 876,
+        "width": 1440,
+        "height": 2451
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:894",
+      "p": "13:893",
+      "t": "INSTANCE",
+      "n": "Header / Desktop",
+      "g": [
+        0,
+        0,
+        1440,
+        80
+      ],
+      "a": {
+        "x": 14730,
+        "y": 876,
+        "width": 1440,
+        "height": 80
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        24,
+        96,
+        24,
+        96,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "cp": {}
+    },
+    {
+      "id": "I13:894;13:169",
+      "p": "13:894",
+      "t": "FRAME",
+      "n": "Brand Identity",
+      "g": [
+        96,
+        24,
+        179,
+        32
+      ],
+      "a": {
+        "x": 14826,
+        "y": 900,
+        "width": 179,
+        "height": 32
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:167",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:167",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:170",
+      "p": "I13:894;13:169",
+      "t": "FRAME",
+      "n": "Logo Mark",
+      "g": [
+        0,
+        0,
+        32,
+        32
+      ],
+      "a": {
+        "x": 14826,
+        "y": 900,
+        "width": 32,
+        "height": 32
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            107,
+            74
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:894;13:171",
+      "p": "I13:894;13:170",
+      "t": "FRAME",
+      "n": "cross",
+      "g": [
+        7,
+        7,
+        18,
+        18
+      ],
+      "a": {
+        "x": 14833,
+        "y": 907,
+        "width": 18,
+        "height": 18
+      },
+      "l": [
+        "NONE",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:894;13:172",
+      "p": "I13:894;13:171",
+      "t": "VECTOR",
+      "n": "Vector",
+      "g": [
+        1.499400019645691,
+        1.499400019645691,
+        15.001199722290039,
+        15.001199722290039
+      ],
+      "a": {
+        "x": 14834.4990234375,
+        "y": 908.4993896484375,
+        "width": 15.001199722290039,
+        "height": 15.001199722290039
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:173",
+      "p": "I13:894;13:169",
+      "t": "TEXT",
+      "n": "Wordmark",
+      "g": [
+        44,
+        2.5,
+        135,
+        27
+      ],
+      "a": {
+        "x": 14870,
+        "y": 902.5,
+        "width": 135,
+        "height": 27
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "MIND LEVER X",
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        },
+        "size": 20,
+        "weight": 800,
+        "line": {
+          "unit": "AUTO"
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "I13:894;13:174",
+      "p": "13:894",
+      "t": "FRAME",
+      "n": "Navigation Links",
+      "g": [
+        780,
+        29,
+        564,
+        22
+      ],
+      "a": {
+        "x": 15510,
+        "y": 905,
+        "width": 564,
+        "height": 22
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        32,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:894;13:175",
+      "p": "I13:894;13:174",
+      "t": "TEXT",
+      "n": "Nav Link 1",
+      "g": [
+        0,
+        0,
+        39,
+        22
+      ],
+      "a": {
+        "x": 15510,
+        "y": 905,
+        "width": 39,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Home",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:167",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:167",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:176",
+      "p": "I13:894;13:174",
+      "t": "TEXT",
+      "n": "Nav Link 2",
+      "g": [
+        71,
+        0,
+        51,
+        22
+      ],
+      "a": {
+        "x": 15581,
+        "y": 905,
+        "width": 51,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Method",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:480",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:480",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:177",
+      "p": "I13:894;13:174",
+      "t": "TEXT",
+      "n": "Nav Link 3",
+      "g": [
+        154,
+        0,
+        82,
+        22
+      ],
+      "a": {
+        "x": 15664,
+        "y": 905,
+        "width": 82,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "What is GEO",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:602",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:602",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:178",
+      "p": "I13:894;13:174",
+      "t": "TEXT",
+      "n": "Nav Link 4",
+      "g": [
+        268,
+        0,
+        103,
+        22
+      ],
+      "a": {
+        "x": 15778,
+        "y": 905,
+        "width": 103,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Example Report",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:682",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:682",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:179",
+      "p": "I13:894;13:174",
+      "t": "TEXT",
+      "n": "Nav Link 5",
+      "g": [
+        403,
+        0,
+        43,
+        22
+      ],
+      "a": {
+        "x": 15913,
+        "y": 905,
+        "width": 43,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "About",
+        "font": {
+          "family": "Inter",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "slnt": 0
+          }
+        },
+        "size": 14,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:893",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:893",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:180",
+      "p": "I13:894;13:174",
+      "t": "FRAME",
+      "n": "Nav Link 6 Wrap",
+      "g": [
+        478,
+        0,
+        86,
+        22
+      ],
+      "a": {
+        "x": 15988,
+        "y": 905,
+        "width": 86,
+        "height": 22
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:966",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:966",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:181",
+      "p": "I13:894;13:180",
+      "t": "ELLIPSE",
+      "n": "Ellipse",
+      "g": [
+        0,
+        7,
+        8,
+        8
+      ],
+      "a": {
+        "x": 15988,
+        "y": 912,
+        "width": 8,
+        "height": 8
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            107,
+            74
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "I13:894;13:182",
+      "p": "I13:894;13:180",
+      "t": "TEXT",
+      "n": "Nav Link 6",
+      "g": [
+        16,
+        0,
+        70,
+        22
+      ],
+      "a": {
+        "x": 16004,
+        "y": 905,
+        "width": 70,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Availability",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "13:909",
+      "p": "13:893",
+      "t": "FRAME",
+      "n": "Hero",
+      "g": [
+        0,
+        80,
+        1440,
+        418
+      ],
+      "a": {
+        "x": 14730,
+        "y": 956,
+        "width": 1440,
+        "height": 418
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        96,
+        96,
+        96,
+        96,
+        32,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        }
+      }
+    },
+    {
+      "id": "13:910",
+      "p": "13:909",
+      "t": "TEXT",
+      "n": "Eyebrow",
+      "g": [
+        96,
+        96,
+        105,
+        18
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1052,
+        "width": 105,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "CONCEPT DESIGN",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:911",
+      "p": "13:909",
+      "t": "TEXT",
+      "n": "Title",
+      "g": [
+        96,
+        146,
+        1248,
+        57
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1102,
+        "width": 1248,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "A small practice built around clearer evidence",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 48,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 57
+        },
+        "style": "S:f0a3f07c126d4670cd8b937d857cd6f8aab5bc1b,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:912",
+      "p": "13:909",
+      "t": "TEXT",
+      "n": "Description",
+      "g": [
+        96,
+        235,
+        800,
+        87
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1191,
+        "width": 800,
+        "height": 87
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "MindLeverX is a developing concept for an evidence-led Generative Engine Optimization review service. We prioritize honest observation and structural facts over optimization metrics and outcomes.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:913",
+      "p": "13:893",
+      "t": "FRAME",
+      "n": "Principles Section",
+      "g": [
+        0,
+        498,
+        1440,
+        657
+      ],
+      "a": {
+        "x": 14730,
+        "y": 1374,
+        "width": 1440,
+        "height": 657
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            14,
+            29,
+            49
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:4"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        96,
+        96,
+        96,
+        96,
+        48,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:4"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:914",
+      "p": "13:913",
+      "t": "TEXT",
+      "n": "Our foundational perspective",
+      "g": [
+        96,
+        96,
+        681,
+        57
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1470,
+        "width": 681,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Our foundational perspective",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 48,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 57
+        },
+        "style": "S:f0a3f07c126d4670cd8b937d857cd6f8aab5bc1b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:915",
+      "p": "13:913",
+      "t": "FRAME",
+      "n": "Principles Grid",
+      "g": [
+        96,
+        201,
+        1248,
+        360
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1575,
+        "width": 1248,
+        "height": 360
+      },
+      "l": [
+        "GRID",
+        "FILL",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "13:916",
+      "p": "13:915",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        0,
+        426,
+        157
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1575,
+        "width": 426,
+        "height": 157
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        24,
+        24,
+        24,
+        24,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:917",
+      "p": "13:916",
+      "t": "TEXT",
+      "n": "Clear Findings, No Mystery Scores",
+      "g": [
+        24,
+        24,
+        378,
+        31
+      ],
+      "a": {
+        "x": 14850,
+        "y": 1599,
+        "width": 378,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Clear Findings, No Mystery Scores",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:918",
+      "p": "13:916",
+      "t": "TEXT",
+      "n": "We focus on mapping raw observed outputs instead of generating abstract proprietary readiness grades or scores.",
+      "g": [
+        24,
+        67,
+        378,
+        66
+      ],
+      "a": {
+        "x": 14850,
+        "y": 1642,
+        "width": 378,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "We focus on mapping raw observed outputs instead of generating abstract proprietary readiness grades or scores.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:919",
+      "p": "13:915",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        424,
+        0,
+        385,
+        157
+      ],
+      "a": {
+        "x": 15250,
+        "y": 1575,
+        "width": 385,
+        "height": 157
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        24,
+        24,
+        24,
+        24,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:920",
+      "p": "13:919",
+      "t": "TEXT",
+      "n": "Evidence & Context Combined",
+      "g": [
+        24,
+        24,
+        337,
+        31
+      ],
+      "a": {
+        "x": 15274,
+        "y": 1599,
+        "width": 337,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Evidence & Context Combined",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:921",
+      "p": "13:919",
+      "t": "TEXT",
+      "n": "Every documented answer is presented alongside exact prompts, model parameters, regional contexts, and timestamps.",
+      "g": [
+        24,
+        67,
+        337,
+        66
+      ],
+      "a": {
+        "x": 15274,
+        "y": 1642,
+        "width": 337,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Every documented answer is presented alongside exact prompts, model parameters, regional contexts, and timestamps.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:922",
+      "p": "13:915",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        848,
+        0,
+        354,
+        157
+      ],
+      "a": {
+        "x": 15674,
+        "y": 1575,
+        "width": 354,
+        "height": 157
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        24,
+        24,
+        24,
+        24,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:923",
+      "p": "13:922",
+      "t": "TEXT",
+      "n": "Stating the Limits Explicitly",
+      "g": [
+        24,
+        24,
+        306,
+        31
+      ],
+      "a": {
+        "x": 15698,
+        "y": 1599,
+        "width": 306,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Stating the Limits Explicitly",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:924",
+      "p": "13:922",
+      "t": "TEXT",
+      "n": "We explicitly highlight non-deterministic behavior, lack of API access, and temporal margins in all diagnostics.",
+      "g": [
+        24,
+        67,
+        306,
+        66
+      ],
+      "a": {
+        "x": 15698,
+        "y": 1642,
+        "width": 306,
+        "height": 66
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "We explicitly highlight non-deterministic behavior, lack of API access, and temporal margins in all diagnostics.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:925",
+      "p": "13:915",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        181,
+        266,
+        179
+      ],
+      "a": {
+        "x": 14826,
+        "y": 1756,
+        "width": 266,
+        "height": 179
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        24,
+        24,
+        24,
+        24,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:926",
+      "p": "13:925",
+      "t": "TEXT",
+      "n": "Human Review First",
+      "g": [
+        24,
+        24,
+        218,
+        31
+      ],
+      "a": {
+        "x": 14850,
+        "y": 1780,
+        "width": 218,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Human Review First",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:927",
+      "p": "13:925",
+      "t": "TEXT",
+      "n": "AI answer traces must be interpreted by experienced data reviewers before recommending technical changes.",
+      "g": [
+        24,
+        67,
+        218,
+        88
+      ],
+      "a": {
+        "x": 14850,
+        "y": 1823,
+        "width": 218,
+        "height": 88
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "AI answer traces must be interpreted by experienced data reviewers before recommending technical changes.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:928",
+      "p": "13:915",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        424,
+        181,
+        301,
+        179
+      ],
+      "a": {
+        "x": 15250,
+        "y": 1756,
+        "width": 301,
+        "height": 179
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        24,
+        24,
+        24,
+        24,
+        12,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:929",
+      "p": "13:928",
+      "t": "TEXT",
+      "n": "No Implied Guarantees",
+      "g": [
+        24,
+        24,
+        253,
+        31
+      ],
+      "a": {
+        "x": 15274,
+        "y": 1780,
+        "width": 253,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "No Implied Guarantees",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:930",
+      "p": "13:928",
+      "t": "TEXT",
+      "n": "We never promise visibility lift, automated citation placements, rankings, indexation speed, or commercial revenue growth.",
+      "g": [
+        24,
+        67,
+        253,
+        88
+      ],
+      "a": {
+        "x": 15274,
+        "y": 1823,
+        "width": 253,
+        "height": 88
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "We never promise visibility lift, automated citation placements, rankings, indexation speed, or commercial revenue growth.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:931",
+      "p": "13:893",
+      "t": "FRAME",
+      "n": "Scope Boundaries",
+      "g": [
+        0,
+        1155,
+        1440,
+        504
+      ],
+      "a": {
+        "x": 14730,
+        "y": 2031,
+        "width": 1440,
+        "height": 504
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        96,
+        96,
+        96,
+        96,
+        48,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        }
+      }
+    },
+    {
+      "id": "13:932",
+      "p": "13:931",
+      "t": "FRAME",
+      "n": "Boundary Header",
+      "g": [
+        96,
+        96,
+        1248,
+        165
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2127,
+        "width": 1248,
+        "height": 165
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "13:933",
+      "p": "13:932",
+      "t": "TEXT",
+      "n": "DEVELOPMENT TRANSPARENCY",
+      "g": [
+        0,
+        0,
+        185,
+        18
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2127,
+        "width": 185,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            107,
+            74
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "DEVELOPMENT TRANSPARENCY",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "13:934",
+      "p": "13:932",
+      "t": "TEXT",
+      "n": "What we are not claiming",
+      "g": [
+        0,
+        34,
+        584,
+        57
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2161,
+        "width": 584,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "What we are not claiming",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 48,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 57
+        },
+        "style": "S:f0a3f07c126d4670cd8b937d857cd6f8aab5bc1b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:935",
+      "p": "13:932",
+      "t": "TEXT",
+      "n": "This platform is an early design proposal. For complete clarity, we publish no fabricated team details, imaginary clients, proprietary advantages, or automated platform capabilities.",
+      "g": [
+        0,
+        107,
+        800,
+        58
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2234,
+        "width": 800,
+        "height": 58
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "This platform is an early design proposal. For complete clarity, we publish no fabricated team details, imaginary clients, proprietary advantages, or automated platform capabilities.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:936",
+      "p": "13:931",
+      "t": "FRAME",
+      "n": "Boundary Splits",
+      "g": [
+        96,
+        309,
+        1248,
+        99
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2340,
+        "width": 1248,
+        "height": 99
+      },
+      "l": [
+        "HORIZONTAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        48,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:15"
+        }
+      }
+    },
+    {
+      "id": "13:937",
+      "p": "13:936",
+      "t": "FRAME",
+      "n": "Boundary Left",
+      "g": [
+        0,
+        0,
+        600,
+        99
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2340,
+        "width": 600,
+        "height": 99
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        }
+      }
+    },
+    {
+      "id": "13:938",
+      "p": "13:937",
+      "t": "TEXT",
+      "n": "No Fictional Team Size or Bios",
+      "g": [
+        0,
+        0,
+        328,
+        31
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2340,
+        "width": 328,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "No Fictional Team Size or Bios",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:939",
+      "p": "13:937",
+      "t": "TEXT",
+      "n": "This concept does not state a team size, founder biography, credentials, staff roster, or ownership structure. Those details remain unspecified.",
+      "g": [
+        0,
+        55,
+        600,
+        44
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2395,
+        "width": 600,
+        "height": 44
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "This concept does not state a team size, founder biography, credentials, staff roster, or ownership structure. Those details remain unspecified.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:940",
+      "p": "13:936",
+      "t": "FRAME",
+      "n": "Boundary Right",
+      "g": [
+        648,
+        0,
+        600,
+        99
+      ],
+      "a": {
+        "x": 15474,
+        "y": 2340,
+        "width": 600,
+        "height": 99
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        }
+      }
+    },
+    {
+      "id": "13:941",
+      "p": "13:940",
+      "t": "TEXT",
+      "n": "No Pretend Partners or Testimonials",
+      "g": [
+        0,
+        0,
+        400,
+        31
+      ],
+      "a": {
+        "x": 15474,
+        "y": 2340,
+        "width": 400,
+        "height": 31
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "No Pretend Partners or Testimonials",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 23,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 31
+        },
+        "style": "S:13f74846001030bbb46e6bb532bcd3250424975b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:942",
+      "p": "13:940",
+      "t": "TEXT",
+      "n": "You will not find simulated client logos, unverified success metrics, or automated recommendation endorsements.",
+      "g": [
+        0,
+        55,
+        600,
+        44
+      ],
+      "a": {
+        "x": 15474,
+        "y": 2395,
+        "width": 600,
+        "height": 44
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "You will not find simulated client logos, unverified success metrics, or automated recommendation endorsements.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:943",
+      "p": "13:893",
+      "t": "FRAME",
+      "n": "Current Status",
+      "g": [
+        0,
+        1659,
+        1440,
+        520
+      ],
+      "a": {
+        "x": 14730,
+        "y": 2535,
+        "width": 1440,
+        "height": 520
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            16,
+            36,
+            61
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:5"
+            }
+          }
+        }
+      ],
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:6"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        96,
+        96,
+        96,
+        96,
+        32,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:14"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:17"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:5"
+          }
+        ],
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:6"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:944",
+      "p": "13:943",
+      "t": "TEXT",
+      "n": "PROPOSAL STATUS",
+      "g": [
+        96,
+        96,
+        111,
+        18
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2631,
+        "width": 111,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "PROPOSAL STATUS",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:945",
+      "p": "13:943",
+      "t": "TEXT",
+      "n": "Early Conceptual Stage",
+      "g": [
+        96,
+        146,
+        545,
+        57
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2681,
+        "width": 545,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:7"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Early Conceptual Stage",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 48,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 57
+        },
+        "style": "S:f0a3f07c126d4670cd8b937d857cd6f8aab5bc1b,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:7"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:946",
+      "p": "13:943",
+      "t": "TEXT",
+      "n": "The site interface, research templates, and general method remain concepts. The final operational models, offer scopes, exact user targets, and timing boundaries are subject to owner decisions. No working submission pipelines, paid models, or public waitlists are currently open.",
+      "g": [
+        96,
+        235,
+        900,
+        87
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2770,
+        "width": 900,
+        "height": 87
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:8"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "The site interface, research templates, and general method remain concepts. The final operational models, offer scopes, exact user targets, and timing boundaries are subject to owner decisions. No working submission pipelines, paid models, or public waitlists are currently open.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 29
+        },
+        "style": "S:e4f83e94288111293243b168016a98e560626bc4,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:8"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:947",
+      "p": "13:943",
+      "t": "FRAME",
+      "n": "Status Navigation",
+      "g": [
+        96,
+        354,
+        372,
+        70
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2889,
+        "width": 372,
+        "height": 70
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        16,
+        0,
+        0,
+        0,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:13"
+        }
+      }
+    },
+    {
+      "id": "13:948",
+      "p": "13:947",
+      "t": "INSTANCE",
+      "n": "Button / Primary",
+      "g": [
+        0,
+        16,
+        252,
+        54
+      ],
+      "a": {
+        "x": 14826,
+        "y": 2905,
+        "width": 252,
+        "height": 54
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            77,
+            163,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:9"
+            }
+          }
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        16,
+        16,
+        16,
+        16,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "b": {
+        "itemSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingLeft": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingTop": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingRight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "paddingBottom": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2:12"
+        },
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:9"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:480",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:480",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ],
+      "cp": {
+        "Label#3:0": {
+          "type": "TEXT",
+          "value": "Explore the Method  →"
+        }
+      }
+    },
+    {
+      "id": "I13:948;3:8",
+      "p": "13:948",
+      "t": "TEXT",
+      "n": "Label",
+      "g": [
+        16,
+        16,
+        220,
+        22
+      ],
+      "a": {
+        "x": 14842,
+        "y": 2921,
+        "width": 220,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:3"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "Explore the Method  →",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "13:950",
+      "p": "13:947",
+      "t": "TEXT",
+      "n": "View availability",
+      "g": [
+        276,
+        34,
+        96,
+        18
+      ],
+      "a": {
+        "x": 15102,
+        "y": 2923,
+        "width": 96,
+        "height": 18
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            130,
+            190,
+            255
+          ],
+          "o": 1,
+          "b": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2:10"
+            }
+          }
+        }
+      ],
+      "txt": {
+        "c": "View availability",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PIXELS",
+          "value": 18
+        },
+        "style": "S:de74bcc044339029ff49ffb8af6b7e43537cacf5,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "b": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2:10"
+          }
+        ]
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:966",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:966",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "13:951",
+      "p": "13:893",
+      "t": "INSTANCE",
+      "n": "Footer / Desktop",
+      "g": [
+        0,
+        2179,
+        1440,
+        272
+      ],
+      "a": {
+        "x": 14730,
+        "y": 3055,
+        "width": 1440,
+        "height": 272
+      },
+      "s": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        64,
+        96,
+        64,
+        96,
+        48,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ],
+      "cp": {}
+    },
+    {
+      "id": "I13:951;13:305",
+      "p": "13:951",
+      "t": "FRAME",
+      "n": "Footer Top",
+      "g": [
+        96,
+        64,
+        1248,
+        57
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3119,
+        "width": 1248,
+        "height": 57
+      },
+      "l": [
+        "HORIZONTAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:951;13:306",
+      "p": "I13:951;13:305",
+      "t": "FRAME",
+      "n": "Footer Brand",
+      "g": [
+        0,
+        0,
+        481,
+        57
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3119,
+        "width": 481,
+        "height": 57
+      },
+      "l": [
+        "VERTICAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:951;13:307",
+      "p": "I13:951;13:306",
+      "t": "TEXT",
+      "n": "Footer Wordmark",
+      "g": [
+        0,
+        0,
+        122,
+        27
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3119,
+        "width": 122,
+        "height": 27
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "MindLeverX.",
+        "font": {
+          "family": "Manrope",
+          "style": "ExtraBold",
+          "variationSettings": {
+            "wght": 800
+          }
+        },
+        "size": 20,
+        "weight": 800,
+        "line": {
+          "unit": "AUTO"
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "I13:951;13:308",
+      "p": "I13:951;13:306",
+      "t": "TEXT",
+      "n": "A proposed evidence-led Generative Engine Optimization review concept.",
+      "g": [
+        0,
+        35,
+        481,
+        22
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3154,
+        "width": 481,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "A proposed evidence-led Generative Engine Optimization review concept.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "I13:951;13:309",
+      "p": "I13:951;13:305",
+      "t": "FRAME",
+      "n": "Footer Links",
+      "g": [
+        837,
+        0,
+        411,
+        22
+      ],
+      "a": {
+        "x": 15663,
+        "y": 3119,
+        "width": 411,
+        "height": 22
+      },
+      "l": [
+        "HORIZONTAL",
+        "HUG",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        24,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:951;13:310",
+      "p": "I13:951;13:309",
+      "t": "TEXT",
+      "n": "Home",
+      "g": [
+        0,
+        0,
+        39,
+        22
+      ],
+      "a": {
+        "x": 15663,
+        "y": 3119,
+        "width": 39,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Home",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:167",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:167",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:951;13:311",
+      "p": "I13:951;13:309",
+      "t": "TEXT",
+      "n": "Method",
+      "g": [
+        63,
+        0,
+        51,
+        22
+      ],
+      "a": {
+        "x": 15726,
+        "y": 3119,
+        "width": 51,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Method",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:480",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:480",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:951;13:312",
+      "p": "I13:951;13:309",
+      "t": "TEXT",
+      "n": "What is GEO",
+      "g": [
+        138,
+        0,
+        82,
+        22
+      ],
+      "a": {
+        "x": 15801,
+        "y": 3119,
+        "width": 82,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "What is GEO",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:602",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:602",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:951;13:313",
+      "p": "I13:951;13:309",
+      "t": "TEXT",
+      "n": "Example Report",
+      "g": [
+        244,
+        0,
+        103,
+        22
+      ],
+      "a": {
+        "x": 15907,
+        "y": 3119,
+        "width": 103,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Example Report",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:682",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:682",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:951;13:314",
+      "p": "I13:951;13:309",
+      "t": "TEXT",
+      "n": "About",
+      "g": [
+        371,
+        0,
+        40,
+        22
+      ],
+      "a": {
+        "x": 16034,
+        "y": 3119,
+        "width": 40,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "About",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      },
+      "r": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "13:893",
+            "navigation": "NAVIGATE",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:893",
+              "navigation": "NAVIGATE",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_CLICK"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I13:951;13:315",
+      "p": "13:951",
+      "t": "FRAME",
+      "n": "Footer Bottom",
+      "g": [
+        96,
+        169,
+        1248,
+        39
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3224,
+        "width": 1248,
+        "height": 39
+      },
+      "l": [
+        "VERTICAL",
+        "FILL",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        16,
+        false,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "I13:951;13:316",
+      "p": "I13:951;13:315",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        0,
+        0,
+        1248,
+        1
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3224,
+        "width": 1248,
+        "height": 1
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            41,
+            59,
+            81
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "I13:951;13:317",
+      "p": "I13:951;13:315",
+      "t": "TEXT",
+      "n": "DESIGN CONCEPT · SEP 2026 — Offer, pricing, timing, collection, delivery, and availability remain subject to owner decisions.",
+      "g": [
+        0,
+        17,
+        1248,
+        22
+      ],
+      "a": {
+        "x": 14826,
+        "y": 3241,
+        "width": 1248,
+        "height": 22
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "DESIGN CONCEPT · SEP 2026 — Offer, pricing, timing, collection, delivery, and availability remain subject to owner decisions.",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 14,
+        "weight": 400,
+        "line": {
+          "unit": "PIXELS",
+          "value": 22
+        },
+        "style": "S:67fb50ef8d8ec605056ee0f4a7489fff4e3fcb4a,",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    }
+  ],
+  "next": null,
+  "errors": []
+}

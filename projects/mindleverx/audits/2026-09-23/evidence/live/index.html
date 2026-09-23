@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MindLeverX — Own the answer.</title>
+<meta name="description" content="Explore MindLeverX's planned GEO workflow for mid-market B2B SaaS, with clearly labelled example scorecards and an introduction to the intended method.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --surface:#ffffff; --surface-2:#f7f7f8; --ink:#1d1f23; --body:#43464b; --muted:#63666b;
+    --line:#e7e8ea; --accent:#932c21; --accent-h:#791b11; --on-accent:#fff;
+    --brass:#7e5c2a; --brass-fill:#b99056; --pos:#236436; --pos-fill:#439458;
+    --font-d:'Spectral',Georgia,serif; --font-b:'IBM Plex Sans',system-ui,sans-serif; --font-m:'IBM Plex Mono',ui-monospace,monospace;
+    --maxw:1120px;
+    --dur-fast:120ms; --dur-base:200ms; --dur-reveal:280ms;
+    --ease-out:cubic-bezier(0.2,0,0,1); --ease-exp:cubic-bezier(0,0,0.3,1);
+  }
+  [data-theme="dark"]{
+    --surface:#141619; --surface-2:#1b1e22; --ink:#f4f5f7; --body:#c3c6cb; --muted:#8f9298;
+    --line:#2a2d31; --accent:#dc5f52; --accent-h:#ed7665; --on-accent:#141619;
+    --brass:#b99056; --brass-fill:#b99056; --pos:#62bb78; --pos-fill:#62bb78;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--surface);color:var(--ink);font-family:var(--font-b);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 40px}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--font-d);font-weight:500;letter-spacing:-0.02em;line-height:1.1;color:var(--ink)}
+  .kicker{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;display:inline-flex;align-items:center;gap:9px}
+  .kicker .dot{width:6px;height:6px;border-radius:50%;background:var(--accent)}
+  .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:500;font-size:15px;padding:13px 26px;border-radius:10px;border:none;cursor:pointer;transition:background var(--dur-fast) ease-out,transform var(--dur-fast) ease-out}
+  .btn:hover{background:var(--accent-h)}
+  .textlink{color:var(--accent);font-weight:500;font-size:15px}
+  .textlink:hover{text-decoration:underline}
+  .muted{color:var(--muted)}
+  .lead{font-size:20px;line-height:1.55;color:var(--body);font-weight:400}
+  section{padding:80px 0}
+  .sec-h{font-size:32px;font-weight:500;max-width:22ch}
+  .sub{font-size:18px;color:var(--body);font-weight:400;max-width:62ch;margin-top:16px}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .navlinks a,.fcols a{transition:color 150ms ease-out}
+
+  /* editorial texture — section numerals, pull quote, exhibit captions */
+  .secnum{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:16px;text-transform:uppercase}
+  .secnum::before{content:"";width:28px;height:1px;background:var(--muted)}
+  .dark .secnum{color:#a9acb2}
+  .dark .secnum::before{background:#a9acb2}
+  .pull{margin-top:44px;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pull blockquote{font-family:var(--font-d);font-size:27px;line-height:1.32;font-weight:400;color:var(--ink);max-width:26ch;letter-spacing:-0.01em}
+  .pull figcaption{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:14px;letter-spacing:0.05em}
+
+  /* ticker — full-bleed band, brass live signal, WCAG 2.2.2 pause */
+  .ticker{background:var(--ink);color:#eef0f2;font-family:var(--font-m);font-size:13px;display:flex;align-items:center;height:44px;overflow:hidden;position:relative}
+  [data-theme="dark"] .ticker{background:#0e1013}
+  .ticker .tag{display:flex;align-items:center;gap:9px;padding:0 20px;height:100%;flex-shrink:0;color:var(--brass-fill);letter-spacing:0.1em;font-size:12px;font-weight:500;background:rgba(0,0,0,0.25);z-index:2}
+  .ticker .live{width:8px;height:8px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+  .ticker .mask{flex:1;overflow:hidden}
+  .ticker .track{display:inline-flex;gap:44px;white-space:nowrap;padding-left:44px;animation:scroll 38s linear infinite;will-change:transform}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker .track span{color:#c9cbce}
+  .ticker .track span b{color:#fff;font-weight:500}
+  .ticker .track span em{color:#62bb78;font-style:normal;margin-left:5px}
+  .ticker:hover .track{animation-play-state:paused}
+  .ticker.paused .track{animation-play-state:paused}
+  .ticker.paused .live{animation-play-state:paused}
+  .ticker .tkbtn{flex-shrink:0;height:100%;width:38px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);border:none;border-left:1px solid rgba(255,255,255,0.08);color:#c9cbce;cursor:pointer;z-index:2;font-size:12px;line-height:1}
+  .ticker .tkbtn:hover{color:#fff}
+  .ticker .tkbtn:focus-visible{outline:2px solid #f4f5f7;outline-offset:-2px}
+  .ticker .smp{padding:0 20px;color:#8a8d92;font-size:12px;letter-spacing:0.1em;background:rgba(0,0,0,0.25);z-index:2}
+  @media(prefers-reduced-motion:reduce){.ticker .track{animation:none}.ticker .live{animation:none}.board .bh .ld{animation:none}}
+
+  /* ticker legend — SC 1.4.13: metric definitions were title-only, unreachable on touch */
+  .tklegend{background:var(--surface-2);border-bottom:1px solid var(--line);font-family:var(--font-m);font-size:12px;color:var(--muted)}
+  .tklegend summary{cursor:pointer;padding:10px 40px;letter-spacing:0.06em;text-transform:uppercase;list-style:none}
+  .tklegend summary::-webkit-details-marker{display:none}
+  .tklegend summary::before{content:"+ ";color:var(--accent)}
+  .tklegend[open] summary::before{content:"− "}
+  .tklegend summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .tklegend dl{display:grid;grid-template-columns:repeat(3,1fr);gap:2px 32px;padding:4px 40px 18px;margin:0}
+  .tklegend dt{color:var(--ink);font-weight:500;margin-top:8px}
+  .tklegend dd{margin:2px 0 0;line-height:1.6}
+
+  /* stat card with no figure — used where we have a mechanism but no citable number */
+  .stat .k{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);text-transform:uppercase;line-height:1.5;padding-bottom:6px}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 84%,transparent);backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-family:var(--font-d);font-size:22px;font-weight:600;letter-spacing:-0.01em}
+  .logo b{color:var(--accent)}
+  .navlinks{display:flex;align-items:center;gap:30px;font-size:15px;color:var(--body)}
+  .navlinks a:hover{color:var(--ink)}
+  .toggle{background:none;border:1px solid var(--line);color:var(--body);cursor:pointer;font-size:13px;font-family:var(--font-m);padding:7px 12px;border-radius:20px}
+  .menubtn{display:none;background:none;border:none;color:var(--ink);font-size:22px;cursor:pointer}
+  .mobnav{display:none;border-top:1px solid var(--line);background:var(--surface)}
+  .mobnav a{display:block;padding:13px 0;font-size:16px;color:var(--body);border-bottom:1px solid var(--line)}
+  .mobnav .toggle{margin-top:14px;display:inline-block}
+
+  /* hero */
+  .hero{padding:72px 0}
+  .hero-grid{display:grid;grid-template-columns:1.05fr 0.95fr;gap:56px;align-items:center}
+  .hero h1{font-size:58px;font-weight:500;margin-bottom:24px;letter-spacing:-0.03em;line-height:1.02}
+  .hero .lead{max-width:50ch;margin-bottom:32px}
+  .hero-cta{display:flex;gap:24px;align-items:center;margin-bottom:32px}
+  .proof{display:flex;gap:40px;padding-top:24px;border-top:1px solid var(--line)}
+  .proof .p .n{font-family:var(--font-d);font-size:26px;font-weight:500;color:var(--ink)}
+  .proof .p .t{font-size:13px;color:var(--muted);line-height:1.45;margin-top:4px;max-width:26ch}
+  .proof .p .src{font-family:var(--font-m);font-size:12px;color:var(--muted)}
+
+  /* scoreboard */
+  .board{border:1px solid var(--line);border-top:3px solid var(--brass-fill);border-radius:14px;overflow:hidden;background:var(--surface);box-shadow:0 24px 60px -40px rgba(0,0,0,0.28)}
+  .board .bh{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;border-bottom:1px solid var(--line)}
+  .board .bh .l{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;color:var(--muted);display:flex;align-items:center;gap:8px}
+  .board .bh .l .ld{width:7px;height:7px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  .board .bh .s{font-family:var(--font-m);font-size:12px;color:var(--brass);border:1px solid color-mix(in srgb,var(--brass-fill) 45%,transparent);padding:2px 7px;border-radius:4px}
+  .board .cells{display:grid;grid-template-columns:1fr 1fr}
+  .board .c{padding:20px 22px}
+  .board .c:nth-child(1),.board .c:nth-child(2){border-bottom:1px solid var(--line)}
+  .board .c:nth-child(odd){border-right:1px solid var(--line)}
+  .board .c .cl{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;color:var(--muted);margin-bottom:8px}
+  .board .c .cv{display:flex;align-items:baseline;gap:8px}
+  .board .c .cv b{font-family:var(--font-d);font-size:34px;font-weight:500;color:var(--ink)}
+  .board .c .cv i{font-family:var(--font-m);font-size:12px;font-style:normal;color:var(--pos);font-weight:500}
+  .board .c .cv i.dn{color:var(--muted)}
+  .board .bf{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;background:var(--surface-2);border-top:1px solid var(--line)}
+  .board .bf .l{font-size:13px;color:var(--muted)}
+  .board .bf .v{font-family:var(--font-d);font-size:20px;font-weight:500;color:var(--accent);display:flex;align-items:baseline;gap:7px}
+  .board .bf .v em{font-family:var(--font-m);font-size:12px;font-style:normal;color:var(--pos);font-weight:500}
+
+  /* stats (The Shift) */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+  .stat{padding-top:20px;border-top:2px solid var(--ink)}
+  .stat .n{font-family:var(--font-d);font-size:48px;font-weight:400;color:var(--ink);line-height:1}
+  .stat .t{font-size:16px;color:var(--ink);margin-top:14px;font-weight:500}
+  .stat .d{font-size:14px;color:var(--muted);margin-top:7px;line-height:1.5}
+  .stat .d s{font-family:var(--font-m);font-size:12px;text-decoration:none;color:var(--brass)}
+
+  /* services */
+  .grid4{display:grid;grid-template-columns:repeat(2,1fr);gap:48px 64px;margin-top:56px}
+  .svc{border-top:1px solid var(--line);padding-top:20px}
+  .svc .lb{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);margin-bottom:14px}
+  .svc .ic{color:var(--accent);margin-bottom:16px}
+  .svc h3{font-size:22px;font-weight:500;margin-bottom:10px}
+  .svc p{font-size:15px;color:var(--body);font-weight:400;max-width:40ch}
+
+  /* method — the one dark section */
+  .dark{background:var(--ink)}
+  [data-theme="dark"] .dark{background:#0e1013}
+  .dark .sec-h{color:#f4f5f7}
+  .moves{margin-top:48px;border-top:1px solid rgba(255,255,255,0.12)}
+  .move{display:grid;grid-template-columns:52px 1fr;gap:28px;padding:24px 0;border-bottom:1px solid rgba(255,255,255,0.12);align-items:baseline}
+  .move .num{font-family:var(--font-d);font-size:26px;color:var(--brass-fill);font-weight:400}
+  .move h3{font-size:21px;font-weight:500;color:#f4f5f7;margin-bottom:5px}
+  .move p{font-size:15px;color:#a9acb2;font-weight:400}
+
+  /* readiness */
+  .score-wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+  .gauge .big{font-family:var(--font-d);font-size:88px;font-weight:400;color:var(--ink);line-height:0.9}
+  .gauge .big span{font-size:30px;color:var(--muted)}
+  .bars{margin-top:28px;display:flex;flex-direction:column;gap:16px}
+  .bar .row{display:flex;justify-content:space-between;font-size:14px;color:var(--body);margin-bottom:8px}
+  .bar .row .vv{font-family:var(--font-m);color:var(--ink);font-weight:500}
+  .bar .track{height:6px;background:var(--line);border-radius:6px;overflow:hidden}
+  .bar .fill{height:100%;background:var(--accent);border-radius:6px}
+  .prov{font-family:var(--font-m);font-size:12px;letter-spacing:0.04em;color:var(--muted);margin-top:24px}
+
+  /* feed */
+  .feed{margin-top:44px;border-top:1px solid var(--line)}
+  .ev{display:grid;grid-template-columns:56px 108px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line);align-items:baseline}
+  .ev .tm{font-family:var(--font-m);font-size:13px;color:var(--muted)}
+  .ev .en{font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--brass)}
+  /* WCAG 2.2 SC 1.4.10 Reflow: a grid 1fr track has min-width:auto, so the long
+     unbreakable URL in a feed row forced 21px of horizontal scroll at 375px.
+     No effect above the breakpoint — the text already fits there. */
+  .ev .tx{font-size:15px;color:var(--body);font-weight:400;min-width:0;overflow-wrap:anywhere}
+  .smpnote{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;color:var(--muted);margin-top:20px}
+
+  /* offer rungs — static containers, 2px ink top edge (system rule) */
+  .rungs{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:56px}
+  .rung{border-top:2px solid var(--ink);padding-top:20px;display:flex;flex-direction:column}
+  .rung .lb{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);margin-bottom:14px;text-transform:uppercase}
+  .rung h3{font-size:22px;font-weight:500;margin-bottom:10px}
+  /* SG 02: brass is never on static metadata. These rung labels are static
+     (not a live signal, not a dark-beat numeral, not a stat source slug). */
+  .rung .pr{font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--muted);margin-bottom:12px;text-transform:uppercase}
+  .rung p{font-size:15px;color:var(--body);font-weight:400;max-width:38ch}
+  .rung ul{list-style:none;margin-top:14px}
+  .rung li{font-size:14px;color:var(--body);font-weight:400;padding:7px 0;border-top:1px solid var(--line);display:flex;gap:10px}
+  .rung li::before{content:"—";color:var(--muted);flex:none}
+  .rung .act{margin-top:auto;padding-top:22px}
+
+  /* final cta — colophon treatment */
+  .final{text-align:center;padding:96px 0}
+  .final .colo{width:56px;height:1px;background:var(--muted);margin:0 auto 20px}
+  .final .fk{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);margin-bottom:18px;text-transform:uppercase}
+  .final h2{font-size:44px;font-weight:500;max-width:17ch;margin:0 auto 20px}
+  .form{display:flex;gap:12px;justify-content:center;max-width:480px;margin:32px auto 0;flex-wrap:wrap}
+  .form .domrow{flex:0 0 100%;display:flex}
+  .form .domrow[hidden]{display:none}   /* author rule must re-assert the UA [hidden] default */
+  .form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  .form button[disabled]{cursor:default}
+  .form input{flex:1;font-family:var(--font-b);font-size:15px;padding:14px 18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);outline:none}
+  .form input:focus{border-color:var(--accent)}
+  .form input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .note{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:16px}
+
+  footer{background:var(--surface-2);padding:56px 0 36px;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+  .fcols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px}
+  .fcols a{color:var(--body);display:block;margin-top:11px}
+  .fcols a:hover{color:var(--ink)}
+  .fhead{color:var(--ink);font-weight:500;font-size:15px}
+  .fbot{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:var(--font-m);font-size:12px}
+  .fnote2{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--muted);line-height:1.9;max-width:86ch}
+  .fnote2+.fbot{margin-top:18px;padding-top:0;border-top:none}
+
+  /* ── motion system: opt-in, productive + one expressive beat ── */
+  @media(prefers-reduced-motion:no-preference){
+    html{scroll-behavior:smooth}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    @keyframes flash{from{opacity:0}to{opacity:1}}
+    .flash{animation:flash 150ms ease-out}
+    html.anim .rv{opacity:0;transform:translateY(16px);transition:opacity var(--dur-reveal) var(--ease-out),transform var(--dur-reveal) var(--ease-out)}
+    html.anim .rv.in{opacity:1;transform:none}
+    html.anim .rv.d1{transition-delay:80ms}
+    html.anim .rv.d2{transition-delay:160ms}
+    html.anim .rv.d3{transition-delay:240ms}
+    /* expressive beat: the scoreboard boots up */
+    html.anim .board{animation:rise 400ms var(--ease-exp) 150ms both}
+    html.anim .board .c{animation:rise 250ms var(--ease-out) both}
+    html.anim .board .c:nth-child(1){animation-delay:400ms}
+    html.anim .board .c:nth-child(2){animation-delay:460ms}
+    html.anim .board .c:nth-child(3){animation-delay:520ms}
+    html.anim .board .c:nth-child(4){animation-delay:580ms}
+    /* SG 05 stagger: total sequence <= 900ms. 650 + 250 = 900 (was 680, = 930). */
+    html.anim .board .bf{animation:rise 250ms var(--ease-out) 650ms both}
+    /* productive: readiness bars fill on reveal — SG 05, token duration + --ease-out
+       ("all productive entrances"); bespoke 250-450ms is licensed for expressive beats only */
+    html.anim .bar .fill{transform:scaleX(0);transform-origin:left;transition:transform var(--dur-base) var(--ease-out)}
+    html.anim .gauge.in .fill{transform:scaleX(1)}
+    html.anim .gauge.in .bar:nth-child(2) .fill{transition-delay:60ms}
+    html.anim .gauge.in .bar:nth-child(3) .fill{transition-delay:120ms}
+    html.anim .gauge.in .bar:nth-child(4) .fill{transition-delay:180ms}
+    html.anim .btn:hover{transform:translateY(-1px)}
+    html.anim .btn:active{transform:none}
+  }
+
+  @media(max-width:880px){
+    .hero-grid,.score-wrap{grid-template-columns:1fr;gap:40px}
+    .grid4{grid-template-columns:1fr;gap:40px}
+    .stats,.rungs{grid-template-columns:1fr;gap:32px}
+    .hero h1{font-size:44px}
+    .sec-h,.final h2{font-size:28px}
+    .pull blockquote{font-size:22px}
+    .navlinks{display:none}
+    .menubtn{display:block}
+    section{padding:64px 0}
+    .hero{padding:48px 0}
+    .proof{flex-direction:column;gap:20px}
+    .tklegend summary,.tklegend dl{padding-left:24px;padding-right:24px}
+    .tklegend dl{grid-template-columns:1fr}
+    .gauge .big{font-size:72px}
+    .wrap{padding:0 24px}
+  }
+
+  /* v3.1.1 HEADER FIT — desktop nav cannot fit ~881px-1040px: .navlinks holds
+     its row so link TEXT wraps instead, nav height 49px -> 96px, wordmark
+     collision (0px separation at 924px). Isolated to the nav: the 880px query
+     also carries grid and type changes that must not move. */
+  .navlinks a{white-space:nowrap}
+  @media(max-width:1040px){
+    .navlinks{display:none}
+    .menubtn{display:block}
+  }
+</style>
+<script src="/runtime.js"></script>
+<style>[hidden]{display:none!important}
+.skip-link{position:fixed;top:8px;left:8px;padding:12px 18px;background:var(--surface);color:var(--accent);z-index:1000;transform:translateY(-150%)}
+.skip-link:focus{transform:translateY(0)}
+.preview-banner{background:var(--surface-2);color:var(--body);border-bottom:1px solid var(--line);font-size:13px}
+.preview-banner .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding-top:10px;padding-bottom:10px}
+.preview-banner b{color:var(--accent)}
+.preview-banner a{color:var(--accent);text-decoration:underline;margin-left:auto;font-weight:500}
+.form{max-width:520px;display:flex;flex-wrap:wrap;text-align:left;gap:18px}
+.form .emailrow,.form .domrow{display:flex;flex-direction:column;flex:1 1 100%;gap:7px;min-width:0}
+.form label{font-size:14px;color:var(--body);font-weight:500}
+.form input:not([type="checkbox"]){width:100%;min-width:0;font-weight:400}
+.form .consent{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.6;flex:1 1 100%;font-weight:400}
+.form .consent input{flex:0 0 18px;width:18px;height:18px;padding:0;margin-top:2px;accent-color:var(--accent);border-radius:3px}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.form .btn{flex:1 1 100%;font-weight:500}
+#domain-hint{font-size:12px;color:var(--muted)}
+.form [aria-invalid="true"]{border-color:var(--accent)}
+.form button:disabled{opacity:.7;cursor:wait}
+.mobnav a,.mobnav button{min-height:44px}
+.mobnav a{display:flex;align-items:center}
+.method-steps{list-style:none;margin:40px 0 0;padding:0}
+.method-step{display:grid;grid-template-columns:52px 1fr;gap:20px;padding:30px 0;border-top:1px solid var(--line)}
+.method-step .step-number{font-family:var(--font-d);font-size:30px;color:var(--accent)}
+.method-step h2{font-size:25px;margin-bottom:10px}
+.method-step p{font-size:17px;color:var(--body);max-width:66ch}
+.method-step .step-output{font-size:14px;margin-top:12px;color:var(--muted)}
+.method-status{border-left:3px solid var(--accent);padding:18px 22px;background:var(--surface-2);margin:30px 0;color:var(--body)}
+.nav{gap:16px;min-height:62px;height:auto}
+.nav .logo{flex-shrink:0;white-space:nowrap}
+.navlinks{display:flex;gap:22px;margin-left:auto}
+.navlinks>*{display:none}
+.menubtn{display:flex;align-items:center;justify-content:center;flex-shrink:0;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:var(--font-b);font-size:15px;line-height:1.3}
+.mobnav.wrap{padding-top:4px;padding-bottom:18px;max-height:70vh;overflow-y:auto}
+@media(min-width:36rem){.navlinks .nav-priority{display:block}}
+@media(min-width:48rem){.navlinks .nav-example{display:block}}
+@media(min-width:56rem){.navlinks .nav-cta{display:block}}
+.hero-action-note{font-size:14px;line-height:1.6;color:var(--muted);margin:-16px 0 28px;max-width:48ch}
+.hero-cta{flex-wrap:wrap}
+.proof .p .t{max-width:44ch;font-size:14px}
+.proof .p .src{display:inline-block;margin-top:8px;font-size:13px}
+.board .bh{flex-wrap:wrap;gap:8px}
+.board-context{padding:16px 22px 0;font-size:14px;line-height:1.6;color:var(--body)}
+.board .c{min-width:0}
+.board .c .cl{font-size:12px;letter-spacing:.04em;overflow-wrap:anywhere}
+.example-count{font-size:13px;line-height:1.5;color:var(--muted);margin-top:4px}
+.board .bf{flex-wrap:wrap;gap:12px}
+.board .bf .textlink{font-size:14px}
+.pull .research-finding{font-family:var(--font-d);font-size:25px;line-height:1.4;max-width:54ch}
+.pull .research-context{font-size:14px;line-height:1.6;color:var(--muted);max-width:78ch;margin-top:14px}
+.stat .d .textlink{display:inline-block;font-size:14px;margin-top:8px}
+.tklegend{font-size:13px}
+html{scroll-padding-top:80px}
+@media(max-width:600px){.preview-banner a{margin-left:0}.preview-banner span{flex-basis:100%}.method-step{grid-template-columns:36px 1fr;gap:14px}}
+@media(max-width:600px){.ticker{height:auto;flex-wrap:wrap}.ticker .tag{height:36px;flex-basis:100%}.ticker .mask{flex:1 1 calc(100% - 38px);min-width:0;height:44px}.ticker .tkbtn{height:44px}.ticker .smp{display:none}}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+  .rv,.bar .fill{opacity:1!important;transform:none!important}
+  .ticker{height:auto;flex-wrap:wrap}
+  .ticker .tag{padding:12px 20px;width:100%}
+  .ticker .mask{flex:1 1 100%;height:auto;overflow:visible}
+  .ticker .track{display:flex;flex-wrap:wrap;gap:12px 24px;white-space:normal;padding:12px 20px;transform:none!important}
+  .ticker .track [aria-hidden="true"],.ticker .tkbtn,.ticker .smp{display:none!important}
+}
+</style>
+<link rel="canonical" href="https://mindleverx.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MindLeverX">
+<meta property="og:title" content="MindLeverX — Own the answer.">
+<meta property="og:description" content="Explore MindLeverX's planned GEO workflow for mid-market B2B SaaS, with clearly labelled example scorecards and an introduction to the intended method.">
+<meta property="og:url" content="https://mindleverx.com/">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://mindleverx.com/#organization","name":"MindLeverX","url":"https://mindleverx.com"},{"@type":"WebPage","@id":"https://mindleverx.com/#page","name":"MindLeverX — Own the answer.","description":"Explore MindLeverX's planned GEO workflow for mid-market B2B SaaS, with clearly labelled example scorecards and an introduction to the intended method.","url":"https://mindleverx.com/","isPartOf":{"@type":"WebSite","name":"MindLeverX","url":"https://mindleverx.com"},"about":{"@type":"Thing","name":"Generative Engine Optimization"}}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#top">Skip to main content</a>
+
+<div class="ticker" id="ticker">
+  <div class="tag"><span class="live"></span>SAMPLE REPORT TOPICS</div>
+  <div class="mask"><div class="track" id="tick">
+    <span>Brand mentions <b>Answer text</b></span>
+    <span>Citations <b>Source links</b></span>
+    <span>Comparisons <b>Matched conditions</b></span>
+    <span>Crawler access <b>Technical checks</b></span>
+    <span>Referrals <b>Visits from links</b></span>
+    <span>Readiness <b>Evidence gaps</b></span>
+  </div></div>
+  <button class="tkbtn" id="tkBtn" aria-label="Pause sample ticker" aria-pressed="false" title="Pause ticker">❚❚</button>
+  <div class="smp">SAMPLE</div>
+</div>
+
+<details class="tklegend">
+  <summary>What these sample report topics mean</summary>
+  <dl>
+    <dt>Brand mentions</dt><dd>Whether an answer names the brand. The fictional board below counts literal answer-text matches.</dd>
+    <dt>Citations</dt><dd>Links or source references in an answer, kept separate from brand mentions.</dd>
+    <dt>Comparisons</dt><dd>Readings need matching questions and collection conditions before comparison.</dd>
+    <dt>Crawler access</dt><dd>Technical evidence about whether a crawler can retrieve a page.</dd>
+    <dt>Referrals</dt><dd>Visits attributed to answer links, when referral data is available.</dd>
+    <dt>Readiness</dt><dd>Separate areas of evidence and their gaps. The scorecard is a visual illustration; no composite model is implemented.</dd>
+  </dl>
+</details>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">MindLever<b>X.</b></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="method.html" class="nav-priority">Method</a>
+      <a href="#score" class="nav-example">Example scorecard</a>
+      <a href="#offer">Engage</a>
+      <a href="what-is-geo.html">What is GEO?</a>
+      <a href="research-hub.html" class="nav-priority">Research</a>
+      <a href="case-study.html">Case study</a>
+      <a href="#cta" class="nav-cta textlink">Audit availability</a>
+      <button class="toggle" id="tg">☾ Dark</button>
+    </nav>
+    <button class="menubtn" id="menubtn" aria-label="Open menu" aria-controls="mobnav" aria-expanded="false">Menu</button>
+  </div>
+  <nav class="mobnav wrap" id="mobnav" aria-label="More navigation" hidden>
+    <a href="#services">Services</a>
+    <a href="method.html">Method</a>
+    <a href="#score">Example scorecard</a>
+    <a href="#offer">Engage</a>
+    <a href="what-is-geo.html">What is GEO?</a>
+    <a href="research-hub.html">Research</a>
+    <a href="case-study.html">Case study</a>
+    <a href="#cta">Audit availability</a>
+    <button class="toggle" id="tg2">☾ Dark</button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <div class="hero"><div class="wrap hero-grid">
+    <div>
+      <div class="kicker"><span class="dot"></span>Generative Engine Optimization</div>
+      <h1>Own the answer.</h1>
+      <p class="lead">When buyers ask ChatGPT, Perplexity or Gemini, the answer shapes which brands they consider. MindLeverX is building a practice for measuring that visibility and reviewing the content and technical work behind it.</p>
+      <div class="hero-cta" aria-describedby="hero-action-note">
+        <a href="#cta" class="btn">Audit availability</a>
+        <a href="#score" class="textlink">Explore the sample scorecard →</a>
+      </div>
+      <p class="hero-action-note" id="hero-action-note" data-public-copy="audit-note">Audit requests are not open yet. Explore the examples and method.</p>
+      <div class="proof">
+        <div class="p"><span class="n">8% vs. 15%</span><div class="t">Traditional-result clicks on Google visits with vs. without an AI summary, in Pew’s study.</div><a class="src textlink" href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">Pew Research Center · 22 July 2025 →</a></div>
+      </div>
+    </div>
+    <div class="board" aria-labelledby="board-title">
+      <div class="bh"><span class="l" id="board-title">BRAND MENTION SHARE</span><span class="s">FICTIONAL</span></div>
+      <p class="board-context">A fictional example: answers containing the literal brand name at least once, ignoring capitalization.</p>
+      <div class="cells">
+        <div class="c"><div class="cl">CHATGPT · FICTIONAL</div><div class="cv"><b>42%</b></div><p class="example-count">42 of 100 fictional answers</p></div>
+        <div class="c"><div class="cl">PERPLEXITY · FICTIONAL</div><div class="cv"><b>38%</b></div><p class="example-count">38 of 100 fictional answers</p></div>
+        <div class="c"><div class="cl">CLAUDE · FICTIONAL</div><div class="cv"><b>33%</b></div><p class="example-count">33 of 100 fictional answers</p></div>
+        <div class="c"><div class="cl">GEMINI · FICTIONAL</div><div class="cv"><b>27%</b></div><p class="example-count">27 of 100 fictional answers</p></div>
+      </div>
+      <div class="bf"><span class="l">No answers were collected for this illustration.</span><a class="textlink" href="method.html">Read the intended method →</a></div>
+    </div>
+    <div class="smpnote">FIG. 01 · FICTIONAL EXAMPLE, NOT MEASURED. 100 ANSWERS IS AN ILLUSTRATIVE DENOMINATOR, NOT A COLLECTION STANDARD.</div>
+  </div></div>
+
+  <section style="border-top:1px solid var(--line)"><div class="wrap">
+    <div class="secnum">01 · The shift</div>
+    <h2 class="sec-h">AI answers are changing how buyers discover companies.</h2>
+    <p class="sub">AI answers add another place where buyers can encounter a brand. We propose reviewing mentions and citations alongside business outcomes, without treating either as a substitute for visits, qualified leads or sales.</p>
+    <figure class="pull rv">
+      <p class="research-finding">In Pew’s study, traditional-result clicks occurred on 8% of Google visits with an AI summary, versus 15% without one. Summary-source links received clicks on 1% of visits with a summary.</p>
+      <figcaption><a class="textlink" href="https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/">Pew Research Center · 22 July 2025 →</a></figcaption>
+      <p class="research-context">900 U.S. adults; 68,879 Google searches in March 2025. This observational study reconstructed search results in April. It does not establish a universal rate or a causal effect.</p>
+    </figure>
+    <div class="stats">
+      <div class="stat rv"><div class="k">Controlled research · KDD 2024</div><div class="t">Test changes in context</div><div class="d">The GEO paper tested content changes on 1,000 queries using GPT-3.5 and five retrieved sources. Effects varied by tactic and domain; these findings do not establish MindLeverX customer lift. <a class="textlink" href="https://arxiv.org/abs/2311.09735v3">Read the GEO paper, v3 →</a></div></div>
+      <div class="stat rv d1"><div class="k">Our proposed approach</div><div class="t">Compare like with like</div><div class="d">Keep the question panel and collection conditions visible. A result on one engine is not evidence of the same result elsewhere.</div></div>
+      <div class="stat rv d2"><div class="k">Our proposed approach</div><div class="t">Show evidence and its limits</div><div class="d">Distinguish observed answers from interpretations, and missing evidence from zero. Test recommendations before claiming that a change caused an outcome.</div></div>
+    </div>
+  </div></section>
+
+  <section id="services" style="background:var(--surface-2)"><div class="wrap">
+    <div class="secnum">02 · Services</div>
+    <h2 class="sec-h">A clear workflow, from evidence to review.</h2>
+    <div class="grid4">
+      <div class="svc"><div class="lb">LOOP 01 · SOLVE</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l2.2 5.5L20 9l-4.5 3.5L17 18l-5-3-5 3 1.5-5.5L4 9l5.8-.5z"/></svg></div><h3>Solutioning</h3><p>The planned fix path covers answer-first drafts, structured data and technical access, with evidence attached for review.</p></div>
+      <div class="svc"><div class="lb">LOOP 02 · MONITOR</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="11" cy="11" r="7"/><line x1="16" y1="16" x2="21" y2="21"/></svg></div><h3>Monitoring</h3><p>The intended monitoring workflow compares citations, mentions and share of voice. Engine APIs are not connected in this build.</p></div>
+      <div class="svc"><div class="lb">LOOP 03 · REPORT</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><line x1="5" y1="20" x2="5" y2="12"/><line x1="12" y1="20" x2="12" y2="5"/><line x1="19" y1="20" x2="19" y2="9"/></svg></div><h3>Reporting</h3><p>Example scorecards show how comparable readings could be reported. A score change alone does not establish business impact.</p></div>
+      <div class="svc"><div class="lb">LOOP 04 · REVIEW</div><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="5" y="8" width="14" height="11" rx="2"/><line x1="12" y1="8" x2="12" y2="4"/><circle cx="12" cy="3" r="1.3" fill="currentColor"/></svg></div><h3>Review workspace</h3><p>The intended review workspace organizes draft work and review decisions. Autonomous collection and delivery are future integrations.</p></div>
+    </div>
+  </div></section>
+
+  <section id="method" class="dark"><div class="wrap">
+    <div class="secnum">03 · Method</div>
+    <h2 class="sec-h">Five areas we review.</h2>
+    <div class="moves">
+      <div class="move"><div class="num">1</div><div><h3>Definitional pillar</h3><p>Own the quotable definition of your category.</p></div></div>
+      <div class="move"><div class="num">2</div><div><h3>Technical access</h3><p>Server-render, schema, robots rules — crawlers must see it.</p></div></div>
+      <div class="move"><div class="num">3</div><div><h3>Answer-first copy</h3><p>Self-contained answers, dated claims, cited sources.</p></div></div>
+      <div class="move"><div class="num">4</div><div><h3>Off-site citations</h3><p>Review relevant third-party references and the evidence behind them.</p></div></div>
+      <div class="move"><div class="num">5</div><div><h3>Demonstrate</h3><p>Publish supported findings with their sources, method and limitations.</p></div></div>
+    </div>
+  </div></section>
+
+  <section id="score"><div class="wrap score-wrap">
+    <div>
+      <div class="secnum">04 · Readiness</div>
+      <div class="kicker"><span class="dot"></span>Prove, don't claim</div>
+      <h2 class="sec-h" style="font-size:32px">What a readiness scorecard could show.</h2>
+      <p class="sub">This is an illustrative scorecard, not a measurement of MindLeverX or your domain. The intended method compares a fixed, versioned prompt panel under the same collection conditions. The aggregate and component numbers below are fictional layout examples, not a calculated score. Definitions, weights and validation for a real composite remain unresolved.</p>
+      <div style="margin-top:28px"><a href="#cta" class="btn">Audit availability</a></div>
+    </div>
+    <div class="gauge rv">
+      <div class="kicker">Fictional scorecard · model not implemented</div>
+      <div class="big">87<span>/100</span></div>
+      <div class="bars">
+        <div class="bar"><div class="row"><span>Technical access</span><span class="vv">82</span></div><div class="track"><div class="fill" style="width:82%"></div></div></div>
+        <div class="bar"><div class="row"><span>Content quotability</span><span class="vv">91</span></div><div class="track"><div class="fill" style="width:91%"></div></div></div>
+        <div class="bar"><div class="row"><span>Off-site authority</span><span class="vv">78</span></div><div class="track"><div class="fill" style="width:78%"></div></div></div>
+        <div class="bar"><div class="row"><span>Measured visibility</span><span class="vv">88</span></div><div class="track"><div class="fill" style="width:88%"></div></div></div>
+      </div>
+      <div class="prov">VISUAL ILLUSTRATION ONLY · 87 IS NOT CALCULATED FROM THE FOUR COMPONENTS. NO VALIDATED COMPOSITE OR MEASURED SCORE IS SHOWN.</div>
+    </div>
+  </div></section>
+
+  <section id="geo" style="background:var(--surface-2)"><div class="wrap">
+    <div class="secnum">05 · The feed</div>
+    <h2 class="sec-h">Watch the citations land.</h2>
+    <p class="sub">This sample feed illustrates how a citation record could show its timestamp, engine and source. No live engine events are being collected.</p>
+    <div class="feed">
+      <div class="ev rv"><span class="tm">09:42</span><span class="en">PERPLEXITY</span><span class="tx">Cited mindleverx.com/what-is-geo for “best GEO agency for B2B SaaS.”</span></div>
+      <div class="ev rv d1"><span class="tm">09:17</span><span class="en">CHATGPT</span><span class="tx">Quoted our GEO definition verbatim — a definitional-pillar win.</span></div>
+      <div class="ev rv d2"><span class="tm">08:53</span><span class="en">CLAUDE</span><span class="tx">Referenced our Readiness Score methodology in a comparison answer.</span></div>
+      <div class="ev rv d3"><span class="tm">08:31</span><span class="en">GEMINI</span><span class="tx">Listed MindLeverX among “top generative search firms.”</span></div>
+    </div>
+    <div class="smpnote">FIG. 02 · SAMPLE — NOT MEASURED. ILLUSTRATIVE VALUES PENDING MONITORING API.</div>
+  </div></section>
+
+  <section id="offer"><div class="wrap">
+    <div class="secnum">06 · Ways in</div>
+    <h2 class="sec-h">Start with a request. Build from evidence.</h2>
+    <p class="sub">These are the intended ways to work with MindLeverX. Audit requests and subscriptions are not open yet. Automated audits and scorecard delivery are future integrations.</p>
+    <p class="sub" style="margin-top:12px"><b style="font-weight:500;color:var(--ink)">On timing, plainly:</b> collection timing and engine behavior affect comparability. Any future report should preserve collection dates, show missing evidence and distinguish correlation from a result caused by a change. This preview makes no delivery or outcome promise.</p>
+    <div class="rungs">
+      <div class="rung rv">
+        <div class="lb">00 · The audit</div>
+        <h3>Free GEO audit</h3>
+        <div class="pr">Free · No credit card</div>
+        <p>A planned review across technical access, content quotability, off-site authority and measured visibility. Requests will open when the service is available.</p>
+        <ul>
+          <li>Planned review against Methodology V1.0</li>
+          <li>Competitor evidence when collection is connected</li>
+          <li>Requests open when the service is available</li>
+        </ul>
+        <div class="act"><a class="btn" href="#cta">Audit availability</a></div>
+      </div>
+      <div class="rung rv d1">
+        <div class="lb">01 · The subscription</div>
+        <h3>Monitoring + the fix path</h3>
+        <div class="pr">Planned · not connected</div>
+        <p>A planned service for repeated measurement and prioritized recommendations against an agreed panel. Collection, scheduled reports and alerts are not connected.</p>
+        <ul>
+          <li>Intended metrics: citations, mentions, share of voice</li>
+          <li>Prioritized fix recommendations</li>
+          <li>Reports and alerts planned</li>
+        </ul>
+        <div class="act"><a class="textlink" href="#cta">Audit availability →</a></div>
+      </div>
+      <div class="rung rv d2">
+        <div class="lb">02 · The deep audit</div>
+        <h3>Human deep-audit</h3>
+        <div class="pr">Proposed engagement</div>
+        <p>A proposed review of the work that needs human judgment: definitional pages, off-site evidence and answer-first content. Scope and availability would be agreed separately.</p>
+        <ul>
+          <li>Expert review across all four dimensions</li>
+          <li>Draft artifacts prepared for review</li>
+          <li>Evidence and limitations recorded</li>
+        </ul>
+        <div class="act"><a class="textlink" href="#cta">Audit availability →</a></div>
+      </div>
+    </div>
+  </div></section>
+
+  <div class="final wrap" id="cta">
+    <div class="colo"></div>
+    <div class="fk">The audit</div>
+    <h2>Find out if AI is recommending you.</h2>
+    <p class="lead" style="max-width:52ch;margin:0 auto">Explore the intended GEO audit and the evidence it would need.</p>
+
+    <p class="note" style="margin-top:24px">Audit requests are not open yet. Please check back for availability.</p>
+
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div class="fcols">
+    <div style="max-width:30ch"><div class="logo" style="font-size:19px">MindLever<b>X.</b></div><p style="margin-top:11px;font-weight:400">Generative engine optimization for mid-market B2B SaaS. Own the answer.</p></div>
+    <div><div class="fhead">Product</div><a href="#services">Services</a><a href="method.html">Method</a><a href="#score">Example scorecard</a><a href="#offer">Engage</a></div>
+    <div><div class="fhead">Learn</div><a href="what-is-geo.html">What is GEO?</a><a href="research-hub.html">Research</a></div>
+    <div><div class="fhead">Company</div><a href="about.html#contact">Contact</a></div>
+  </div>
+  <div class="fnote2">AI-ANSWER FINDINGS DEPEND ON THE PRODUCT, QUESTIONS AND COLLECTION CONDITIONS. MODEL-API RESULTS ARE DISTINCT FROM OBSERVATIONS OF CONSUMER CHATGPT AND OTHER CONSUMER INTERFACES.</div>
+  <div class="fbot"><span>© 2026 MindLeverX</span><span>OWN THE ANSWER.</span></div>
+</div></footer>
+
+<script>(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+
+  function setTheme(dark) {
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    for (const id of ['tg', 'tg2']) {
+      const button = $(id);
+      if (button) {
+        button.textContent = dark ? '☀ Light' : '☾ Dark';
+        button.setAttribute('aria-label', dark ? 'Use light theme' : 'Use dark theme');
+      }
+    }
+  }
+  let savedTheme;
+  try { savedTheme = localStorage.getItem('mlx-theme'); } catch {}
+  // Use light unless the visitor has explicitly saved a dark-theme choice.
+  setTheme(savedTheme === 'dark');
+  for (const id of ['tg', 'tg2']) $(id)?.addEventListener('click', () => {
+    const dark = document.documentElement.dataset.theme !== 'dark';
+    setTheme(dark);
+    try { localStorage.setItem('mlx-theme', dark ? 'dark' : 'light'); } catch {}
+  });
+
+  const menuButton = $('menubtn'), menu = $('mobnav');
+  function setMenu(open, focusButton = false) {
+    if (!menu || !menuButton) return;
+    menu.hidden = !open;
+    menu.style.display = open ? 'block' : 'none';
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    menuButton.textContent = open ? 'Close' : 'Menu';
+    if (focusButton) menuButton.focus();
+  }
+  menuButton?.addEventListener('click', () => setMenu(menuButton.getAttribute('aria-expanded') !== 'true'));
+  menu?.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    setMenu(false, true);
+    const target = new URL(link.href, window.location.href);
+    if (target.origin === window.location.origin && target.pathname === window.location.pathname && target.hash) {
+      let section;
+      try { section = $(decodeURIComponent(target.hash.slice(1))); } catch {}
+      if (section) {
+        if (!section.hasAttribute('tabindex')) section.setAttribute('tabindex', '-1');
+        section.focus({ preventScroll: true });
+      }
+    }
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') setMenu(false, true);
+  });
+
+  const track = $('tick');
+  if (track) {
+    const clone = document.createElement('span');
+    clone.setAttribute('aria-hidden', 'true');
+    clone.style.cssText = 'display:inline-flex;gap:44px';
+    for (const child of [...track.childNodes]) clone.append(child.cloneNode(true));
+    track.append(clone);
+  }
+  $('tkBtn')?.addEventListener('click', () => {
+    const paused = $('ticker').classList.toggle('paused');
+    $('tkBtn').setAttribute('aria-pressed', String(paused));
+    $('tkBtn').setAttribute('aria-label', paused ? 'Play sample ticker' : 'Pause sample ticker');
+    $('tkBtn').textContent = paused ? '▶' : '❚❚';
+  });
+
+  const copy = $('copyDef');
+  if (copy) {
+    const status = document.createElement('span');
+    status.className = 'note';
+    status.setAttribute('role', 'status');
+    copy.parentElement.append(status);
+    copy.addEventListener('click', async () => {
+      try {
+        if (!navigator.clipboard) throw new Error('Clipboard unavailable');
+        await navigator.clipboard.writeText(document.querySelector('.define .def').innerText);
+        copy.textContent = 'COPIED'; status.textContent = 'Definition copied.';
+      } catch { status.textContent = 'Could not copy. Select the definition and copy it manually.'; }
+      setTimeout(() => { copy.textContent = 'COPY'; }, 1600);
+    });
+  }
+
+  if (matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('anim');
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('in'); observer.unobserve(entry.target); }
+    }), { threshold: 0.1 });
+    document.querySelectorAll('.rv').forEach(element => observer.observe(element));
+  }
+})();
+</script>
+
+</body>
+</html>

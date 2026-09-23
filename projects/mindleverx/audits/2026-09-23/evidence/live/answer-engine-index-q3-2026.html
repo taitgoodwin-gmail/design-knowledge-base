@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Answer Engine Index: Q3 2026 — MindLeverX</title>
+<meta name="description" content="An illustrative Answer Engine Index showing a possible quarterly benchmark format. All figures and interpretations are sample data; no panel was run for this report.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --surface:#ffffff; --surface-2:#f7f7f8; --ink:#1d1f23; --body:#43464b; --muted:#63666b;
+    --line:#e7e8ea; --accent:#932c21; --accent-h:#791b11; --on-accent:#fff;
+    --brass:#7e5c2a; --brass-fill:#b99056; --pos:#236436; --pos-fill:#439458;
+    --font-d:'Spectral',Georgia,serif; --font-b:'IBM Plex Sans',system-ui,sans-serif; --font-m:'IBM Plex Mono',ui-monospace,monospace;
+    --maxw:1120px; --measure:720px;
+    --dur-fast:120ms; --dur-base:200ms; --dur-reveal:280ms;
+    --ease-out:cubic-bezier(0.2,0,0,1); --ease-exp:cubic-bezier(0,0,0.3,1);
+  }
+  [data-theme="dark"]{
+    --surface:#141619; --surface-2:#1b1e22; --ink:#f4f5f7; --body:#c3c6cb; --muted:#8f9298;
+    --line:#2a2d31; --accent:#dc5f52; --accent-h:#ed7665; --on-accent:#141619;
+    --brass:#b99056; --brass-fill:#b99056; --pos:#62bb78; --pos-fill:#62bb78;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--surface);color:var(--ink);font-family:var(--font-b);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 40px}
+  .col{max-width:var(--measure);margin:0 auto;padding:0 40px}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--font-d);font-weight:500;letter-spacing:-0.02em;line-height:1.1;color:var(--ink)}
+  .kicker{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;display:inline-flex;align-items:center;gap:9px}
+  .kicker .dot{width:6px;height:6px;border-radius:50%;background:var(--accent)}
+  .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:500;font-size:15px;padding:13px 26px;border-radius:10px;border:none;cursor:pointer;transition:background var(--dur-fast) ease-out,transform var(--dur-fast) ease-out}
+  .btn:hover{background:var(--accent-h)}
+  .textlink{color:var(--accent);font-weight:500;font-size:15px}
+  .textlink:hover{text-decoration:underline}
+  .lead{font-size:20px;line-height:1.55;color:var(--body);font-weight:400}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .navlinks a,.fcols a{transition:color 150ms ease-out}
+
+  .secnum{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:16px;text-transform:uppercase}
+  .secnum::before{content:"";width:28px;height:1px;background:var(--muted)}
+  .darkband .secnum{color:#a9acb2}
+  .darkband .secnum::before{background:#a9acb2}
+
+  /* ticker */
+  .ticker{background:var(--ink);color:#eef0f2;font-family:var(--font-m);font-size:13px;display:flex;align-items:center;height:44px;overflow:hidden;position:relative}
+  [data-theme="dark"] .ticker{background:#0e1013}
+  .ticker .tag{display:flex;align-items:center;gap:9px;padding:0 20px;height:100%;flex-shrink:0;color:var(--brass-fill);letter-spacing:0.1em;font-size:12px;font-weight:500;background:rgba(0,0,0,0.25);z-index:2}
+  .ticker .live{width:8px;height:8px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+  .ticker .mask{flex:1;overflow:hidden}
+  .ticker .track{display:inline-flex;gap:44px;white-space:nowrap;padding-left:44px;animation:scroll 38s linear infinite;will-change:transform}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker .track span{color:#c9cbce}
+  .ticker .track span b{color:#fff;font-weight:500}
+  .ticker .track span em{color:#62bb78;font-style:normal;margin-left:5px}
+  .ticker:hover .track{animation-play-state:paused}
+  .ticker.paused .track{animation-play-state:paused}
+  .ticker.paused .live{animation-play-state:paused}
+  .ticker .tkbtn{flex-shrink:0;height:100%;width:38px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);border:none;border-left:1px solid rgba(255,255,255,0.08);color:#c9cbce;cursor:pointer;z-index:2;font-size:12px;line-height:1}
+  .ticker .tkbtn:hover{color:#fff}
+  .ticker .tkbtn:focus-visible{outline:2px solid #f4f5f7;outline-offset:-2px}
+  .ticker .smp{padding:0 20px;color:#8a8d92;font-size:12px;letter-spacing:0.1em;background:rgba(0,0,0,0.25);z-index:2}
+  @media(prefers-reduced-motion:reduce){.ticker .track{animation:none}.ticker .live{animation:none}.kf .fk .ld{animation:none}}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 84%,transparent);backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-family:var(--font-d);font-size:22px;font-weight:600;letter-spacing:-0.01em}
+  .logo b{color:var(--accent)}
+  .navlinks{display:flex;align-items:center;gap:30px;font-size:15px;color:var(--body)}
+  .navlinks a:hover{color:var(--ink)}
+  .navlinks a.active{color:var(--ink);font-weight:500}
+  .toggle{background:none;border:1px solid var(--line);color:var(--body);cursor:pointer;font-size:13px;font-family:var(--font-m);padding:7px 12px;border-radius:20px}
+  .menubtn{display:none;background:none;border:none;color:var(--ink);font-size:22px;cursor:pointer}
+  .mobnav{display:none;border-top:1px solid var(--line);background:var(--surface)}
+  .mobnav a{display:block;padding:13px 0;font-size:16px;color:var(--body);border-bottom:1px solid var(--line)}
+  .mobnav .toggle{margin-top:14px;display:inline-block}
+
+  /* article hero */
+  .crumb{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);padding-top:40px}
+  .crumb a:hover{color:var(--ink)}
+  .ahero{padding:24px 0 56px;max-width:var(--measure);margin:0 auto}
+  .ahero h1{font-size:58px;font-weight:500;letter-spacing:-0.03em;line-height:1.03;margin:14px 0 22px}
+  .ahero .lead{max-width:58ch}
+  .metarow{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;font-family:var(--font-m);font-size:12px;letter-spacing:0.04em;color:var(--muted);text-transform:uppercase;border-top:1px solid var(--line);padding-top:20px}
+  .metarow b{color:var(--ink);font-weight:500}
+
+  /* key findings — the dark contrast beat, answer-first */
+  .darkband{background:var(--ink);padding:56px 0}
+  [data-theme="dark"] .darkband{background:#0e1013}
+  .kf{max-width:var(--measure);margin:0 auto;padding:0 40px}
+  .kf .fk{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;color:#f4f5f7;text-transform:uppercase;display:flex;align-items:center;gap:9px;margin-bottom:24px}
+  .kf .fk .ld{width:7px;height:7px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  .kf .fk .s{margin-left:auto;font-size:12px;color:var(--brass-fill);border:1px solid rgba(185,144,86,0.45);padding:2px 7px;border-radius:4px}
+  .kf ol{list-style:none;counter-reset:kf}
+  .kf li{counter-increment:kf;display:grid;grid-template-columns:44px 1fr;gap:22px;padding:18px 0;border-top:1px solid rgba(255,255,255,0.12);align-items:baseline}
+  .kf li::before{content:counter(kf);font-family:var(--font-d);font-size:24px;color:#f4f5f7}
+  .kf li p{font-size:17px;color:#eef0f2;font-weight:400;line-height:1.55;max-width:56ch}
+  .kf li p b{font-weight:500;color:#fff}
+
+  /* reading column */
+  .article{padding:72px 0 8px}
+  .aprose h2{font-size:32px;margin:56px 0 20px;max-width:24ch}
+  .aprose h2:first-of-type{margin-top:0}
+  .aprose p{font-size:17px;color:var(--body);font-weight:400;margin-top:18px;line-height:1.7}
+  .aprose p strong{color:var(--ink);font-weight:500}
+  .aprose .secnum{margin-top:56px;margin-bottom:0}
+  .aprose .secnum+h2{margin-top:16px}
+
+  .pull{margin:40px 0;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pull blockquote{font-family:var(--font-d);font-size:27px;line-height:1.32;font-weight:400;color:var(--ink);max-width:26ch;letter-spacing:-0.01em}
+  .pull figcaption{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:14px;letter-spacing:0.05em}
+
+  /* data exhibit */
+  .exhibit{margin:36px 0;border:1px solid var(--line);border-top:3px solid var(--brass-fill);border-radius:14px;overflow:hidden}
+  .exhibit .xh{display:flex;justify-content:space-between;align-items:center;padding:12px 20px;border-bottom:1px solid var(--line);font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;color:var(--muted);text-transform:uppercase}
+  .exhibit .xh .s{font-size:12px;color:var(--brass);border:1px solid color-mix(in srgb,var(--brass-fill) 45%,transparent);padding:2px 7px;border-radius:4px}
+  .exhibit table{width:100%;border-collapse:collapse;font-size:14px}
+  .exhibit th{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;text-align:left;padding:12px 20px;background:var(--surface-2);color:var(--muted);border-bottom:1px solid var(--line);font-weight:500}
+  .exhibit td{padding:14px 20px;border-bottom:1px solid var(--line);color:var(--body);font-weight:400}
+  .exhibit tr:last-child td{border-bottom:none}
+  .exhibit td:first-child{font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--ink);text-transform:uppercase}
+  .exhibit td .up{font-family:var(--font-m);font-size:12px;color:var(--pos);font-weight:500}
+  .exhibit td .dn{font-family:var(--font-m);font-size:12px;color:var(--muted);font-weight:500}
+  .exhibit td b{font-family:var(--font-d);font-size:19px;font-weight:500;color:var(--ink)}
+  .kf .cap{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;color:#8a8d92;margin-top:20px;text-transform:uppercase}
+  .tabcap{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;color:var(--muted);margin-top:-24px;margin-bottom:36px;text-transform:uppercase}
+
+  /* method + sources */
+  .prov-box{margin:44px 0 0;border:1px solid var(--line);border-radius:14px;background:var(--surface-2);padding:26px 30px}
+  .prov-box .tl{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:14px}
+  .prov-box p{font-size:14px;color:var(--body);font-weight:400;line-height:1.6}
+  .sources{margin-top:44px;border-top:1px solid var(--line);padding-top:28px}
+  .sources .tl{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+  .sources ol{list-style:none;counter-reset:s}
+  .sources li{counter-increment:s;position:relative;padding-left:34px;font-size:14px;color:var(--body);font-weight:400;margin-top:14px;line-height:1.5}
+  .sources li::before{content:counter(s);position:absolute;left:0;top:0;font-family:var(--font-m);font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:5px;width:22px;height:22px;display:flex;align-items:center;justify-content:center}
+  .sources li b{color:var(--ink);font-weight:500}
+  .sources li .mono{font-family:var(--font-m);font-size:12px;color:var(--muted)}
+
+  /* colophon CTA */
+  .final{text-align:center;padding:96px 0}
+  .final .colo{width:56px;height:1px;background:var(--muted);margin:0 auto 20px}
+  .final .fk2{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);margin-bottom:18px;text-transform:uppercase}
+  .final h2{font-size:44px;font-weight:500;max-width:18ch;margin:0 auto 20px}
+  .form{display:flex;gap:12px;justify-content:center;max-width:480px;margin:32px auto 0}
+  .form input{flex:1;font-family:var(--font-b);font-size:15px;padding:14px 18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);outline:none}
+  .form input:focus{border-color:var(--accent)}
+  .form input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .note{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:16px}
+
+  footer{background:var(--surface-2);padding:56px 0 36px;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+  .fcols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px}
+  .fcols a{color:var(--body);display:block;margin-top:11px}
+  .fcols a:hover{color:var(--ink)}
+  .fhead{color:var(--ink);font-weight:500;font-size:15px}
+  .fbot{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:var(--font-m);font-size:12px}
+  .fnote2{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--muted);line-height:1.9;max-width:86ch}
+
+  /* ── motion system ── */
+  @media(prefers-reduced-motion:no-preference){
+    html{scroll-behavior:smooth}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    @keyframes flash{from{opacity:0}to{opacity:1}}
+    .flash{animation:flash 150ms ease-out}
+    html.anim .rv{opacity:0;transform:translateY(16px);transition:opacity var(--dur-reveal) var(--ease-out),transform var(--dur-reveal) var(--ease-out)}
+    html.anim .rv.in{opacity:1;transform:none}
+    html.anim .rv.d1{transition-delay:80ms}
+    html.anim .rv.d2{transition-delay:160ms}
+    /* expressive beat: headline lands, then the findings file in */
+    html.anim .ahero{animation:rise 400ms var(--ease-exp) 100ms both}
+    html.anim .kf li{animation:rise 300ms var(--ease-out) both}
+    html.anim .kf li:nth-child(1){animation-delay:350ms}
+    html.anim .kf li:nth-child(2){animation-delay:430ms}
+    html.anim .kf li:nth-child(3){animation-delay:510ms}
+    html.anim .btn:hover{transform:translateY(-1px)}
+    html.anim .btn:active{transform:none}
+  }
+
+  @media(max-width:880px){
+    .ahero h1{font-size:44px}
+    .aprose h2{font-size:28px}
+    .final h2{font-size:28px}
+    .pull blockquote{font-size:22px}
+    .navlinks{display:none}
+    .menubtn{display:block}
+    .col,.kf{padding:0 24px}
+    .wrap{padding:0 24px}
+    .exhibit table{font-size:13px}
+    .exhibit th,.exhibit td{padding:10px 12px}
+    .kf li{grid-template-columns:32px 1fr;gap:14px}
+  }
+
+  /* v3.1.1 HEADER FIT — desktop nav cannot fit ~881px-1040px: .navlinks holds
+     its row so link TEXT wraps instead, nav height 49px -> 96px, wordmark
+     collision (0px separation at 924px). Isolated to the nav: the 880px query
+     also carries grid and type changes that must not move. */
+  .navlinks a{white-space:nowrap}
+  @media(max-width:1040px){
+    .navlinks{display:none}
+    .menubtn{display:block}
+  }
+</style>
+<script src="/runtime.js"></script>
+<style>[hidden]{display:none!important}
+.skip-link{position:fixed;top:8px;left:8px;padding:12px 18px;background:var(--surface);color:var(--accent);z-index:1000;transform:translateY(-150%)}
+.skip-link:focus{transform:translateY(0)}
+.preview-banner{background:var(--surface-2);color:var(--body);border-bottom:1px solid var(--line);font-size:13px}
+.preview-banner .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding-top:10px;padding-bottom:10px}
+.preview-banner b{color:var(--accent)}
+.preview-banner a{color:var(--accent);text-decoration:underline;margin-left:auto;font-weight:500}
+.form{max-width:520px;display:flex;flex-wrap:wrap;text-align:left;gap:18px}
+.form .emailrow,.form .domrow{display:flex;flex-direction:column;flex:1 1 100%;gap:7px;min-width:0}
+.form label{font-size:14px;color:var(--body);font-weight:500}
+.form input:not([type="checkbox"]){width:100%;min-width:0;font-weight:400}
+.form .consent{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.6;flex:1 1 100%;font-weight:400}
+.form .consent input{flex:0 0 18px;width:18px;height:18px;padding:0;margin-top:2px;accent-color:var(--accent);border-radius:3px}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.form .btn{flex:1 1 100%;font-weight:500}
+#domain-hint{font-size:12px;color:var(--muted)}
+.form [aria-invalid="true"]{border-color:var(--accent)}
+.form button:disabled{opacity:.7;cursor:wait}
+.mobnav a,.mobnav button{min-height:44px}
+.mobnav a{display:flex;align-items:center}
+.method-steps{list-style:none;margin:40px 0 0;padding:0}
+.method-step{display:grid;grid-template-columns:52px 1fr;gap:20px;padding:30px 0;border-top:1px solid var(--line)}
+.method-step .step-number{font-family:var(--font-d);font-size:30px;color:var(--accent)}
+.method-step h2{font-size:25px;margin-bottom:10px}
+.method-step p{font-size:17px;color:var(--body);max-width:66ch}
+.method-step .step-output{font-size:14px;margin-top:12px;color:var(--muted)}
+.method-status{border-left:3px solid var(--accent);padding:18px 22px;background:var(--surface-2);margin:30px 0;color:var(--body)}
+.nav{gap:16px;min-height:62px;height:auto}
+.nav .logo{flex-shrink:0;white-space:nowrap}
+.navlinks{display:flex;gap:22px;margin-left:auto}
+.navlinks>*{display:none}
+.menubtn{display:flex;align-items:center;justify-content:center;flex-shrink:0;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:var(--font-b);font-size:15px;line-height:1.3}
+.mobnav.wrap{padding-top:4px;padding-bottom:18px;max-height:70vh;overflow-y:auto}
+@media(min-width:36rem){.navlinks .nav-priority{display:block}}
+@media(min-width:48rem){.navlinks .nav-example{display:block}}
+@media(min-width:56rem){.navlinks .nav-cta{display:block}}
+.hero-action-note{font-size:14px;line-height:1.6;color:var(--muted);margin:-16px 0 28px;max-width:48ch}
+.hero-cta{flex-wrap:wrap}
+.proof .p .t{max-width:44ch;font-size:14px}
+.proof .p .src{display:inline-block;margin-top:8px;font-size:13px}
+.board .bh{flex-wrap:wrap;gap:8px}
+.board-context{padding:16px 22px 0;font-size:14px;line-height:1.6;color:var(--body)}
+.board .c{min-width:0}
+.board .c .cl{font-size:12px;letter-spacing:.04em;overflow-wrap:anywhere}
+.example-count{font-size:13px;line-height:1.5;color:var(--muted);margin-top:4px}
+.board .bf{flex-wrap:wrap;gap:12px}
+.board .bf .textlink{font-size:14px}
+.pull .research-finding{font-family:var(--font-d);font-size:25px;line-height:1.4;max-width:54ch}
+.pull .research-context{font-size:14px;line-height:1.6;color:var(--muted);max-width:78ch;margin-top:14px}
+.stat .d .textlink{display:inline-block;font-size:14px;margin-top:8px}
+.tklegend{font-size:13px}
+html{scroll-padding-top:80px}
+@media(max-width:600px){.preview-banner a{margin-left:0}.preview-banner span{flex-basis:100%}.method-step{grid-template-columns:36px 1fr;gap:14px}}
+@media(max-width:600px){.ticker{height:auto;flex-wrap:wrap}.ticker .tag{height:36px;flex-basis:100%}.ticker .mask{flex:1 1 calc(100% - 38px);min-width:0;height:44px}.ticker .tkbtn{height:44px}.ticker .smp{display:none}}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+  .rv,.bar .fill{opacity:1!important;transform:none!important}
+  .ticker{height:auto;flex-wrap:wrap}
+  .ticker .tag{padding:12px 20px;width:100%}
+  .ticker .mask{flex:1 1 100%;height:auto;overflow:visible}
+  .ticker .track{display:flex;flex-wrap:wrap;gap:12px 24px;white-space:normal;padding:12px 20px;transform:none!important}
+  .ticker .track [aria-hidden="true"],.ticker .tkbtn,.ticker .smp{display:none!important}
+}
+</style>
+<link rel="canonical" href="https://mindleverx.com/answer-engine-index-q3-2026.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MindLeverX">
+<meta property="og:title" content="Sample Answer Engine Index: Q3 2026 — MindLeverX">
+<meta property="og:description" content="An illustrative Answer Engine Index showing a possible quarterly benchmark format. All figures and interpretations are sample data; no panel was run for this report.">
+<meta property="og:url" content="https://mindleverx.com/answer-engine-index-q3-2026.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://mindleverx.com/#organization","name":"MindLeverX","url":"https://mindleverx.com"},{"@type":"WebPage","@id":"https://mindleverx.com/answer-engine-index-q3-2026.html#page","name":"Sample Answer Engine Index: Q3 2026 — MindLeverX","description":"An illustrative Answer Engine Index showing a possible quarterly benchmark format. All figures and interpretations are sample data; no panel was run for this report.","url":"https://mindleverx.com/answer-engine-index-q3-2026.html","isPartOf":{"@type":"WebSite","name":"MindLeverX","url":"https://mindleverx.com"},"about":{"@type":"Thing","name":"Generative Engine Optimization"}}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#top">Skip to main content</a>
+
+<div class="ticker" id="ticker">
+  <div class="tag"><span class="live"></span>SAMPLE REPORT TOPICS</div>
+  <div class="mask"><div class="track" id="tick">
+    <span>Brand mentions <b>Answer text</b></span>
+    <span>Citations <b>Source links</b></span>
+    <span>Comparisons <b>Matched conditions</b></span>
+    <span>Crawler access <b>Technical checks</b></span>
+    <span>Referrals <b>Visits from links</b></span>
+    <span>Readiness <b>Evidence gaps</b></span>
+  </div></div>
+  <button class="tkbtn" id="tkBtn" aria-label="Pause sample ticker" aria-pressed="false" title="Pause ticker">❚❚</button>
+  <div class="smp">SAMPLE</div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">MindLever<b>X.</b></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="index.html#services">Services</a>
+      <a href="method.html" class="nav-priority">Method</a>
+      <a href="index.html#score" class="nav-example">Example scorecard</a>
+      <a href="what-is-geo.html">What is GEO?</a>
+      <a href="research-hub.html" class="nav-priority active">Research</a>
+      <a href="index.html#cta" class="nav-cta textlink">Audit availability</a>
+      <button class="toggle" id="tg">☾ Dark</button>
+    </nav>
+    <button class="menubtn" id="menubtn" aria-label="Open menu" aria-controls="mobnav" aria-expanded="false">Menu</button>
+  </div>
+  <nav class="mobnav wrap" id="mobnav" aria-label="More navigation" hidden>
+    <a href="index.html#services">Services</a>
+    <a href="method.html">Method</a>
+    <a href="index.html#score">Example scorecard</a>
+    <a href="what-is-geo.html">What is GEO?</a>
+    <a href="research-hub.html">Research</a>
+    <a href="index.html#cta">Audit availability</a>
+    <button class="toggle" id="tg2">☾ Dark</button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; <a href="research-hub.html">Research</a> &nbsp;/&nbsp; Sample Answer Engine Index Q3 2026</div>
+  </div>
+  <div class="ahero" style="padding-left:40px;padding-right:40px">
+    <div class="kicker"><span class="dot"></span>Sample benchmark · Not measured</div>
+    <h1>Sample Answer Engine Index: Q3 2026.</h1>
+    <p class="lead">This sample article demonstrates how a quarterly benchmark could present results. Every numerical finding and engine-specific interpretation below is illustrative; no research panel was run for this report.</p>
+    <div class="metarow"><span>Format by <b>MINDLEVERX</b></span><span>Example period · <b>JUL 2026</b></span><span>Data · <b>FICTIONAL</b></span><span>Proposed method · <b>V1.0</b></span></div>
+  </div>
+
+  <div class="darkband">
+    <div class="kf">
+      <div class="fk"><span class="ld"></span>THREE HYPOTHETICAL SCENARIOS<span class="s">SAMPLE</span></div>
+      <ol>
+        <li><p><b>Sample average citation rate: 11.4%</b>, with an invented +1.2pt comparison across a hypothetical 1,200-prompt panel. This demonstrates a reporting format, not an engine trend.</p></li>
+        <li><p><b>Sample top-decile citation share: 61%</b>, with an invented +4pt change. The scenario illustrates how a report might show concentration; no brands were measured.</p></li>
+        <li><p><b>Hypothesis to test: freshness and citations.</b> A future comparison could examine pages updated within 90 days alongside older pages. No such comparison was performed for this sample.</p></li>
+      </ol>
+      <div class="cap">FIG. 01 · FICTIONAL SCENARIOS — NOT MEASURED. NO ENGINE TREND OR BRAND RESULT IS REPORTED.</div>
+    </div>
+  </div>
+
+  <article class="article">
+    <div class="col aprose">
+      <div class="secnum">01 · Example results layout</div>
+      <h2>A hypothetical quarter, shown four ways.</h2>
+      <p>The example assumes a panel of 1,200 prompts — 300 per engine, spanning definitional, comparative and recommendation intents. These are illustrative inputs, not a completed Q3 or Q2 run. Citation rate measures how often a tracked brand's own domain appears as a cited source inside the answer.</p>
+
+      <div class="exhibit">
+        <div class="xh"><span>EXAMPLE Q3 2026 · FICTIONAL CITATION RATES</span><span class="s">SAMPLE</span></div>
+        <table>
+          <thead><tr><th>Engine</th><th>Sample rate</th><th>Sample change</th><th>Hypothesis to test</th></tr></thead>
+          <tbody>
+            <tr><td>Perplexity</td><td><b>13.6%</b></td><td><span class="up">▲2.1</span></td><td>Whether recently updated pages differ in citation rate</td></tr>
+            <tr><td>ChatGPT</td><td><b>12.8%</b></td><td><span class="up">▲0.9</span></td><td>Whether brand-search demand relates to citations</td></tr>
+            <tr><td>Claude</td><td><b>11.2%</b></td><td><span class="up">▲1.9</span></td><td>Whether dated, sourced claims differ in quotation rate</td></tr>
+            <tr><td>Gemini</td><td><b>8.1%</b></td><td><span class="dn">▼0.4</span></td><td>Whether structured data relates to citation rate</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tabcap">TABLE 01 · HYPOTHETICAL 300-PROMPT GROUPS · EXAMPLE JUL 2026 PERIOD · PROPOSED METHOD V1.0 · ALL RATES AND CHANGES ARE FICTIONAL; HYPOTHESES ARE UNTESTED.</div>
+
+      <p>A fictional follow-up could assign <strong>58% of citations to fresher pages</strong> in a sample comparison. That number is invented for this layout. No matched-pair prompts were run, and the example establishes neither a freshness preference nor a change in Perplexity's behavior.</p>
+
+      <div class="secnum">02 · A hypothetical concentration scenario</div>
+      <h2>What a narrower source pool might look like.</h2>
+      <p>Another fictional scenario could show 3.1 unique cited domains per answer in one period and 2.6 in another. A sample table might also show a two-to-one citation ratio for pages with structured data versus pages without it, or a higher quotation rate for dated claims. These are invented illustrations, not observations about ChatGPT, Gemini, Claude or any other engine.</p>
+      <figure class="pull rv">
+        <blockquote>Sample question: are citations spread across more sources or concentrated in fewer?</blockquote>
+        <figcaption>— ILLUSTRATIVE RESEARCH QUESTION · NO FINDING REPORTED</figcaption>
+      </figure>
+      <p>The invented four-point change in top-decile share demonstrates one way to display concentration. A real interpretation would require a defined brand set, comparable readings and preserved source responses. This sample does not establish a market shift, identify winning brands or show that a content change improves visibility.</p>
+
+      <div class="secnum">03 · Questions for a future study</div>
+      <h2>Four characteristics a study could examine.</h2>
+      <p>A future study could examine <strong>definitional pages</strong>, <strong>dated statistics in quotable passages</strong>, <strong>corroboration on other sites</strong> and <strong>differences across engines</strong>. These topics connect to the <a href="index.html#method" class="textlink" style="font-size:inherit">proposed method</a>. They are candidate questions, not characteristics observed among a measured top decile or a demonstrated ranking of what improves visibility.</p>
+
+      <div class="secnum">04 · Method notes</div>
+      <h2>How to read these numbers.</h2>
+      <p>The proposed panel would preserve prompts, categories and collection windows across comparison periods. Actual sampling and scoring rules must be specified and validated before a collected benchmark is published.</p>
+      <div class="prov-box">
+        <div class="tl">Provenance</div>
+        <p>Illustrative setup: 1,200 prompts · 4 engines · example period JUL 1–14, 2026. No collection took place for this article. All figures are <strong>hand-authored fictional sample values</strong> used to demonstrate the Index format. They do not become evidence when a monitoring integration is added; a real report would require newly collected data.</p>
+      </div>
+
+      <div class="sources">
+        <div class="tl">Sample data and source status</div>
+        <ol>
+          <li><b>Numerical exhibits:</b> hand-authored sample values. No Q3 or Q2 panel collection underlies them.</li>
+          <li><b>Engine interpretations:</b> hypothetical scenarios and untested questions; no external study is offered as evidence for these sample claims.</li>
+          <li><b>Future measured report:</b> would need preserved prompts, dated engine responses and sources supporting each interpretation.</li>
+        </ol>
+      </div>
+    </div>
+  </article>
+
+  <div class="final wrap" id="cta">
+    <div class="colo"></div>
+    <div class="fk2">The planned audit</div>
+    <h2>Explore the method behind a future benchmark.</h2>
+    <p class="lead" style="max-width:52ch;margin:0 auto">Explore the intended GEO audit and the evidence it would need.</p>
+    <p class="note" style="margin-top:24px">Audit requests are not open yet. Please check back for availability.</p>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div class="fcols">
+    <div style="max-width:30ch"><div class="logo" style="font-size:19px">MindLever<b>X.</b></div><p style="margin-top:11px;font-weight:400">Generative engine optimization for mid-market B2B SaaS. Own the answer.</p></div>
+    <div><div class="fhead">Product</div><a href="index.html#services">Services</a><a href="method.html">Method</a><a href="index.html#score">Example scorecard</a></div>
+    <div><div class="fhead">Learn</div><a href="what-is-geo.html">What is GEO?</a><a href="research-hub.html">Research</a><a href="case-study.html">Case studies</a></div>
+    <div><div class="fhead">Company</div><a href="about.html">About</a><a href="about.html#contact">Contact</a></div>
+  </div>
+  <div class="fnote2">AI-ANSWER FINDINGS DEPEND ON THE PRODUCT, QUESTIONS AND COLLECTION CONDITIONS. MODEL-API RESULTS ARE DISTINCT FROM OBSERVATIONS OF CONSUMER CHATGPT AND OTHER CONSUMER INTERFACES.</div>
+  <div class="fbot"><span>© 2026 MindLeverX</span><span>OWN THE ANSWER.</span></div>
+</div></footer>
+
+<script>(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+
+  function setTheme(dark) {
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    for (const id of ['tg', 'tg2']) {
+      const button = $(id);
+      if (button) {
+        button.textContent = dark ? '☀ Light' : '☾ Dark';
+        button.setAttribute('aria-label', dark ? 'Use light theme' : 'Use dark theme');
+      }
+    }
+  }
+  let savedTheme;
+  try { savedTheme = localStorage.getItem('mlx-theme'); } catch {}
+  // Use light unless the visitor has explicitly saved a dark-theme choice.
+  setTheme(savedTheme === 'dark');
+  for (const id of ['tg', 'tg2']) $(id)?.addEventListener('click', () => {
+    const dark = document.documentElement.dataset.theme !== 'dark';
+    setTheme(dark);
+    try { localStorage.setItem('mlx-theme', dark ? 'dark' : 'light'); } catch {}
+  });
+
+  const menuButton = $('menubtn'), menu = $('mobnav');
+  function setMenu(open, focusButton = false) {
+    if (!menu || !menuButton) return;
+    menu.hidden = !open;
+    menu.style.display = open ? 'block' : 'none';
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    menuButton.textContent = open ? 'Close' : 'Menu';
+    if (focusButton) menuButton.focus();
+  }
+  menuButton?.addEventListener('click', () => setMenu(menuButton.getAttribute('aria-expanded') !== 'true'));
+  menu?.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    setMenu(false, true);
+    const target = new URL(link.href, window.location.href);
+    if (target.origin === window.location.origin && target.pathname === window.location.pathname && target.hash) {
+      let section;
+      try { section = $(decodeURIComponent(target.hash.slice(1))); } catch {}
+      if (section) {
+        if (!section.hasAttribute('tabindex')) section.setAttribute('tabindex', '-1');
+        section.focus({ preventScroll: true });
+      }
+    }
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') setMenu(false, true);
+  });
+
+  const track = $('tick');
+  if (track) {
+    const clone = document.createElement('span');
+    clone.setAttribute('aria-hidden', 'true');
+    clone.style.cssText = 'display:inline-flex;gap:44px';
+    for (const child of [...track.childNodes]) clone.append(child.cloneNode(true));
+    track.append(clone);
+  }
+  $('tkBtn')?.addEventListener('click', () => {
+    const paused = $('ticker').classList.toggle('paused');
+    $('tkBtn').setAttribute('aria-pressed', String(paused));
+    $('tkBtn').setAttribute('aria-label', paused ? 'Play sample ticker' : 'Pause sample ticker');
+    $('tkBtn').textContent = paused ? '▶' : '❚❚';
+  });
+
+  const copy = $('copyDef');
+  if (copy) {
+    const status = document.createElement('span');
+    status.className = 'note';
+    status.setAttribute('role', 'status');
+    copy.parentElement.append(status);
+    copy.addEventListener('click', async () => {
+      try {
+        if (!navigator.clipboard) throw new Error('Clipboard unavailable');
+        await navigator.clipboard.writeText(document.querySelector('.define .def').innerText);
+        copy.textContent = 'COPIED'; status.textContent = 'Definition copied.';
+      } catch { status.textContent = 'Could not copy. Select the definition and copy it manually.'; }
+      setTimeout(() => { copy.textContent = 'COPY'; }, 1600);
+    });
+  }
+
+  if (matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('anim');
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('in'); observer.unobserve(entry.target); }
+    }), { threshold: 0.1 });
+    document.querySelectorAll('.rv').forEach(element => observer.observe(element));
+  }
+})();
+</script>
+</body>
+</html>

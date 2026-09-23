@@ -1,0 +1,1144 @@
+{
+  "page": {
+    "id": "12:81",
+    "name": "01 — Web Style Guide",
+    "flowStartingPoints": []
+  },
+  "root": "12:153",
+  "offset": 0,
+  "total": 23,
+  "nodes": [
+    {
+      "id": "12:153",
+      "p": "12:81",
+      "t": "FRAME",
+      "n": "Style Guide — Typography",
+      "g": [
+        2752,
+        0,
+        1280,
+        853
+      ],
+      "a": {
+        "x": 2752,
+        "y": 0,
+        "width": 1280,
+        "height": 853
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:154",
+      "p": "12:153",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        0,
+        1280,
+        64
+      ],
+      "a": {
+        "x": 2752,
+        "y": 0,
+        "width": 1280,
+        "height": 64
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        32,
+        0,
+        32,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:155",
+      "p": "12:154",
+      "t": "TEXT",
+      "n": "MIND LEVER X · WEB FOUNDATIONS",
+      "g": [
+        32,
+        23.5,
+        210,
+        17
+      ],
+      "a": {
+        "x": 2784,
+        "y": 23.5,
+        "width": 210,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "MIND LEVER X · WEB FOUNDATIONS",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:156",
+      "p": "12:154",
+      "t": "TEXT",
+      "n": "VERSION 1 · SEP 2026",
+      "g": [
+        1121,
+        23.5,
+        127,
+        17
+      ],
+      "a": {
+        "x": 3873,
+        "y": 23.5,
+        "width": 127,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "VERSION 1 · SEP 2026",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:157",
+      "p": "12:153",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        64,
+        1280,
+        225
+      ],
+      "a": {
+        "x": 2752,
+        "y": 64,
+        "width": 1280,
+        "height": 225
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        56,
+        64,
+        48,
+        64,
+        14,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:158",
+      "p": "12:157",
+      "t": "TEXT",
+      "n": "Typography",
+      "g": [
+        64,
+        56,
+        217,
+        55
+      ],
+      "a": {
+        "x": 2816,
+        "y": 120,
+        "width": 217,
+        "height": 55
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Typography",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 38,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:159",
+      "p": "12:157",
+      "t": "TEXT",
+      "n": "Manrope creates authority in headlines; DM Sans keeps supporting content highly readable.",
+      "g": [
+        64,
+        125,
+        700,
+        52
+      ],
+      "a": {
+        "x": 2816,
+        "y": 189,
+        "width": 700,
+        "height": 52
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Manrope creates authority in headlines; DM Sans keeps supporting content highly readable.",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:160",
+      "p": "12:153",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        289,
+        1280,
+        307
+      ],
+      "a": {
+        "x": 2752,
+        "y": 289,
+        "width": 1280,
+        "height": 307
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        32,
+        64,
+        32,
+        64,
+        72,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:161",
+      "p": "12:160",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        64,
+        32,
+        300,
+        91
+      ],
+      "a": {
+        "x": 2816,
+        "y": 321,
+        "width": 300,
+        "height": 91
+      },
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:162",
+      "p": "12:161",
+      "t": "TEXT",
+      "n": "Display & headings",
+      "g": [
+        0,
+        0,
+        300,
+        26
+      ],
+      "a": {
+        "x": 2816,
+        "y": 321,
+        "width": 300,
+        "height": 26
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Display & headings",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:163",
+      "p": "12:161",
+      "t": "TEXT",
+      "n": "Use Manrope Bold for decisive, compact statements. Keep line lengths controlled and hierarchy obvious.",
+      "g": [
+        0,
+        34,
+        300,
+        57
+      ],
+      "a": {
+        "x": 2816,
+        "y": 355,
+        "width": 300,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Use Manrope Bold for decisive, compact statements. Keep line lengths controlled and hierarchy obvious.",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 13,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:164",
+      "p": "12:160",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        436,
+        32,
+        780,
+        243
+      ],
+      "a": {
+        "x": 3188,
+        "y": 321,
+        "width": 780,
+        "height": 243
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            243,
+            244,
+            246
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        28,
+        28,
+        28,
+        28,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:165",
+      "p": "12:164",
+      "t": "TEXT",
+      "n": "Be found in the new era of search.",
+      "g": [
+        28,
+        28,
+        720,
+        150
+      ],
+      "a": {
+        "x": 3216,
+        "y": 349,
+        "width": 720,
+        "height": 150
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Be found in the new era of search.",
+        "font": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "size": 52,
+        "weight": 700,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:166",
+      "p": "12:164",
+      "t": "TEXT",
+      "n": "Display · Manrope Bold · 82/92 desktop, 46/52 mobile",
+      "g": [
+        28,
+        198,
+        305,
+        17
+      ],
+      "a": {
+        "x": 3216,
+        "y": 519,
+        "width": 305,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Display · Manrope Bold · 82/92 desktop, 46/52 mobile",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:167",
+      "p": "12:153",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        596,
+        1280,
+        257
+      ],
+      "a": {
+        "x": 2752,
+        "y": 596,
+        "width": 1280,
+        "height": 257
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        32,
+        64,
+        32,
+        64,
+        72,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:168",
+      "p": "12:167",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        64,
+        32,
+        300,
+        72
+      ],
+      "a": {
+        "x": 2816,
+        "y": 628,
+        "width": 300,
+        "height": 72
+      },
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:169",
+      "p": "12:168",
+      "t": "TEXT",
+      "n": "Body & utility",
+      "g": [
+        0,
+        0,
+        300,
+        26
+      ],
+      "a": {
+        "x": 2816,
+        "y": 628,
+        "width": 300,
+        "height": 26
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Body & utility",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:170",
+      "p": "12:168",
+      "t": "TEXT",
+      "n": "Use DM Sans for paragraphs, labels, navigation, and controls.",
+      "g": [
+        0,
+        34,
+        300,
+        38
+      ],
+      "a": {
+        "x": 2816,
+        "y": 662,
+        "width": 300,
+        "height": 38
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Use DM Sans for paragraphs, labels, navigation, and controls.",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 13,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:171",
+      "p": "12:167",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        436,
+        32,
+        780,
+        193
+      ],
+      "a": {
+        "x": 3188,
+        "y": 628,
+        "width": 780,
+        "height": 193
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            243,
+            244,
+            246
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        28,
+        28,
+        28,
+        28,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:172",
+      "p": "12:171",
+      "t": "TEXT",
+      "n": "When buyers ask AI for recommendations, will your business be part of the answer?",
+      "g": [
+        28,
+        28,
+        720,
+        26
+      ],
+      "a": {
+        "x": 3216,
+        "y": 656,
+        "width": 720,
+        "height": 26
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "When buyers ask AI for recommendations, will your business be part of the answer?",
+        "font": {
+          "family": "DM Sans",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "opsz": 14
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:173",
+      "p": "12:171",
+      "t": "TEXT",
+      "n": "Body · DM Sans Regular · 18/29",
+      "g": [
+        28,
+        74,
+        178,
+        17
+      ],
+      "a": {
+        "x": 3216,
+        "y": 702,
+        "width": 178,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Body · DM Sans Regular · 18/29",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:174",
+      "p": "12:171",
+      "t": "TEXT",
+      "n": "AI VISIBILITY FOR BUSINESSES",
+      "g": [
+        28,
+        111,
+        174,
+        17
+      ],
+      "a": {
+        "x": 3216,
+        "y": 739,
+        "width": 174,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "AI VISIBILITY FOR BUSINESSES",
+        "font": {
+          "family": "DM Sans",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700,
+            "opsz": 14
+          }
+        },
+        "size": 12,
+        "weight": 700,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:175",
+      "p": "12:171",
+      "t": "TEXT",
+      "n": "Label · DM Sans Bold · 12/18",
+      "g": [
+        28,
+        148,
+        161,
+        17
+      ],
+      "a": {
+        "x": 3216,
+        "y": 776,
+        "width": 161,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Label · DM Sans Bold · 12/18",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    }
+  ],
+  "next": null,
+  "errors": []
+}

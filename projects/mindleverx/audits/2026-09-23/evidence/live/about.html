@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About — MindLeverX</title>
+<meta name="description" content="MindLeverX is building an evidence-led GEO practice for mid-market B2B SaaS. Explore the intended method, sample reporting and current service availability.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --surface:#ffffff; --surface-2:#f7f7f8; --ink:#1d1f23; --body:#43464b; --muted:#63666b;
+    --line:#e7e8ea; --accent:#932c21; --accent-h:#791b11; --on-accent:#fff;
+    --brass:#7e5c2a; --brass-fill:#b99056; --pos:#236436; --pos-fill:#439458;
+    --font-d:'Spectral',Georgia,serif; --font-b:'IBM Plex Sans',system-ui,sans-serif; --font-m:'IBM Plex Mono',ui-monospace,monospace;
+    --maxw:1120px;
+    --dur-fast:120ms; --dur-base:200ms; --dur-reveal:280ms;
+    --ease-out:cubic-bezier(0.2,0,0,1); --ease-exp:cubic-bezier(0,0,0.3,1);
+  }
+  [data-theme="dark"]{
+    --surface:#141619; --surface-2:#1b1e22; --ink:#f4f5f7; --body:#c3c6cb; --muted:#8f9298;
+    --line:#2a2d31; --accent:#dc5f52; --accent-h:#ed7665; --on-accent:#141619;
+    --brass:#b99056; --brass-fill:#b99056; --pos:#62bb78; --pos-fill:#62bb78;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--surface);color:var(--ink);font-family:var(--font-b);line-height:1.6;-webkit-font-smoothing:antialiased;transition:background .3s,color .3s}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 40px}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{font-family:var(--font-d);font-weight:500;letter-spacing:-0.02em;line-height:1.1;color:var(--ink)}
+  .kicker{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--accent);margin-bottom:16px;display:inline-flex;align-items:center;gap:9px}
+  .kicker .dot{width:6px;height:6px;border-radius:50%;background:var(--accent)}
+  .btn{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:500;font-size:15px;padding:13px 26px;border-radius:10px;border:none;cursor:pointer;transition:background var(--dur-fast) ease-out,transform var(--dur-fast) ease-out}
+  .btn:hover{background:var(--accent-h)}
+  .btn.ghost{background:none;color:var(--accent);border:1px solid color-mix(in srgb,var(--accent) 40%,transparent)}
+  .btn.ghost:hover{background:color-mix(in srgb,var(--accent) 8%,transparent)}
+  .textlink{color:var(--accent);font-weight:500;font-size:15px}
+  .textlink:hover{text-decoration:underline}
+  .muted{color:var(--muted)}
+  .lead{font-size:20px;line-height:1.55;color:var(--body);font-weight:400}
+  section{padding:80px 0}
+  .sec-h{font-size:32px;font-weight:500;max-width:24ch}
+  .sub{font-size:18px;color:var(--body);font-weight:400;max-width:64ch;margin-top:16px}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:3px}
+  .navlinks a,.fcols a{transition:color 150ms ease-out}
+
+  /* editorial texture — section numerals, pull quote, exhibit captions */
+  .secnum{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);display:flex;align-items:center;gap:12px;margin-bottom:16px;text-transform:uppercase}
+  .secnum::before{content:"";width:28px;height:1px;background:var(--muted)}
+  .dark .secnum{color:#a9acb2}
+  .dark .secnum::before{background:#a9acb2}
+  .pull{margin:28px 0;padding:24px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .pull blockquote{font-family:var(--font-d);font-size:27px;line-height:1.32;font-weight:400;color:var(--ink);max-width:26ch;letter-spacing:-0.01em}
+  .pull figcaption{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:14px;letter-spacing:0.05em}
+
+  /* ── motion system: opt-in, productive + one expressive beat ── */
+  @media(prefers-reduced-motion:no-preference){
+    html{scroll-behavior:smooth}
+    @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+    @keyframes flash{from{opacity:0}to{opacity:1}}
+    .flash{animation:flash 150ms ease-out}
+    html.anim .rv{opacity:0;transform:translateY(16px);transition:opacity var(--dur-reveal) var(--ease-out),transform var(--dur-reveal) var(--ease-out)}
+    html.anim .rv.in{opacity:1;transform:none}
+    html.anim .rv.d1{transition-delay:80ms}
+    html.anim .rv.d2{transition-delay:160ms}
+    html.anim .rv.d3{transition-delay:240ms}
+    /* expressive beat: definition enters, then its measurement follows */
+    html.anim .define{animation:rise 450ms var(--ease-exp) 100ms both}
+    html.anim .measured{animation:rise 350ms var(--ease-exp) 300ms both}
+    html.anim .measured .mc{animation:rise 250ms var(--ease-out) both}
+    html.anim .measured .mc:nth-child(1){animation-delay:480ms}
+    html.anim .measured .mc:nth-child(2){animation-delay:540ms}
+    html.anim .measured .mc:nth-child(3){animation-delay:600ms}
+    html.anim .faq details[open] .ans{animation:rise 200ms var(--ease-out)}
+    html.anim .btn:hover{transform:translateY(-1px)}
+    html.anim .btn:active{transform:none}
+  }
+
+  /* ticker — full-bleed band, brass live signal, continuous motion, WCAG 2.2.2 pause */
+  .ticker{background:var(--ink);color:#eef0f2;font-family:var(--font-m);font-size:13px;display:flex;align-items:center;height:44px;overflow:hidden;position:relative}
+  [data-theme="dark"] .ticker{background:#0e1013}
+  .ticker .tag{display:flex;align-items:center;gap:9px;padding:0 20px;height:100%;flex-shrink:0;color:var(--brass-fill);letter-spacing:0.1em;font-size:12px;font-weight:500;background:rgba(0,0,0,0.25);z-index:2}
+  .ticker .live{width:8px;height:8px;border-radius:50%;background:var(--brass-fill);animation:pulse 2s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.45;transform:scale(.8)}}
+  .ticker .mask{flex:1;overflow:hidden}
+  .ticker .track{display:inline-flex;gap:44px;white-space:nowrap;padding-left:44px;animation:scroll 38s linear infinite;will-change:transform}
+  @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker .track span{color:#c9cbce}
+  .ticker .track span b{color:#fff;font-weight:500}
+  .ticker .track span em{color:#62bb78;font-style:normal;margin-left:5px}
+  .ticker:hover .track{animation-play-state:paused}                 /* hover-pause */
+  .ticker.paused .track{animation-play-state:paused}                /* button pause */
+  .ticker.paused .live{animation-play-state:paused}
+  .ticker .tkbtn{flex-shrink:0;height:100%;width:38px;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,0.25);border:none;border-left:1px solid rgba(255,255,255,0.08);color:#c9cbce;cursor:pointer;z-index:2;font-size:12px;line-height:1}
+  .ticker .tkbtn:hover{color:#fff}
+  .ticker .tkbtn:focus-visible{outline:2px solid #f4f5f7;outline-offset:-2px}
+  .ticker .smp{padding:0 20px;color:#8a8d92;font-size:12px;letter-spacing:0.1em;background:rgba(0,0,0,0.25);z-index:2}
+  @media(prefers-reduced-motion:reduce){.ticker .track{animation:none}.ticker .live{animation:none}.measured .mh .ld{animation:none}}
+
+  /* header */
+  header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--surface) 84%,transparent);backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+  .logo{font-family:var(--font-d);font-size:22px;font-weight:600;letter-spacing:-0.01em}
+  .logo b{color:var(--accent)}
+  .navlinks{display:flex;align-items:center;gap:30px;font-size:15px;color:var(--body)}
+  .navlinks a:hover{color:var(--ink)}
+  .navlinks a.active{color:var(--ink);font-weight:500}
+  .toggle{background:none;border:1px solid var(--line);color:var(--body);cursor:pointer;font-size:13px;font-family:var(--font-m);padding:7px 12px;border-radius:20px}
+  .menubtn{display:none;background:none;border:none;color:var(--ink);font-size:22px;cursor:pointer}
+  .mobnav{display:none;border-top:1px solid var(--line);background:var(--surface)}
+  .mobnav a{display:block;padding:13px 0;font-size:16px;color:var(--body);border-bottom:1px solid var(--line)}
+  .mobnav .toggle{margin-top:14px;display:inline-block}
+
+  /* breadcrumb + doc hero */
+  .crumb{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;text-transform:uppercase;color:var(--muted);padding-top:40px}
+  .crumb a:hover{color:var(--ink)}
+  .dochero{padding:20px 0 64px}
+  .dochero h1{font-size:58px;font-weight:500;letter-spacing:-0.03em;line-height:1.03;max-width:18ch;margin:14px 0 22px}
+  .dochero .lead{max-width:60ch}
+  .metarow{display:flex;gap:26px;flex-wrap:wrap;margin-top:26px;font-family:var(--font-m);font-size:12px;letter-spacing:0.04em;color:var(--muted);text-transform:uppercase;border-top:1px solid var(--line);padding-top:20px}
+  .metarow b{color:var(--ink);font-weight:500}
+
+  /* on-this-page wayfinding */
+  .onpage{display:flex;gap:18px;flex-wrap:wrap;align-items:center;margin-top:14px;font-family:var(--font-m);font-size:12px;letter-spacing:0.04em}
+  .onpage .opl{color:var(--muted);letter-spacing:0.09em;font-size:12px;font-weight:500}
+  .onpage a{color:var(--muted);text-transform:uppercase}
+  .onpage a:hover{color:var(--accent)}
+
+  /* answer-first definition callout */
+  .define{border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:14px;background:var(--surface);box-shadow:0 24px 60px -44px rgba(0,0,0,0.30);padding:34px 38px;position:relative}
+  .define .dl{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:9px;margin-bottom:16px}
+  .define .dl .dd{width:7px;height:7px;border-radius:50%;background:var(--accent)}
+  .define p.def{font-family:var(--font-d);font-size:27px;line-height:1.32;font-weight:400;color:var(--ink);letter-spacing:-0.01em}
+  .define p.def b{color:var(--accent);font-weight:500}
+  .define .src{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:18px;letter-spacing:0.03em}
+  .define .copy{position:absolute;top:26px;right:26px;font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;color:var(--muted);background:var(--surface-2);border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer}
+  .define .copy:hover{color:var(--ink)}
+
+  /* live beat — this definition, measured */
+
+  /* generic two-col explainer */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+  .prose p{font-size:17px;color:var(--body);font-weight:400;margin-top:16px;max-width:60ch}
+  .prose p:first-child{margin-top:0}
+  .prose strong{color:var(--ink);font-weight:500}
+
+  /* the shift, as a diagram — fills the split's left column */
+
+  /* comparison table */
+
+  /* stat cards */
+  /* two cards */
+
+  /* dark contrast beat — what engines reward */
+  .dark{background:var(--ink)}
+  [data-theme="dark"] .dark{background:#0e1013}
+  .dark .sec-h,.dark h3{color:#f4f5f7}
+  .dark .sub{color:#a9acb2}
+  .signals{margin-top:48px;border-top:1px solid rgba(255,255,255,0.12)}
+  .sig{display:grid;grid-template-columns:52px 1fr auto;gap:28px;padding:22px 0;border-bottom:1px solid rgba(255,255,255,0.12);align-items:baseline}
+  .sig .num{font-family:var(--font-d);font-size:24px;color:#f4f5f7;font-weight:400}
+  .sig h3{font-size:20px;font-weight:500;margin-bottom:5px}
+  .sig p{font-size:15px;color:#a9acb2;font-weight:400;max-width:60ch}
+  .sig .w{font-family:var(--font-m);font-size:12px;letter-spacing:0.06em;color:#f4f5f7;text-transform:uppercase;white-space:nowrap;align-self:center}
+
+  /* FAQ accordion */
+
+  /* key takeaways + sources */
+  .take{border:1px solid var(--line);border-top:2px solid var(--ink);border-radius:14px;background:var(--surface);padding:30px 34px}
+  .take .tl{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+  .take ul{list-style:none}
+  .take li{position:relative;padding-left:26px;font-size:16px;color:var(--body);font-weight:400;margin-top:14px;line-height:1.5}
+  .take li:first-child{margin-top:0}
+  .take li::before{content:"";position:absolute;left:0;top:9px;width:9px;height:9px;border-radius:2px;background:var(--accent)}
+  .take li b{color:var(--ink);font-weight:500}
+  .sources{margin-top:0}
+  .sources .tl{font-family:var(--font-m);font-size:12px;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:18px}
+  .sources ol{list-style:none;counter-reset:s}
+  .sources li{counter-increment:s;position:relative;padding-left:34px;font-size:14px;color:var(--body);font-weight:400;margin-top:15px;line-height:1.5}
+  .sources li:first-child{margin-top:0}
+  .sources li::before{content:counter(s);position:absolute;left:0;top:0;font-family:var(--font-m);font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:5px;width:22px;height:22px;display:flex;align-items:center;justify-content:center}
+  .sources li b{color:var(--ink);font-weight:500}
+  .sources li .mono{font-family:var(--font-m);font-size:12px;color:var(--muted)}
+
+  /* final cta */
+  .final .colo{width:56px;height:1px;background:var(--muted);margin:0 auto 20px}
+  .final .fk2{font-family:var(--font-m);font-size:12px;letter-spacing:0.08em;color:var(--muted);margin-bottom:18px;text-transform:uppercase}
+  .final{text-align:center;padding:96px 0}
+  .final h2{font-size:44px;font-weight:500;max-width:18ch;margin:0 auto 20px}
+  .form{display:flex;gap:12px;justify-content:center;max-width:480px;margin:32px auto 0}
+  .form input{flex:1;font-family:var(--font-b);font-size:15px;padding:14px 18px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);outline:none}
+  .form input:focus{border-color:var(--accent)}
+  .form input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+  .note{font-family:var(--font-m);font-size:12px;color:var(--muted);margin-top:16px}
+
+  footer{background:var(--surface-2);padding:56px 0 36px;font-size:14px;color:var(--muted);border-top:1px solid var(--line)}
+  .fcols{display:flex;justify-content:space-between;flex-wrap:wrap;gap:40px}
+  .fcols a{color:var(--body);display:block;margin-top:11px}
+  .fcols a:hover{color:var(--ink)}
+  .fhead{color:var(--ink);font-weight:500;font-size:15px}
+  .fbot{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-family:var(--font-m);font-size:12px}
+  .fnote2{margin-top:40px;padding-top:22px;border-top:1px solid var(--line);font-family:var(--font-m);font-size:12px;letter-spacing:0.05em;color:var(--muted);line-height:1.9;max-width:86ch}
+
+  @media(max-width:880px){
+    .split{grid-template-columns:1fr;gap:40px}
+    .dochero h1{font-size:44px}
+    .pull blockquote{font-size:22px}
+    .sec-h,.final h2{font-size:28px}
+    .define p.def{font-size:22px}
+    .navlinks{display:none}
+    .menubtn{display:block}
+    section{padding:64px 0}
+    .sig{grid-template-columns:36px 1fr;gap:18px}
+    .sig .w{grid-column:2;align-self:start}
+    .cmp thead th,.cmp tbody td{padding:13px 14px}
+    .wrap{padding:0 24px}
+    .define .copy{display:none}
+    .cmp thead th.geo,.cmp tbody td.geo{border-left-width:2px}
+  }
+
+  /* v3.1.1 HEADER FIT — desktop nav cannot fit ~881px-1040px: .navlinks holds
+     its row so link TEXT wraps instead, nav height 49px -> 96px, wordmark
+     collision (0px separation at 924px). Isolated to the nav: the 880px query
+     also carries grid and type changes that must not move. */
+  .navlinks a{white-space:nowrap}
+  @media(max-width:1040px){
+    .navlinks{display:none}
+    .menubtn{display:block}
+  }
+</style>
+<script src="/runtime.js"></script>
+<style>[hidden]{display:none!important}
+.skip-link{position:fixed;top:8px;left:8px;padding:12px 18px;background:var(--surface);color:var(--accent);z-index:1000;transform:translateY(-150%)}
+.skip-link:focus{transform:translateY(0)}
+.preview-banner{background:var(--surface-2);color:var(--body);border-bottom:1px solid var(--line);font-size:13px}
+.preview-banner .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;padding-top:10px;padding-bottom:10px}
+.preview-banner b{color:var(--accent)}
+.preview-banner a{color:var(--accent);text-decoration:underline;margin-left:auto;font-weight:500}
+.form{max-width:520px;display:flex;flex-wrap:wrap;text-align:left;gap:18px}
+.form .emailrow,.form .domrow{display:flex;flex-direction:column;flex:1 1 100%;gap:7px;min-width:0}
+.form label{font-size:14px;color:var(--body);font-weight:500}
+.form input:not([type="checkbox"]){width:100%;min-width:0;font-weight:400}
+.form .consent{display:flex;align-items:flex-start;gap:10px;font-size:13px;line-height:1.6;flex:1 1 100%;font-weight:400}
+.form .consent input{flex:0 0 18px;width:18px;height:18px;padding:0;margin-top:2px;accent-color:var(--accent);border-radius:3px}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.form .btn{flex:1 1 100%;font-weight:500}
+#domain-hint{font-size:12px;color:var(--muted)}
+.form [aria-invalid="true"]{border-color:var(--accent)}
+.form button:disabled{opacity:.7;cursor:wait}
+.mobnav a,.mobnav button{min-height:44px}
+.mobnav a{display:flex;align-items:center}
+.method-steps{list-style:none;margin:40px 0 0;padding:0}
+.method-step{display:grid;grid-template-columns:52px 1fr;gap:20px;padding:30px 0;border-top:1px solid var(--line)}
+.method-step .step-number{font-family:var(--font-d);font-size:30px;color:var(--accent)}
+.method-step h2{font-size:25px;margin-bottom:10px}
+.method-step p{font-size:17px;color:var(--body);max-width:66ch}
+.method-step .step-output{font-size:14px;margin-top:12px;color:var(--muted)}
+.method-status{border-left:3px solid var(--accent);padding:18px 22px;background:var(--surface-2);margin:30px 0;color:var(--body)}
+.nav{gap:16px;min-height:62px;height:auto}
+.nav .logo{flex-shrink:0;white-space:nowrap}
+.navlinks{display:flex;gap:22px;margin-left:auto}
+.navlinks>*{display:none}
+.menubtn{display:flex;align-items:center;justify-content:center;flex-shrink:0;min-height:44px;padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-family:var(--font-b);font-size:15px;line-height:1.3}
+.mobnav.wrap{padding-top:4px;padding-bottom:18px;max-height:70vh;overflow-y:auto}
+@media(min-width:36rem){.navlinks .nav-priority{display:block}}
+@media(min-width:48rem){.navlinks .nav-example{display:block}}
+@media(min-width:56rem){.navlinks .nav-cta{display:block}}
+.hero-action-note{font-size:14px;line-height:1.6;color:var(--muted);margin:-16px 0 28px;max-width:48ch}
+.hero-cta{flex-wrap:wrap}
+.proof .p .t{max-width:44ch;font-size:14px}
+.proof .p .src{display:inline-block;margin-top:8px;font-size:13px}
+.board .bh{flex-wrap:wrap;gap:8px}
+.board-context{padding:16px 22px 0;font-size:14px;line-height:1.6;color:var(--body)}
+.board .c{min-width:0}
+.board .c .cl{font-size:12px;letter-spacing:.04em;overflow-wrap:anywhere}
+.example-count{font-size:13px;line-height:1.5;color:var(--muted);margin-top:4px}
+.board .bf{flex-wrap:wrap;gap:12px}
+.board .bf .textlink{font-size:14px}
+.pull .research-finding{font-family:var(--font-d);font-size:25px;line-height:1.4;max-width:54ch}
+.pull .research-context{font-size:14px;line-height:1.6;color:var(--muted);max-width:78ch;margin-top:14px}
+.stat .d .textlink{display:inline-block;font-size:14px;margin-top:8px}
+.tklegend{font-size:13px}
+html{scroll-padding-top:80px}
+@media(max-width:600px){.preview-banner a{margin-left:0}.preview-banner span{flex-basis:100%}.method-step{grid-template-columns:36px 1fr;gap:14px}}
+@media(max-width:600px){.ticker{height:auto;flex-wrap:wrap}.ticker .tag{height:36px;flex-basis:100%}.ticker .mask{flex:1 1 calc(100% - 38px);min-width:0;height:44px}.ticker .tkbtn{height:44px}.ticker .smp{display:none}}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}
+  .rv,.bar .fill{opacity:1!important;transform:none!important}
+  .ticker{height:auto;flex-wrap:wrap}
+  .ticker .tag{padding:12px 20px;width:100%}
+  .ticker .mask{flex:1 1 100%;height:auto;overflow:visible}
+  .ticker .track{display:flex;flex-wrap:wrap;gap:12px 24px;white-space:normal;padding:12px 20px;transform:none!important}
+  .ticker .track [aria-hidden="true"],.ticker .tkbtn,.ticker .smp{display:none!important}
+}
+</style>
+<link rel="canonical" href="https://mindleverx.com/about.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MindLeverX">
+<meta property="og:title" content="About — MindLeverX">
+<meta property="og:description" content="MindLeverX is building an evidence-led GEO practice for mid-market B2B SaaS. Explore the intended method, sample reporting and current service availability.">
+<meta property="og:url" content="https://mindleverx.com/about.html">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://mindleverx.com/#organization","name":"MindLeverX","url":"https://mindleverx.com"},{"@type":"WebPage","@id":"https://mindleverx.com/about.html#page","name":"About — MindLeverX","description":"MindLeverX is building an evidence-led GEO practice for mid-market B2B SaaS. Explore the intended method, sample reporting and current service availability.","url":"https://mindleverx.com/about.html","isPartOf":{"@type":"WebSite","name":"MindLeverX","url":"https://mindleverx.com"},"about":{"@type":"Thing","name":"Generative Engine Optimization"}}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#top">Skip to main content</a>
+
+<div class="ticker" id="ticker">
+  <div class="tag"><span class="live"></span>SAMPLE REPORT TOPICS</div>
+  <div class="mask"><div class="track" id="tick">
+    <span>Brand mentions <b>Answer text</b></span>
+    <span>Citations <b>Source links</b></span>
+    <span>Comparisons <b>Matched conditions</b></span>
+    <span>Crawler access <b>Technical checks</b></span>
+    <span>Referrals <b>Visits from links</b></span>
+    <span>Readiness <b>Evidence gaps</b></span>
+  </div></div>
+  <button class="tkbtn" id="tkBtn" aria-label="Pause sample ticker" aria-pressed="false" title="Pause ticker">❚❚</button>
+  <div class="smp">SAMPLE</div>
+</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">MindLever<b>X.</b></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="index.html#services">Services</a>
+      <a href="method.html" class="nav-priority">Method</a>
+      <a href="index.html#score" class="nav-example">Example scorecard</a>
+      <a href="what-is-geo.html">What is GEO?</a>
+      <a href="research-hub.html" class="nav-priority">Research</a>
+      <a href="index.html#cta" class="nav-cta textlink">Audit availability</a>
+      <button class="toggle" id="tg">☾ Dark</button>
+    </nav>
+    <button class="menubtn" id="menubtn" aria-label="Open menu" aria-controls="mobnav" aria-expanded="false">Menu</button>
+  </div>
+  <nav class="mobnav wrap" id="mobnav" aria-label="More navigation" hidden>
+    <a href="index.html#services">Services</a>
+    <a href="method.html">Method</a>
+    <a href="index.html#score">Example scorecard</a>
+    <a href="what-is-geo.html">What is GEO?</a>
+    <a href="research-hub.html">Research</a>
+    <a href="index.html#cta">Audit availability</a>
+    <button class="toggle" id="tg2">☾ Dark</button>
+  </nav>
+</header>
+
+<main id="top">
+
+  <div class="wrap">
+    <div class="crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; About</div>
+    <div class="dochero">
+      <div class="kicker"><span class="dot"></span>The practice</div>
+      <h1>A measurement practice, not an agency.</h1>
+      <p class="lead">MindLeverX is a practice in development. The method starts with evidence: label sample figures, preserve the source of a measured reading and state clearly when a capability is not connected.</p>
+      <div class="metarow"><span>Scale · <b>SINGLE OPERATOR</b></span><span>Methodology · <b>V1.0</b></span><span>Focus · <b>MID-MARKET B2B SAAS</b></span></div>
+      <nav class="onpage" aria-label="On this page"><span class="opl">ON THIS PAGE</span><a href="#practice">The practice</a><a href="#method">The method</a><a href="#provenance">Why provenance</a><a href="#contact">Contact</a></nav>
+    </div>
+  </div>
+
+  <div class="wrap" id="define" style="padding-bottom:80px">
+    <div class="define">
+      <button class="copy" id="copyDef">COPY</button>
+      <div class="dl"><span class="dd"></span>What MindLeverX is, in one paragraph</div>
+      <p class="def"><b>MindLeverX</b> is a generative engine optimization practice for mid-market B2B SaaS. Its intended workflow measures whether AI answer engines cite a brand, preserves the evidence, and prepares content and technical changes for review. This website introduces the intended method and sample reports. Audit requests and engine collection are not available yet.</p>
+      <div class="src">SOURCE: MINDLEVERX METHODOLOGY V1.0 · JUL 2026</div>
+    </div>
+  </div>
+
+  <section id="practice" style="padding-top:0">
+    <div class="wrap">
+      <div class="secnum">01 · The practice</div>
+      <h2 class="sec-h">Small, and specific about it.</h2>
+    </div>
+    <div class="wrap split" style="margin-top:36px">
+      <div class="prose rv">
+
+        <p><strong>MindLeverX is a single-operator practice.</strong> There is no team page because there is no team yet. That is a deliberate disclosure rather than an omission: a practice that sells measurement should not begin by asking you to take an unmeasured claim about itself on trust.</p>
+        <p>The work is narrow on purpose. One category — mid-market B2B SaaS. One methodology, versioned. One question: when a buyer asks an answer engine who solves this problem, does your brand appear in the answer, and can you prove the change when it does?</p>
+        <p>What that buys you is the thing agencies at scale struggle to offer — a straight line from the person taking the measurement to the person explaining it.</p>
+      </div>
+      <div class="rv d1">
+        <div class="take">
+          <div class="tl">The intended scope</div>
+          <ul>
+            <li><b>Readiness review</b> across the four proposed methodology dimensions, when evidence is available.</li>
+            <li><b>Engine measurement</b> against a fixed, versioned panel; API collection is a future integration.</li>
+            <li><b>Draft preparation</b> with recommendations and evidence ready for review.</li>
+            <li><b>Human review</b> for questions that require judgment or additional evidence.</li>
+          </ul>
+        </div>
+        <div class="sources" style="margin-top:36px">
+          <div class="tl">What it does not do</div>
+          <ol>
+            <li><b>Guarantee outcomes.</b> No promised rankings, citation rates or share of voice. The intended process preserves evidence and methodology versions.</li>
+            <li><b>Publish to your site.</b> The intended workflow prepares content artifacts as drafts for your approval. No CMS credentials change hands.</li>
+            <li><b>Compare numbers that aren't comparable.</b> Readings of different provenance are never averaged or trended together.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark" id="method">
+    <div class="wrap">
+      <div class="secnum">02 · The method</div>
+      <h2 class="sec-h">Four areas of evidence, with explicit gaps.</h2>
+      <p class="sub">The proposed Methodology V1.0 identifies four review areas. A composite formula, weights and validation are unresolved; no scoring rubric is implemented in this preview. The version number matters more than the score: a rubric that changes silently makes every trend meaningless. <a href="what-is-geo.html" class="textlink" style="font-size:inherit">The full definition of GEO is here →</a></p>
+      <div class="signals">
+        <div class="sig rv"><div class="num">1</div><div><h3>Technical access</h3><p>Whether answer engines can reach, render and parse the pages at all — crawler policy, server rendering, structured data, heading structure.</p></div><div class="w">Crawlable</div></div>
+        <div class="sig rv d1"><div class="num">2</div><div><h3>Content quotability</h3><p>Whether a passage stands alone well enough to be lifted into an answer with no surrounding context — answer-first definitions, dated and sourced claims.</p></div><div class="w">Crawlable</div></div>
+        <div class="sig rv d2"><div class="num">3</div><div><h3>Off-site authority</h3><p>Whether the wider web treats the brand as the entity that belongs in the answer — corroboration across the sources engines actually read.</p></div><div class="w">Off-site</div></div>
+        <div class="sig rv d3"><div class="num">4</div><div><h3>Measured visibility</h3><p>Whether the brand actually appears, run against a fixed prompt panel locked at baseline, so a later reading can be compared with an earlier one.</p></div><div class="w">Panel run</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="provenance">
+    <div class="wrap">
+      <div class="secnum">03 · Why provenance</div>
+      <h2 class="sec-h">A number without a label is a claim.</h2>
+    </div>
+    <div class="wrap split" style="margin-top:36px">
+      <div class="prose rv">
+        <p>Every figure MindLeverX publishes carries a label describing how it was obtained: <strong>MEASURED (tool)</strong>, <strong>MEASURED (live)</strong>, <strong>INFERRED (proxy)</strong> or <strong>NOT MEASURED</strong>. The label travels with the number wherever it appears — in a scorecard, a report, an alert or on this site.</p>
+        <p>The rule that follows from it is the one the whole product rests on: <strong>figures of different provenance are never compared.</strong> A measured reading and an inferred one do not average into a meaningful score, and a trend built from both describes nothing.</p>
+        <p>Our intended reporting method identifies the product, questions and collection conditions behind each observation. Model-API results are distinct from observations of consumer ChatGPT and other consumer interfaces; they cannot establish what a customer sees in those products.</p>
+        <p>The practical test of all this is the case study we run on ourselves: the same methodology, the same labels, and <strong>NOT MEASURED</strong> printed wherever a reading does not exist yet. <a href="case-study.html" class="textlink" style="font-size:inherit">See our own scorecard →</a></p>
+      </div>
+      <div class="rv d1">
+        <figure class="pull" style="margin-top:0">
+          <blockquote>A useful case study separates what was inspected, what was inferred and what remains unmeasured.</blockquote>
+          <figcaption>— MINDLEVERX, ON PUBLISHING ITS OWN SCORE</figcaption>
+        </figure>
+        <div class="take" style="margin-top:44px">
+          <div class="tl">The four labels</div>
+          <ul>
+            <li><b>MEASURED (tool)</b> — a reading taken by an instrument, with the date and method recorded.</li>
+            <li><b>MEASURED (live)</b> — observed directly in a live engine response.</li>
+            <li><b>INFERRED (proxy)</b> — derived from something adjacent, never presented as direct.</li>
+            <li><b>NOT MEASURED</b> — no reading exists. Published as such, with the condition that would unlock it.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="background:var(--surface-2)">
+    <div class="wrap">
+      <div class="secnum">04 · Contact</div>
+      <h2 class="sec-h">How to reach the practice.</h2>
+    </div>
+    <div class="wrap split" style="margin-top:36px">
+      <div class="prose rv">
+        <p><strong>Audit requests are not open yet.</strong> Please check back for availability.</p>
+
+        <p><strong>Email delivery is not connected in this build.</strong> No public contact address is configured here.</p>
+        <p>This website does not collect audit requests or newsletter signups.</p>
+      </div>
+      <div class="rv d1">
+        <div class="take">
+          <div class="tl">Routes, today</div>
+          <ul>
+            <li><b>Free GEO Readiness Audit</b> — planned; requests are not open yet. <a href="index.html#cta" class="textlink" style="font-size:inherit">Start here →</a></li>
+            <li><b>Monitoring subscription</b> — planned; engine collection is not connected.</li>
+            <li><b>Human deep-audit</b> — proposed scope, to be agreed before any engagement.</li>
+            <li><b>Direct mailbox</b> — not provisioned yet. This entry becomes an address when it is.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="final wrap">
+    <div class="colo"></div>
+    <div class="fk2">The audit</div>
+    <h2>Start with your own numbers.</h2>
+    <p class="lead" style="max-width:52ch;margin:0 auto">Explore the intended GEO audit and the evidence it would need.</p>
+    <p style="margin-top:32px"><a href="index.html#cta" class="btn">Audit availability</a></p>
+    <div class="note">Audit requests are not open yet. Please check back for availability.</div>
+  </div>
+</main>
+
+<footer><div class="wrap">
+  <div class="fcols">
+    <div style="max-width:30ch"><div class="logo" style="font-size:19px">MindLever<b>X.</b></div><p style="margin-top:11px;font-weight:400">Generative engine optimization for mid-market B2B SaaS. Own the answer.</p></div>
+    <div><div class="fhead">Product</div><a href="index.html#services">Services</a><a href="method.html">Method</a><a href="index.html#score">Example scorecard</a></div>
+    <div><div class="fhead">Learn</div><a href="what-is-geo.html">What is GEO?</a><a href="research-hub.html">Research</a><a href="case-study.html">Case studies</a></div>
+    <div><div class="fhead">Company</div><a href="about.html">About</a><a href="about.html#contact">Contact</a></div>
+  </div>
+  <div class="fnote2">AI-ANSWER FINDINGS DEPEND ON THE PRODUCT, QUESTIONS AND COLLECTION CONDITIONS. MODEL-API RESULTS ARE DISTINCT FROM OBSERVATIONS OF CONSUMER CHATGPT AND OTHER CONSUMER INTERFACES.</div>
+  <div class="fbot"><span>© 2026 MindLeverX</span><span>OWN THE ANSWER.</span></div>
+</div></footer>
+
+<script>(() => {
+  'use strict';
+  const $ = id => document.getElementById(id);
+
+  function setTheme(dark) {
+    document.documentElement.dataset.theme = dark ? 'dark' : 'light';
+    for (const id of ['tg', 'tg2']) {
+      const button = $(id);
+      if (button) {
+        button.textContent = dark ? '☀ Light' : '☾ Dark';
+        button.setAttribute('aria-label', dark ? 'Use light theme' : 'Use dark theme');
+      }
+    }
+  }
+  let savedTheme;
+  try { savedTheme = localStorage.getItem('mlx-theme'); } catch {}
+  // Use light unless the visitor has explicitly saved a dark-theme choice.
+  setTheme(savedTheme === 'dark');
+  for (const id of ['tg', 'tg2']) $(id)?.addEventListener('click', () => {
+    const dark = document.documentElement.dataset.theme !== 'dark';
+    setTheme(dark);
+    try { localStorage.setItem('mlx-theme', dark ? 'dark' : 'light'); } catch {}
+  });
+
+  const menuButton = $('menubtn'), menu = $('mobnav');
+  function setMenu(open, focusButton = false) {
+    if (!menu || !menuButton) return;
+    menu.hidden = !open;
+    menu.style.display = open ? 'block' : 'none';
+    menuButton.setAttribute('aria-expanded', String(open));
+    menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+    menuButton.textContent = open ? 'Close' : 'Menu';
+    if (focusButton) menuButton.focus();
+  }
+  menuButton?.addEventListener('click', () => setMenu(menuButton.getAttribute('aria-expanded') !== 'true'));
+  menu?.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link) return;
+    setMenu(false, true);
+    const target = new URL(link.href, window.location.href);
+    if (target.origin === window.location.origin && target.pathname === window.location.pathname && target.hash) {
+      let section;
+      try { section = $(decodeURIComponent(target.hash.slice(1))); } catch {}
+      if (section) {
+        if (!section.hasAttribute('tabindex')) section.setAttribute('tabindex', '-1');
+        section.focus({ preventScroll: true });
+      }
+    }
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && menuButton?.getAttribute('aria-expanded') === 'true') setMenu(false, true);
+  });
+
+  const track = $('tick');
+  if (track) {
+    const clone = document.createElement('span');
+    clone.setAttribute('aria-hidden', 'true');
+    clone.style.cssText = 'display:inline-flex;gap:44px';
+    for (const child of [...track.childNodes]) clone.append(child.cloneNode(true));
+    track.append(clone);
+  }
+  $('tkBtn')?.addEventListener('click', () => {
+    const paused = $('ticker').classList.toggle('paused');
+    $('tkBtn').setAttribute('aria-pressed', String(paused));
+    $('tkBtn').setAttribute('aria-label', paused ? 'Play sample ticker' : 'Pause sample ticker');
+    $('tkBtn').textContent = paused ? '▶' : '❚❚';
+  });
+
+  const copy = $('copyDef');
+  if (copy) {
+    const status = document.createElement('span');
+    status.className = 'note';
+    status.setAttribute('role', 'status');
+    copy.parentElement.append(status);
+    copy.addEventListener('click', async () => {
+      try {
+        if (!navigator.clipboard) throw new Error('Clipboard unavailable');
+        await navigator.clipboard.writeText(document.querySelector('.define .def').innerText);
+        copy.textContent = 'COPIED'; status.textContent = 'Definition copied.';
+      } catch { status.textContent = 'Could not copy. Select the definition and copy it manually.'; }
+      setTimeout(() => { copy.textContent = 'COPY'; }, 1600);
+    });
+  }
+
+  if (matchMedia('(prefers-reduced-motion: no-preference)').matches && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('anim');
+    const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { entry.target.classList.add('in'); observer.unobserve(entry.target); }
+    }), { threshold: 0.1 });
+    document.querySelectorAll('.rv').forEach(element => observer.observe(element));
+  }
+})();
+</script>
+</body>
+</html>

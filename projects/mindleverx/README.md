@@ -1,5 +1,7 @@
 # MindLeverX case study
 
+- [Design and live-site audit, September 23](audits/2026-09-23/report.md): 23 Figma frames, seven public routes, 14 Lighthouse results, 24 dated findings and line-level evidence. This is a review record, not an active implementation backlog.
+
 - [Fresh reimagining and Levarum naming exploration, September 21](reimagining-and-naming-2026-09-21.md): current owner direction, GEO scope, owner-reported levarum.com ownership, eleven concept proposals, and unresolved naming decisions. Start here for the new exploration.
 - [Editable Figma location and storage boundaries](figma-file.md).
 - [Three visual directions](mindleverx-design-directions.md): Signal Observatory, Human Current and Proof Studio.

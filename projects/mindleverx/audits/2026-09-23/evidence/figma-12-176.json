@@ -1,0 +1,2073 @@
+{
+  "page": {
+    "id": "12:81",
+    "name": "01 — Web Style Guide",
+    "flowStartingPoints": []
+  },
+  "root": "12:176",
+  "offset": 0,
+  "total": 46,
+  "nodes": [
+    {
+      "id": "12:176",
+      "p": "12:81",
+      "t": "FRAME",
+      "n": "Style Guide — Spacing",
+      "g": [
+        4128,
+        0,
+        1280,
+        922
+      ],
+      "a": {
+        "x": 4128,
+        "y": 0,
+        "width": 1280,
+        "height": 922
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:177",
+      "p": "12:176",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        0,
+        1280,
+        64
+      ],
+      "a": {
+        "x": 4128,
+        "y": 0,
+        "width": 1280,
+        "height": 64
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        32,
+        0,
+        32,
+        0,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:178",
+      "p": "12:177",
+      "t": "TEXT",
+      "n": "MIND LEVER X · WEB FOUNDATIONS",
+      "g": [
+        32,
+        23.5,
+        210,
+        17
+      ],
+      "a": {
+        "x": 4160,
+        "y": 23.5,
+        "width": 210,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            247,
+            250,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "MIND LEVER X · WEB FOUNDATIONS",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:179",
+      "p": "12:177",
+      "t": "TEXT",
+      "n": "VERSION 1 · SEP 2026",
+      "g": [
+        1121,
+        23.5,
+        127,
+        17
+      ],
+      "a": {
+        "x": 5249,
+        "y": 23.5,
+        "width": 127,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            182,
+            198,
+            217
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "VERSION 1 · SEP 2026",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:180",
+      "p": "12:176",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        64,
+        1280,
+        225
+      ],
+      "a": {
+        "x": 4128,
+        "y": 64,
+        "width": 1280,
+        "height": 225
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        56,
+        64,
+        48,
+        64,
+        14,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:181",
+      "p": "12:180",
+      "t": "TEXT",
+      "n": "Spacing & layout",
+      "g": [
+        64,
+        56,
+        303,
+        55
+      ],
+      "a": {
+        "x": 4192,
+        "y": 120,
+        "width": 303,
+        "height": 55
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Spacing & layout",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 38,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:182",
+      "p": "12:180",
+      "t": "TEXT",
+      "n": "An 8-point rhythm keeps sections calm, consistent, and easy to scale across breakpoints.",
+      "g": [
+        64,
+        125,
+        700,
+        52
+      ],
+      "a": {
+        "x": 4192,
+        "y": 189,
+        "width": 700,
+        "height": 52
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "An 8-point rhythm keeps sections calm, consistent, and easy to scale across breakpoints.",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:183",
+      "p": "12:176",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        289,
+        1280,
+        478
+      ],
+      "a": {
+        "x": 4128,
+        "y": 289,
+        "width": 1280,
+        "height": 478
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        32,
+        64,
+        32,
+        64,
+        72,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:184",
+      "p": "12:183",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        64,
+        32,
+        300,
+        91
+      ],
+      "a": {
+        "x": 4192,
+        "y": 321,
+        "width": 300,
+        "height": 91
+      },
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:185",
+      "p": "12:184",
+      "t": "TEXT",
+      "n": "Spacing scale",
+      "g": [
+        0,
+        0,
+        300,
+        26
+      ],
+      "a": {
+        "x": 4192,
+        "y": 321,
+        "width": 300,
+        "height": 26
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Spacing scale",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:186",
+      "p": "12:184",
+      "t": "TEXT",
+      "n": "Use the named scale for gaps, padding, and section rhythm instead of inventing one-off values.",
+      "g": [
+        0,
+        34,
+        300,
+        57
+      ],
+      "a": {
+        "x": 4192,
+        "y": 355,
+        "width": 300,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Use the named scale for gaps, padding, and section rhythm instead of inventing one-off values.",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 13,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:187",
+      "p": "12:183",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        436,
+        32,
+        780,
+        414
+      ],
+      "a": {
+        "x": 4564,
+        "y": 321,
+        "width": 780,
+        "height": 414
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            243,
+            244,
+            246
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        28,
+        28,
+        28,
+        28,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:188",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        28,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 349,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:189",
+      "p": "12:188",
+      "t": "TEXT",
+      "n": "space/8",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 357.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/8",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:190",
+      "p": "12:188",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        32,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 359,
+        "width": 32,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:191",
+      "p": "12:188",
+      "t": "TEXT",
+      "n": "8px",
+      "g": [
+        162,
+        8.5,
+        21,
+        17
+      ],
+      "a": {
+        "x": 4754,
+        "y": 357.5,
+        "width": 21,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "8px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:192",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        82,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 403,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:193",
+      "p": "12:192",
+      "t": "TEXT",
+      "n": "space/16",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 411.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/16",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:194",
+      "p": "12:192",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        64,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 413,
+        "width": 64,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:195",
+      "p": "12:192",
+      "t": "TEXT",
+      "n": "16px",
+      "g": [
+        194,
+        8.5,
+        27,
+        17
+      ],
+      "a": {
+        "x": 4786,
+        "y": 411.5,
+        "width": 27,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "16px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:196",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        136,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 457,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:197",
+      "p": "12:196",
+      "t": "TEXT",
+      "n": "space/24",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 465.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/24",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:198",
+      "p": "12:196",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        96,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 467,
+        "width": 96,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:199",
+      "p": "12:196",
+      "t": "TEXT",
+      "n": "24px",
+      "g": [
+        226,
+        8.5,
+        29,
+        17
+      ],
+      "a": {
+        "x": 4818,
+        "y": 465.5,
+        "width": 29,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "24px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:200",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        190,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 511,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:201",
+      "p": "12:200",
+      "t": "TEXT",
+      "n": "space/32",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 519.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/32",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:202",
+      "p": "12:200",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        128,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 521,
+        "width": 128,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:203",
+      "p": "12:200",
+      "t": "TEXT",
+      "n": "32px",
+      "g": [
+        258,
+        8.5,
+        29,
+        17
+      ],
+      "a": {
+        "x": 4850,
+        "y": 519.5,
+        "width": 29,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "32px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:204",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        244,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 565,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:205",
+      "p": "12:204",
+      "t": "TEXT",
+      "n": "space/48",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 573.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/48",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:206",
+      "p": "12:204",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        192,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 575,
+        "width": 192,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:207",
+      "p": "12:204",
+      "t": "TEXT",
+      "n": "48px",
+      "g": [
+        322,
+        8.5,
+        29,
+        17
+      ],
+      "a": {
+        "x": 4914,
+        "y": 573.5,
+        "width": 29,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "48px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:208",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        298,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 619,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:209",
+      "p": "12:208",
+      "t": "TEXT",
+      "n": "space/64",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 627.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/64",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:210",
+      "p": "12:208",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        256,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 629,
+        "width": 256,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:211",
+      "p": "12:208",
+      "t": "TEXT",
+      "n": "64px",
+      "g": [
+        386,
+        8.5,
+        29,
+        17
+      ],
+      "a": {
+        "x": 4978,
+        "y": 627.5,
+        "width": 29,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "64px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:212",
+      "p": "12:187",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        28,
+        352,
+        724,
+        34
+      ],
+      "a": {
+        "x": 4592,
+        "y": 673,
+        "width": 724,
+        "height": 34
+      },
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "FIXED",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:213",
+      "p": "12:212",
+      "t": "TEXT",
+      "n": "space/96",
+      "g": [
+        0,
+        8.5,
+        90,
+        17
+      ],
+      "a": {
+        "x": 4592,
+        "y": 681.5,
+        "width": 90,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "space/96",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:214",
+      "p": "12:212",
+      "t": "RECTANGLE",
+      "n": "Rectangle",
+      "g": [
+        110,
+        10,
+        384,
+        14
+      ],
+      "a": {
+        "x": 4702,
+        "y": 683,
+        "width": 384,
+        "height": 14
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            192,
+            86,
+            33
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ]
+    },
+    {
+      "id": "12:215",
+      "p": "12:212",
+      "t": "TEXT",
+      "n": "96px",
+      "g": [
+        514,
+        8.5,
+        29,
+        17
+      ],
+      "a": {
+        "x": 5106,
+        "y": 681.5,
+        "width": 29,
+        "height": 17
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "96px",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 12,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "WIDTH_AND_HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:216",
+      "p": "12:176",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        0,
+        767,
+        1280,
+        155
+      ],
+      "a": {
+        "x": 4128,
+        "y": 767,
+        "width": 1280,
+        "height": 155
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            255,
+            255,
+            255
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "HORIZONTAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        32,
+        64,
+        32,
+        64,
+        72,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:217",
+      "p": "12:216",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        64,
+        32,
+        300,
+        91
+      ],
+      "a": {
+        "x": 4192,
+        "y": 799,
+        "width": 300,
+        "height": 91
+      },
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        0,
+        0,
+        0,
+        0,
+        8,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:218",
+      "p": "12:217",
+      "t": "TEXT",
+      "n": "Layout principles",
+      "g": [
+        0,
+        0,
+        300,
+        26
+      ],
+      "a": {
+        "x": 4192,
+        "y": 799,
+        "width": 300,
+        "height": 26
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            17,
+            20,
+            24
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Layout principles",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 18,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:219",
+      "p": "12:217",
+      "t": "TEXT",
+      "n": "Start with content hierarchy, then use spacing to make relationships visible. Keep sections generous and component interiors tighter.",
+      "g": [
+        0,
+        34,
+        300,
+        57
+      ],
+      "a": {
+        "x": 4192,
+        "y": 833,
+        "width": 300,
+        "height": 57
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            89,
+            97,
+            107
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "Start with content hierarchy, then use spacing to make relationships visible. Keep sections generous and component interiors tighter.",
+        "font": {
+          "family": "Inter",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400,
+            "slnt": 0
+          }
+        },
+        "size": 13,
+        "weight": 400,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    },
+    {
+      "id": "12:220",
+      "p": "12:216",
+      "t": "FRAME",
+      "n": "Frame",
+      "g": [
+        436,
+        32,
+        780,
+        76
+      ],
+      "a": {
+        "x": 4564,
+        "y": 799,
+        "width": 780,
+        "height": 76
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            243,
+            244,
+            246
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "l": [
+        "VERTICAL",
+        "FIXED",
+        "HUG",
+        "NO_WRAP",
+        28,
+        28,
+        28,
+        28,
+        20,
+        true,
+        "AUTO",
+        {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        null,
+        null
+      ]
+    },
+    {
+      "id": "12:221",
+      "p": "12:220",
+      "t": "TEXT",
+      "n": "SECTION 96 · GROUP 32–48 · COMPONENT 16–24 · DETAIL 8",
+      "g": [
+        28,
+        28,
+        720,
+        20
+      ],
+      "a": {
+        "x": 4592,
+        "y": 827,
+        "width": 720,
+        "height": 20
+      },
+      "f": [
+        {
+          "t": "SOLID",
+          "c": [
+            8,
+            17,
+            31
+          ],
+          "o": 1,
+          "b": {}
+        }
+      ],
+      "txt": {
+        "c": "SECTION  96   ·   GROUP  32–48   ·   COMPONENT  16–24   ·   DETAIL  8",
+        "font": {
+          "family": "Inter",
+          "style": "Medium",
+          "variationSettings": {
+            "wght": 500,
+            "slnt": 0
+          }
+        },
+        "size": 14,
+        "weight": 500,
+        "line": {
+          "unit": "PERCENT",
+          "value": 145.00000476837158
+        },
+        "style": "",
+        "resize": "HEIGHT",
+        "align": "LEFT",
+        "link": null
+      }
+    }
+  ],
+  "next": null,
+  "errors": []
+}

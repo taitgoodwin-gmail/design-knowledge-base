@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-09-23
 
+- Added the dated MindLeverX Figma and public-site audit: 24 findings, 23 frame exports, 1,179 Figma text-layer records, 1,149 live text runs, 14 PageSpeed results and bounded browser evidence. Retained verification limits and the separate historical Figma file pointer.
+
 - Added the Google web quality and SEO reference module for reuse across MindLeverX, Levarum and customer builds.
 - Preserved the initial Lighthouse overview; added the deeper audit playbook, evidence/report specification, 162-ID source inventory and 46 dated source reviews.
 - Recorded experimental agentic behavior, PSI/CrUX separation and CI aggregation semantics with explicit runtime verification limits.

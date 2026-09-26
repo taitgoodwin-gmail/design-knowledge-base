@@ -15,3 +15,6 @@
 This folder contains research/case-study material. Active build truth and code belong in the [MindLeverX product repository](https://github.com/taitgoodwin-gmail/MindLeverX). Do not turn these dated findings into a second active backlog or assume imported site frames cover every route/state.
 
 [Complete seven-route Figma baseline inventory](mindleverx-site-inventory.md) · [Motion and color comparison](previews/motion-color-lab.html) · [Prototype verification](motion-color-review-2026-09-20.json).
+
+- [September 26 revamp plan](revamp-plan-2026-09-26.md): current-state reconciliation, evidence explorer, visual system, working slice, user learning, and delivery. MindLeverX first; Augmind follows the learning checkpoint.
+- [Supporting six-project Figma Make study](../../learning/figma-make-winners-2026-09-26.md).

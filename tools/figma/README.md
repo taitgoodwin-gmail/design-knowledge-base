@@ -28,3 +28,5 @@ The control register records a limited Design/Variables/Motion inspection in one
 [All supplied URLs and evidence status](SCOPE-COVERAGE.md) · [Make, handoff and accessibility source review](evidence/2026-09-20-make-handoff-review.md). E11 exercises the Design agent, not Make generation. Machine-readable exercise statuses and the readable suite are checked for agreement.
 
 [Motion, color and effects decision guide](evidence/2026-09-20-motion-color-review.md): thirteen additional selected source reviews; documentation-only scope remains separate from the existing E09 fixture.
+
+- [Six winning Figma Makes study, September 26](../../learning/figma-make-winners-2026-09-26.md): reported features versus observed behavior, reusable methods, and application proposals.

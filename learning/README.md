@@ -8,3 +8,5 @@
 - [Figma practice suite](../tools/figma/exercises/README.md).
 
 These are saved editions. The Google Slides URL in the field-guide README identifies the earlier living presentation; it was not refetched during migration. The local exports and research are preserved here. Historical verification dates and bounded tests remain attached to their editions.
+
+- [Six winning Figma Makes](figma-make-winners-2026-09-26.md): 17 feature groups, 18 working methods, project applications, and exact review limits.

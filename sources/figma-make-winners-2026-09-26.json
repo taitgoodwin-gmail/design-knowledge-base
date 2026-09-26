@@ -1,0 +1,69 @@
+{
+  "recorded_on": "2026-09-26",
+  "scope": "Dated companion register; separate from historical curated catalog counts.",
+  "sources": [
+    {
+      "id": "FM26-ARTICLE",
+      "url": "https://www.figma.com/blog/6-winning-figma-makes-and-what-you-can-learn-from-them/",
+      "status": "article_read",
+      "reviewed_on": "2026-09-26",
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "Article text read in Chrome; creator reports and prompt descriptions, not independent app tests."
+    },
+    {
+      "id": "FM26-POETRY",
+      "url": "https://cake-soft-41607224.figma.site/",
+      "status": "page_visually_inspected",
+      "reviewed_on": "2026-09-26",
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "Rendered text and desktop screenshot; drawing-to-writing flow not completed."
+    },
+    {
+      "id": "FM26-SVG",
+      "url": "https://magma-herbs-91946622.figma.site/",
+      "status": "link_discovered_not_opened",
+      "reviewed_on": null,
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "Feature descriptions derive from article."
+    },
+    {
+      "id": "FM26-MOXY",
+      "url": "https://contra.com/p/Xsg727bX-moxy-3-d-mockup-studio-less-flat-more-fab",
+      "status": "link_discovered_not_opened",
+      "reviewed_on": null,
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "Contra project destination not inspected."
+    },
+    {
+      "id": "FM26-WEATHER",
+      "url": "https://trace-fling-73225149.figma.site/",
+      "status": "link_discovered_not_opened",
+      "reviewed_on": null,
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "Feature descriptions derive from article."
+    },
+    {
+      "id": "FM26-TRIP",
+      "url": "https://star-pry-98962388.figma.site/",
+      "status": "link_discovered_not_opened",
+      "reviewed_on": null,
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "Feature descriptions derive from article."
+    },
+    {
+      "id": "FM26-PACKAGE",
+      "url": "https://ebony-gentle-77642049.figma.site/",
+      "status": "link_discovered_not_opened",
+      "reviewed_on": null,
+      "discovered_on": "2026-09-26",
+      "evidence": "learning/figma-make-winners-2026-09-26.md",
+      "limitations": "AR and other behavior not tested."
+    }
+  ]
+}

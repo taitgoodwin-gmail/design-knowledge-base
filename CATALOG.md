@@ -30,3 +30,5 @@
 Original source artifacts are addressed through [local import manifest](archive/imports/local-manifest.json), [Notion manifest](sources/notion-import-manifest.json), and [archive guide](archive/README.md). Browse maintained documents first; use originals to resolve provenance or compare versions.
 
 Motion and color: [Figma capability/constraint review](tools/figma/evidence/2026-09-20-motion-color-review.md) and [three-direction interactive study](projects/mindleverx/previews/motion-color-lab.html).
+
+- [Six winning Makes: complete study](learning/figma-make-winners-2026-09-26.md) · [MindLeverX revamp plan](projects/mindleverx/revamp-plan-2026-09-26.md).

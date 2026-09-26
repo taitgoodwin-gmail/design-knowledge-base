@@ -766,3 +766,9 @@ workflows/ai-and-motion.md
 workflows/design-review.md
 workflows/start-a-build.md
 ```
+
+## Additions — 26 September 2026
+
+- `learning/figma-make-winners-2026-09-26.md`
+- `sources/figma-make-winners-2026-09-26.json`
+- `projects/mindleverx/revamp-plan-2026-09-26.md`

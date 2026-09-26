@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-26 — Make winners study and MindLeverX revamp plan
+
+- Documented all six article examples as 17 feature groups and 18 working methods, with MindLeverX/Augmind applications and evidence limits.
+- Added a seven-source companion register distinguishing article review, limited demo inspection, and unvisited destinations; historical catalog counts unchanged.
+- Recorded the owner’s MindLeverX-first direction, six-phase revamp plan, evidence-explorer behavior, learning checks, and later Augmind handoff.
+- Linked the study and plan from maintained indexes. No product design or live site changed.
+
 ## Unreleased — 2026-09-23
 
 - Added the dated MindLeverX Figma and public-site audit: 24 findings, 23 frame exports, 1,179 Figma text-layer records, 1,149 live text runs, 14 PageSpeed results and bounded browser evidence. Retained verification limits and the separate historical Figma file pointer.

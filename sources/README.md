@@ -17,3 +17,5 @@ Original URLs, local locations and import hashes are in the preservation manifes
 - [Full public Figma Help inventory](figma-help-article-inventory.json): 887 unique articles in 14 categories, pagination exhausted; includes the 183 Design articles. [Readable category indexes](../tools/figma/HELP-INVENTORY.md). These discovery URLs are tracked in the inventory separately from the 681-URL curated/history catalog.
 
 - [Google web quality and SEO source review](google-web-quality-2026-09-23.json): 46 selected official documentation/source records checked 23 September 2026; [readable register](../tools/google-web-quality/lighthouse-source-register.md). No live site audit was run. The separate audit inventory indexes implementation files without claiming every implementation was substantively reviewed.
+
+- [September 26 Make-winners companion register](figma-make-winners-2026-09-26.json): seven linked sources, with two reviewed/inspected and five discovery-only destinations. Separate from the historical 635-URL catalog counts.

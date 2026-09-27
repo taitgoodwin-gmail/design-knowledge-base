@@ -49,3 +49,9 @@ Live route inventory covered Home, method, research hub, GEO explainer, About, h
 ## Remaining acceptance work
 
 Finish build and browser checks on the final version, synchronize/retain the reviewed implementation, obtain actual representative-visitor observations using the prepared task script, record changes and prepare production integration/release evidence. Public intake remains unavailable; local brief preparation is not a submitted inquiry. No production deployment or customer acceptance is claimed.
+
+## Subsequent verification — 27 September 2026
+
+The previously observed portable build completed successfully; slow initialization was not terminal failure. After correcting skip-link contrast, the final `npm run build:portable` also exited 0: 27 modules, CSS 24.24 kB / 5.86 kB gzip and JS 270.88 kB / 80.65 kB gzip. TypeScript passed again. These are build measurements, not browser-performance or accessibility certification.
+
+Eighteen selected solid text/background token pairs exceed 4.5:1 (minimum 5.47:1). [WCAG contrast reference](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) checked 27 September. Rendered states, compositing, keyboard/mobile regressions, representative visitors and Make synchronization remain unverified. The browser approval request is still pending.

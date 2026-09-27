@@ -18,3 +18,5 @@ This folder contains research/case-study material. Active build truth and code b
 
 - [September 26 revamp plan](revamp-plan-2026-09-26.md): current-state reconciliation, evidence explorer, visual system, working slice, user learning, and delivery. MindLeverX first; Augmind follows the learning checkpoint.
 - [Supporting six-project Figma Make study](../../learning/figma-make-winners-2026-09-26.md).
+
+- [September 27 revamp execution and observed lessons](revamp-execution-2026-09-27.md).

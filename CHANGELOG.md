@@ -77,3 +77,7 @@
 - Preserved the earlier organization proposal as historical evidence. Its pending/not-uploaded statements describe the pre-migration state.
 
 Earlier 1.x history is preserved in the original [archived changelog](archive/imports/local/2026-09-19/what-do-you-think-of-this/outputs/design-knowledge-base/CHANGELOG.md).
+
+## 27 September 2026 — MindLeverX execution record
+
+Recorded actual Make versions, initial functional tests, defects, local continuation, source checks and remaining acceptance work. Separates generated self-ratings from verified behavior; no release/comprehension claim.

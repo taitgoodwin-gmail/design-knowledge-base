@@ -32,3 +32,5 @@ Original source artifacts are addressed through [local import manifest](archive/
 Motion and color: [Figma capability/constraint review](tools/figma/evidence/2026-09-20-motion-color-review.md) and [three-direction interactive study](projects/mindleverx/previews/motion-color-lab.html).
 
 - [Six winning Makes: complete study](learning/figma-make-winners-2026-09-26.md) · [MindLeverX revamp plan](projects/mindleverx/revamp-plan-2026-09-26.md).
+
+- [September 27 revamp execution and observed lessons](projects/mindleverx/revamp-execution-2026-09-27.md).

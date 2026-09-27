@@ -45,3 +45,5 @@ Publication evidence: [v2.4.0 fresh-clone and CI receipt](evidence/publication-2
 
 - [All six examples: features, methods, sources, and applications](learning/figma-make-winners-2026-09-26.md).
 - [MindLeverX revamp plan](projects/mindleverx/revamp-plan-2026-09-26.md): MindLeverX first, learn from the tested slice, then return to Augmind.
+
+- [September 27 revamp execution and observed lessons](projects/mindleverx/revamp-execution-2026-09-27.md).
